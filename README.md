@@ -1,6 +1,6 @@
 # SleepyOldOrbs · ComfyUI Workflows
 
-A visual collection of my ComfyUI workflows, experiments and generated examples. **100 workflows · 27 example images · Pixaroma prompt-tag libraries.**
+A visual collection of my ComfyUI workflows, experiments and generated examples. **48 workflows · 27 example images · Pixaroma prompt-tag libraries.**
 
 [Browse all workflows](CATALOG.md) · [Full image gallery](GALLERY.md) · [Getting started](docs/SETUP.md) · [Models and custom nodes](docs/DEPENDENCIES.md)
 
@@ -24,16 +24,12 @@ Botanical ornament, wildlife and coordinated seasonal palettes, generated with K
 
 ## Explore the collection
 
+Only **Codex MCP Demos** and **James-GoldStandard** are published here. Default template folders are excluded.
+
 | Collection | Workflows |
 |---|---:|
 | [Codex MCP Demos](workflows/Codex%20MCP%20Demos) | 27 |
-| [Getting Started](workflows/Getting%20Started) | 10 |
-| [H3](workflows/H3) | 2 |
-| [Ideogram4](workflows/Ideogram4) | 2 |
 | [James-GoldStandard](workflows/James-GoldStandard) | 21 |
-| [Other](CATALOG.md#other) | 1 |
-| [Pixaroma](workflows/Pixaroma) | 34 |
-| [ltx2.5](workflows/ltx2.5) | 3 |
 
 ## Start creating
 
@@ -41,10 +37,10 @@ Botanical ornament, wildlife and coordinated seasonal palettes, generated with K
 2. Download its JSON and open it in ComfyUI. Install its dependencies and select your model and input files.
 3. For random prompts, [import the Pixaroma tags](docs/PIXAROMA-TAGS.md), then run a single image before increasing the batch count.
 
-The Morris gallery requires a custom-trained LoRA whose weights are not distributed here. See [setup and availability](docs/SETUP.md). Other workflows include video, editing, upscaling and experimental pipelines; some require local custom nodes or paid API access.
+The Morris gallery requires a custom-trained LoRA whose weights are not distributed here. See [setup and availability](docs/SETUP.md). Other workflows include video, editing, upscaling and experimental pipelines; some require local custom nodes.
 
 ## About this release
 
-This collection preserves my saved workflow variants and their original notes. All exports have been structurally checked; the entire collection has not been rerun on a clean installation. The gallery currently covers the Morris family. Each example includes the graph captured at generation time, which can differ from a subsequently edited library workflow.
+This collection preserves my saved workflow variants from the two selected folders and their original notes. All exports have been structurally checked; the entire collection has not been rerun on a clean installation. The gallery currently covers the Morris family. Each example includes the graph captured at generation time, which can differ from a subsequently edited library workflow.
 
 Third-party authors and models retain their credits and terms. See [credits and provenance](CREDITS.md).

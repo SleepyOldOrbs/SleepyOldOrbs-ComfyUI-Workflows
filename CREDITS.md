@@ -2,10 +2,10 @@
 
 Curated and customised by **SleepyOldOrbs**, with AI-assisted workflow development and documentation.
 
-This is a personal workflow collection, containing customised graphs and collected examples. Inclusion does not mean every workflow was originally authored by SleepyOldOrbs. Existing notes, author names, tutorial links and model credits remain in the exported JSON files.
+This is a personal workflow collection containing customised graphs from **Codex MCP Demos** and **James-GoldStandard**. Default templates in all other source folders are excluded. Inclusion does not mean every workflow was originally authored by SleepyOldOrbs. Existing notes, author names, tutorial links and model credits remain in the exported JSON files.
 
-- **Pixaroma**: collected episode workflows, Getting Started material, and the Pixaroma node suite. [Channel](https://www.youtube.com/@pixaroma) · [Node project](https://gitlab.com/pixaroma/comfyui-pixaroma).
-- **ComfyUI and workflow-template contributors**: core nodes and model example graphs. [ComfyUI](https://github.com/Comfy-Org/ComfyUI) · [Workflow templates](https://github.com/Comfy-Org/workflow_templates).
+- **Pixaroma**: the Pixaroma node suite and upstream techniques or notes retained in customised workflows. [Channel](https://www.youtube.com/@pixaroma) · [Node project](https://gitlab.com/pixaroma/comfyui-pixaroma).
+- **ComfyUI and workflow-template contributors**: core nodes and upstream model examples used as the basis for customised graphs. [ComfyUI](https://github.com/Comfy-Org/ComfyUI) · [Workflow templates](https://github.com/Comfy-Org/workflow_templates).
 - **Model and custom-node authors**: credited in workflow notes, loader metadata and the [dependency inventory](docs/DEPENDENCIES.md). Their projects retain their own terms.
 - **William Morris**: the historical decorative-design inspiration for the generated pattern gallery. The gallery images are AI-generated examples, not scans of original Morris designs.
 

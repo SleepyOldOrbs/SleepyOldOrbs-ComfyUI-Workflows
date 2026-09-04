@@ -15,9 +15,9 @@ Choose Christmas, Halloween, Easter, Summer, Winter or Autumn for a fixed theme.
 
 ## What has been checked
 
-All 100 saved workflow exports parse as JSON and retain their node counts and graph links. The 27 example PNGs decode and have pixel data identical to their local originals; private metadata was replaced with sanitised workflow and API data. Local absolute paths and cached run information were removed from the public copies. Original local files were not edited.
+All 48 saved workflow exports parse as JSON and retain their node counts and graph links. The 27 example PNGs decode and have pixel data identical to their local originals; private metadata was replaced with sanitised workflow and API data. Local absolute paths and cached run information were removed from the public copies. Original local files were not edited.
 
-The collection has not been rerun on a clean installation. Missing local custom nodes, model variants, reference assets, hardware-specific nodes or API-account requirements can still need attention. Source filenames containing PAID identify paid-service examples; configure your own account if choosing those workflows.
+The collection has not been rerun on a clean installation. Missing local custom nodes, model variants, reference assets, hardware-specific nodes or runtime requirements can still need attention.
 
 ## Adding another example
 

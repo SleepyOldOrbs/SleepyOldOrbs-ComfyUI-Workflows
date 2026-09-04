@@ -22,10 +22,6 @@ The catalogue records node types and model filenames from the exported graphs, i
 
 `easy simpleMathDual`
 
-### [ComfyUI-GGUF](https://github.com/city96/ComfyUI-GGUF)
-
-`CLIPLoaderGGUF`, `DualCLIPLoaderGGUF`, `UnetLoaderGGUF`
-
 ### `ComfyUI-Gold-Operating-Modes` — no verified public installation URL recorded; obtain this dependency separately
 
 `GoldCharacterProjectPresets`, `GoldWorkflowModeSelector`
@@ -38,21 +34,9 @@ The catalogue records node types and model filenames from the exported graphs, i
 
 `ComfyUI-Krea2T-Enhancer`
 
-### [ComfyUI-MiniMax-H3-Turbo](https://github.com/larryvrh/ComfyUI-MiniMax-H3-Turbo)
-
-`MiniMaxH3TurboLoRA`, `MiniMaxH3TurboSampler`
-
 ### [ComfyUI-Pixaroma](https://gitlab.com/pixaroma/ComfyUI-Pixaroma)
 
-`PixaromaAIPrompt`, `PixaromaCompare`, `PixaromaDropdown`, `PixaromaDuration`, `PixaromaFreeVram`, `PixaromaGroupSwitch`, `PixaromaH3AudioSync`, `PixaromaImageInfo`, `PixaromaInpaintCrop`, `PixaromaInpaintStitch`, `PixaromaLabel`, `PixaromaLoadAudio`, `PixaromaLoadImageMini`, `PixaromaLongestSide`, `PixaromaLoraLoader`, `PixaromaMonitor`, `PixaromaMuteSwitch`, `PixaromaNote`, `PixaromaNumber`, `PixaromaOutpaint`, `PixaromaOutpaintStitch`, `PixaromaPortraitLandscape`, `PixaromaPreview`, `PixaromaPrompt`, `PixaromaPromptMulti`, `PixaromaResolution`, `PixaromaRunLog`, `PixaromaRunTimer`, `PixaromaSaveImage`, `PixaromaSaveMp4`, `PixaromaSeed`, `PixaromaShowText`, `PixaromaSizes`, `PixaromaSliders`, `PixaromaSwitch`, `PixaromaSwitchSource`, `PixaromaTextJoinFour`, `PixaromaTextJoinTwo`, `PixaromaVideoPrompt`
-
-### [ComfyUI-TiledDiffusion](https://github.com/shiimizu/ComfyUI-TiledDiffusion)
-
-`TiledDiffusion`
-
-### `ComfyUI-nunchaku` — no verified public installation URL recorded; obtain this dependency separately
-
-`NunchakuFluxDiTLoader`
+`PixaromaAIPrompt`, `PixaromaCompare`, `PixaromaDropdown`, `PixaromaDuration`, `PixaromaFreeVram`, `PixaromaGroupSwitch`, `PixaromaInpaintCrop`, `PixaromaInpaintStitch`, `PixaromaLabel`, `PixaromaLoadImageMini`, `PixaromaLongestSide`, `PixaromaLoraLoader`, `PixaromaMonitor`, `PixaromaMuteSwitch`, `PixaromaNote`, `PixaromaNumber`, `PixaromaPreview`, `PixaromaPrompt`, `PixaromaPromptMulti`, `PixaromaResolution`, `PixaromaRunLog`, `PixaromaRunTimer`, `PixaromaSaveImage`, `PixaromaSaveMp4`, `PixaromaSeed`, `PixaromaShowText`, `PixaromaSizes`, `PixaromaSwitch`, `PixaromaTextJoinFour`, `PixaromaTextJoinTwo`, `PixaromaVideoPrompt`
 
 ### `ComfyUI-sol-attn` — no verified public installation URL recorded; obtain this dependency separately
 
@@ -64,7 +48,7 @@ The catalogue records node types and model filenames from the exported graphs, i
 
 ### `Embedded subgraphs`
 
-`042a0b44-1cf9-4a0e-9cfb-a0773ec19e26`, `12e7c2af-2d0e-4f4c-8d0c-8d31c0d6f3b8`, `6e397a2b-68f7-48f6-8930-f3a5491a163c`, `79dd8a95-ce9d-4c14-b264-2162e8bec5ce`, `7b34ab90-36f9-45ba-a665-71d418f0df18`, `83e6e004-48ea-408e-9024-eb49c3d7dc14`, `8b4f085c-1bb3-4ecd-aeed-603a8d6d3970`, `a67caa28-5f85-4917-8396-36004960dd30`, `ac99f841-a3de-4329-9564-953b81cf9e16`, `ad044397-cdc4-4c25-820c-cfb3a9f00383`, `beb35f5b-0a09-4ac8-9771-dc9514996f49`, `c57e31c1-b7b3-42b6-9bbf-d4e33f292a4c`, `cf70afc4-5a03-47ce-8210-734b1de6c6bc`, `f2fdebf6-dfaf-43b6-9eb2-7f70613cfdc1`, `f5f04613-ee09-4cd9-9ada-a880360891d4`
+`042a0b44-1cf9-4a0e-9cfb-a0773ec19e26`, `79dd8a95-ce9d-4c14-b264-2162e8bec5ce`, `7b34ab90-36f9-45ba-a665-71d418f0df18`, `83e6e004-48ea-408e-9024-eb49c3d7dc14`, `8b4f085c-1bb3-4ecd-aeed-603a8d6d3970`, `a67caa28-5f85-4917-8396-36004960dd30`, `ad044397-cdc4-4c25-820c-cfb3a9f00383`, `beb35f5b-0a09-4ac8-9771-dc9514996f49`, `c57e31c1-b7b3-42b6-9bbf-d4e33f292a4c`, `f2fdebf6-dfaf-43b6-9eb2-7f70613cfdc1`
 
 ### [Nvidia_RTX_Nodes_ComfyUI](https://github.com/Comfy-Org/Nvidia_RTX_Nodes_ComfyUI)
 
@@ -72,11 +56,11 @@ The catalogue records node types and model filenames from the exported graphs, i
 
 ### `Unresolved` — no verified public installation URL recorded; obtain this dependency separately
 
-`FancyTimerNode`, `H3AnySwitch`, `H3ReferenceVideo`, `H3StudioSwitches`
+`H3AnySwitch`, `H3ReferenceVideo`, `H3StudioSwitches`
 
 ### `comfy-core`
 
-`BasicGuider`, `BasicScheduler`, `BatchImagesNode`, `BuildJsonPromptIdeogram`, `ByteDanceSeedreamNode`, `CFGGuider`, `CFGOverride`, `CLIPLoader`, `CLIPTextEncode`, `CheckpointLoaderSimple`, `ComfyMathExpression`, `ComfyNumberConvert`, `ComfySwitchNode`, `ConditioningZeroOut`, `ControlNetApplyAdvanced`, `ControlNetLoader`, `ConvertDictionaryToString`, `CreateBoundingBoxes`, `CreateVideo`, `CustomCombo`, `DualModelGuider`, `EmptyFlux2LatentImage`, `EmptyLTXVLatentVideo`, `EmptyLatentImage`, `EmptyMiniMaxMusic3LatentAudio`, `EmptySD3LatentImage`, `Flux2Scheduler`, `FluxGuidance`, `GeminiImage2Node`, `GetImageSize`, `GetVideoComponents`, `Ideogram4Scheduler`, `ImageBatch`, `ImageFromBatch`, `ImageScale`, `ImageScaleBy`, `ImageScaleToTotalPixels`, `ImageStitch`, `ImageUpscaleWithModel`, `JsonExtractString`, `KSampler`, `KSamplerSelect`, `LTXVAddGuide`, `LTXVAudioVAEDecode`, `LTXVConcatAVLatent`, `LTXVConditioning`, `LTXVCropGuides`, `LTXVDualCFGGuider`, `LTXVEmptyLatentAudio`, `LTXVImgToVideoInplace`, `LTXVLatentUpsampler`, `LTXVPreprocess`, `LTXVSeparateAVLatent`, `LatentUpscaleBy`, `LatentUpscaleModelLoader`, `LoadAudio`, `LoadImage`, `LoadVideo`, `LoraLoaderModelOnly`, `ManualSigmas`, `MarkdownNote`, `MiniMaxH3ImageToVideo`, `MiniMaxH3ReferenceToVideo`, `MiniMaxH3SigmaShift`, `MiniMaxMusic3TextEncode`, `ModelAttentionBackend`, `ModelPatchLoader`, `ModelSamplingAuraFlow`, `Note`, `PreviewAny`, `PreviewImage`, `PrimitiveBoolean`, `PrimitiveFloat`, `PrimitiveInt`, `PrimitiveStringMultiline`, `QwenImageDiffsynthControlnet`, `RandomNoise`, `RecraftCreativeUpscaleNode`, `ReferenceLatent`, `ResizeImageMaskNode`, `ResolutionSelector`, `SamplerCustomAdvanced`, `SamplerEulerAncestral`, `SaveAudio`, `SaveAudioAdvanced`, `SaveImage`, `SaveVideo`, `SeedNode`, `StringConcatenate`, `StringReplace`, `TextGenerateLTX2Prompt`, `UNETLoader`, `UpscaleModelLoader`, `VAEDecode`, `VAEDecodeAudio`, `VAEDecodeAudioTiled`, `VAEDecodeTiled`, `VAEEncode`, `VAELoader`
+`BasicGuider`, `BasicScheduler`, `BuildJsonPromptIdeogram`, `CFGGuider`, `CFGOverride`, `CLIPLoader`, `CLIPTextEncode`, `ComfyMathExpression`, `ComfyNumberConvert`, `ComfySwitchNode`, `ConditioningZeroOut`, `ConvertDictionaryToString`, `CreateBoundingBoxes`, `CreateVideo`, `CustomCombo`, `DualModelGuider`, `EmptyFlux2LatentImage`, `EmptyLTXVLatentVideo`, `EmptyLatentImage`, `EmptySD3LatentImage`, `Flux2Scheduler`, `GetVideoComponents`, `Ideogram4Scheduler`, `ImageBatch`, `ImageFromBatch`, `ImageScale`, `JsonExtractString`, `KSampler`, `KSamplerSelect`, `LTXVAudioVAEDecode`, `LTXVConcatAVLatent`, `LTXVConditioning`, `LTXVDualCFGGuider`, `LTXVEmptyLatentAudio`, `LTXVLatentUpsampler`, `LTXVSeparateAVLatent`, `LatentUpscaleBy`, `LatentUpscaleModelLoader`, `LoadAudio`, `LoadImage`, `LoadVideo`, `LoraLoaderModelOnly`, `ManualSigmas`, `MarkdownNote`, `MiniMaxH3ImageToVideo`, `MiniMaxH3ReferenceToVideo`, `MiniMaxH3SigmaShift`, `ModelSamplingAuraFlow`, `Note`, `PreviewAny`, `PreviewImage`, `PrimitiveBoolean`, `PrimitiveFloat`, `PrimitiveInt`, `PrimitiveStringMultiline`, `RandomNoise`, `ResolutionSelector`, `SamplerCustomAdvanced`, `SaveAudio`, `SaveAudioAdvanced`, `SaveImage`, `SaveVideo`, `StringReplace`, `TextGenerateLTX2Prompt`, `UNETLoader`, `VAEDecode`, `VAEDecodeAudio`, `VAEDecodeTiled`, `VAELoader`
 
 ### `comfyui-h3-multishot` — no verified public installation URL recorded; obtain this dependency separately
 
@@ -84,19 +68,11 @@ The catalogue records node types and model filenames from the exported graphs, i
 
 ### [comfyui-kjnodes](https://github.com/kijai/ComfyUI-KJNodes)
 
-`INTConstant`, `Ideogram4PromptBuilderKJ`, `ImageSharpenKJ`, `MiniMaxH3MemoryEfficientSageAttentionPatch`, `SomethingToString`
-
-### [comfyui-krea2edit](https://github.com/lbouaraba/comfyui-krea2edit)
-
-`Krea2EditGroundedEncode`, `Krea2EditModelPatch`
+`Ideogram4PromptBuilderKJ`, `ImageSharpenKJ`, `MiniMaxH3MemoryEfficientSageAttentionPatch`, `SomethingToString`
 
 ### `comfyui-spectrum-minimax-h3` — no verified public installation URL recorded; obtain this dependency separately
 
 `SpectrumApplyMiniMaxH3`
-
-### [comfyui_controlnet_aux](https://github.com/Fannovel16/comfyui_controlnet_aux)
-
-`AIO_Preprocessor`
 
 ### [comfyui_layerstyle](https://github.com/chflame163/ComfyUI_LayerStyle)
 

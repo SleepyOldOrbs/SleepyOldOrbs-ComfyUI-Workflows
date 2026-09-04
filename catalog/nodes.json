@@ -707,36 +707,6 @@
     "resolved_package": "comfy-core",
     "installation_url": null
   },
-  "CheckpointLoaderSimple": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "VAEEncode": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ControlNetApplyAdvanced": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "AIO_Preprocessor": {
-    "package": "comfyui_controlnet_aux",
-    "python_module": "",
-    "resolved_package": "comfyui_controlnet_aux",
-    "installation_url": "https://github.com/Fannovel16/comfyui_controlnet_aux"
-  },
-  "ControlNetLoader": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
   "ModelSamplingAuraFlow": {
     "package": "comfy-core",
     "python_module": "",
@@ -749,35 +719,11 @@
     "resolved_package": "comfy-core",
     "installation_url": null
   },
-  "UnetLoaderGGUF": {
-    "package": "ComfyUI-GGUF",
-    "python_module": "",
-    "resolved_package": "ComfyUI-GGUF",
-    "installation_url": "https://github.com/city96/ComfyUI-GGUF"
-  },
-  "CLIPLoaderGGUF": {
-    "package": "ComfyUI-GGUF",
-    "python_module": "",
-    "resolved_package": "ComfyUI-GGUF",
-    "installation_url": "https://github.com/city96/ComfyUI-GGUF"
-  },
-  "QwenImageDiffsynthControlnet": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
   "Image Comparer (rgthree)": {
     "package": "rgthree-comfy",
     "python_module": "",
     "resolved_package": "rgthree-comfy",
     "installation_url": "https://github.com/rgthree/rgthree-comfy"
-  },
-  "ModelPatchLoader": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
   },
   "MMH3TemporalSplitParams": {
     "package": "Comfyui-MMH3-UltimateUpscale",
@@ -791,12 +737,6 @@
     "resolved_package": "Comfyui-MMH3-UltimateUpscale",
     "installation_url": "https://github.com/bbaudio-2025/Comfyui-MMH3-UltimateUpscale"
   },
-  "INTConstant": {
-    "package": "comfyui-kjnodes",
-    "python_module": "",
-    "resolved_package": "comfyui-kjnodes",
-    "installation_url": "https://github.com/kijai/ComfyUI-KJNodes"
-  },
   "MMH3SpatialSplitParams": {
     "package": "Comfyui-MMH3-UltimateUpscale",
     "python_module": "",
@@ -809,52 +749,16 @@
     "resolved_package": "comfy-core",
     "installation_url": null
   },
-  "ModelAttentionBackend": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
   "MMH3LatentUpscaleWithModelParams": {
     "package": "Comfyui-MMH3-UltimateUpscale",
     "python_module": "",
     "resolved_package": "Comfyui-MMH3-UltimateUpscale",
     "installation_url": "https://github.com/bbaudio-2025/Comfyui-MMH3-UltimateUpscale"
   },
-  "12e7c2af-2d0e-4f4c-8d0c-8d31c0d6f3b8": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "Embedded subgraphs",
-    "installation_url": null
-  },
-  "StringConcatenate": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "BatchImagesNode": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ImageStitch": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
   "PreviewAny": {
     "package": "comfy-core",
     "python_module": "",
     "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "f5f04613-ee09-4cd9-9ada-a880360891d4": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "Embedded subgraphs",
     "installation_url": null
   },
   "83e6e004-48ea-408e-9024-eb49c3d7dc14": {
@@ -1132,239 +1036,5 @@
     "python_module": "",
     "resolved_package": "comfy-core",
     "installation_url": null
-  },
-  "MiniMaxH3TurboSampler": {
-    "package": "larryvrh/ComfyUI-MiniMax-H3-Turbo",
-    "python_module": "",
-    "resolved_package": "ComfyUI-MiniMax-H3-Turbo",
-    "installation_url": "https://github.com/larryvrh/ComfyUI-MiniMax-H3-Turbo"
-  },
-  "MiniMaxH3TurboLoRA": {
-    "package": "larryvrh/ComfyUI-MiniMax-H3-Turbo",
-    "python_module": "",
-    "resolved_package": "ComfyUI-MiniMax-H3-Turbo",
-    "installation_url": "https://github.com/larryvrh/ComfyUI-MiniMax-H3-Turbo"
-  },
-  "FancyTimerNode": {
-    "package": "",
-    "python_module": "",
-    "resolved_package": "Unresolved",
-    "installation_url": null
-  },
-  "cf70afc4-5a03-47ce-8210-734b1de6c6bc": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "Embedded subgraphs",
-    "installation_url": null
-  },
-  "LTXVAddGuide": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "LTXVCropGuides": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "SamplerEulerAncestral": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "GetImageSize": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "LTXVPreprocess": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ResizeImageMaskNode": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "6e397a2b-68f7-48f6-8930-f3a5491a163c": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "Embedded subgraphs",
-    "installation_url": null
-  },
-  "LTXVImgToVideoInplace": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ac99f841-a3de-4329-9564-953b81cf9e16": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "Embedded subgraphs",
-    "installation_url": null
-  },
-  "MiniMaxMusic3TextEncode": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "EmptyMiniMaxMusic3LatentAudio": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "SeedNode": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "VAEDecodeAudioTiled": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ImageScaleBy": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "UpscaleModelLoader": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ImageUpscaleWithModel": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ImageScaleToTotalPixels": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "TiledDiffusion": {
-    "package": "ComfyUI-TiledDiffusion",
-    "python_module": "",
-    "resolved_package": "ComfyUI-TiledDiffusion",
-    "installation_url": "https://github.com/shiimizu/ComfyUI-TiledDiffusion"
-  },
-  "DualCLIPLoaderGGUF": {
-    "package": "comfyui-gguf",
-    "python_module": "",
-    "resolved_package": "ComfyUI-GGUF",
-    "installation_url": "https://github.com/city96/ComfyUI-GGUF"
-  },
-  "FluxGuidance": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "NunchakuFluxDiTLoader": {
-    "package": "nunchaku-ai/ComfyUI-nunchaku",
-    "python_module": "",
-    "resolved_package": "ComfyUI-nunchaku",
-    "installation_url": null
-  },
-  "GeminiImage2Node": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "RecraftCreativeUpscaleNode": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ByteDanceSeedreamNode": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "ReferenceLatent": {
-    "package": "comfy-core",
-    "python_module": "",
-    "resolved_package": "comfy-core",
-    "installation_url": null
-  },
-  "PixaromaOutpaint": {
-    "package": "ComfyUI-Pixaroma",
-    "python_module": "",
-    "resolved_package": "ComfyUI-Pixaroma",
-    "installation_url": "https://gitlab.com/pixaroma/ComfyUI-Pixaroma"
-  },
-  "PixaromaOutpaintStitch": {
-    "package": "ComfyUI-Pixaroma",
-    "python_module": "",
-    "resolved_package": "ComfyUI-Pixaroma",
-    "installation_url": "https://gitlab.com/pixaroma/ComfyUI-Pixaroma"
-  },
-  "PixaromaSwitchSource": {
-    "package": "pixaroma/ComfyUI-Pixaroma",
-    "python_module": "",
-    "resolved_package": "ComfyUI-Pixaroma",
-    "installation_url": "https://gitlab.com/pixaroma/ComfyUI-Pixaroma"
-  },
-  "PixaromaH3AudioSync": {
-    "package": "ComfyUI-Pixaroma",
-    "python_module": "",
-    "resolved_package": "ComfyUI-Pixaroma",
-    "installation_url": "https://gitlab.com/pixaroma/ComfyUI-Pixaroma"
-  },
-  "PixaromaLoadAudio": {
-    "package": "ComfyUI-Pixaroma",
-    "python_module": "",
-    "resolved_package": "ComfyUI-Pixaroma",
-    "installation_url": "https://gitlab.com/pixaroma/ComfyUI-Pixaroma"
-  },
-  "PixaromaPortraitLandscape": {
-    "package": "ComfyUI-Pixaroma",
-    "python_module": "",
-    "resolved_package": "ComfyUI-Pixaroma",
-    "installation_url": "https://gitlab.com/pixaroma/ComfyUI-Pixaroma"
-  },
-  "PixaromaSliders": {
-    "package": "ComfyUI-Pixaroma",
-    "python_module": "",
-    "resolved_package": "ComfyUI-Pixaroma",
-    "installation_url": "https://gitlab.com/pixaroma/ComfyUI-Pixaroma"
-  },
-  "Krea2EditModelPatch": {
-    "package": "comfyui-krea2edit",
-    "python_module": "",
-    "resolved_package": "comfyui-krea2edit",
-    "installation_url": "https://github.com/lbouaraba/comfyui-krea2edit"
-  },
-  "Krea2EditGroundedEncode": {
-    "package": "comfyui-krea2edit",
-    "python_module": "",
-    "resolved_package": "comfyui-krea2edit",
-    "installation_url": "https://github.com/lbouaraba/comfyui-krea2edit"
-  },
-  "PixaromaImageInfo": {
-    "package": "ComfyUI-Pixaroma",
-    "python_module": "",
-    "resolved_package": "ComfyUI-Pixaroma",
-    "installation_url": "https://gitlab.com/pixaroma/ComfyUI-Pixaroma"
   }
 }

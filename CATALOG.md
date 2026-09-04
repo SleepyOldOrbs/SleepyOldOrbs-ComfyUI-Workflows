@@ -1,19 +1,13 @@
 # Workflow catalogue
 
-100 distinct saved workflows. Source folders and filenames are retained. The installation and NAS copies were compared; the most recently modified copy of each relative path was selected. Hidden indexes and duplicate source-root copies are not published.
+48 saved workflows from **Codex MCP Demos** and **James-GoldStandard** only. Default templates from other folders are excluded. Source subfolders and filenames are retained.
 
 Generated examples currently cover nine Morris families. Other workflows are exported and documented, but have not been rerun for this publication.
 
 | Collection | Workflows |
 |---|---:|
 | Codex MCP Demos | 27 |
-| Getting Started | 10 |
-| H3 | 2 |
-| Ideogram4 | 2 |
 | James-GoldStandard | 21 |
-| Other | 1 |
-| Pixaroma | 34 |
-| ltx2.5 | 3 |
 
 ## Codex MCP Demos
 
@@ -47,35 +41,6 @@ Generated examples currently cover nine Morris families. Other workflows are exp
 | [05 H3 Final - Pass 2 + Base Quality](workflows/Codex%20MCP%20Demos/Operating%20Modes/05%20H3%20Final%20-%20Pass%202%20%2B%20Base%20Quality.json) | [Models and nodes](docs/workflows/Codex%20MCP%20Demos/Operating%20Modes/05%20H3%20Final%20-%20Pass%202%20%2B%20Base%20Quality.md) | Not yet included |
 | [06 Comparison Lab - All Still Paths](workflows/Codex%20MCP%20Demos/Operating%20Modes/06%20Comparison%20Lab%20-%20All%20Still%20Paths.json) | [Models and nodes](docs/workflows/Codex%20MCP%20Demos/Operating%20Modes/06%20Comparison%20Lab%20-%20All%20Still%20Paths.md) | Not yet included |
 
-## Getting Started
-
-| Workflow | Details | Examples |
-|---|---|---|
-| [0 Help and Resources](workflows/Getting%20Started/0%20Help%20and%20Resources.json) | [Models and nodes](docs/workflows/Getting%20Started/0%20Help%20and%20Resources.md) | Not yet included |
-| [1 Juggernaut Reborn txt2img](workflows/Getting%20Started/1%20Juggernaut%20Reborn%20txt2img.json) | [Models and nodes](docs/workflows/Getting%20Started/1%20Juggernaut%20Reborn%20txt2img.md) | Not yet included |
-| [2 Juggernaut Reborn img2img](workflows/Getting%20Started/2%20Juggernaut%20Reborn%20img2img.json) | [Models and nodes](docs/workflows/Getting%20Started/2%20Juggernaut%20Reborn%20img2img.md) | Not yet included |
-| [3 Juggernaut Reborn txt2img + Lora](workflows/Getting%20Started/3%20Juggernaut%20Reborn%20txt2img%20%2B%20Lora.json) | [Models and nodes](docs/workflows/Getting%20Started/3%20Juggernaut%20Reborn%20txt2img%20%2B%20Lora.md) | Not yet included |
-| [4 Juggernaut Reborn txt2img + ControlNet](workflows/Getting%20Started/4%20Juggernaut%20Reborn%20txt2img%20%2B%20ControlNet.json) | [Models and nodes](docs/workflows/Getting%20Started/4%20Juggernaut%20Reborn%20txt2img%20%2B%20ControlNet.md) | Not yet included |
-| [5a Z-Image Turbo Fp8 AIO txt2img](workflows/Getting%20Started/5a%20Z-Image%20Turbo%20Fp8%20AIO%20txt2img.json) | [Models and nodes](docs/workflows/Getting%20Started/5a%20Z-Image%20Turbo%20Fp8%20AIO%20txt2img.md) | Not yet included |
-| [5b Z-Image Turbo Fp8 txt2img](workflows/Getting%20Started/5b%20Z-Image%20Turbo%20Fp8%20txt2img.json) | [Models and nodes](docs/workflows/Getting%20Started/5b%20Z-Image%20Turbo%20Fp8%20txt2img.md) | Not yet included |
-| [5c Z-Image Turbo GGUF txt2img](workflows/Getting%20Started/5c%20Z-Image%20Turbo%20GGUF%20txt2img.json) | [Models and nodes](docs/workflows/Getting%20Started/5c%20Z-Image%20Turbo%20GGUF%20txt2img.md) | Not yet included |
-| [6 Z-Image Turbo Fp8 AIO txt2img + Lora](workflows/Getting%20Started/6%20Z-Image%20Turbo%20Fp8%20AIO%20txt2img%20%2B%20Lora.json) | [Models and nodes](docs/workflows/Getting%20Started/6%20Z-Image%20Turbo%20Fp8%20AIO%20txt2img%20%2B%20Lora.md) | Not yet included |
-| [7 Z-Image Turbo Fp8 AIO txt2img + ControlNet](workflows/Getting%20Started/7%20Z-Image%20Turbo%20Fp8%20AIO%20txt2img%20%2B%20ControlNet.json) | [Models and nodes](docs/workflows/Getting%20Started/7%20Z-Image%20Turbo%20Fp8%20AIO%20txt2img%20%2B%20ControlNet.md) | Not yet included |
-
-## H3
-
-| Workflow | Details | Examples |
-|---|---|---|
-| [H3-upscaler-example_workflow](workflows/H3/H3-upscaler-example_workflow.json) | [Models and nodes](docs/workflows/H3/H3-upscaler-example_workflow.md) | Not yet included |
-| [H3_Cinematic_Multishot_Coverage](workflows/H3/H3_Cinematic_Multishot_Coverage.json) | [Models and nodes](docs/workflows/H3/H3_Cinematic_Multishot_Coverage.md) | Not yet included |
-
-## Ideogram4
-
-| Workflow | Details | Examples |
-|---|---|---|
-| [ideogram4-gold-standard](workflows/Ideogram4/ideogram4-gold-standard.json) | [Models and nodes](docs/workflows/Ideogram4/ideogram4-gold-standard.md) | Not yet included |
-| [image_ideogram4_t2i_int8](workflows/Ideogram4/image_ideogram4_t2i_int8.json) | [Models and nodes](docs/workflows/Ideogram4/image_ideogram4_t2i_int8.md) | Not yet included |
-
 ## James-GoldStandard
 
 | Workflow | Details | Examples |
@@ -101,56 +66,3 @@ Generated examples currently cover nine Morris families. Other workflows are exp
 | [William-Morris-Halloween](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.md) | [Gallery](GALLERY.md) |
 | [William-Morris-Summer](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.md) | [Gallery](GALLERY.md) |
 | [William-Morris-Winter](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.md) | [Gallery](GALLERY.md) |
-
-## Other
-
-| Workflow | Details | Examples |
-|---|---|---|
-| [LARRY-VHR-minimax_h3_t2v_turbo](workflows/LARRY-VHR-minimax_h3_t2v_turbo.json) | [Models and nodes](docs/workflows/LARRY-VHR-minimax_h3_t2v_turbo.md) | Not yet included |
-
-## Pixaroma
-
-| Workflow | Details | Examples |
-|---|---|---|
-| [1 Upscale Simple No Model](workflows/Pixaroma/EP05%20Workflows/1%20Upscale%20Simple%20No%20Model.json) | [Models and nodes](docs/workflows/Pixaroma/EP05%20Workflows/1%20Upscale%20Simple%20No%20Model.md) | Not yet included |
-| [2 Upscale Simple With Model](workflows/Pixaroma/EP05%20Workflows/2%20Upscale%20Simple%20With%20Model.json) | [Models and nodes](docs/workflows/Pixaroma/EP05%20Workflows/2%20Upscale%20Simple%20With%20Model.md) | Not yet included |
-| [3 Z-Image Upscaler](workflows/Pixaroma/EP05%20Workflows/3%20Z-Image%20Upscaler.json) | [Models and nodes](docs/workflows/Pixaroma/EP05%20Workflows/3%20Z-Image%20Upscaler.md) | Not yet included |
-| [4 Nunchaku Fluxmania Upscaler](workflows/Pixaroma/EP05%20Workflows/4%20Nunchaku%20Fluxmania%20Upscaler.json) | [Models and nodes](docs/workflows/Pixaroma/EP05%20Workflows/4%20Nunchaku%20Fluxmania%20Upscaler.md) | Not yet included |
-| [5 SeedVR2 Upscale](workflows/Pixaroma/EP05%20Workflows/5%20SeedVR2%20Upscale.json) | [Models and nodes](docs/workflows/Pixaroma/EP05%20Workflows/5%20SeedVR2%20Upscale.md) | Not yet included |
-| [6 PAID (51 Credits) - Nano Banana Pro Upscale](workflows/Pixaroma/EP05%20Workflows/6%20PAID%20%2851%20Credits%29%20-%20Nano%20Banana%20Pro%20Upscale.json) | [Models and nodes](docs/workflows/Pixaroma/EP05%20Workflows/6%20PAID%20%2851%20Credits%29%20-%20Nano%20Banana%20Pro%20Upscale.md) | Not yet included |
-| [7 PAID (53 Credits) - Recraft Creative Upscale](workflows/Pixaroma/EP05%20Workflows/7%20PAID%20%2853%20Credits%29%20-%20Recraft%20Creative%20Upscale.json) | [Models and nodes](docs/workflows/Pixaroma/EP05%20Workflows/7%20PAID%20%2853%20Credits%29%20-%20Recraft%20Creative%20Upscale.md) | Not yet included |
-| [8 PAID (8.5Credits) - SeeDream 4.5 Upscale](workflows/Pixaroma/EP05%20Workflows/8%20PAID%20%288.5Credits%29%20-%20SeeDream%204.5%20Upscale.json) | [Models and nodes](docs/workflows/Pixaroma/EP05%20Workflows/8%20PAID%20%288.5Credits%29%20-%20SeeDream%204.5%20Upscale.md) | Not yet included |
-| [Flux 2 Klein 9B Outpaint](workflows/Pixaroma/Ep27%20Workflows/Flux%202%20Klein%209B%20Outpaint.json) | [Models and nodes](docs/workflows/Pixaroma/Ep27%20Workflows/Flux%202%20Klein%209B%20Outpaint.md) | Not yet included |
-| [Minimax H3 - Image to video FF (First Frame)](workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20-%20Image%20to%20video%20FF%20%28First%20Frame%29.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20-%20Image%20to%20video%20FF%20%28First%20Frame%29.md) | Not yet included |
-| [Minimax H3 - Image to video FFLF](workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20-%20Image%20to%20video%20FFLF.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20-%20Image%20to%20video%20FFLF.md) | Not yet included |
-| [Minimax H3 - Image to video LF (Last Frame)](workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20-%20Image%20to%20video%20LF%20%28Last%20Frame%29.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20-%20Image%20to%20video%20LF%20%28Last%20Frame%29.md) | Not yet included |
-| [Minimax H3 - Text to video](workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20-%20Text%20to%20video.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20-%20Text%20to%20video.md) | Not yet included |
-| [Minimax H3 First Frame 2 Video Prompt Generator](workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20First%20Frame%202%20Video%20Prompt%20Generator.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20First%20Frame%202%20Video%20Prompt%20Generator.md) | Not yet included |
-| [Minimax H3 Text 2 Video Prompt Generator](workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20Text%202%20Video%20Prompt%20Generator.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/1.%20Generate%20Video%20H3%20%28fl2va%29/Minimax%20H3%20Text%202%20Video%20Prompt%20Generator.md) | Not yet included |
-| [Minimax H3 - Reference Three Images](workflows/Pixaroma/Ep29%20Workflows/2.%20Generate%20Video%20H3%20%28ref2va%29/Minimax%20H3%20-%20Reference%20Three%20Images.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/2.%20Generate%20Video%20H3%20%28ref2va%29/Minimax%20H3%20-%20Reference%20Three%20Images.md) | Not yet included |
-| [Minimax H3 - Reference Two Images](workflows/Pixaroma/Ep29%20Workflows/2.%20Generate%20Video%20H3%20%28ref2va%29/Minimax%20H3%20-%20Reference%20Two%20Images.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/2.%20Generate%20Video%20H3%20%28ref2va%29/Minimax%20H3%20-%20Reference%20Two%20Images.md) | Not yet included |
-| [Minimax H3 - Reference Image + Audio Sync - SING](workflows/Pixaroma/Ep29%20Workflows/3.%20Generate%20Video%20H3%20Audio%20Sync%20%28ref2va%29/Minimax%20H3%20-%20Reference%20Image%20%2B%20Audio%20Sync%20-%20SING.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/3.%20Generate%20Video%20H3%20Audio%20Sync%20%28ref2va%29/Minimax%20H3%20-%20Reference%20Image%20%2B%20Audio%20Sync%20-%20SING.md) | Not yet included |
-| [Minimax H3 - Reference Image + Audio Sync - SPEAK](workflows/Pixaroma/Ep29%20Workflows/3.%20Generate%20Video%20H3%20Audio%20Sync%20%28ref2va%29/Minimax%20H3%20-%20Reference%20Image%20%2B%20Audio%20Sync%20-%20SPEAK.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/3.%20Generate%20Video%20H3%20Audio%20Sync%20%28ref2va%29/Minimax%20H3%20-%20Reference%20Image%20%2B%20Audio%20Sync%20-%20SPEAK.md) | Not yet included |
-| [Minimax H3 - Image Edit](workflows/Pixaroma/Ep29%20Workflows/4.%20Generate%20Image%20H3%20%28fl2va%29/Minimax%20H3%20-%20Image%20Edit.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/4.%20Generate%20Image%20H3%20%28fl2va%29/Minimax%20H3%20-%20Image%20Edit.md) | Not yet included |
-| [Minimax H3 - Text to image](workflows/Pixaroma/Ep29%20Workflows/4.%20Generate%20Image%20H3%20%28fl2va%29/Minimax%20H3%20-%20Text%20to%20image.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/4.%20Generate%20Image%20H3%20%28fl2va%29/Minimax%20H3%20-%20Text%20to%20image.md) | Not yet included |
-| [Minimax H3 - Text to video (Low VRAM 8GB)](workflows/Pixaroma/Ep29%20Workflows/Low%20Vram/Minimax%20H3%20-%20Text%20to%20video%20%28Low%20VRAM%208GB%29.json) | [Models and nodes](docs/workflows/Pixaroma/Ep29%20Workflows/Low%20Vram/Minimax%20H3%20-%20Text%20to%20video%20%28Low%20VRAM%208GB%29.md) | Not yet included |
-| [Minimax H3 First Frame 2 Video Prompt Generator](workflows/Pixaroma/Ep30%20Workflows/H3%20Video%20Prompts/Minimax%20H3%20First%20Frame%202%20Video%20Prompt%20Generator.json) | [Models and nodes](docs/workflows/Pixaroma/Ep30%20Workflows/H3%20Video%20Prompts/Minimax%20H3%20First%20Frame%202%20Video%20Prompt%20Generator.md) | Not yet included |
-| [Minimax H3 Text 2 Video Prompt Generator](workflows/Pixaroma/Ep30%20Workflows/H3%20Video%20Prompts/Minimax%20H3%20Text%202%20Video%20Prompt%20Generator.json) | [Models and nodes](docs/workflows/Pixaroma/Ep30%20Workflows/H3%20Video%20Prompts/Minimax%20H3%20Text%202%20Video%20Prompt%20Generator.md) | Not yet included |
-| [Krea 2 + Edit Lora - Character and Background](workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20Edit%20Lora%20-%20Character%20and%20Background.json) | [Models and nodes](docs/workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20Edit%20Lora%20-%20Character%20and%20Background.md) | Not yet included |
-| [Krea 2 + Edit Lora - Custom Ratio](workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20Edit%20Lora%20-%20Custom%20Ratio.json) | [Models and nodes](docs/workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20Edit%20Lora%20-%20Custom%20Ratio.md) | Not yet included |
-| [Krea 2 + Edit Lora](workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20Edit%20Lora.json) | [Models and nodes](docs/workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20Edit%20Lora.md) | Not yet included |
-| [Krea 2 + One Image Outfit Lora](workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20One%20Image%20Outfit%20Lora.json) | [Models and nodes](docs/workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20One%20Image%20Outfit%20Lora.md) | Not yet included |
-| [Krea 2 + Outfit Transfer 2](workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20Outfit%20Transfer%202.json) | [Models and nodes](docs/workflows/Pixaroma/Ep30%20Workflows/Krea2%20Edit/Krea%202%20%2B%20Outfit%20Transfer%202.md) | Not yet included |
-| [Minimax H3 - Image to video FF + Speed Lora](workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Image%20to%20video%20FF%20%2B%20Speed%20Lora.json) | [Models and nodes](docs/workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Image%20to%20video%20FF%20%2B%20Speed%20Lora.md) | Not yet included |
-| [Minimax H3 - Image to video FFLF + Speed Lora](workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Image%20to%20video%20FFLF%20%2B%20Speed%20Lora.json) | [Models and nodes](docs/workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Image%20to%20video%20FFLF%20%2B%20Speed%20Lora.md) | Not yet included |
-| [Minimax H3 - Reference Image + Audio Sync - SING + Speed Lora](workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Reference%20Image%20%2B%20Audio%20Sync%20-%20SING%20%2B%20Speed%20Lora.json) | [Models and nodes](docs/workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Reference%20Image%20%2B%20Audio%20Sync%20-%20SING%20%2B%20Speed%20Lora.md) | Not yet included |
-| [Minimax H3 - Reference Image + Audio Sync - SPEAK + Speed Lora](workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Reference%20Image%20%2B%20Audio%20Sync%20-%20SPEAK%20%2B%20Speed%20Lora.json) | [Models and nodes](docs/workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Reference%20Image%20%2B%20Audio%20Sync%20-%20SPEAK%20%2B%20Speed%20Lora.md) | Not yet included |
-| [Minimax H3 - Text to Video + Speed Lora](workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Text%20to%20Video%20%2B%20Speed%20Lora.json) | [Models and nodes](docs/workflows/Pixaroma/EP32%20Workflows/Minimax%20H3%20-%20Text%20to%20Video%20%2B%20Speed%20Lora.md) | Not yet included |
-
-## ltx2.5
-
-| Workflow | Details | Examples |
-|---|---|---|
-| [video_ltx2_5_flf2v](workflows/ltx2.5/video_ltx2_5_flf2v.json) | [Models and nodes](docs/workflows/ltx2.5/video_ltx2_5_flf2v.md) | Not yet included |
-| [video_ltx2_5_i2v](workflows/ltx2.5/video_ltx2_5_i2v.json) | [Models and nodes](docs/workflows/ltx2.5/video_ltx2_5_i2v.md) | Not yet included |
-| [video_ltx2_5_t2v](workflows/ltx2.5/video_ltx2_5_t2v.json) | [Models and nodes](docs/workflows/ltx2.5/video_ltx2_5_t2v.md) | Not yet included |
