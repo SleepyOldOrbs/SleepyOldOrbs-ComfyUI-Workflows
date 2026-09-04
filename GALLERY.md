@@ -1,10 +1,20 @@
-# Generated image gallery
+# Generated image and video gallery
 
-27 original-resolution PNGs from nine William Morris workflow families. Each PNG retains sanitised workflow and API-prompt metadata, and has a separate captured workflow JSON. The encoded image pixels are unchanged.
+34 PNGs and two MP4 clips: 27 patterns from nine William Morris workflow families, plus seven stills, reference sheets and video frames from Gold Standard workflows 07–10. Each PNG retains sanitised workflow and API-prompt metadata, and has a separate captured workflow JSON. The encoded image pixels are unchanged.
 
 Use **Captured workflow** for the graph saved with that render. **Library workflow** is the current editable collection version; prompts and settings may have changed since the example was produced. Exact reproduction also depends on models, software, seed and tag shuffle state.
 
 [Setup](docs/SETUP.md) · [All workflows](CATALOG.md) · [Morris tags](docs/PIXAROMA-TAGS.md)
+
+## Gold Standard: from stills to moving shots
+
+New examples from workflows 07–10: finished photographs, entity reference sheets, a reference-driven H3 clip and a continuation from its final frame.
+
+| 07 · Finished still | 08 · Reference sheet | 09 · Ref2VA clip | 10 · Continuation |
+|---|---|---|---|
+| [![Highland dawn](examples/gold-standard/07-stills/highland-dawn.png)](examples/GOLD-STANDARD.md) | [![Clockwork beetle](examples/gold-standard/08-reference-sheets/clockwork-beetle.png)](examples/GOLD-STANDARD.md) | [![Ref2VA clip](examples/gold-standard/09-ref2va-director/explorer.png)](examples/gold-standard/09-ref2va-director/explorer.mp4) | [![Continuation clip](examples/gold-standard/10-long-form/continuation.png)](examples/gold-standard/10-long-form/continuation.mp4) |
+
+[Browse the examples, videos, captured workflows and instructions →](examples/GOLD-STANDARD.md)
 
 ## Autumn
 

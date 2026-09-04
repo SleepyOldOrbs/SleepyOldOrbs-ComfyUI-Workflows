@@ -1,0 +1,544 @@
+{
+  "1": {
+    "inputs": {
+      "label_json": "{\"text\":\"09 GOLD STANDARD — MiniMax H3 Ref2VA Director\",\"fontSize\":46,\"fontFamily\":\"Arial\",\"fontColor\":\"#ffffff\",\"textAlign\":\"center\",\"backgroundColor\":\"#f66744\",\"padding\":14,\"borderRadius\":0,\"opacity\":1,\"fontWeight\":\"bold\",\"lineHeight\":1}"
+    },
+    "class_type": "PixaromaLabel",
+    "_meta": {
+      "title": "09 GOLD STANDARD — MiniMax H3 Ref2VA Director"
+    }
+  },
+  "2": {
+    "inputs": {
+      "note_json": "{\"version\":1,\"content\":\"<h2>START HERE — a compact character-sheet-to-video workflow</h2><ol><li>Load one to six references from left to right with no gaps. Picture numbering follows enabled order.</li><li>Edit the reference manifest and the four director boxes. Quoted dialogue must be preserved exactly.</li><li>AI ON expands the director boxes into H3's six-section Ref2VA format. AI OFF uses the manual full prompt.</li><li>Start at 864 × 480, 5 seconds and 20 steps. Increase duration or size only after a successful short test.</li><li>Review the final prompt monitor, then Run. The generative Qwen model releases itself before H3 loads.</li></ol><p><b>Reference rule:</b> do not leave an enabled gap. If Picture 2 is off, Pictures 3–6 must also be off. One subject may use several pictures; explain that in the manifest.</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"width\":5400,\"height\":260,\"backgroundColor\":\"#2a2a2a\"}"
+    },
+    "class_type": "PixaromaNote",
+    "_meta": {
+      "title": "START HERE — FIVE STEPS"
+    }
+  },
+  "14": {
+    "inputs": {
+      "DurationState": "{\"seconds\":5,\"fps\":24,\"step\":17,\"plus\":5,\"minFrames\":5,\"mode\":\"recipe\",\"formula\":\"\",\"pick\":\"chips\",\"values\":[5,10,15],\"min\":1,\"max\":15,\"stepSec\":0.5,\"recipeName\":\"MiniMax H3\"}"
+    },
+    "class_type": "PixaromaDuration",
+    "_meta": {
+      "title": "DURATION — 5 seconds first"
+    }
+  },
+  "15": {
+    "inputs": {
+      "SizesState": "{\"version\":1,\"sizes\":[[608,352],[736,416],[864,480],[960,544],[1056,608],[1152,640],[1216,672],[1280,736],[1344,768]],\"selected\":2,\"orientation\":\"landscape\",\"snap\":32,\"accent\":null,\"collapsed\":false,\"starred\":[\"352x608\",\"480x864\",\"768x1344\"],\"w\":864,\"h\":480}"
+    },
+    "class_type": "PixaromaSizes",
+    "_meta": {
+      "title": "SIZE — Gold starting point 864 × 480"
+    }
+  },
+  "20": {
+    "inputs": {
+      "text_1": [
+        "10",
+        0
+      ],
+      "text_2": [
+        "11",
+        0
+      ],
+      "text_3": [
+        "12",
+        0
+      ],
+      "text_4": [
+        "13",
+        0
+      ]
+    },
+    "class_type": "PixaromaTextJoinFour",
+    "_meta": {
+      "title": "AUTO — Combine director boxes"
+    }
+  },
+  "21": {
+    "inputs": {
+      "prefix": "TARGET DURATION: ",
+      "suffix": " seconds.",
+      "input": [
+        "14",
+        1
+      ]
+    },
+    "class_type": "SomethingToString",
+    "_meta": {
+      "title": "AUTO — Tell the prompt writer the true duration"
+    }
+  },
+  "22": {
+    "inputs": {
+      "text_1": [
+        "20",
+        0
+      ],
+      "text_2": [
+        "21",
+        0
+      ]
+    },
+    "class_type": "PixaromaTextJoinTwo",
+    "_meta": {
+      "title": "AUTO — Director brief + duration"
+    }
+  },
+  "24": {
+    "inputs": {
+      "text_in": "",
+      "PromptState": "{\"text\":\"subject_definitions:\\n<Subject 1> is the adult botanical explorer shown in <Picture 1>: short wavy auburn hair, freckles, olive-green field jacket over a cream shirt, brown trousers and boots, a tan satchel at her left hip, and a copper fern pin on her left lapel. The reference is a multi-view identity sheet of one woman.\\nsummary:\\nA five-second continuous live-action shot brings this explorer into a lush Victorian glasshouse.\\nretention_analysis:\\n<Subject 1> retains the reference identity, hairstyle, clothing, proportions, satchel and pin throughout. Transfer the subject into a real glasshouse; do not reproduce the sheet layout, gutters, repeated views or studio background. Only one woman is present.\\ndetailed_description:\\n[Shot 1: 0.0-5.0 seconds] A medium three-quarter view of <Subject 1> standing beside a wooden potting bench surrounded by ferns. Diffuse morning light falls through old glass panes. At 0.0-1.5 seconds she looks down at a small potted fern, her hands relaxed near the bench. At 1.5-3.5 seconds she gently brushes one fern frond with her right fingertips and studies it. At 3.5-5.0 seconds she lifts her eyes toward the camera with a quiet, natural smile. The camera moves slowly forward throughout, keeping her face and upper body in frame. Preserve continuous hand anatomy, stable plants and coherent glasshouse architecture. Soft leaf rustle accompanies the touch. No dialogue or visible text.\\noverall_soundscape:\\nQuiet glasshouse ambience, faint outdoor birds through the glass, subtle fabric movement and a gentle leaf rustle. No speech.\\nnon_diegetic_music: N/A.\",\"order\":\"mine\",\"sep\":\"\\n\\n\",\"accent\":null,\"showExpanded\":true}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "MANUAL FULL H3 PROMPT — used only when AI is OFF"
+    }
+  },
+  "25": {
+    "inputs": {
+      "input_1": [
+        "24",
+        0
+      ],
+      "SwitchState": "1"
+    },
+    "class_type": "PixaromaSwitch",
+    "_meta": {
+      "title": "AI PROMPT MODE — OFF: Manual Full Prompt | ON: Build from Director Boxes"
+    }
+  },
+  "26": {
+    "inputs": {
+      "source": [
+        "25",
+        0
+      ]
+    },
+    "class_type": "PixaromaShowText",
+    "_meta": {
+      "title": "FINAL H3 PROMPT MONITOR — inspect before a long run"
+    }
+  },
+  "30": {
+    "inputs": {
+      "image": "GoldGallery/explorer-sheet.png",
+      "LoadImageMiniState": "{\"mode\":\"off\"}"
+    },
+    "class_type": "PixaromaLoadImageMini",
+    "_meta": {
+      "title": "PICTURE 1 — replace with a character sheet, prop, vehicle or location"
+    }
+  },
+  "40": {
+    "inputs": {
+      "enabled": true,
+      "image": [
+        "30",
+        0
+      ]
+    },
+    "class_type": "H3OptionalImage",
+    "_meta": {
+      "title": "USE PICTURE 1 — ON"
+    }
+  },
+  "41": {
+    "inputs": {
+      "enabled": false,
+      "image": [
+        "31",
+        0
+      ]
+    },
+    "class_type": "H3OptionalImage",
+    "_meta": {
+      "title": "USE PICTURE 2 — ON"
+    }
+  },
+  "32": {
+    "inputs": {
+      "image": "GoldGallery/explorer-sheet.png",
+      "LoadImageMiniState": "{\"mode\":\"off\"}"
+    },
+    "class_type": "PixaromaLoadImageMini",
+    "_meta": {
+      "title": "PICTURE 3 — replace with a character sheet, prop, vehicle or location"
+    }
+  },
+  "42": {
+    "inputs": {
+      "enabled": false,
+      "image": [
+        "32",
+        0
+      ]
+    },
+    "class_type": "H3OptionalImage",
+    "_meta": {
+      "title": "USE PICTURE 3 — ON"
+    }
+  },
+  "33": {
+    "inputs": {
+      "image": "GoldGallery/explorer-sheet.png",
+      "LoadImageMiniState": "{\"mode\":\"off\"}"
+    },
+    "class_type": "PixaromaLoadImageMini",
+    "_meta": {
+      "title": "PICTURE 4 — replace with a character sheet, prop, vehicle or location"
+    }
+  },
+  "43": {
+    "inputs": {
+      "enabled": false,
+      "image": [
+        "33",
+        0
+      ]
+    },
+    "class_type": "H3OptionalImage",
+    "_meta": {
+      "title": "USE PICTURE 4 — OFF by default"
+    }
+  },
+  "34": {
+    "inputs": {
+      "image": "GoldGallery/explorer-sheet.png",
+      "LoadImageMiniState": "{\"mode\":\"off\"}"
+    },
+    "class_type": "PixaromaLoadImageMini",
+    "_meta": {
+      "title": "PICTURE 5 — replace with a character sheet, prop, vehicle or location"
+    }
+  },
+  "44": {
+    "inputs": {
+      "enabled": false,
+      "image": [
+        "34",
+        0
+      ]
+    },
+    "class_type": "H3OptionalImage",
+    "_meta": {
+      "title": "USE PICTURE 5 — OFF by default"
+    }
+  },
+  "35": {
+    "inputs": {
+      "image": "GoldGallery/explorer-sheet.png",
+      "LoadImageMiniState": "{\"mode\":\"off\"}"
+    },
+    "class_type": "PixaromaLoadImageMini",
+    "_meta": {
+      "title": "PICTURE 6 — replace with a character sheet, prop, vehicle or location"
+    }
+  },
+  "45": {
+    "inputs": {
+      "enabled": false,
+      "image": [
+        "35",
+        0
+      ]
+    },
+    "class_type": "H3OptionalImage",
+    "_meta": {
+      "title": "USE PICTURE 6 — OFF by default"
+    }
+  },
+  "50": {
+    "inputs": {
+      "unet_name": "H3\\minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "H3 Ref2VA diffusion model"
+    }
+  },
+  "51": {
+    "inputs": {
+      "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "minimax",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "H3 conditioning encoder — not the AI Prompt model"
+    }
+  },
+  "52": {
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "H3 video VAE"
+    }
+  },
+  "53": {
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "H3 audio VAE"
+    }
+  },
+  "54": {
+    "inputs": {
+      "SeedState": "{\"seed\":2026092091,\"mode\":\"fixed\",\"compact\":false,\"digits\":16}"
+    },
+    "class_type": "PixaromaSeed",
+    "_meta": {
+      "title": "SEED — shared and visible"
+    }
+  },
+  "55": {
+    "inputs": {
+      "ref_image_size": "match",
+      "clip": [
+        "51",
+        0
+      ],
+      "prompt": [
+        "26",
+        0
+      ],
+      "width": [
+        "15",
+        0
+      ],
+      "height": [
+        "15",
+        1
+      ],
+      "length": [
+        "14",
+        0
+      ],
+      "vae": [
+        "52",
+        0
+      ],
+      "audio_vae": [
+        "53",
+        0
+      ],
+      "ref_images.ref_image_0": [
+        "40",
+        0
+      ],
+      "ref_images.ref_image_1": [
+        "41",
+        0
+      ],
+      "ref_images.ref_image_2": [
+        "42",
+        0
+      ],
+      "ref_images.ref_image_3": [
+        "43",
+        0
+      ],
+      "ref_images.ref_image_4": [
+        "44",
+        0
+      ],
+      "ref_images.ref_image_5": [
+        "45",
+        0
+      ]
+    },
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "_meta": {
+      "title": "H3 REF2VA — references + prompt + duration"
+    }
+  },
+  "58": {
+    "inputs": {
+      "steps": 20,
+      "cfg": 1,
+      "sampler_name": "res_multistep",
+      "scheduler": "simple",
+      "denoise": 1,
+      "model": [
+        "50",
+        0
+      ],
+      "seed": [
+        "54",
+        0
+      ],
+      "positive": [
+        "56",
+        0
+      ],
+      "negative": [
+        "57",
+        0
+      ],
+      "latent_image": [
+        "55",
+        1
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "GOLD SAMPLER — proven Pixaroma H3 settings"
+    }
+  },
+  "59": {
+    "inputs": {
+      "samples": [
+        "58",
+        0
+      ],
+      "vae": [
+        "52",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "Decode video frames"
+    }
+  },
+  "60": {
+    "inputs": {
+      "samples": [
+        "58",
+        0
+      ],
+      "vae": [
+        "53",
+        0
+      ]
+    },
+    "class_type": "VAEDecodeAudio",
+    "_meta": {
+      "title": "Decode H3 audio"
+    }
+  },
+  "61": {
+    "inputs": {},
+    "class_type": "PixaromaRunTimer",
+    "_meta": {
+      "title": "RUN TIMER — H3 can take a while"
+    }
+  },
+  "70": {
+    "inputs": {
+      "fps": 24,
+      "filename_prefix": "GoldGallery/09-ref2va-director/explorer",
+      "save_mode": "save",
+      "trim_to_audio": false,
+      "audio_fade_ms": 0,
+      "video_frames": [
+        "59",
+        0
+      ],
+      "audio": [
+        "60",
+        0
+      ]
+    },
+    "class_type": "PixaromaSaveMp4",
+    "_meta": {
+      "title": "FINAL VIDEO + AUDIO — preview here and save MP4"
+    }
+  },
+  "71": {
+    "inputs": {
+      "note_json": "{\"version\":1,\"content\":\"<h2>Version 1 stays dependable</h2><p>No Blabbermouth integration, automatic casting, continuation, chained multishot, motion video, voice reference, retake, Turbo LoRA, upscale or repair branch is hidden here. Those become separate, reviewable additions only after this Ref2VA spine is accepted.</p><p><b>Gold principle:</b> change one thing at a time, keep the short 5-second test available, and preserve the prompt shown in the monitor with every accepted output.</p>\",\"buttonColor\":\"#2E7D32\",\"lineColor\":\"#2E7D32\",\"width\":1500,\"height\":460,\"backgroundColor\":\"#2a2a2a\"}"
+    },
+    "class_type": "PixaromaNote",
+    "_meta": {
+      "title": "WHAT IS DELIBERATELY NOT IN VERSION 1"
+    }
+  },
+  "31": {
+    "inputs": {
+      "image": "GoldGallery/explorer-sheet.png",
+      "LoadImageMiniState": "{\"mode\":\"off\"}"
+    },
+    "class_type": "PixaromaLoadImageMini",
+    "_meta": {
+      "title": "PICTURE 2 — replace with a character sheet, prop, vehicle or location"
+    }
+  },
+  "57": {
+    "inputs": {
+      "conditioning": [
+        "56",
+        0
+      ]
+    },
+    "class_type": "ConditioningZeroOut",
+    "_meta": {
+      "title": "H3 negative conditioning"
+    }
+  },
+  "56": {
+    "inputs": {
+      "conditioning": [
+        "55",
+        0
+      ],
+      "clip": [
+        "51",
+        0
+      ]
+    },
+    "class_type": "H3FreeTextEncoder",
+    "_meta": {
+      "title": "VRAM SAFETY — release H3 text encoder before sampling"
+    }
+  },
+  "10": {
+    "inputs": {
+      "text_in": "",
+      "PromptState": "{\"text\":\"REFERENCE MANIFEST:\\n\\nPicture 1 defines Subject 1, the adult woman. Preserve her facial identity, dark hair tied in a bun, red facial markings, crescent-shaped hair ornament, cream tunic with rust-coloured trim, dark loose trousers, red gloves and boots.\\n\\nPicture 2 defines Subject 2, a human-sized, single-seat yellow personal quad-rotor aircraft. Preserve its enclosed transparent cockpit, four exposed rotors, yellow bodywork and landing legs. It is large enough for Subject 1 to sit naturally inside.\\n\\nPicture 3 defines Subject 3, the translucent purple humanoid alien. Preserve the transparent purple head and skin, clear protective hood, green-and-brown clothing, gloves and boots.\\n\\nSCENE AND ACTION:\\n\\n[Shot 1] In #scene, Subject 1 is seated beside a table. Subject 3 walks in from off-camera and sits beside her. They exchange the Shot 1 dialogue.\\n\\n[Shot 2] Subject 1 delivers the Shot 2 dialogue, stands and walks through the open doorway toward Subject 2, which is parked on a landing area immediately outside. Subject 1 enters the cockpit, closes it and takes off. Subject 3 watches from the doorway.\",\"order\":\"mine\",\"sep\":\"\\n\\n\",\"accent\":null,\"showExpanded\":true}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "SCENE + ACTION + REFERENCE MANIFEST — dictate here; Tags supports #scene"
+    }
+  },
+  "11": {
+    "inputs": {
+      "text_in": "",
+      "PromptState": "{\"text\":\"DIALOGUE:\\n\\nShot 1: Subject 1 says exactly, \\\"Hello, I didn't think you'd be coming today.\\\" Subject 3 replies exactly, \\\"Yes, but I got a little snarled up on the motorway.\\\"\\n\\nShot 2: Subject 1 says exactly, \\\"Seeing as you have my car, I'll be going then.\\\"\",\"order\":\"mine\",\"sep\":\"\\n\\n\",\"accent\":null,\"showExpanded\":true}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "DIALOGUE — anything in quotation marks is exact; Tags supports #dialogue"
+    }
+  },
+  "12": {
+    "inputs": {
+      "text_in": "",
+      "PromptState": "{\"text\":\"CAMERA DIRECTION:\\n\\nShot 1 uses a stable medium two-shot of Subject 1 and Subject 3 seated together.\\n\\nShot 2 cuts to a tracking shot following Subject 1 toward Subject 2. The camera pushes toward the transparent cockpit to show Subject 1 seated inside, then tilts and pans smoothly to follow Subject 2 taking off. The final composition includes Subject 3 watching from the doorway.\",\"order\":\"mine\",\"sep\":\"\\n\\n\",\"accent\":null,\"showExpanded\":true}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "CAMERA DIRECTION — plain language or #shot"
+    }
+  },
+  "13": {
+    "inputs": {
+      "text_in": "",
+      "PromptState": "{\"text\":\"SOUND AND MUSIC:\\n\\nQuiet environmental ambience continues under the conversation. Subject 3's approaching footsteps are heard during Shot 1. Subject 1's footsteps accompany her departure in Shot 2. Subject 2's four rotors spool up into a deep mechanical thrum before take-off. No non-diegetic music.\",\"order\":\"mine\",\"sep\":\"\\n\\n\",\"accent\":null,\"showExpanded\":true}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "SOUND + MUSIC — physical sound first; use N/A for no score"
+    }
+  }
+}

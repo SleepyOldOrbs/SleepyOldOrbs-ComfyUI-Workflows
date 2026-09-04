@@ -1,8 +1,18 @@
 # SleepyOldOrbs · ComfyUI Workflows
 
-A visual collection of my ComfyUI workflows, experiments and generated examples. **48 workflows · 27 example images · Pixaroma prompt-tag libraries.**
+A visual collection of my ComfyUI workflows, experiments and generated examples. **48 workflows · 34 example images · 2 video clips · Pixaroma prompt-tag libraries.**
 
 [Browse all workflows](CATALOG.md) · [Full image gallery](GALLERY.md) · [Getting started](docs/SETUP.md) · [Models and custom nodes](docs/DEPENDENCIES.md)
+
+## Gold Standard: from stills to moving shots
+
+New examples from workflows 07–10: finished photographs, entity reference sheets, a reference-driven H3 clip and a continuation from its final frame.
+
+| 07 · Finished still | 08 · Reference sheet | 09 · Ref2VA clip | 10 · Continuation |
+|---|---|---|---|
+| [![Highland dawn](examples/gold-standard/07-stills/highland-dawn.png)](examples/GOLD-STANDARD.md) | [![Clockwork beetle](examples/gold-standard/08-reference-sheets/clockwork-beetle.png)](examples/GOLD-STANDARD.md) | [![Ref2VA clip](examples/gold-standard/09-ref2va-director/explorer.png)](examples/gold-standard/09-ref2va-director/explorer.mp4) | [![Continuation clip](examples/gold-standard/10-long-form/continuation.png)](examples/gold-standard/10-long-form/continuation.mp4) |
+
+[Browse the examples, videos, captured workflows and instructions →](examples/GOLD-STANDARD.md)
 
 ## William Morris pattern gallery
 
@@ -20,7 +30,7 @@ Botanical ornament, wildlife and coordinated seasonal palettes, generated with K
 |---|---|---|
 | [![Wildlife William Morris pattern](examples/william-morris/wildlife/001.png)](examples/william-morris/wildlife/001.workflow.json) | [![Botanical William Morris pattern](examples/william-morris/botanical/001.png)](examples/william-morris/botanical/001.workflow.json) | [![MixedThemes William Morris pattern](examples/william-morris/mixedthemes/001.png)](examples/william-morris/mixedthemes/001.workflow.json) |
 
-[See all 27 images, captured workflows and generation data →](GALLERY.md)
+[See all 27 Morris images, captured workflows and generation data →](GALLERY.md)
 
 ## Explore the collection
 
@@ -41,6 +51,6 @@ The Morris gallery requires a custom-trained LoRA whose weights are not distribu
 
 ## About this release
 
-This collection preserves my saved workflow variants from the two selected folders and their original notes. All exports have been structurally checked; the entire collection has not been rerun on a clean installation. The gallery currently covers the Morris family. Each example includes the graph captured at generation time, which can differ from a subsequently edited library workflow.
+This collection preserves my saved workflow variants from the two selected folders and their original notes. All exports have been structurally checked; the entire collection has not been rerun on a clean installation. The gallery covers the Morris family and six successful local runs of Gold Standard workflows 07–10. Each example includes the graph captured at generation time, which can differ from a subsequently edited library workflow.
 
 Third-party authors and models retain their credits and terms. See [credits and provenance](CREDITS.md).

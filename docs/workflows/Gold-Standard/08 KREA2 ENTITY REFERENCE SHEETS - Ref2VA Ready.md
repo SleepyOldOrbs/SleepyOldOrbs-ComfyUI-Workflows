@@ -4,9 +4,9 @@
 
 Collection: **Gold-Standard** · 23 nodes (including subgraphs).
 
-Export checked; not rerun for this publication.
+Run successfully on 4 September 2026. Generated examples and captured run settings are included.
 
-No matched generated example is included yet.
+[See the generated examples, settings and input instructions](../../../examples/GOLD-STANDARD.md).
 
 ## Required node types
 

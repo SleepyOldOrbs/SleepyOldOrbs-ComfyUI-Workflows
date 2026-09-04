@@ -73,6 +73,18 @@ def main():
         assert meta['workflow'] == load(ROOT/row['captured_workflow'])
         assert meta['prompt'] == load(ROOT/row['api_prompt'])
         assert (ROOT/row['library_workflow']).is_file()
+        if row.get('video'):
+            assert (ROOT/row['video']).read_bytes()[4:8] == b'ftyp', 'Missing or invalid MP4'
+    runs_path = ROOT/'catalog/gold-standard-runs.json'
+    if runs_path.exists():
+        for run in load(runs_path):
+            assert run['status'] == 'success'
+            for key in ('library_workflow', 'captured_workflow', 'api_prompt', 'image',
+                        'video', 'input_image', 'handoff_image', 'resolved_prompt'):
+                if key in run: assert (ROOT/run[key]).is_file(), (run['run'], key)
+            if 'video' in run:
+                assert run['frames'] > 0 and run['duration_seconds'] > 0
+                assert run['encoded_streams_preserved'] is True
     for file in (ROOT/'tags').glob('*.json'):
         library = load(file)
         names = [t['name'].lower() for t in library['tags']]

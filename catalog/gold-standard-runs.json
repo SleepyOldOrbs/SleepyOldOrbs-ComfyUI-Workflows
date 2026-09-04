@@ -1,0 +1,125 @@
+[
+  {
+    "run": "07-glasshouse-portrait",
+    "date": "2026-09-04",
+    "library_workflow": "workflows/Gold-Standard/07 GOLD STANDARD.json",
+    "captured_workflow": "examples/gold-standard/07-stills/glasshouse-portrait.workflow.json",
+    "api_prompt": "examples/gold-standard/07-stills/glasshouse-portrait.api.json",
+    "status": "success",
+    "seeds": {
+      "170": 2026092734,
+      "171": 2026092735
+    },
+    "image": "examples/gold-standard/07-stills/glasshouse-portrait.png",
+    "dimensions": [
+      2048,
+      1182
+    ]
+  },
+  {
+    "run": "07-highland-dawn",
+    "date": "2026-09-04",
+    "library_workflow": "workflows/Gold-Standard/07 GOLD STANDARD.json",
+    "captured_workflow": "examples/gold-standard/07-stills/highland-dawn.workflow.json",
+    "api_prompt": "examples/gold-standard/07-stills/highland-dawn.api.json",
+    "status": "success",
+    "seeds": {
+      "170": 2026092020,
+      "171": 2026092021
+    },
+    "image": "examples/gold-standard/07-stills/highland-dawn.png",
+    "dimensions": [
+      2048,
+      1182
+    ]
+  },
+  {
+    "run": "08-explorer-sheet",
+    "date": "2026-09-04",
+    "library_workflow": "workflows/Gold-Standard/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.json",
+    "captured_workflow": "examples/gold-standard/08-reference-sheets/explorer.workflow.json",
+    "api_prompt": "examples/gold-standard/08-reference-sheets/explorer.api.json",
+    "status": "success",
+    "seeds": {
+      "16": 2026092028
+    },
+    "image": "examples/gold-standard/08-reference-sheets/explorer.png",
+    "dimensions": [
+      1536,
+      1536
+    ]
+  },
+  {
+    "run": "08-beetle-sheet",
+    "date": "2026-09-04",
+    "library_workflow": "workflows/Gold-Standard/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.json",
+    "captured_workflow": "examples/gold-standard/08-reference-sheets/clockwork-beetle.workflow.json",
+    "api_prompt": "examples/gold-standard/08-reference-sheets/clockwork-beetle.api.json",
+    "status": "success",
+    "seeds": {
+      "16": 2026091772
+    },
+    "image": "examples/gold-standard/08-reference-sheets/clockwork-beetle.png",
+    "dimensions": [
+      1536,
+      1536
+    ]
+  },
+  {
+    "run": "09-ref2va-director",
+    "date": "2026-09-04",
+    "library_workflow": "workflows/Gold-Standard/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.json",
+    "captured_workflow": "examples/gold-standard/09-ref2va-director/explorer.workflow.json",
+    "api_prompt": "examples/gold-standard/09-ref2va-director/explorer.api.json",
+    "status": "success",
+    "seeds": {
+      "54": 2026092091
+    },
+    "video": "examples/gold-standard/09-ref2va-director/explorer.mp4",
+    "duration_seconds": 5.175,
+    "frames": 124,
+    "fps": "24/1",
+    "video_dimensions": [
+      864,
+      480
+    ],
+    "has_audio": true,
+    "encoded_streams_preserved": true,
+    "resolved_prompt": "examples/gold-standard/09-ref2va-director/explorer.prompt.txt",
+    "image": "examples/gold-standard/09-ref2va-director/explorer.png",
+    "dimensions": [
+      864,
+      480
+    ],
+    "handoff_image": "examples/gold-standard/09-ref2va-director/handoff.png",
+    "input_image": "examples/gold-standard/08-reference-sheets/explorer.png"
+  },
+  {
+    "run": "10-long-form",
+    "date": "2026-09-04",
+    "library_workflow": "workflows/Gold-Standard/10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder.json",
+    "captured_workflow": "examples/gold-standard/10-long-form/continuation.workflow.json",
+    "api_prompt": "examples/gold-standard/10-long-form/continuation.api.json",
+    "status": "success",
+    "seeds": {
+      "34": 2026091489
+    },
+    "video": "examples/gold-standard/10-long-form/continuation.mp4",
+    "duration_seconds": 5.175,
+    "frames": 124,
+    "fps": "24/1",
+    "video_dimensions": [
+      1296,
+      720
+    ],
+    "has_audio": true,
+    "encoded_streams_preserved": true,
+    "resolved_prompt": "examples/gold-standard/10-long-form/continuation.prompt.txt",
+    "image": "examples/gold-standard/10-long-form/continuation.png",
+    "dimensions": [
+      1296,
+      720
+    ],
+    "input_image": "examples/gold-standard/09-ref2va-director/handoff.png"
+  }
+]

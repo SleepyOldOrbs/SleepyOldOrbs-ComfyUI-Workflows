@@ -1,0 +1,502 @@
+{
+  "1": {
+    "inputs": {
+      "label_json": "{\"text\":\"10 GOLD STANDARD — MiniMax H3 Long Form Shot Builder\",\"fontSize\":44,\"fontFamily\":\"Arial\",\"fontColor\":\"#ffffff\",\"textAlign\":\"center\",\"backgroundColor\":\"#f66744\",\"padding\":14,\"borderRadius\":0,\"opacity\":1,\"fontWeight\":\"bold\",\"lineHeight\":1}"
+    },
+    "class_type": "PixaromaLabel",
+    "_meta": {
+      "title": "10 GOLD STANDARD — MiniMax H3 Long Form Shot Builder"
+    }
+  },
+  "2": {
+    "inputs": {
+      "note_json": "{\"version\":1,\"content\":\"<h2>ONE SHORT SHOT PER RUN — repeat it to build a longer sequence</h2><ol><li>Load a manual opening image. Leave AUTO CHAIN off to use it directly, or turn AUTO CHAIN on beside the handoff controls.</li><li>Type or dictate the action, camera and dialogue in Video Prompt Pixaroma. The 5-second setting is the safest starting point.</li><li>Leave USE ENDING FRAME off for an open continuation. Turn it on only when the shot must land on a planned keyframe.</li><li>Choose delivery quality: BALANCED RTX 1.5× is the measured everyday default; NATIVE is exact and fastest.</li><li>Run. With AUTO CHAIN on, every later queued run reads the final frame saved by the run immediately before it — no manual reloading.</li></ol><p><b>Reset or change projects:</b> turn AUTO CHAIN off, load the new manual opening frame and run once. Give separate films different slot names. Automatic chaining is convenient but can compound drift, so retain and review the separate MP4 and HANDOFF files.</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"width\":4260,\"height\":260,\"backgroundColor\":\"#2a2a2a\"}"
+    },
+    "class_type": "PixaromaNote",
+    "_meta": {
+      "title": "START HERE — THE FIVE-STEP LOOP"
+    }
+  },
+  "10": {
+    "inputs": {
+      "image": "GoldGallery/09-last-frame.png",
+      "LoadImageMiniState": "{\"mode\":\"off\"}"
+    },
+    "class_type": "PixaromaLoadImageMini",
+    "_meta": {
+      "title": "1. MANUAL OPENING FRAME — used when AUTO CHAIN is off or empty"
+    }
+  },
+  "11": {
+    "inputs": {
+      "image": "GoldGallery/09-last-frame.png",
+      "LoadImageMiniState": "{\"mode\":\"off\"}"
+    },
+    "class_type": "PixaromaLoadImageMini",
+    "_meta": {
+      "title": "OPTIONAL ENDING FRAME — a planned Krea keyframe"
+    }
+  },
+  "12": {
+    "inputs": {
+      "image": [
+        "16",
+        0
+      ],
+      "LongestSideState": "{\"size\":864,\"sizes\":[608,864,960,1056,1216,1344],\"ratio\":\"keep\",\"ratios\":[\"keep\",\"16:9\",\"9:16\",\"1:1\",\"2:3\"],\"step\":32,\"anchor\":\"center\",\"allow_upscale\":true,\"resample\":\"auto\"}"
+    },
+    "class_type": "PixaromaLongestSide",
+    "_meta": {
+      "title": "NATIVE DETAIL — 864 FAST/GOLD | 960 +40% | 1056 +100% measured"
+    }
+  },
+  "13": {
+    "inputs": {
+      "upscale_method": "lanczos",
+      "crop": "disabled",
+      "image": [
+        "11",
+        0
+      ],
+      "width": [
+        "12",
+        1
+      ],
+      "height": [
+        "12",
+        2
+      ]
+    },
+    "class_type": "ImageScale",
+    "_meta": {
+      "title": "AUTO — match ending frame to opening frame size"
+    }
+  },
+  "14": {
+    "inputs": {
+      "enabled": false,
+      "image": [
+        "13",
+        0
+      ]
+    },
+    "class_type": "H3OptionalImage",
+    "_meta": {
+      "title": "USE ENDING FRAME — OFF = continue freely | ON = land exactly"
+    }
+  },
+  "15": {
+    "inputs": {
+      "note_json": "{\"version\":1,\"content\":\"<h3>OFF — ordinary continuation</h3><p>H3 starts from the opening frame and invents a natural ending. This is the fastest way to extend a sequence.</p><h3>ON — planned transition or drift reset</h3><p>H3 must travel continuously from the opening frame to the supplied ending frame. Use a compatible composition: the same subjects, props and location, with a physically plausible path between them.</p><p>Do not use two unrelated pictures merely because both are attractive.</p>\",\"buttonColor\":\"#B45574\",\"lineColor\":\"#B45574\",\"width\":960,\"height\":350,\"backgroundColor\":\"#2a2a2a\"}"
+    },
+    "class_type": "PixaromaNote",
+    "_meta": {
+      "title": "WHEN TO USE THE ENDING FRAME"
+    }
+  },
+  "16": {
+    "inputs": {
+      "manual_image": [
+        "10",
+        0
+      ],
+      "auto_chain": [
+        "46",
+        0
+      ],
+      "slot": [
+        "46",
+        1
+      ]
+    },
+    "class_type": "CodexH3ContinuationInput",
+    "_meta": {
+      "title": "AUTO — choose manual image or previous run's HANDOFF"
+    }
+  },
+  "17": {
+    "inputs": {
+      "source": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "PixaromaShowText",
+    "_meta": {
+      "title": "OPENING SOURCE — confirms MANUAL or AUTO after each run"
+    }
+  },
+  "20": {
+    "inputs": {
+      "first_frame": [
+        "12",
+        0
+      ],
+      "last_frame": [
+        "14",
+        0
+      ],
+      "VideoPromptState": "{\"idea\":\"Continue from this exact opening frame in one uninterrupted five-second shot. The auburn-haired botanical explorer in an olive-green jacket looks back down toward the fern on the glasshouse bench, gently straightens one frond and relaxes her hand. A very slow camera push forward. Preserve her identity, clothing, hand anatomy, plants, daylight and glasshouse geometry. Quiet birds outside, a faint rustle of leaves and cloth. No dialogue, no text, no music. End with exactly non_diegetic_music: N/A.\",\"tier_index\":0,\"tier_name\":\"5 seconds\",\"seed\":2408241001,\"model\":\"qwen3vl_8b_fp8_scaled.safetensors\",\"clip_type\":\"minimax\",\"temperature\":0.3,\"max_length\":768,\"top_k\":64,\"top_p\":0.95,\"min_p\":0.05,\"repetition_penalty\":1.05,\"presence_penalty\":0,\"thinking\":false,\"use_default_template\":true,\"release_model\":true,\"length_block\":true,\"fps\":24,\"step\":17,\"plus\":5,\"min_frames\":5,\"seed_mode\":\"fixed\",\"speech_hint\":true,\"idea_share\":0.32}"
+    },
+    "class_type": "PixaromaVideoPrompt",
+    "_meta": {
+      "title": "2. SHOT IDEA + DURATION — dictate here; Tags are available"
+    }
+  },
+  "21": {
+    "inputs": {
+      "source": [
+        "20",
+        0
+      ]
+    },
+    "class_type": "PixaromaShowText",
+    "_meta": {
+      "title": "FINAL H3 PROMPT — first-frame or first+last mode is automatic"
+    }
+  },
+  "22": {
+    "inputs": {
+      "note_json": "{\"version\":1,\"content\":\"<h3>Describe movement, not a new picture</h3><p>Say who does what, in which order, what the camera does and any exact dialogue. If an ending frame is on, describe the plausible physical path that reaches it. Keep a 5-second shot to one main action; save a second action for the next run.</p><p>The local 8B Qwen model writes the H3 format and releases itself before H3 loads.</p>\",\"buttonColor\":\"#7A3E78\",\"lineColor\":\"#7A3E78\",\"width\":680,\"height\":320,\"backgroundColor\":\"#2a2a2a\"}"
+    },
+    "class_type": "PixaromaNote",
+    "_meta": {
+      "title": "PROMPTING RULE OF THUMB"
+    }
+  },
+  "30": {
+    "inputs": {
+      "unet_name": "H3\\minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "H3 first/last-frame diffusion model"
+    }
+  },
+  "31": {
+    "inputs": {
+      "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "minimax",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "H3 conditioning encoder — not the prompt writer"
+    }
+  },
+  "32": {
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "H3 video VAE"
+    }
+  },
+  "33": {
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "H3 audio VAE"
+    }
+  },
+  "34": {
+    "inputs": {
+      "SeedState": "{\"seed\":2026091489,\"mode\":\"fixed\",\"compact\":false,\"digits\":16}"
+    },
+    "class_type": "PixaromaSeed",
+    "_meta": {
+      "title": "3. VIDEO SEED — keep fixed while tuning a shot"
+    }
+  },
+  "35": {
+    "inputs": {
+      "clip": [
+        "31",
+        0
+      ],
+      "vae": [
+        "32",
+        0
+      ],
+      "prompt": [
+        "21",
+        0
+      ],
+      "width": [
+        "12",
+        1
+      ],
+      "height": [
+        "12",
+        2
+      ],
+      "length": [
+        "20",
+        1
+      ],
+      "first_frame": [
+        "12",
+        0
+      ],
+      "last_frame": [
+        "14",
+        0
+      ]
+    },
+    "class_type": "MiniMaxH3ImageToVideo",
+    "_meta": {
+      "title": "H3 SHOT — first frame required; ending frame is switched above"
+    }
+  },
+  "36": {
+    "inputs": {
+      "conditioning": [
+        "35",
+        0
+      ],
+      "clip": [
+        "31",
+        0
+      ]
+    },
+    "class_type": "H3FreeTextEncoder",
+    "_meta": {
+      "title": "VRAM SAFETY — release H3 text encoder"
+    }
+  },
+  "37": {
+    "inputs": {
+      "conditioning": [
+        "36",
+        0
+      ]
+    },
+    "class_type": "ConditioningZeroOut",
+    "_meta": {
+      "title": "H3 negative conditioning"
+    }
+  },
+  "38": {
+    "inputs": {
+      "steps": 20,
+      "cfg": 1,
+      "sampler_name": "res_multistep",
+      "scheduler": "simple",
+      "denoise": 1,
+      "model": [
+        "30",
+        0
+      ],
+      "seed": [
+        "34",
+        0
+      ],
+      "positive": [
+        "36",
+        0
+      ],
+      "negative": [
+        "37",
+        0
+      ],
+      "latent_image": [
+        "35",
+        1
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "GOLD SAMPLER — proven 20-step H3 settings"
+    }
+  },
+  "39": {
+    "inputs": {},
+    "class_type": "PixaromaRunTimer",
+    "_meta": {
+      "title": "RUN TIMER — one shot at a time"
+    }
+  },
+  "40": {
+    "inputs": {
+      "samples": [
+        "38",
+        0
+      ],
+      "vae": [
+        "32",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "Decode video frames"
+    }
+  },
+  "41": {
+    "inputs": {
+      "samples": [
+        "38",
+        0
+      ],
+      "vae": [
+        "33",
+        0
+      ]
+    },
+    "class_type": "VAEDecodeAudio",
+    "_meta": {
+      "title": "Decode H3 audio"
+    }
+  },
+  "49": {
+    "inputs": {
+      "profile": "BALANCED — RTX 1.5x HIGH (recommended)",
+      "images": [
+        "40",
+        0
+      ],
+      "audio": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "CodexH3OutputFinish",
+    "_meta": {
+      "title": "4. DELIVERY QUALITY — BALANCED adds ~2.4 sec; NATIVE is exact"
+    }
+  },
+  "50": {
+    "inputs": {
+      "source": [
+        "49",
+        1
+      ]
+    },
+    "class_type": "PixaromaShowText",
+    "_meta": {
+      "title": "DELIVERY STATUS — confirms final dimensions and native handoff safety"
+    }
+  },
+  "42": {
+    "inputs": {
+      "fps": 24,
+      "filename_prefix": "GoldGallery/10-long-form/continuation",
+      "save_mode": "save",
+      "trim_to_audio": false,
+      "audio_fade_ms": 0,
+      "video_frames": [
+        "49",
+        0
+      ],
+      "audio": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "PixaromaSaveMp4",
+    "_meta": {
+      "title": "5. FINAL SHOT — preview here and save MP4 with audio"
+    }
+  },
+  "43": {
+    "inputs": {
+      "images": [
+        "40",
+        0
+      ]
+    },
+    "class_type": "H3LastFrame",
+    "_meta": {
+      "title": "AUTO — extract final continuation frame"
+    }
+  },
+  "46": {
+    "inputs": {
+      "auto_chain": false,
+      "slot": "github_gold_gallery_10"
+    },
+    "class_type": "CodexH3ContinuationControl",
+    "_meta": {
+      "title": "AUTO-CHAIN NEXT RUN — OFF = manual | ON = previous HANDOFF"
+    }
+  },
+  "47": {
+    "inputs": {
+      "images": [
+        "43",
+        0
+      ],
+      "slot": [
+        "46",
+        1
+      ]
+    },
+    "class_type": "CodexH3ContinuationStore",
+    "_meta": {
+      "title": "AUTO-CHAIN MEMORY — persist this final frame for the next queued run"
+    }
+  },
+  "48": {
+    "inputs": {
+      "source": [
+        "47",
+        1
+      ]
+    },
+    "class_type": "PixaromaShowText",
+    "_meta": {
+      "title": "AUTO-CHAIN STATUS — confirms the slot prepared for the next run"
+    }
+  },
+  "44": {
+    "inputs": {
+      "filename_prefix": "GoldGallery/10-long-form/handoff",
+      "images": [
+        "47",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "HANDOFF FRAME — visible recovery copy; AUTO CHAIN also retains it"
+    }
+  },
+  "45": {
+    "inputs": {
+      "note_json": "{\"version\":1,\"content\":\"<h2>Manual or automatic continuation</h2><p><b>AUTO CHAIN off:</b> each run uses the manual opening image. <b>AUTO CHAIN on:</b> the first run falls back to the manual image when the slot is empty, then every later queued run uses the preceding run's handoff automatically. You may queue several runs in advance; they execute sequentially.</p><p>The MP4 may receive RTX delivery finishing, but the HANDOFF always comes from native H3 frames. This prevents artificial texture accumulating across repeated shots. If drift appears, stop the queue, turn AUTO CHAIN off, load a clean Krea keyframe and run once.</p>\",\"buttonColor\":\"#2E7D32\",\"lineColor\":\"#2E7D32\",\"width\":1180,\"height\":260,\"backgroundColor\":\"#2a2a2a\"}"
+    },
+    "class_type": "PixaromaNote",
+    "_meta": {
+      "title": "NEXT SHOT"
+    }
+  },
+  "51": {
+    "inputs": {
+      "label_json": "{\"text\":\"OPTIONAL M7 — HUMAN-ACCEPTED MOTION + AUDIO CONTEXT\",\"fontSize\":44,\"fontFamily\":\"Arial\",\"fontColor\":\"#ffffff\",\"textAlign\":\"center\",\"backgroundColor\":\"#355C7D\",\"padding\":14,\"borderRadius\":0,\"opacity\":1,\"fontWeight\":\"bold\",\"lineHeight\":1}"
+    },
+    "class_type": "PixaromaLabel",
+    "_meta": {
+      "title": "OPTIONAL M7 — HUMAN-ACCEPTED MOTION + AUDIO CONTEXT"
+    }
+  },
+  "52": {
+    "inputs": {
+      "note_json": "{\"version\":1,\"content\":\"<h2>OPTIONAL — picture PASS and audio PASS on 25 August 2026</h2><p><b>NORMAL GOLD:</b> leave both M7 groups bypassed. No latent is loaded or saved and the original Gold path is unchanged.</p><p><b>CLIP 1:</b> keep APPLY PRIOR LATENT bypassed; enable SAVE CURRENT LATENT; use clip index 1. Start from the normal manual image with AUTO CHAIN off.</p><p><b>CLIP 2+:</b> enable both M7 groups, turn AUTO CHAIN on so the first-frame anchor agrees with the prior latent tail, load the preceding index and save the new index. Queue one M7 clip at a time.</p><p>Keep context 22/audio 24, resolution unchanged, Spectrum and Turbo off. Begin each later prompt by restating the exact ending pose, framing, action and sound before introducing change.</p><p>Use a different latent folder for a different film. A missing or wrong prior index must be corrected rather than bypassed silently.</p>\",\"buttonColor\":\"#355C7D\",\"lineColor\":\"#355C7D\",\"width\":1050,\"height\":600,\"backgroundColor\":\"#2a2a2a\"}"
+    },
+    "class_type": "PixaromaNote",
+    "_meta": {
+      "title": "M7 QUICK START — NORMAL GOLD STAYS UNCHANGED"
+    }
+  },
+  "53": {
+    "inputs": {},
+    "class_type": "FastGroupsBypasserV2",
+    "_meta": {
+      "title": "M7 OPTIONAL CONTROLS — NORMAL GOLD = BOTH BYPASSED"
+    }
+  }
+}

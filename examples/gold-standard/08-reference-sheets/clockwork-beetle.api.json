@@ -1,0 +1,316 @@
+{
+  "2": {
+    "inputs": {
+      "PromptMultiState": "{\"version\":2,\"mode\":\"queue\",\"rows\":[{\"id\":\"gallery\",\"enabled\":true,\"label\":\"08-beetle-sheet\",\"text\":\"[TURNAROUND]\"}],\"activeIndex\":0,\"activePrompt\":\"[TURNAROUND]\"}"
+    },
+    "class_type": "PixaromaPromptMulti",
+    "_meta": {
+      "title": "RUN CONTROL - 2 RANDOM CHARACTERS + 2 RANDOM ENTITIES"
+    }
+  },
+  "21": {
+    "inputs": {
+      "samples": [
+        "20",
+        0
+      ],
+      "vae": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "DECODE ENTITY SHEET"
+    }
+  },
+  "23": {
+    "inputs": {
+      "source": [
+        "9",
+        0
+      ]
+    },
+    "class_type": "PixaromaShowText",
+    "_meta": {
+      "title": "FINAL PROMPT MONITOR - VERIFY THE SELECTED ROUTE"
+    }
+  },
+  "18": {
+    "inputs": {
+      "text": [
+        "23",
+        0
+      ],
+      "clip": [
+        "13",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "ENCODE FINAL TYPE-SAFE SHEET PROMPT"
+    }
+  },
+  "19": {
+    "inputs": {
+      "conditioning": [
+        "18",
+        0
+      ]
+    },
+    "class_type": "ConditioningZeroOut",
+    "_meta": {
+      "title": "ZERO NEGATIVE CONDITIONING"
+    }
+  },
+  "22": {
+    "inputs": {
+      "filename_prefix": "GoldGallery/08-beetle-sheet/node-22",
+      "save_mode": "save",
+      "image": [
+        "21",
+        0
+      ]
+    },
+    "class_type": "PixaromaPreview",
+    "_meta": {
+      "title": "PREVIEW + SAVE TYPE-SAFE REF2VA SHEET"
+    }
+  },
+  "20": {
+    "inputs": {
+      "steps": 8,
+      "cfg": 1,
+      "sampler_name": "er_sde",
+      "scheduler": "simple",
+      "denoise": 1,
+      "model": [
+        "14",
+        0
+      ],
+      "seed": [
+        "16",
+        0
+      ],
+      "positive": [
+        "18",
+        0
+      ],
+      "negative": [
+        "19",
+        0
+      ],
+      "latent_image": [
+        "17",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KREA 2 TYPE-SAFE SHEET GENERATION"
+    }
+  },
+  "17": {
+    "inputs": {
+      "batch_size": 1,
+      "width": [
+        "15",
+        0
+      ],
+      "height": [
+        "15",
+        1
+      ]
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "CREATE 1:1 REFERENCE SHEET LATENT"
+    }
+  },
+  "1": {
+    "inputs": {
+      "note_json": "{\"version\":1,\"content\":\"<h1>Krea 2 Surprise-Me Entity Sheets - Type-Safe Ref2VA Ready</h1><p><b>Click Run once to queue four independently randomised sheets.</b> Rows 1-2 select only people or genuinely humanoid characters and use the nine-panel face/body/T-pose layout. Rows 3-4 select animals, creatures, vehicles, buildings, food, furniture, tools, machines and props and use the six-panel turnaround layout. Disable any row you do not want.</p><ol><li>Leave Prompt Multi in <b>Queue</b> mode. Its four marker-only rows deliberately choose the safe route.</li><li>The two orange director boxes contain the live Pixaroma tags. Every <b>*Category</b> selects a random ten-choice list, then a line; every <b>#tag</b> selects one random line from a specific list.</li><li>Edit or extend the four <b>Codex...</b> List categories in Pixaroma Tag Library. All 54 lists contain exactly ten choices.</li><li>Optionally choose one Krea 2 LoRA in the shared Pixaroma LoRA Loader. It is <b>OFF by default</b>; when enabled, its model, CLIP and trigger words apply to every queued sheet.</li><li>The marker expander inserts exactly one route. Objects never receive face, full-body or T-pose instructions.</li><li>Load the resulting PNGs into Ref2VA as ref_image_0, ref_image_1, and so on.</li></ol><p>Expanded pools: 100 poseable character bases, 200 complete non-humanoid/entity bases, 120 compatible character-trait choices and 120 item-trait choices. The automatic object route uses only the 60 type-neutral item traits; the more class-specific 60 remain available for optional manual experiments.</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"width\":5240,\"height\":380,\"backgroundColor\":\"#2a2a2a\"}"
+    },
+    "class_type": "PixaromaNote",
+    "_meta": {
+      "title": "START HERE - KREA 2 ENTITY REFERENCE SHEETS"
+    }
+  },
+  "15": {
+    "inputs": {
+      "ResolutionState": "{\"mode\":\"preset\",\"ratio\":\"1:1\",\"w\":1536,\"h\":1536,\"custom_w\":1536,\"custom_h\":1536,\"custom_ratio_w\":1,\"custom_ratio_h\":1,\"snap\":16}"
+    },
+    "class_type": "PixaromaResolution",
+    "_meta": {
+      "title": "EDIT THIS - SQUARE SHEET RESOLUTION"
+    }
+  },
+  "16": {
+    "inputs": {
+      "SeedState": "{\"seed\":2026091772,\"mode\":\"fixed\",\"compact\":false,\"digits\":16}"
+    },
+    "class_type": "PixaromaSeed",
+    "_meta": {
+      "title": "Sheet Seed Pixaroma"
+    }
+  },
+  "14": {
+    "inputs": {
+      "enabled": true,
+      "strength": 1,
+      "debug": false,
+      "model": [
+        "13",
+        0
+      ]
+    },
+    "class_type": "ComfyUI-Krea2T-Enhancer",
+    "_meta": {
+      "title": "KREA 2 MODEL ENHANCER"
+    }
+  },
+  "13": {
+    "inputs": {
+      "model": [
+        "10",
+        0
+      ],
+      "clip": [
+        "11",
+        0
+      ],
+      "LoraLoaderState": "{\"version\":1,\"loras\":[],\"sep\":\", \",\"step\":0.05,\"defStrength\":0.7,\"linkStrength\":true,\"civitai\":true,\"thumbs\":true,\"hideExt\":true,\"accent\":null,\"cacheMode\":\"last\"}"
+    },
+    "class_type": "PixaromaLoraLoader",
+    "_meta": {
+      "title": "OPTIONAL - ONE SHARED KREA 2 LORA (OFF BY DEFAULT)"
+    }
+  },
+  "12": {
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "KREA 2 VAE"
+    }
+  },
+  "11": {
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "KREA 2 TEXT ENCODER"
+    }
+  },
+  "10": {
+    "inputs": {
+      "unet_name": "Krea2\\krea2_turbo_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "KREA 2 TURBO MODEL"
+    }
+  },
+  "9": {
+    "inputs": {
+      "text_1": [
+        "8",
+        0
+      ],
+      "text_2": [
+        "13",
+        2
+      ]
+    },
+    "class_type": "PixaromaTextJoinTwo",
+    "_meta": {
+      "title": "AUTO - ADD ENABLED LORA TRIGGER WORDS"
+    }
+  },
+  "8": {
+    "inputs": {
+      "text_1": [
+        "7",
+        0
+      ],
+      "text_2": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "PixaromaTextJoinTwo",
+    "_meta": {
+      "title": "AUTO - ADD ONE SHARED STYLE"
+    }
+  },
+  "7": {
+    "inputs": {
+      "find": "[TURNAROUND]",
+      "string": [
+        "6",
+        0
+      ],
+      "replace": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "StringReplace",
+    "_meta": {
+      "title": "AUTO - EXPAND [TURNAROUND] ONLY WHEN PRESENT"
+    }
+  },
+  "6": {
+    "inputs": {
+      "find": "[TPOSE]",
+      "string": [
+        "2",
+        0
+      ],
+      "replace": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "StringReplace",
+    "_meta": {
+      "title": "AUTO - EXPAND [TPOSE] ONLY WHEN PRESENT"
+    }
+  },
+  "4": {
+    "inputs": {
+      "text_in": "",
+      "PromptState": "{\"text\":\"A small non-humanoid clockwork beetle, exactly six jointed brass legs, rounded midnight-blue enamel wing cases with fine gold botanical engraving, two short copper antennae, a narrow central seam and a small winding key on the left side of its abdomen. A convincing palm-sized mechanical curiosity with lightly tarnished brass and careful handcrafted construction. Create a professional production model sheet for exactly this one person or genuinely humanoid subject. The page layout is strict: exactly nine separate equal square panels arranged as three columns by three rows. Never merge, enlarge, omit or subdivide a panel. Every panel shows the exact same identity, facial features, silhouette, proportions, colours, materials, clothing, wear, markings and accessories. Row 1: front face close-up with neutral expression; three-quarter face close-up; exact left-profile face close-up. Row 2, each completely visible head to feet: full-body front neutral stance; full-body three-quarter stance; full-body exact side profile. Row 3: full-body front T-pose facing camera with arms perfectly straight and horizontal and palms down; full-body rear T-pose with arms perfectly straight and horizontal; close-up of the most identity-defining feature or accessory. Use a plain warm-grey studio background, soft even lighting, gentle contact shadows and consistent scale. Put a clear black gutter around every panel. No setting, unrelated subjects, alternate designs, labels, captions, text or decorative outer border.\",\"order\":\"mine\",\"sep\":\"\\n\\n\",\"accent\":null,\"showExpanded\":true}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "AUTO ROUTE A - [TPOSE] HUMANS & HUMANOIDS"
+    }
+  },
+  "3": {
+    "inputs": {
+      "text_in": "",
+      "PromptState": "{\"text\":\"photorealistic production design, physically plausible construction and materials, coherent proportions, neutral colour rendering, crisp identity-defining detail\",\"order\":\"wired\",\"sep\":\"\\n\\n\",\"accent\":null,\"showExpanded\":true}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "OPTIONAL - ONE SHARED VISUAL STYLE"
+    }
+  },
+  "5": {
+    "inputs": {
+      "text_in": "",
+      "PromptState": "{\"text\":\"A small non-humanoid clockwork beetle, exactly six jointed brass legs, rounded midnight-blue enamel wing cases with fine gold botanical engraving, two short copper antennae, a narrow central seam and a small winding key on the left side of its abdomen. A convincing palm-sized mechanical curiosity with lightly tarnished brass and careful handcrafted construction. Create a professional orthographic turnaround reference sheet for exactly this one described subject. Use a strict visible two-column by three-row grid containing exactly six separate equal cells. Never merge, enlarge, omit or subdivide a cell. Every cell shows the exact same subject with identical geometry, silhouette, proportions, colours, materials, construction, wear, markings and accessories. Cell 1: complete front view. Cell 2: complete three-quarter front view. Cell 3: complete exact left-side view. Cell 4: complete exact right-side view. Cell 5: complete rear view. Cell 6: the most useful top, plan, underside or identity-detail view for this particular subject. Keep the subject itself complete and uncropped wherever an overall view is requested. Preserve only anatomy explicitly belonging to a described creature. Keep the described subject as the sole subject; never add a wearer, rider, carrier, handler, mannequin or supporting figure. Never anthropomorphize an object. Use a plain warm-grey studio background, soft even lighting, gentle contact shadows and consistent scale. Put a clear black gutter around every cell so all six cells are visibly distinct. No setting, unrelated subjects, alternate designs, labels, captions, text or decorative outer border.\",\"order\":\"mine\",\"sep\":\"\\n\\n\",\"accent\":null,\"showExpanded\":true}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "AUTO ROUTE B - [TURNAROUND] OBJECTS & CREATURES"
+    }
+  }
+}

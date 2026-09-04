@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-04",
+  "system": {
+    "os": "win32",
+    "comfyui_version": "0.34.0",
+    "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "pytorch_version": "2.11.0+cu130",
+    "embedded_python": true
+  },
+  "devices": [
+    {
+      "name": "cuda:0 NVIDIA GeForce RTX 5080 : cudaMallocAsync",
+      "type": "cuda",
+      "vram_total": 17066033152
+    }
+  ]
+}

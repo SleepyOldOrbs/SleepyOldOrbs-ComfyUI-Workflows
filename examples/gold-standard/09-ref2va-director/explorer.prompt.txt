@@ -1,0 +1,11 @@
+subject_definitions:
+<Subject 1> is the adult botanical explorer shown in <Picture 1>: short wavy auburn hair, freckles, olive-green field jacket over a cream shirt, brown trousers and boots, a tan satchel at her left hip, and a copper fern pin on her left lapel. The reference is a multi-view identity sheet of one woman.
+summary:
+A five-second continuous live-action shot brings this explorer into a lush Victorian glasshouse.
+retention_analysis:
+<Subject 1> retains the reference identity, hairstyle, clothing, proportions, satchel and pin throughout. Transfer the subject into a real glasshouse; do not reproduce the sheet layout, gutters, repeated views or studio background. Only one woman is present.
+detailed_description:
+[Shot 1: 0.0-5.0 seconds] A medium three-quarter view of <Subject 1> standing beside a wooden potting bench surrounded by ferns. Diffuse morning light falls through old glass panes. At 0.0-1.5 seconds she looks down at a small potted fern, her hands relaxed near the bench. At 1.5-3.5 seconds she gently brushes one fern frond with her right fingertips and studies it. At 3.5-5.0 seconds she lifts her eyes toward the camera with a quiet, natural smile. The camera moves slowly forward throughout, keeping her face and upper body in frame. Preserve continuous hand anatomy, stable plants and coherent glasshouse architecture. Soft leaf rustle accompanies the touch. No dialogue or visible text.
+overall_soundscape:
+Quiet glasshouse ambience, faint outdoor birds through the glass, subtle fabric movement and a gentle leaf rustle. No speech.
+non_diegetic_music: N/A.

@@ -322,5 +322,94 @@
       1024
     ],
     "pixel_data_preserved": true
+  },
+  {
+    "group": "Gold Standard 07",
+    "image": "examples/gold-standard/07-stills/glasshouse-portrait.png",
+    "captured_workflow": "examples/gold-standard/07-stills/glasshouse-portrait.workflow.json",
+    "api_prompt": "examples/gold-standard/07-stills/glasshouse-portrait.api.json",
+    "library_workflow": "workflows/Gold-Standard/07 GOLD STANDARD.json",
+    "dimensions": [
+      2048,
+      1182
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Gold Standard 07",
+    "image": "examples/gold-standard/07-stills/highland-dawn.png",
+    "captured_workflow": "examples/gold-standard/07-stills/highland-dawn.workflow.json",
+    "api_prompt": "examples/gold-standard/07-stills/highland-dawn.api.json",
+    "library_workflow": "workflows/Gold-Standard/07 GOLD STANDARD.json",
+    "dimensions": [
+      2048,
+      1182
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Gold Standard 08",
+    "image": "examples/gold-standard/08-reference-sheets/explorer.png",
+    "captured_workflow": "examples/gold-standard/08-reference-sheets/explorer.workflow.json",
+    "api_prompt": "examples/gold-standard/08-reference-sheets/explorer.api.json",
+    "library_workflow": "workflows/Gold-Standard/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.json",
+    "dimensions": [
+      1536,
+      1536
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Gold Standard 08",
+    "image": "examples/gold-standard/08-reference-sheets/clockwork-beetle.png",
+    "captured_workflow": "examples/gold-standard/08-reference-sheets/clockwork-beetle.workflow.json",
+    "api_prompt": "examples/gold-standard/08-reference-sheets/clockwork-beetle.api.json",
+    "library_workflow": "workflows/Gold-Standard/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.json",
+    "dimensions": [
+      1536,
+      1536
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Gold Standard 09",
+    "image": "examples/gold-standard/09-ref2va-director/explorer.png",
+    "captured_workflow": "examples/gold-standard/09-ref2va-director/explorer.workflow.json",
+    "api_prompt": "examples/gold-standard/09-ref2va-director/explorer.api.json",
+    "library_workflow": "workflows/Gold-Standard/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.json",
+    "dimensions": [
+      864,
+      480
+    ],
+    "pixel_data_preserved": true,
+    "video": "examples/gold-standard/09-ref2va-director/explorer.mp4",
+    "image_role": "Video frame at approximately 2 seconds"
+  },
+  {
+    "group": "Gold Standard 10",
+    "image": "examples/gold-standard/10-long-form/continuation.png",
+    "captured_workflow": "examples/gold-standard/10-long-form/continuation.workflow.json",
+    "api_prompt": "examples/gold-standard/10-long-form/continuation.api.json",
+    "library_workflow": "workflows/Gold-Standard/10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder.json",
+    "dimensions": [
+      1296,
+      720
+    ],
+    "pixel_data_preserved": true,
+    "video": "examples/gold-standard/10-long-form/continuation.mp4",
+    "image_role": "Video frame at approximately 2 seconds"
+  },
+  {
+    "group": "Gold Standard 09",
+    "image": "examples/gold-standard/09-ref2va-director/handoff.png",
+    "captured_workflow": "examples/gold-standard/09-ref2va-director/handoff.workflow.json",
+    "api_prompt": "examples/gold-standard/09-ref2va-director/handoff.api.json",
+    "library_workflow": "workflows/Gold-Standard/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.json",
+    "dimensions": [
+      864,
+      480
+    ],
+    "pixel_data_preserved": true,
+    "image_role": "Final decoded frame used to start workflow 10"
   }
 ]

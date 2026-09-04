@@ -1,0 +1,7 @@
+For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.
+
+integrated_multimodal_description: [Shot 1] Live-action, cinematic, soft natural daylight. A botanical explorer with auburn hair in a neat bob wears an olive-green field jacket over a cream collared shirt, a small fern pin on her left lapel, and a brown strap crosses her chest. The nearest fern has deep green fronds with serrated edges, its surface glossy under the light. She looks down toward the plant, gently straightens one frond with her right hand, then relaxes her fingers. The camera pushes forward with small amplitude at slow speed.
+
+overall_soundscape: Distant bird calls, faint rustle of leaves outside the glasshouse, soft whisper of fabric as she moves her hand.
+
+non_diegetic_music: N/A

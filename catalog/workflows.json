@@ -1817,8 +1817,11 @@
       "pixaroma_compare_pixcmp_oghlt_00010_.png"
     ],
     "sha256": "8bc46254948d18f0c7c82d73fea135135ed6e11806444bb174558947c5142f0b",
-    "examples": [],
-    "status": "Export checked; not rerun for this publication"
+    "examples": [
+      "examples/gold-standard/07-stills/glasshouse-portrait.png",
+      "examples/gold-standard/07-stills/highland-dawn.png"
+    ],
+    "status": "Run successfully on 2026-09-04; generated examples and captured settings included"
   },
   {
     "name": "08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready",
@@ -1863,8 +1866,11 @@
       "Krea2_Ref2VA_Entity_1207712123033395_00001_.png"
     ],
     "sha256": "72ae43644de0057e84e7bc00bae6db435cb79c389a74d463a7e0329f89913606",
-    "examples": [],
-    "status": "Export checked; not rerun for this publication"
+    "examples": [
+      "examples/gold-standard/08-reference-sheets/explorer.png",
+      "examples/gold-standard/08-reference-sheets/clockwork-beetle.png"
+    ],
+    "status": "Run successfully on 2026-09-04; generated examples and captured settings included"
   },
   {
     "name": "09 GOLD STANDARD - MiniMax H3 Ref2VA Director",
@@ -1923,8 +1929,10 @@
       "img_00006_.png"
     ],
     "sha256": "24c74e482e0b6a6a1151f66879e07713c2b8d8aa0276820a911b4010caf5a7f0",
-    "examples": [],
-    "status": "Export checked; not rerun for this publication"
+    "examples": [
+      "examples/gold-standard/09-ref2va-director/explorer.png"
+    ],
+    "status": "Run successfully on 2026-09-04; generated examples and captured settings included"
   },
   {
     "name": "10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder",
@@ -1983,8 +1991,10 @@
       "img_00002_.png"
     ],
     "sha256": "3fc4003abbddfe601119159b31437687a048a76ca12000e7cd82a9ee4c7bd1d7",
-    "examples": [],
-    "status": "Export checked; not rerun for this publication"
+    "examples": [
+      "examples/gold-standard/10-long-form/continuation.png"
+    ],
+    "status": "Run successfully on 2026-09-04; generated examples and captured settings included"
   },
   {
     "name": "Codex - 1 Ideogram 4 Gold Standard",

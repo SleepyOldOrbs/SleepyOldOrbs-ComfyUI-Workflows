@@ -2,7 +2,7 @@
 
 48 saved workflows from **Codex MCP Demos** and **Gold-Standard** only. Default templates from other folders are excluded. Source subfolders and filenames are retained.
 
-Generated examples currently cover nine Morris families. Other workflows are exported and documented, but have not been rerun for this publication.
+Generated examples cover nine Morris families and Gold Standard workflows 07–10, including stills, reference sheets and short videos. Other workflows are exported and documented, but have not been rerun for this publication.
 
 | Collection | Workflows |
 |---|---:|
@@ -45,10 +45,10 @@ Generated examples currently cover nine Morris families. Other workflows are exp
 
 | Workflow | Details | Examples |
 |---|---|---|
-| [07 GOLD STANDARD](workflows/Gold-Standard/07%20GOLD%20STANDARD.json) | [Models and nodes](docs/workflows/Gold-Standard/07%20GOLD%20STANDARD.md) | Not yet included |
-| [08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready](workflows/Gold-Standard/08%20KREA2%20ENTITY%20REFERENCE%20SHEETS%20-%20Ref2VA%20Ready.json) | [Models and nodes](docs/workflows/Gold-Standard/08%20KREA2%20ENTITY%20REFERENCE%20SHEETS%20-%20Ref2VA%20Ready.md) | Not yet included |
-| [09 GOLD STANDARD - MiniMax H3 Ref2VA Director](workflows/Gold-Standard/09%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Ref2VA%20Director.json) | [Models and nodes](docs/workflows/Gold-Standard/09%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Ref2VA%20Director.md) | Not yet included |
-| [10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder](workflows/Gold-Standard/10%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Long%20Form%20Shot%20Builder.json) | [Models and nodes](docs/workflows/Gold-Standard/10%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Long%20Form%20Shot%20Builder.md) | Not yet included |
+| [07 GOLD STANDARD](workflows/Gold-Standard/07%20GOLD%20STANDARD.json) | [Models and nodes](docs/workflows/Gold-Standard/07%20GOLD%20STANDARD.md) | [Gallery and runs](examples/GOLD-STANDARD.md) |
+| [08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready](workflows/Gold-Standard/08%20KREA2%20ENTITY%20REFERENCE%20SHEETS%20-%20Ref2VA%20Ready.json) | [Models and nodes](docs/workflows/Gold-Standard/08%20KREA2%20ENTITY%20REFERENCE%20SHEETS%20-%20Ref2VA%20Ready.md) | [Gallery and runs](examples/GOLD-STANDARD.md) |
+| [09 GOLD STANDARD - MiniMax H3 Ref2VA Director](workflows/Gold-Standard/09%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Ref2VA%20Director.json) | [Models and nodes](docs/workflows/Gold-Standard/09%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Ref2VA%20Director.md) | [Gallery and runs](examples/GOLD-STANDARD.md) |
+| [10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder](workflows/Gold-Standard/10%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Long%20Form%20Shot%20Builder.json) | [Models and nodes](docs/workflows/Gold-Standard/10%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Long%20Form%20Shot%20Builder.md) | [Gallery and runs](examples/GOLD-STANDARD.md) |
 | [Codex - 1 Ideogram 4 Gold Standard](workflows/Gold-Standard/Codex%20-%201%20Ideogram%204%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%201%20Ideogram%204%20Gold%20Standard.md) | Not yet included |
 | [Codex - 2 FLUX.2 Klein Gold Standard](workflows/Gold-Standard/Codex%20-%202%20FLUX.2%20Klein%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%202%20FLUX.2%20Klein%20Gold%20Standard.md) | Not yet included |
 | [Codex - 3 LTX 2.5 Gold Standard](workflows/Gold-Standard/Codex%20-%203%20LTX%202.5%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%203%20LTX%202.5%20Gold%20Standard.md) | Not yet included |
