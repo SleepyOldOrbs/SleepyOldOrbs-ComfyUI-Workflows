@@ -1,0 +1,2778 @@
+{
+  "id": "212513a6-49fc-4c13-b095-c41d191b5d5d",
+  "revision": 0,
+  "last_node_id": 197,
+  "last_link_id": 88,
+  "nodes": [
+    {
+      "id": 183,
+      "type": "CLIPLoader",
+      "pos": [
+        -2500,
+        1543.9999999999998
+      ],
+      "size": [
+        600,
+        136
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "clip_name",
+          "name": "clip_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "clip_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "type",
+          "name": "type",
+          "type": "COMBO",
+          "widget": {
+            "name": "type"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "device",
+          "name": "device",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "device"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            50
+          ]
+        }
+      ],
+      "title": "AI ONLY — Generative Qwen3-VL Text Model",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "CLIPLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "clip_name": true,
+            "type": true,
+            "device": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
+        "krea2",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
+        "type": "krea2",
+        "device": "default"
+      }
+    },
+    {
+      "id": 181,
+      "type": "PixaromaTextJoinTwo",
+      "pos": [
+        -750,
+        518
+      ],
+      "size": [
+        650,
+        162
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "text_1",
+          "name": "text_1",
+          "shape": 7,
+          "type": "STRING",
+          "link": 47
+        },
+        {
+          "localized_name": "text_2",
+          "name": "text_2",
+          "shape": 7,
+          "type": "STRING",
+          "link": 48
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            49
+          ]
+        }
+      ],
+      "title": "FINAL PROMPT + LoRA TRIGGERS",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaTextJoinTwo",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "text_1": true,
+            "text_2": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "text_1": "",
+        "text_2": ""
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 150,
+      "type": "EmptyLatentImage",
+      "pos": [
+        454.0767578125,
+        764.0000000000001
+      ],
+      "size": [
+        324.0767578125,
+        136
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "width",
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 34
+        },
+        {
+          "localized_name": "height",
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 35
+        },
+        {
+          "localized_name": "batch_size",
+          "name": "batch_size",
+          "type": "INT",
+          "widget": {
+            "name": "batch_size"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            11
+          ]
+        }
+      ],
+      "title": "1C. Empty Latent from Pixaroma Resolution",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "EmptyLatentImage",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "width": true,
+            "height": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        1024,
+        1024,
+        1
+      ],
+      "widgets_values_named": {
+        "width": 1024,
+        "height": 1024,
+        "batch_size": 1
+      }
+    },
+    {
+      "id": 40,
+      "type": "VAELoader",
+      "pos": [
+        100,
+        1040
+      ],
+      "size": [
+        280,
+        84
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "vae_name",
+          "name": "vae_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "vae_name"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "VAE",
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            20
+          ]
+        }
+      ],
+      "title": "1H. Load Krea 2 VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "VAELoader",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "vae_name": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "qwen_image_vae.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "qwen_image_vae.safetensors"
+      }
+    },
+    {
+      "id": 179,
+      "type": "PixaromaPromptMulti",
+      "pos": [
+        -1824.4875961317723,
+        187.99999999999966
+      ],
+      "size": [
+        850,
+        1326
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            43
+          ]
+        },
+        {
+          "localized_name": "prompts",
+          "name": "prompts",
+          "type": "PIXAROMA_PROMPT_LIST",
+          "links": []
+        }
+      ],
+      "title": "10-PROMPT BATCH — Typical Pictures",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaPromptMulti",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        },
+        "promptMultiState": {
+          "version": 2,
+          "mode": "queue",
+          "rows": [
+            {
+              "id": "rmsvjkb3v_1",
+              "enabled": true,
+              "label": "old rural churchyard",
+              "text": "A moonlit path winding through an old rural churchyard, no people, no animals. Bare trees lean over weathered gravestones and a small stone church sits partly obscured in the mist. Wet leaves and puddles glisten on the path, catching cold silver moonlight, while one small amber-lit window glows softly from the church. Moody autumn stillness, deep shadows, gentle fog, 19th-century nocturne oil painting, painterly and atmospheric"
+            },
+            {
+              "id": "rmsvjkb3v_2",
+              "enabled": true,
+              "label": "wooden bridge deep in an autumn forest",
+              "text": "A narrow moonlit footpath crossing a small wooden bridge deep in an autumn forest, no people, no animals. Tall bare trees rise on both sides, their branches tangled against a deep blue-black sky. Wet fallen leaves cover the ground, and a dark stream passes beneath the bridge, reflecting silvery moonlight. Thin mist hangs low between the trunks, with a faint warm glow from a distant unseen cottage far beyond the trees. Quiet melancholy, Victorian nocturne atmosphere, painterly oil texture, poetic realism"
+            },
+            {
+              "id": "rmsvjl7mt_3",
+              "enabled": true,
+              "label": "moonlit country lane",
+              "text": "A lonely moonlit country lane bordered by hedges and tall dark trees, no people, no animals. An old wooden gate stands slightly open beside the muddy lane, and the wet ground reflects pale moonlight in scattered puddles. Bare branches arch overhead, low mist drifts across the road, and a distant farmhouse window glows faintly through the haze. Quiet rural melancholy, Victorian nocturne mood, cool blue shadows with subtle amber warmth, painterly oil texture"
+            },
+            {
+              "id": "rmsvjl8fg_4",
+              "enabled": true,
+              "label": "overgrown Victorian walled garden",
+              "text": "A moonlit path through an overgrown Victorian walled garden, no people, no animals. Dark trees and tangled shrubs crowd around a narrow wet path lined with fallen copper leaves. Moss-covered brick walls fade into soft mist, and an old iron gate stands in the distance beneath silver moonlight. A faint warm light glows from a small garden house beyond the gate. Atmospheric, reflective, autumnal, poetic realism, painterly nocturne oil painting,"
+            },
+            {
+              "id": "rmsvjl8yk_5",
+              "enabled": true,
+              "label": "forest beside a still pond",
+              "text": "A moonlit path at the edge of a forest beside a still pond, no people, no animals. Tall bare trees frame the scene, their reflections dissolving in the dark water. Wet earth, fallen leaves, and shallow puddles catch the silver light of the moon, while thin mist drifts across the pond and between the trunks. Far in the background, a small cottage window glows warmly through the haze. Quiet melancholy, deep blue-black night, soft amber contrast, Victorian nocturne atmosphere, painterly oil texture"
+            },
+            {
+              "id": "rmsvjlo71_6",
+              "enabled": true,
+              "label": "winter forest after fresh snowfall",
+              "text": "A deserted moonlit path through a winter forest after fresh snowfall, no people, no animals. Tall bare trees rise on both sides, their dark trunks and branches dusted with snow. The narrow path is half-covered in white, with icy patches reflecting cold silver moonlight. Thin mist hangs between the trees, and a faint warm light glows from a distant cottage barely visible through the haze. Quiet stillness, deep blue-black night, painterly nocturne oil painting, poetic realism"
+            },
+            {
+              "id": "rmsvjlonp_7",
+              "enabled": true,
+              "label": "ruined modern city square",
+              "text": "A ruined modern city square after rain at night, no people, no animals. Broken office buildings, abandoned cafés, cracked paving stones, rusted street furniture, dead trees, and shallow puddles reflecting moonlight. Low mist hangs across the square, and one distant warm window glows faintly through the darkness. Quiet melancholy, post-apocalyptic urban decay, painterly nocturne atmosphere"
+            },
+            {
+              "id": "rmsvjlp65_8",
+              "enabled": true,
+              "label": "ruins of an old abbey",
+              "text": "A moonlit path leading through the ruins of an old abbey, no people, no animals. Broken stone arches and crumbling walls stand among tall bare trees, with wet leaves scattered across the ground and shallow puddles reflecting pale moonlight. Low mist drifts through the ruined cloisters, and one distant amber light glows from a small keeper’s house beyond the ruins. Quiet melancholy, Victorian nocturne atmosphere, painterly oil texture, deep shadows and soft silver light"
+            },
+            {
+              "id": "rmsvjlpnx_9",
+              "enabled": true,
+              "label": "canal towpath in an old industrial town",
+              "text": "A moonlit canal towpath in an old industrial town, no people, no animals. The narrow wet path runs beside still dark water, with brick warehouses and iron railings fading into soft mist. Reflections shimmer in the canal, bare trees and old lamp posts stand along the path, and a few distant windows glow warmly through the haze. Quiet melancholy, Victorian night atmosphere, painterly nocturne oil painting, cool silver moonlight with subtle amber warmth"
+            },
+            {
+              "id": "rmsvjlqva_10",
+              "enabled": true,
+              "label": "Victorian city square after rain",
+              "text": "A moonlit Victorian city square after rain, no people, no animals. Wet cobblestones reflect the glow of gas lamps, and tall dark buildings rise around the square beneath a deep blue-black sky. Bare tree branches edge the scene, while light mist softens the distance and one warmly lit window glows from an upper floor. Quiet nocturne mood, reflective surfaces, poetic realism, painterly oil texture, soft amber light against cool shadows"
+            }
+          ],
+          "activeIndex": 9
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "promptmulti": ""
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 178,
+      "type": "PixaromaAIPrompt",
+      "pos": [
+        -2500,
+        823.9999999999999
+      ],
+      "size": [
+        600,
+        640
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 2,
+      "inputs": [
+        {
+          "localized_name": "clip",
+          "name": "clip",
+          "shape": 7,
+          "type": "CLIP",
+          "link": 50
+        },
+        {
+          "localized_name": "image",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "localized_name": "video",
+          "name": "video",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "localized_name": "audio",
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "localized_name": "text",
+          "name": "text",
+          "shape": 7,
+          "type": "STRING",
+          "link": 44
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            46
+          ]
+        }
+      ],
+      "title": "AI PROMPT ENHANCER — Applies to Quick or Batch",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaAIPrompt",
+        "aiPromptState": {
+          "idea": "",
+          "formula": "Rewrite the supplied idea as one polished Krea 2 image prompt. Preserve the subject and intent. Add coherent composition, lighting, atmosphere and material detail. Return only the final image prompt, with no commentary.",
+          "model": "",
+          "clip_type": "krea2",
+          "order": "wired",
+          "sep": "newline",
+          "seed": 6811350375862492,
+          "temperature": 0.7,
+          "max_length": 512,
+          "top_k": 64,
+          "top_p": 0.95,
+          "min_p": 0.05,
+          "repetition_penalty": 1.05,
+          "presence_penalty": 0,
+          "do_sample": true,
+          "thinking": false,
+          "use_default_template": true,
+          "release_model": false,
+          "seed_mode": "fixed",
+          "idea_share": 0.36
+        },
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [],
+      "widgets_values_named": {},
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 53,
+      "type": "CLIPLoader",
+      "pos": [
+        100,
+        841
+      ],
+      "size": [
+        280,
+        136
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "clip_name",
+          "name": "clip_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "clip_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "type",
+          "name": "type",
+          "type": "COMBO",
+          "widget": {
+            "name": "type"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "device",
+          "name": "device",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "device"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "title": "1G. Load Krea 2 Text Encoder",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "CLIPLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "clip_name": true,
+            "type": true,
+            "device": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "qwen3vl_4b_fp8_scaled (1).safetensors",
+        "krea2",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "qwen3vl_4b_fp8_scaled (1).safetensors",
+        "type": "krea2",
+        "device": "default"
+      }
+    },
+    {
+      "id": 151,
+      "type": "CLIPTextEncode",
+      "pos": [
+        943.1921956253263,
+        588
+      ],
+      "size": [
+        280,
+        106
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "clip",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 13
+        },
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "widget": {
+            "name": "text"
+          },
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            5,
+            9
+          ]
+        }
+      ],
+      "title": "2C. Encode Prompt + LoRA Triggers",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "CLIPTextEncode",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "text": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "text": ""
+      }
+    },
+    {
+      "id": 182,
+      "type": "PixaromaShowText",
+      "pos": [
+        -750.9048841290517,
+        791.0000000000001
+      ],
+      "size": [
+        650,
+        500
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "source",
+          "name": "source",
+          "type": "*",
+          "link": 49
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            12
+          ]
+        }
+      ],
+      "title": "FINAL PROMPT MONITOR — What Krea 2 Receives",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaShowText",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "William Morris Style, British Arts and Crafts textile ornament, stylised natural forms translated into flat decorative silhouettes, sinuous interlacing stems, rhythmic botanical repetition, carefully balanced positive and negative shapes, a harmonious limited palette, handcrafted surface design.\nCreate an original all-over repeating decorative pattern: a matte printed fabric swatch with crisp but handmade edges.\n#wm_easter\nKeep the five-colour palette and the assigned ground throughout the image. Render animals, insects and seasonal objects as ornamental silhouettes woven into the leafy repeat, with clear anatomy and readable shapes.\nRepeat structure: a diamond lattice softened by curling leaves. Arrangement: a luxuriant dense repeat with clearly separated silhouettes. Scale: two clearly contrasting scales of botanical ornament.\nDrawing treatment: slightly irregular hand-cut block-print contours.\nShow the pattern flat and straight-on, filling the entire image edge to edge, with motifs continuing naturally beyond the edges and consistent spacing. Even diffuse illumination. No perspective, fabric folds, room mockup, frame, border, typography, signature or watermark. Keep the result a decorative fabric or surface pattern."
+      ],
+      "widgets_values_named": {
+        "text": "William Morris Style, British Arts and Crafts textile ornament, stylised natural forms translated into flat decorative silhouettes, sinuous interlacing stems, rhythmic botanical repetition, carefully balanced positive and negative shapes, a harmonious limited palette, handcrafted surface design.\nCreate an original all-over repeating decorative pattern: a matte printed fabric swatch with crisp but handmade edges.\n#wm_easter\nKeep the five-colour palette and the assigned ground throughout the image. Render animals, insects and seasonal objects as ornamental silhouettes woven into the leafy repeat, with clear anatomy and readable shapes.\nRepeat structure: a diamond lattice softened by curling leaves. Arrangement: a luxuriant dense repeat with clearly separated silhouettes. Scale: two clearly contrasting scales of botanical ornament.\nDrawing treatment: slightly irregular hand-cut block-print contours.\nShow the pattern flat and straight-on, filling the entire image edge to edge, with motifs continuing naturally beyond the edges and consistent spacing. Even diffuse illumination. No perspective, fabric folds, room mockup, frame, border, typography, signature or watermark. Keep the result a decorative fabric or surface pattern."
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 146,
+      "type": "ComfyUI-Krea2T-Enhancer",
+      "pos": [
+        1595.1609456253263,
+        170
+      ],
+      "size": [
+        280,
+        136
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 4
+        },
+        {
+          "localized_name": "enabled",
+          "name": "enabled",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "enabled"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "strength",
+          "name": "strength",
+          "type": "FLOAT",
+          "widget": {
+            "name": "strength"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "debug",
+          "name": "debug",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "debug"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            8
+          ]
+        }
+      ],
+      "title": "2B. Krea 2 Model Enhancer",
+      "properties": {
+        "cnr_id": "ComfyUI-Krea2T-Enhancer",
+        "ver": "6666ffb729b2afc8ecdffd3cb6f121555ec948cb",
+        "Node name for S&R": "ComfyUI-Krea2T-Enhancer",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "enabled": true,
+            "strength": true,
+            "debug": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        true,
+        1,
+        false
+      ],
+      "widgets_values_named": {
+        "enabled": true,
+        "strength": 1,
+        "debug": false
+      }
+    },
+    {
+      "id": 149,
+      "type": "KSampler",
+      "pos": [
+        2210.44530846617,
+        210.50000000000023
+      ],
+      "size": [
+        277.5321812650186,
+        348
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 8
+        },
+        {
+          "localized_name": "positive",
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 9
+        },
+        {
+          "localized_name": "negative",
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 10
+        },
+        {
+          "localized_name": "latent_image",
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 11
+        },
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": 36
+        },
+        {
+          "localized_name": "steps",
+          "name": "steps",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "cfg",
+          "name": "cfg",
+          "type": "FLOAT",
+          "widget": {
+            "name": "cfg"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "sampler_name",
+          "name": "sampler_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "sampler_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "scheduler",
+          "name": "scheduler",
+          "type": "COMBO",
+          "widget": {
+            "name": "scheduler"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "denoise",
+          "name": "denoise",
+          "type": "FLOAT",
+          "widget": {
+            "name": "denoise"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            19
+          ]
+        }
+      ],
+      "title": "3A. PASS 1 — Base Generation",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "KSampler",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "seed": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        20260821,
+        "fixed",
+        20,
+        1,
+        "dpmpp_2m_sde",
+        "simple",
+        1
+      ],
+      "widgets_values_named": {
+        "seed": 20260821,
+        "control_after_generate": "fixed",
+        "steps": 20,
+        "cfg": 1,
+        "sampler_name": "dpmpp_2m_sde",
+        "scheduler": "simple",
+        "denoise": 1
+      }
+    },
+    {
+      "id": 154,
+      "type": "VAEDecode",
+      "pos": [
+        2277.57030846617,
+        158.4999999999999
+      ],
+      "size": [
+        280,
+        80
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "samples",
+          "name": "samples",
+          "type": "LATENT",
+          "link": 19
+        },
+        {
+          "localized_name": "vae",
+          "name": "vae",
+          "type": "VAE",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "IMAGE",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            82
+          ]
+        }
+      ],
+      "title": "3B. Decode Pass 1 Preview",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "VAEDecode",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 141,
+      "type": "ImageSharpenKJ",
+      "pos": [
+        2210.44530846617,
+        620.5000000000002
+      ],
+      "size": [
+        280,
+        130
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE,MASK",
+          "link": 82
+        },
+        {
+          "localized_name": "method",
+          "name": "method",
+          "type": "COMFY_DYNAMICCOMBO_V3",
+          "widget": {
+            "name": "method"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "method.strength",
+          "name": "method.strength",
+          "type": "FLOAT",
+          "widget": {
+            "name": "method.strength"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "method.radius",
+          "name": "method.radius",
+          "type": "FLOAT",
+          "widget": {
+            "name": "method.radius"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "method.threshold",
+          "name": "method.threshold",
+          "type": "FLOAT",
+          "widget": {
+            "name": "method.threshold"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "output",
+          "name": "output",
+          "type": "IMAGE",
+          "links": [
+            85,
+            86,
+            87
+          ]
+        }
+      ],
+      "title": "4A. Gentle RCAS Comparison (1×)",
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "3f20054214fec9f9234fd3841ae6f1e4287948f6",
+        "Node name for S&R": "ImageSharpenKJ",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "method": true,
+            "method.strength": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "adaptive_usm",
+        0.5,
+        1,
+        0.05
+      ],
+      "widgets_values_named": {
+        "method": "adaptive_usm",
+        "method.strength": 0.5,
+        "method.radius": 1,
+        "method.threshold": 0.05
+      }
+    },
+    {
+      "id": 192,
+      "type": "DLSS5EnhanceImages",
+      "pos": [
+        2191.674935109688,
+        988.9324956846895
+      ],
+      "size": [
+        296.78125,
+        78
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 85
+        },
+        {
+          "localized_name": "settings",
+          "name": "settings",
+          "type": "DLSS5_SETTINGS",
+          "link": 70
+        },
+        {
+          "localized_name": "verify_neural_rendering",
+          "name": "verify_neural_rendering",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "verify_neural_rendering"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            84,
+            88
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "Blueforcer/ComfyUI-DLSS5-Enhancer",
+        "ver": "796ed5927a202ba50b5c929cd08e16b365041162",
+        "Node name for S&R": "DLSS5EnhanceImages",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        true
+      ],
+      "widgets_values_named": {
+        "verify_neural_rendering": true
+      }
+    },
+    {
+      "id": 174,
+      "type": "PixaromaRunTimer",
+      "pos": [
+        943.1921956253263,
+        954.9999999999997
+      ],
+      "size": [
+        300,
+        86
+      ],
+      "flags": {
+        "no_title": true
+      },
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "ffcf2f56aa448f2df763b09b70857632792b7805",
+        "Node name for S&R": "PixaromaRunTimer",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "runTimerState": {
+          "version": 1,
+          "color": "#f66744",
+          "decimals": 2,
+          "chime": true,
+          "sound": "Echo.mp3",
+          "volume": 70
+        },
+        "runTimerLastMs": 27955,
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 175,
+      "type": "PixaromaRunLog",
+      "pos": [
+        943.1921956253263,
+        1088.4999999999998
+      ],
+      "size": [
+        300,
+        280
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaRunLog",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "runLogHistory": [
+          {
+            "ms": 28314,
+            "label": ""
+          },
+          {
+            "ms": 109951,
+            "label": ""
+          },
+          {
+            "ms": 50726,
+            "label": ""
+          },
+          {
+            "ms": 51304,
+            "label": ""
+          },
+          {
+            "ms": 46392,
+            "label": ""
+          },
+          {
+            "ms": 47904,
+            "label": ""
+          },
+          {
+            "ms": 47165,
+            "label": ""
+          },
+          {
+            "ms": 44215,
+            "label": ""
+          },
+          {
+            "ms": 46729,
+            "label": ""
+          },
+          {
+            "ms": 44737,
+            "label": ""
+          }
+        ],
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "run_log_ui": ""
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 197,
+      "type": "PixaromaCompare",
+      "pos": [
+        1295.1609456253263,
+        1001.4999999999999
+      ],
+      "size": [
+        759.2914974421501,
+        739.7540852254991
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image1",
+          "name": "image1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 87
+        },
+        {
+          "localized_name": "image2",
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 88
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "aux_id": "ComfyUI-Pixaroma.git",
+        "ver": "09104c176ab4634427ba6caa31ebbcd86cee1ccd",
+        "Node name for S&R": "PixaromaCompare",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        },
+        "compareState": {
+          "mode": 0,
+          "showWhich": 0,
+          "opacity": 0.5,
+          "images": [
+            {
+              "filename": "pixaroma_compare_pixcmp_nlyzv_00095_.png",
+              "subfolder": "",
+              "type": "temp"
+            },
+            {
+              "filename": "pixaroma_compare_pixcmp_nlyzv_00096_.png",
+              "subfolder": "",
+              "type": "temp"
+            }
+          ]
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 54,
+      "type": "UNETLoader",
+      "pos": [
+        100,
+        660
+      ],
+      "size": [
+        280,
+        110
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "unet_name",
+          "name": "unet_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "unet_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "weight_dtype",
+          "name": "weight_dtype",
+          "type": "COMBO",
+          "widget": {
+            "name": "weight_dtype"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "MODEL",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            2
+          ]
+        }
+      ],
+      "title": "1F. Load Krea 2 Turbo Model",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "UNETLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "unet_name": true,
+            "weight_dtype": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Krea2\\krea2_turbo_fp8_scaled.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "Krea2\\krea2_turbo_fp8_scaled.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    {
+      "id": 143,
+      "type": "PixaromaPrompt",
+      "pos": [
+        -2496.195489848562,
+        202.99999999999966
+      ],
+      "size": [
+        600,
+        475
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "text",
+          "localized_name": "text_in",
+          "name": "text_in",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            42
+          ]
+        }
+      ],
+      "title": "WILLIAM MORRIS - Autumn - Matched Motifs and Colours",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaPrompt",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "promptState": {
+          "text": "@wm_style\nCreate an original all-over repeating decorative pattern: #wm_surface.\n#wm_autumn\nKeep the five-colour palette and the assigned ground throughout the image. Render animals, insects and seasonal objects as ornamental silhouettes woven into the leafy repeat, with clear anatomy and readable shapes.\nRepeat structure: #wm_repeat. Arrangement: #wm_density. Scale: #wm_scale.\nDrawing treatment: #wm_linework.\nShow the pattern flat and straight-on, filling the entire image edge to edge, with motifs continuing naturally beyond the edges and consistent spacing. Even diffuse illumination. No perspective, fabric folds, room mockup, frame, border, typography, signature or watermark. Keep the result a decorative fabric or surface pattern.",
+          "order": "mine",
+          "sep": ", ",
+          "accent": null,
+          "showExpanded": true
+        },
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "pix_prompt_ui": ""
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 147,
+      "type": "ConditioningZeroOut",
+      "pos": [
+        1261.30054855959,
+        588
+      ],
+      "size": [
+        280,
+        60
+      ],
+      "flags": {
+        "collapsed": true
+      },
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "conditioning",
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            10
+          ]
+        }
+      ],
+      "title": "2D. Zero Negative Conditioning",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "ConditioningZeroOut",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      }
+    },
+    {
+      "id": 193,
+      "type": "DLSS5Settings",
+      "pos": [
+        2191.674935109688,
+        1119.5000000000002
+      ],
+      "size": [
+        304.15625,
+        346
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "upscaling_mode",
+          "name": "upscaling_mode",
+          "type": "COMBO",
+          "widget": {
+            "name": "upscaling_mode"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "nr_preset",
+          "name": "nr_preset",
+          "type": "COMBO",
+          "widget": {
+            "name": "nr_preset"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "nr_style",
+          "name": "nr_style",
+          "type": "COMBO",
+          "widget": {
+            "name": "nr_style"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "nr_intensity",
+          "name": "nr_intensity",
+          "type": "FLOAT",
+          "widget": {
+            "name": "nr_intensity"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "local_tone_strength",
+          "name": "local_tone_strength",
+          "type": "FLOAT",
+          "widget": {
+            "name": "local_tone_strength"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "local_structure_strength",
+          "name": "local_structure_strength",
+          "type": "FLOAT",
+          "widget": {
+            "name": "local_structure_strength"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "skin_structure_strength",
+          "name": "skin_structure_strength",
+          "type": "FLOAT",
+          "widget": {
+            "name": "skin_structure_strength"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "automatic_mask",
+          "name": "automatic_mask",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "automatic_mask"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "dlss_model_preset",
+          "name": "dlss_model_preset",
+          "type": "COMBO",
+          "widget": {
+            "name": "dlss_model_preset"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "motion",
+          "name": "motion",
+          "type": "COMBO",
+          "widget": {
+            "name": "motion"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "scene_change_threshold",
+          "name": "scene_change_threshold",
+          "type": "FLOAT",
+          "widget": {
+            "name": "scene_change_threshold"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "warmup_frames",
+          "name": "warmup_frames",
+          "type": "INT",
+          "widget": {
+            "name": "warmup_frames"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "runtime_dir",
+          "name": "runtime_dir",
+          "type": "STRING",
+          "widget": {
+            "name": "runtime_dir"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "settings",
+          "name": "settings",
+          "type": "DLSS5_SETTINGS",
+          "links": [
+            70
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "Blueforcer/ComfyUI-DLSS5-Enhancer",
+        "ver": "796ed5927a202ba50b5c929cd08e16b365041162",
+        "Node name for S&R": "DLSS5Settings",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        }
+      },
+      "widgets_values": [
+        "2x (Performance)",
+        "Default",
+        "Natural",
+        1,
+        1,
+        1.5,
+        2,
+        true,
+        "M",
+        "auto",
+        0.24,
+        0,
+        ""
+      ],
+      "widgets_values_named": {
+        "upscaling_mode": "2x (Performance)",
+        "nr_preset": "Default",
+        "nr_style": "Natural",
+        "nr_intensity": 1,
+        "local_tone_strength": 1,
+        "local_structure_strength": 1.5,
+        "skin_structure_strength": 2,
+        "automatic_mask": true,
+        "dlss_model_preset": "M",
+        "motion": "auto",
+        "scene_change_threshold": 0.24,
+        "warmup_frames": 0,
+        "runtime_dir": ""
+      }
+    },
+    {
+      "id": 170,
+      "type": "PixaromaSeed",
+      "pos": [
+        454.0767578125,
+        140
+      ],
+      "size": [
+        330,
+        246
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "type": "INT",
+          "links": [
+            36,
+            36
+          ]
+        }
+      ],
+      "title": "1D. Pass 1 Seed Pixaroma",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSeed",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "seedState": "{\"seed\":1232289402848244,\"mode\":\"random\",\"compact\":false,\"digits\":16}",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        {
+          "seed": 1232289402848244,
+          "mode": "random",
+          "compact": false,
+          "digits": 16
+        }
+      ],
+      "widgets_values_named": {
+        "seed_ui": {
+          "seed": 1232289402848244,
+          "mode": "random",
+          "compact": false,
+          "digits": 16
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 171,
+      "type": "PixaromaSeed",
+      "pos": [
+        460,
+        450
+      ],
+      "size": [
+        330,
+        246
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "type": "INT",
+          "links": [
+            37
+          ]
+        }
+      ],
+      "title": "1E. Pass 2 Seed Pixaroma",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSeed",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "seedState": "{\"seed\":3557313295561028,\"mode\":\"random\",\"compact\":false,\"digits\":16}",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        {
+          "seed": 3557313295561028,
+          "mode": "random",
+          "compact": false,
+          "digits": 16
+        }
+      ],
+      "widgets_values_named": {
+        "seed_ui": {
+          "seed": 3557313295561028,
+          "mode": "random",
+          "compact": false,
+          "digits": 16
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 177,
+      "type": "PixaromaSwitch",
+      "pos": [
+        -750,
+        140
+      ],
+      "size": [
+        650,
+        100
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "​",
+          "name": "input_1",
+          "type": "*",
+          "link": 42
+        },
+        {
+          "label": "​",
+          "name": "input_2",
+          "type": "*",
+          "link": 43
+        },
+        {
+          "label": "​",
+          "name": "input_3",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "output",
+          "name": "output",
+          "type": "STRING",
+          "links": [
+            44,
+            45
+          ]
+        }
+      ],
+      "title": "MULTI-PROMPT — OFF: Quick  |  ON: Batch of 10",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSwitch",
+        "switchState": {
+          "activeIndex": 1,
+          "labels": {
+            "1": "OFF — Quick Prompt",
+            "2": "ON — Batch of 10"
+          },
+          "visibleCount": 3
+        },
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 180,
+      "type": "PixaromaSwitch",
+      "pos": [
+        -750,
+        320
+      ],
+      "size": [
+        650,
+        100
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "​",
+          "name": "input_1",
+          "type": "*",
+          "link": 45
+        },
+        {
+          "label": "​",
+          "name": "input_2",
+          "type": "*",
+          "link": 46
+        },
+        {
+          "label": "​",
+          "name": "input_3",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "output",
+          "name": "output",
+          "type": "STRING",
+          "links": [
+            47
+          ]
+        }
+      ],
+      "title": "AI ENHANCEMENT — OFF: Bypass  |  ON: Enhance",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSwitch",
+        "switchState": {
+          "activeIndex": 1,
+          "labels": {
+            "1": "OFF — Original Prompt",
+            "2": "ON — AI Enhanced"
+          },
+          "visibleCount": 3
+        },
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 169,
+      "type": "PixaromaResolution",
+      "pos": [
+        120,
+        155
+      ],
+      "size": [
+        240,
+        435
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "width",
+          "name": "width",
+          "type": "INT",
+          "links": [
+            34,
+            34
+          ]
+        },
+        {
+          "localized_name": "height",
+          "name": "height",
+          "type": "INT",
+          "links": [
+            35,
+            35
+          ]
+        }
+      ],
+      "title": "1B. EDIT THIS — Resolution Pixaroma",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaResolution",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "resolutionState": "{\"mode\":\"preset\",\"ratio\":\"1:1\",\"w\":1024,\"h\":1024,\"custom_w\":1024,\"custom_h\":1024,\"custom_ratio_w\":4,\"custom_ratio_h\":3,\"snap\":16}",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        {
+          "mode": "preset",
+          "ratio": "1:1",
+          "w": 1024,
+          "h": 1024,
+          "custom_w": 1024,
+          "custom_h": 1024,
+          "custom_ratio_w": 4,
+          "custom_ratio_h": 3,
+          "snap": 16
+        }
+      ],
+      "widgets_values_named": {
+        "resolution_ui": {
+          "mode": "preset",
+          "ratio": "1:1",
+          "w": 1024,
+          "h": 1024,
+          "custom_w": 1024,
+          "custom_h": 1024,
+          "custom_ratio_w": 4,
+          "custom_ratio_h": 3,
+          "snap": 16
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 82,
+      "type": "PixaromaLoraLoader",
+      "pos": [
+        968.5293654681734,
+        155
+      ],
+      "size": [
+        600,
+        394
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 2
+        },
+        {
+          "localized_name": "clip",
+          "name": "clip",
+          "shape": 7,
+          "type": "CLIP",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "MODEL",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            4
+          ]
+        },
+        {
+          "localized_name": "CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": []
+        },
+        {
+          "localized_name": "triggers",
+          "name": "triggers",
+          "type": "STRING",
+          "links": [
+            48
+          ]
+        }
+      ],
+      "title": "2A. EDIT THIS — LoRA Loader Pixaroma",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLoraLoader",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "loraLoaderState": "{\"version\":1,\"loras\":[{\"id\":\"gold_kgodrays\",\"name\":\"krea2\\\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[],\"custom\":[],\"at\":true},{\"id\":\"l164ab70a\",\"name\":\"krea2\\\\JAMES\\\\krea2_constable_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"constable\"],\"custom\":[\"constable\"],\"at\":true},{\"id\":\"gold_empty\",\"name\":\"krea2\\\\JAMES\\\\krea2_eyvind_earle_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"earle\"],\"custom\":[\"earle\"],\"at\":true},{\"id\":\"l28c6a53e\",\"name\":\"krea2\\\\JAMES\\\\krea2_jakub_schikaneder_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"shikaneder\"],\"custom\":[\"shikaneder\"],\"at\":true},{\"id\":\"le9825e5d\",\"name\":\"krea2\\\\JAMES\\\\krea2_john_atkinson_grimshaw_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"grimshaw\"],\"custom\":[\"grimshaw\"],\"at\":true},{\"id\":\"l678827d2\",\"name\":\"krea2\\\\JAMES\\\\krea2_john_frederick_kensett_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"kensett\"],\"custom\":[\"kensett\"],\"at\":true},{\"id\":\"lc152651b\",\"name\":\"krea2\\\\JAMES\\\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"prestes\"],\"custom\":[\"prestes\"],\"at\":true},{\"id\":\"william_morris\",\"name\":\"krea2\\\\FizGigLora\\\\William-Morris-LoRa_krea2.safetensors\",\"on\":true,\"sm\":0.9,\"sc\":0.9,\"triggers\":[],\"custom\":[],\"at\":false}],\"sep\":\", \",\"step\":0.05,\"defStrength\":1,\"linkStrength\":true,\"civitai\":true,\"thumbs\":true,\"hideExt\":true,\"accent\":null,\"cacheMode\":\"last\"}",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        {
+          "version": 1,
+          "loras": [
+            {
+              "id": "gold_kgodrays",
+              "name": "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [],
+              "custom": [],
+              "at": true
+            },
+            {
+              "id": "l164ab70a",
+              "name": "krea2\\JAMES\\krea2_constable_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "constable"
+              ],
+              "custom": [
+                "constable"
+              ],
+              "at": true
+            },
+            {
+              "id": "gold_empty",
+              "name": "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "earle"
+              ],
+              "custom": [
+                "earle"
+              ],
+              "at": true
+            },
+            {
+              "id": "l28c6a53e",
+              "name": "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "shikaneder"
+              ],
+              "custom": [
+                "shikaneder"
+              ],
+              "at": true
+            },
+            {
+              "id": "le9825e5d",
+              "name": "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "grimshaw"
+              ],
+              "custom": [
+                "grimshaw"
+              ],
+              "at": true
+            },
+            {
+              "id": "l678827d2",
+              "name": "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "kensett"
+              ],
+              "custom": [
+                "kensett"
+              ],
+              "at": true
+            },
+            {
+              "id": "lc152651b",
+              "name": "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "prestes"
+              ],
+              "custom": [
+                "prestes"
+              ],
+              "at": true
+            },
+            {
+              "id": "william_morris",
+              "name": "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
+              "on": true,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [],
+              "custom": [],
+              "at": false
+            }
+          ],
+          "sep": ", ",
+          "step": 0.05,
+          "defStrength": 1,
+          "linkStrength": true,
+          "civitai": true,
+          "thumbs": true,
+          "hideExt": true,
+          "accent": null,
+          "cacheMode": "last"
+        }
+      ],
+      "widgets_values_named": {
+        "loras_ui": {
+          "version": 1,
+          "loras": [
+            {
+              "id": "gold_kgodrays",
+              "name": "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [],
+              "custom": [],
+              "at": true
+            },
+            {
+              "id": "l164ab70a",
+              "name": "krea2\\JAMES\\krea2_constable_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "constable"
+              ],
+              "custom": [
+                "constable"
+              ],
+              "at": true
+            },
+            {
+              "id": "gold_empty",
+              "name": "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "earle"
+              ],
+              "custom": [
+                "earle"
+              ],
+              "at": true
+            },
+            {
+              "id": "l28c6a53e",
+              "name": "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "shikaneder"
+              ],
+              "custom": [
+                "shikaneder"
+              ],
+              "at": true
+            },
+            {
+              "id": "le9825e5d",
+              "name": "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "grimshaw"
+              ],
+              "custom": [
+                "grimshaw"
+              ],
+              "at": true
+            },
+            {
+              "id": "l678827d2",
+              "name": "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "kensett"
+              ],
+              "custom": [
+                "kensett"
+              ],
+              "at": true
+            },
+            {
+              "id": "lc152651b",
+              "name": "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+              "on": false,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [
+                "prestes"
+              ],
+              "custom": [
+                "prestes"
+              ],
+              "at": true
+            },
+            {
+              "id": "william_morris",
+              "name": "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
+              "on": true,
+              "sm": 0.9,
+              "sc": 0.9,
+              "triggers": [],
+              "custom": [],
+              "at": false
+            }
+          ],
+          "sep": ", ",
+          "step": 0.05,
+          "defStrength": 1,
+          "linkStrength": true,
+          "civitai": true,
+          "thumbs": true,
+          "hideExt": true,
+          "accent": null,
+          "cacheMode": "last"
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 196,
+      "type": "PixaromaSaveImage",
+      "pos": [
+        2524.0650855024223,
+        140
+      ],
+      "size": [
+        889.5246080421894,
+        677.0000000000001
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 86
+        },
+        {
+          "localized_name": "name",
+          "name": "name",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [],
+      "title": "Original Save Image Pixaroma",
+      "properties": {
+        "aux_id": "ComfyUI-Pixaroma.git",
+        "ver": "09104c176ab4634427ba6caa31ebbcd86cee1ccd",
+        "Node name for S&R": "PixaromaSaveImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        },
+        "saveImageState": "{\"version\":1,\"folder\":\"\",\"pattern\":\"WilliamMorris/Autumn/morris_%date:yyyy-MM-dd%_%counter%\",\"format\":\"png\",\"quality\":100,\"embedWorkflow\":true,\"saveOnRun\":true}"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "pixaroma_save_image": ""
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 195,
+      "type": "PixaromaSaveImage",
+      "pos": [
+        2524.0650855024223,
+        975
+      ],
+      "size": [
+        889.5246080421894,
+        766.254085225499
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 84
+        },
+        {
+          "localized_name": "name",
+          "name": "name",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [],
+      "title": "DLSS Upscale Save Image Pixaroma",
+      "properties": {
+        "aux_id": "ComfyUI-Pixaroma.git",
+        "ver": "09104c176ab4634427ba6caa31ebbcd86cee1ccd",
+        "Node name for S&R": "PixaromaSaveImage",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {},
+          "version": "7.8"
+        },
+        "saveImageState": "{\"version\":1,\"folder\":\"\",\"pattern\":\"WilliamMorris/Autumn/morris_%date:yyyy-MM-dd%_%counter%_upscaled\",\"format\":\"png\",\"quality\":100,\"embedWorkflow\":true,\"civitaiMeta\":false,\"saveOnRun\":true,\"dateStyle\":\"yyyy-MM-dd\",\"counterDigits\":3,\"folded\":false,\"hideBarWhenFolded\":false,\"webpLossless\":false,\"inputSubfolders\":false,\"showOpen\":true,\"showCopy\":true,\"showFolder\":true,\"showPng\":true,\"showJpg\":true,\"showWebp\":true}"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "pixaroma_save_image": ""
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    }
+  ],
+  "links": [
+    [
+      2,
+      54,
+      0,
+      82,
+      0,
+      "MODEL"
+    ],
+    [
+      4,
+      82,
+      0,
+      146,
+      0,
+      "MODEL"
+    ],
+    [
+      5,
+      151,
+      0,
+      147,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      8,
+      146,
+      0,
+      149,
+      0,
+      "MODEL"
+    ],
+    [
+      9,
+      151,
+      0,
+      149,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      10,
+      147,
+      0,
+      149,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      11,
+      150,
+      0,
+      149,
+      3,
+      "LATENT"
+    ],
+    [
+      13,
+      53,
+      0,
+      151,
+      0,
+      "CLIP"
+    ],
+    [
+      19,
+      149,
+      0,
+      154,
+      0,
+      "LATENT"
+    ],
+    [
+      20,
+      40,
+      0,
+      154,
+      1,
+      "VAE"
+    ],
+    [
+      12,
+      182,
+      0,
+      151,
+      1,
+      "STRING"
+    ],
+    [
+      34,
+      169,
+      0,
+      150,
+      0,
+      "INT"
+    ],
+    [
+      35,
+      169,
+      1,
+      150,
+      1,
+      "INT"
+    ],
+    [
+      36,
+      170,
+      0,
+      149,
+      4,
+      "INT"
+    ],
+    [
+      42,
+      143,
+      0,
+      177,
+      0,
+      "*"
+    ],
+    [
+      43,
+      179,
+      0,
+      177,
+      1,
+      "*"
+    ],
+    [
+      44,
+      177,
+      0,
+      178,
+      4,
+      "STRING"
+    ],
+    [
+      45,
+      177,
+      0,
+      180,
+      0,
+      "*"
+    ],
+    [
+      46,
+      178,
+      0,
+      180,
+      1,
+      "*"
+    ],
+    [
+      47,
+      180,
+      0,
+      181,
+      0,
+      "STRING"
+    ],
+    [
+      48,
+      82,
+      2,
+      181,
+      1,
+      "STRING"
+    ],
+    [
+      49,
+      181,
+      0,
+      182,
+      0,
+      "*"
+    ],
+    [
+      50,
+      183,
+      0,
+      178,
+      0,
+      "CLIP"
+    ],
+    [
+      70,
+      193,
+      0,
+      192,
+      1,
+      "DLSS5_SETTINGS"
+    ],
+    [
+      82,
+      154,
+      0,
+      141,
+      0,
+      "IMAGE"
+    ],
+    [
+      84,
+      192,
+      0,
+      195,
+      0,
+      "IMAGE"
+    ],
+    [
+      85,
+      141,
+      0,
+      192,
+      0,
+      "IMAGE"
+    ],
+    [
+      86,
+      141,
+      0,
+      196,
+      0,
+      "IMAGE"
+    ],
+    [
+      87,
+      141,
+      0,
+      197,
+      0,
+      "IMAGE"
+    ],
+    [
+      88,
+      192,
+      0,
+      197,
+      1,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.65,
+      "offset": [
+        3502.349336002408,
+        323.34615384615415
+      ]
+    },
+    "pixaromaGroups": [
+      {
+        "id": "pg_gold_0a_prompt_sources",
+        "title": "00 -PROMPT SOURCES & AI ENHANCER",
+        "x": -2550,
+        "y": 50,
+        "w": 1637.0683803651127,
+        "h": 1715.3637680013585,
+        "titleColor": "#B45574",
+        "bodyColor": "#38212a",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 18,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_gold_0b_prompt_controls",
+        "title": "01 - PROMPT CONTROL PANEL",
+        "x": -850,
+        "y": 50,
+        "w": 850,
+        "h": 1715.3637680013585,
+        "titleColor": "#7A3E78",
+        "bodyColor": "#312132",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 18,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_gold_1_input",
+        "title": "02 - RESOLUTION, SEEDS, & KREA MODELS",
+        "x": 50,
+        "y": 50,
+        "w": 800,
+        "h": 1715.3637680013585,
+        "titleColor": "#355C7D",
+        "bodyColor": "#1f2f3a",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 18,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_gold_2_lora",
+        "title": "03 - LoRA, Enhancer, & KREA CONDITIONING",
+        "x": 908.1921956253263,
+        "y": 50,
+        "w": 1180.1542058685272,
+        "h": 812,
+        "titleColor": "#6C5B7B",
+        "bodyColor": "#2d2534",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 18,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_gold_3_sample",
+        "title": "04 - SAMPLER",
+        "x": 2169.674935109688,
+        "y": 50.50000000000023,
+        "w": 1287.0735865967827,
+        "h": 785.4999999999994,
+        "titleColor": "#2E7D32",
+        "bodyColor": "#1d3020",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 18,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_gold_7_control",
+        "title": "06 - Timer, Runlog, & Image Compare",
+        "x": 908.1921956253263,
+        "y": 900.0000000000001,
+        "w": 1180.1542058685272,
+        "h": 865.3637680013584,
+        "titleColor": "#7A3E78",
+        "bodyColor": "#312132",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 18,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_mtkk4pb7_0_ciz4",
+        "title": "05 - DLSS5_Upscaler",
+        "x": 2169.674935109688,
+        "y": 894,
+        "w": 1287.0735865967827,
+        "h": 871.3637680013585,
+        "titleColor": "#7a9e2a",
+        "bodyColor": "#313625",
+        "titleAlpha": 0.92,
+        "bodyAlpha": 0.5,
+        "fontSize": 18
+      }
+    ],
+    "ue_links": [],
+    "links_added_by_ue": []
+  },
+  "version": 0.4
+}

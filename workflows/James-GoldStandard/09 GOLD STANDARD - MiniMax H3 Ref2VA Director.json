@@ -1,0 +1,3101 @@
+{
+  "id": "93984465-051f-42d4-ac57-67eed3cb9ba2",
+  "revision": 0,
+  "last_node_id": 71,
+  "last_link_id": 44,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PixaromaLabel",
+      "pos": [
+        0,
+        0
+      ],
+      "size": [
+        5400,
+        92
+      ],
+      "flags": {
+        "no_title": true
+      },
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "09 GOLD STANDARD — MiniMax H3 Ref2VA Director",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLabel",
+        "cnr_id": "ComfyUI-Pixaroma"
+      },
+      "widgets_values": [
+        "{\"text\":\"09 GOLD STANDARD — MiniMax H3 Ref2VA Director\",\"fontSize\":46,\"fontFamily\":\"Arial\",\"fontColor\":\"#ffffff\",\"textAlign\":\"center\",\"backgroundColor\":\"#f66744\",\"padding\":14,\"borderRadius\":0,\"opacity\":1,\"fontWeight\":\"bold\",\"lineHeight\":1}"
+      ],
+      "widgets_values_named": {
+        "label_json": "{\"text\":\"09 GOLD STANDARD — MiniMax H3 Ref2VA Director\",\"fontSize\":46,\"fontFamily\":\"Arial\",\"fontColor\":\"#ffffff\",\"textAlign\":\"center\",\"backgroundColor\":\"#f66744\",\"padding\":14,\"borderRadius\":0,\"opacity\":1,\"fontWeight\":\"bold\",\"lineHeight\":1}"
+      },
+      "color": "rgba(0,0,0,0)",
+      "bgcolor": "rgba(0,0,0,0)"
+    },
+    {
+      "id": 2,
+      "type": "PixaromaNote",
+      "pos": [
+        0,
+        120
+      ],
+      "size": [
+        5400,
+        260
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "note_json",
+          "name": "note_json",
+          "type": "STRING",
+          "widget": {
+            "name": "note_json"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [],
+      "title": "START HERE — FIVE STEPS",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaNote",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "{\"version\":1,\"content\":\"<h2>START HERE — a compact character-sheet-to-video workflow</h2><ol><li>Load one to six references from left to right with no gaps. Picture numbering follows enabled order.</li><li>Edit the reference manifest and the four director boxes. Quoted dialogue must be preserved exactly.</li><li>AI ON expands the director boxes into H3's six-section Ref2VA format. AI OFF uses the manual full prompt.</li><li>Start at 864 × 480, 5 seconds and 20 steps. Increase duration or size only after a successful short test.</li><li>Review the final prompt monitor, then Run. The generative Qwen model releases itself before H3 loads.</li></ol><p><b>Reference rule:</b> do not leave an enabled gap. If Picture 2 is off, Pictures 3–6 must also be off. One subject may use several pictures; explain that in the manifest.</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"width\":5400,\"height\":260,\"backgroundColor\":\"#2a2a2a\"}",
+        ""
+      ],
+      "widgets_values_named": {
+        "note_json": "{\"version\":1,\"content\":\"<h2>START HERE — a compact character-sheet-to-video workflow</h2><ol><li>Load one to six references from left to right with no gaps. Picture numbering follows enabled order.</li><li>Edit the reference manifest and the four director boxes. Quoted dialogue must be preserved exactly.</li><li>AI ON expands the director boxes into H3's six-section Ref2VA format. AI OFF uses the manual full prompt.</li><li>Start at 864 × 480, 5 seconds and 20 steps. Increase duration or size only after a successful short test.</li><li>Review the final prompt monitor, then Run. The generative Qwen model releases itself before H3 loads.</li></ol><p><b>Reference rule:</b> do not leave an enabled gap. If Picture 2 is off, Pictures 3–6 must also be off. One subject may use several pictures; explain that in the manifest.</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"width\":5400,\"height\":260,\"backgroundColor\":\"#2a2a2a\"}",
+        "note_dom": ""
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 14,
+      "type": "PixaromaDuration",
+      "pos": [
+        40,
+        2010
+      ],
+      "size": [
+        455,
+        120
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "frames",
+          "name": "frames",
+          "type": "INT",
+          "links": [
+            27
+          ]
+        },
+        {
+          "localized_name": "seconds",
+          "name": "seconds",
+          "type": "FLOAT",
+          "links": [
+            11
+          ]
+        }
+      ],
+      "title": "DURATION — 5 seconds first",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaDuration",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "durationState": {
+          "seconds": 15,
+          "fps": 24,
+          "step": 17,
+          "plus": 5,
+          "minFrames": 5,
+          "mode": "recipe",
+          "formula": "",
+          "pick": "chips",
+          "values": [
+            5,
+            10,
+            15
+          ],
+          "min": 1,
+          "max": 15,
+          "stepSec": 0.5,
+          "recipeName": "MiniMax H3"
+        }
+      },
+      "widgets_values": [],
+      "widgets_values_named": {},
+      "color": "#14436c",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 15,
+      "type": "PixaromaSizes",
+      "pos": [
+        535,
+        2010
+      ],
+      "size": [
+        435,
+        384
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "width",
+          "name": "width",
+          "type": "INT",
+          "links": [
+            25
+          ]
+        },
+        {
+          "localized_name": "height",
+          "name": "height",
+          "type": "INT",
+          "links": [
+            26
+          ]
+        }
+      ],
+      "title": "SIZE — Gold starting point 864 × 480",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSizes",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "sizesState": "{\"version\":1,\"sizes\":[[608,352],[736,416],[864,480],[960,544],[1056,608],[1152,640],[1216,672],[1280,736],[1344,768]],\"selected\":2,\"orientation\":\"landscape\",\"snap\":32,\"accent\":null,\"collapsed\":false,\"starred\":[\"352x608\",\"480x864\",\"768x1344\"],\"w\":864,\"h\":480}"
+      },
+      "widgets_values": [
+        {
+          "version": 1,
+          "sizes": [
+            [
+              608,
+              352
+            ],
+            [
+              736,
+              416
+            ],
+            [
+              864,
+              480
+            ],
+            [
+              960,
+              544
+            ],
+            [
+              1056,
+              608
+            ],
+            [
+              1152,
+              640
+            ],
+            [
+              1216,
+              672
+            ],
+            [
+              1280,
+              736
+            ],
+            [
+              1344,
+              768
+            ]
+          ],
+          "selected": 2,
+          "orientation": "landscape",
+          "snap": 32,
+          "accent": null,
+          "collapsed": false,
+          "starred": [
+            "352x608",
+            "480x864",
+            "768x1344"
+          ],
+          "w": 864,
+          "h": 480
+        }
+      ],
+      "widgets_values_named": {
+        "sizes_ui": {
+          "version": 1,
+          "sizes": [
+            [
+              608,
+              352
+            ],
+            [
+              736,
+              416
+            ],
+            [
+              864,
+              480
+            ],
+            [
+              960,
+              544
+            ],
+            [
+              1056,
+              608
+            ],
+            [
+              1152,
+              640
+            ],
+            [
+              1216,
+              672
+            ],
+            [
+              1280,
+              736
+            ],
+            [
+              1344,
+              768
+            ]
+          ],
+          "selected": 2,
+          "orientation": "landscape",
+          "snap": 32,
+          "accent": null,
+          "collapsed": false,
+          "starred": [
+            "352x608",
+            "480x864",
+            "768x1344"
+          ],
+          "w": 864,
+          "h": 480
+        }
+      },
+      "color": "#14436c",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 20,
+      "type": "PixaromaTextJoinFour",
+      "pos": [
+        1140,
+        500
+      ],
+      "size": [
+        440,
+        300
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "text_1",
+          "name": "text_1",
+          "shape": 7,
+          "type": "STRING",
+          "link": 7
+        },
+        {
+          "localized_name": "text_2",
+          "name": "text_2",
+          "shape": 7,
+          "type": "STRING",
+          "link": 8
+        },
+        {
+          "localized_name": "text_3",
+          "name": "text_3",
+          "shape": 7,
+          "type": "STRING",
+          "link": 9
+        },
+        {
+          "localized_name": "text_4",
+          "name": "text_4",
+          "shape": 7,
+          "type": "STRING",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            12
+          ]
+        }
+      ],
+      "title": "AUTO — Combine director boxes",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaTextJoinFour",
+        "cnr_id": "ComfyUI-Pixaroma"
+      },
+      "widgets_values": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "text_1": "",
+        "text_2": "",
+        "text_3": "",
+        "text_4": ""
+      },
+      "color": "#7A3E78",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 21,
+      "type": "SomethingToString",
+      "pos": [
+        1140,
+        840
+      ],
+      "size": [
+        440,
+        100
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "input",
+          "name": "input",
+          "type": "*",
+          "link": 11
+        },
+        {
+          "localized_name": "prefix",
+          "name": "prefix",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "prefix"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "suffix",
+          "name": "suffix",
+          "shape": 7,
+          "type": "STRING",
+          "widget": {
+            "name": "suffix"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "STRING",
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "title": "AUTO — Tell the prompt writer the true duration",
+      "properties": {
+        "cnr_id": "comfyui-kjnodes",
+        "ver": "3f20054214fec9f9234fd3841ae6f1e4287948f6",
+        "Node name for S&R": "SomethingToString"
+      },
+      "widgets_values": [
+        "TARGET DURATION: ",
+        " seconds."
+      ],
+      "widgets_values_named": {
+        "prefix": "TARGET DURATION: ",
+        "suffix": " seconds."
+      },
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 22,
+      "type": "PixaromaTextJoinTwo",
+      "pos": [
+        1140,
+        980
+      ],
+      "size": [
+        440,
+        180
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "text_1",
+          "name": "text_1",
+          "shape": 7,
+          "type": "STRING",
+          "link": 12
+        },
+        {
+          "localized_name": "text_2",
+          "name": "text_2",
+          "shape": 7,
+          "type": "STRING",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            14
+          ]
+        }
+      ],
+      "title": "AUTO — Director brief + duration",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaTextJoinTwo",
+        "cnr_id": "ComfyUI-Pixaroma"
+      },
+      "widgets_values": [
+        "",
+        ""
+      ],
+      "widgets_values_named": {
+        "text_1": "",
+        "text_2": ""
+      },
+      "color": "#7A3E78",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 24,
+      "type": "PixaromaPrompt",
+      "pos": [
+        1140,
+        1220
+      ],
+      "size": [
+        1140,
+        660
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "text",
+          "localized_name": "text_in",
+          "name": "text_in",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            15
+          ]
+        }
+      ],
+      "title": "MANUAL FULL H3 PROMPT — used only when AI is OFF",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaPrompt",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "promptState": {
+          "text": "subject_definitions:\n<Subject 1> is the same brown-and-black goat defined jointly by <Picture 1>, <Picture 2>, and <Picture 3>, preserving its curved horns, dark facial stripe, brown coat, black lower legs, compact proportions, and natural animal anatomy.\n\nsummary:\n[reference generation] The target video shows <Subject 1> walking toward the camera on a sunlit grassy hillside, stopping close to the lens, stamping one front hoof, looking directly forward, and giving one short natural bleat.\n\nretention_analysis:\n<Subject 1> (appears throughout [Shot 1]): fully_preserved - the goat's identity, horn shape, face markings, coat colours, body proportions, four-legged anatomy, and natural movement remain consistent with <Picture 1>, <Picture 2>, and <Picture 3>.\n\ndetailed_description:\nThe target video uses realistic live-action wildlife photography with warm late-afternoon sunlight, natural colour, and restrained depth of field.\n[Shot 1] An eye-level medium tracking shot opens on <Subject 1>, the brown-and-black goat from <Picture 1>, <Picture 2>, and <Picture 3>, walking calmly toward the camera across a gently sloping grassy hillside. The camera moves smoothly backwards at the goat's walking pace while keeping its head, shoulders, horns, and front legs sharply framed. The goat's four legs carry its weight naturally; its coat shifts subtly with each step and a light breeze. Around 00:03.200, the camera settles into a locked close-medium composition as <Subject 1> stops, plants all four hooves, stamps its front-right hoof once against the earth, raises its head, and looks directly toward the lens. The hoof makes a soft compact impact in the grass. The goat gives one short, clean natural bleat, then closes its mouth and remains alert through the final frame. No human posture, speech, clothing, extra limbs, or anthropomorphic behaviour appears.\n\noverall_soundscape:\nLight wind moves through hillside grass with distant birds and restrained rural ambience. Natural hoof impacts accompany the approach, followed by one close hoof stamp and one short goat bleat.\n\nnon_diegetic_music:\nN/A",
+          "order": "mine",
+          "sep": "\n\n",
+          "accent": null,
+          "showExpanded": true
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "pix_prompt_ui": ""
+      },
+      "color": "#7A3E78",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 25,
+      "type": "PixaromaSwitch",
+      "pos": [
+        1140,
+        1920
+      ],
+      "size": [
+        600,
+        110
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "​",
+          "name": "input_1",
+          "type": "*",
+          "link": 15
+        },
+        {
+          "label": "​",
+          "name": "input_2",
+          "type": "*",
+          "link": 16
+        },
+        {
+          "label": "​",
+          "name": "input_3",
+          "type": "*",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "output",
+          "name": "output",
+          "type": "STRING",
+          "links": [
+            17
+          ]
+        }
+      ],
+      "title": "AI PROMPT MODE — OFF: Manual Full Prompt | ON: Build from Director Boxes",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSwitch",
+        "switchState": {
+          "activeIndex": 2,
+          "labels": {
+            "1": "OFF — Manual full H3 prompt",
+            "2": "ON — AI Director"
+          },
+          "visibleCount": 3
+        },
+        "cnr_id": "ComfyUI-Pixaroma"
+      },
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 26,
+      "type": "PixaromaShowText",
+      "pos": [
+        1780,
+        1920
+      ],
+      "size": [
+        500,
+        340
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "source",
+          "name": "source",
+          "type": "*",
+          "link": 17
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            28
+          ]
+        }
+      ],
+      "title": "FINAL H3 PROMPT MONITOR — inspect before a long run",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaShowText",
+        "cnr_id": "ComfyUI-Pixaroma"
+      },
+      "widgets_values": [
+        "subject_definitions:\n<Subject 1> (appears in [Shot 1]): fully_preserved - adult woman, dark hair tied in a bun, red facial markings, crescent-shaped hair ornament, cream tunic with rust-coloured trim, dark loose trousers, red gloves and boots. <Picture 1>\n<Subject 2> (appears in [Shot 2]): fully_preserved - human-sized, single-seat yellow personal quad-rotor aircraft, enclosed transparent cockpit, four exposed rotors, yellow bodywork, landing legs. <Picture 2>\n<Subject 3> (appears in [Shot 1]): fully_preserved - translucent purple humanoid alien, transparent purple head and skin, clear protective hood, green-and-brown clothing, gloves and boots. <Picture 3>\n\nsummary:\n[reference generation] In a small country pub on a winter evening, Subject 1 is seated beside a table. Subject 3 enters and sits beside her. They exchange dialogue. Subject 1 then stands, walks toward Subject 2 parked outside, enters the cockpit, closes it, and takes off. Subject 3 watches from the doorway.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1]): fully_preserved - adult woman, dark hair tied in a bun, red facial markings, crescent-shaped hair ornament, cream tunic with rust-coloured trim, dark loose trousers, red gloves and boots.\n<Subject 2> (appears in [Shot 2]): fully_preserved - human-sized, single-seat yellow personal quad-rotor aircraft, enclosed transparent cockpit, four exposed rotors, yellow bodywork, landing legs.\n<Subject 3> (appears in [Shot 1]): fully_preserved - translucent purple humanoid alien, transparent purple head and skin, clear protective hood, green-and-brown clothing, gloves and boots.\n\ndetailed_description:\n[Shot 1] Stable medium two-shot inside a small country pub on a winter evening. Subject 1 sits beside a table, facing slightly right. Subject 3 walks in from off-camera, approaches the table, and sits beside Subject 1. The camera remains fixed. Subject 1 says, <d>[English] Hello, I didn't think you'd be coming today.</d> Subject 3 replies, <d>[English] Yes, but I got a little snarled up on the motorway.</d> Subject 3’s footsteps are audible as she enters and sits.\n\n[Shot 2] At 00:03.000, Subject 1 stands, turns toward the open doorway, and walks toward Subject 2 parked on the landing area outside. The camera tracks her movement, pushing toward the transparent cockpit as she enters. She closes the cockpit door. The camera tilts and pans smoothly to follow Subject 2 as it lifts off, its four rotors spooling into a deep mechanical thrum. Subject 3 remains visible in the doorway, watching. Subject 1 says, <d>[English] Seeing as you have my car, I'll be going then.</d> The camera holds the final composition: Subject 3 watching from the doorway, Subject 2 ascending into the sky.\n\noverall_soundscape:\nQuiet environmental ambience of a pub continues under dialogue. Subject 3’s footsteps are heard during Shot 1. Subject 1’s footsteps accompany her departure in Shot 2. Subject 2’s four rotors spool up into a deep mechanical thrum before take-off.\n\nnon_diegetic_music:\nN/A"
+      ],
+      "widgets_values_named": {
+        "text": "subject_definitions:\n<Subject 1> (appears in [Shot 1]): fully_preserved - adult woman, dark hair tied in a bun, red facial markings, crescent-shaped hair ornament, cream tunic with rust-coloured trim, dark loose trousers, red gloves and boots. <Picture 1>\n<Subject 2> (appears in [Shot 2]): fully_preserved - human-sized, single-seat yellow personal quad-rotor aircraft, enclosed transparent cockpit, four exposed rotors, yellow bodywork, landing legs. <Picture 2>\n<Subject 3> (appears in [Shot 1]): fully_preserved - translucent purple humanoid alien, transparent purple head and skin, clear protective hood, green-and-brown clothing, gloves and boots. <Picture 3>\n\nsummary:\n[reference generation] In a small country pub on a winter evening, Subject 1 is seated beside a table. Subject 3 enters and sits beside her. They exchange dialogue. Subject 1 then stands, walks toward Subject 2 parked outside, enters the cockpit, closes it, and takes off. Subject 3 watches from the doorway.\n\nretention_analysis:\n<Subject 1> (appears in [Shot 1]): fully_preserved - adult woman, dark hair tied in a bun, red facial markings, crescent-shaped hair ornament, cream tunic with rust-coloured trim, dark loose trousers, red gloves and boots.\n<Subject 2> (appears in [Shot 2]): fully_preserved - human-sized, single-seat yellow personal quad-rotor aircraft, enclosed transparent cockpit, four exposed rotors, yellow bodywork, landing legs.\n<Subject 3> (appears in [Shot 1]): fully_preserved - translucent purple humanoid alien, transparent purple head and skin, clear protective hood, green-and-brown clothing, gloves and boots.\n\ndetailed_description:\n[Shot 1] Stable medium two-shot inside a small country pub on a winter evening. Subject 1 sits beside a table, facing slightly right. Subject 3 walks in from off-camera, approaches the table, and sits beside Subject 1. The camera remains fixed. Subject 1 says, <d>[English] Hello, I didn't think you'd be coming today.</d> Subject 3 replies, <d>[English] Yes, but I got a little snarled up on the motorway.</d> Subject 3’s footsteps are audible as she enters and sits.\n\n[Shot 2] At 00:03.000, Subject 1 stands, turns toward the open doorway, and walks toward Subject 2 parked on the landing area outside. The camera tracks her movement, pushing toward the transparent cockpit as she enters. She closes the cockpit door. The camera tilts and pans smoothly to follow Subject 2 as it lifts off, its four rotors spooling into a deep mechanical thrum. Subject 3 remains visible in the doorway, watching. Subject 1 says, <d>[English] Seeing as you have my car, I'll be going then.</d> The camera holds the final composition: Subject 3 watching from the doorway, Subject 2 ascending into the sky.\n\noverall_soundscape:\nQuiet environmental ambience of a pub continues under dialogue. Subject 3’s footsteps are heard during Shot 1. Subject 1’s footsteps accompany her departure in Shot 2. Subject 2’s four rotors spool up into a deep mechanical thrum before take-off.\n\nnon_diegetic_music:\nN/A"
+      },
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 30,
+      "type": "PixaromaLoadImageMini",
+      "pos": [
+        40,
+        2430
+      ],
+      "size": [
+        520,
+        420
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            1
+          ]
+        },
+        {
+          "localized_name": "image_info",
+          "name": "image_info",
+          "type": "PIX_IMAGE_INFO",
+          "links": []
+        }
+      ],
+      "title": "PICTURE 1 — replace with a character sheet, prop, vehicle or location",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLoadImageMini",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "loadImageMiniState": {
+          "mode": "off"
+        }
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_4095867344738551_00001_.png",
+        "image",
+        ""
+      ],
+      "widgets_values_named": {
+        "image": "Krea2_Ref2VA_Entity_4095867344738551_00001_.png",
+        "upload": "image",
+        "pixaroma_load_image_mini_ui": ""
+      },
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 40,
+      "type": "H3OptionalImage",
+      "pos": [
+        40,
+        2890
+      ],
+      "size": [
+        520,
+        110
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 1
+        },
+        {
+          "localized_name": "enabled",
+          "name": "enabled",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "enabled"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            29
+          ]
+        }
+      ],
+      "title": "USE PICTURE 1 — ON",
+      "properties": {
+        "cnr_id": "comfyui-h3-multishot",
+        "ver": "2.6.5",
+        "Node name for S&R": "H3OptionalImage"
+      },
+      "widgets_values": [
+        true
+      ],
+      "widgets_values_named": {
+        "enabled": true
+      },
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 41,
+      "type": "H3OptionalImage",
+      "pos": [
+        610,
+        2890
+      ],
+      "size": [
+        520,
+        110
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 2
+        },
+        {
+          "localized_name": "enabled",
+          "name": "enabled",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "enabled"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            30
+          ]
+        }
+      ],
+      "title": "USE PICTURE 2 — ON",
+      "properties": {
+        "cnr_id": "comfyui-h3-multishot",
+        "ver": "2.6.5",
+        "Node name for S&R": "H3OptionalImage"
+      },
+      "widgets_values": [
+        true
+      ],
+      "widgets_values_named": {
+        "enabled": true
+      },
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 32,
+      "type": "PixaromaLoadImageMini",
+      "pos": [
+        1180,
+        2430
+      ],
+      "size": [
+        520,
+        420
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            3
+          ]
+        },
+        {
+          "localized_name": "image_info",
+          "name": "image_info",
+          "type": "PIX_IMAGE_INFO",
+          "links": []
+        }
+      ],
+      "title": "PICTURE 3 — replace with a character sheet, prop, vehicle or location",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLoadImageMini",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "loadImageMiniState": {
+          "mode": "off"
+        }
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_439623906087765_00001_.png",
+        "image",
+        ""
+      ],
+      "widgets_values_named": {
+        "image": "Krea2_Ref2VA_Entity_439623906087765_00001_.png",
+        "upload": "image",
+        "pixaroma_load_image_mini_ui": ""
+      },
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 42,
+      "type": "H3OptionalImage",
+      "pos": [
+        1180,
+        2890
+      ],
+      "size": [
+        520,
+        110
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 3
+        },
+        {
+          "localized_name": "enabled",
+          "name": "enabled",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "enabled"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            31
+          ]
+        }
+      ],
+      "title": "USE PICTURE 3 — ON",
+      "properties": {
+        "cnr_id": "comfyui-h3-multishot",
+        "ver": "2.6.5",
+        "Node name for S&R": "H3OptionalImage"
+      },
+      "widgets_values": [
+        true
+      ],
+      "widgets_values_named": {
+        "enabled": true
+      },
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 33,
+      "type": "PixaromaLoadImageMini",
+      "pos": [
+        1750,
+        2430
+      ],
+      "size": [
+        520,
+        420
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            4
+          ]
+        },
+        {
+          "localized_name": "image_info",
+          "name": "image_info",
+          "type": "PIX_IMAGE_INFO",
+          "links": []
+        }
+      ],
+      "title": "PICTURE 4 — replace with a character sheet, prop, vehicle or location",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLoadImageMini",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "loadImageMiniState": {
+          "mode": "off"
+        }
+      },
+      "widgets_values": [
+        "img_00004_.png",
+        "image",
+        ""
+      ],
+      "widgets_values_named": {
+        "image": "img_00004_.png",
+        "upload": "image",
+        "pixaroma_load_image_mini_ui": ""
+      },
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 43,
+      "type": "H3OptionalImage",
+      "pos": [
+        1750,
+        2890
+      ],
+      "size": [
+        520,
+        110
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 4
+        },
+        {
+          "localized_name": "enabled",
+          "name": "enabled",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "enabled"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            32
+          ]
+        }
+      ],
+      "title": "USE PICTURE 4 — OFF by default",
+      "properties": {
+        "cnr_id": "comfyui-h3-multishot",
+        "ver": "2.6.5",
+        "Node name for S&R": "H3OptionalImage"
+      },
+      "widgets_values": [
+        false
+      ],
+      "widgets_values_named": {
+        "enabled": false
+      },
+      "color": "#5D4037",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 34,
+      "type": "PixaromaLoadImageMini",
+      "pos": [
+        2320,
+        2430
+      ],
+      "size": [
+        520,
+        420
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            5
+          ]
+        },
+        {
+          "localized_name": "image_info",
+          "name": "image_info",
+          "type": "PIX_IMAGE_INFO",
+          "links": []
+        }
+      ],
+      "title": "PICTURE 5 — replace with a character sheet, prop, vehicle or location",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLoadImageMini",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "loadImageMiniState": {
+          "mode": "off"
+        }
+      },
+      "widgets_values": [
+        "img_00005_.png",
+        "image",
+        ""
+      ],
+      "widgets_values_named": {
+        "image": "img_00005_.png",
+        "upload": "image",
+        "pixaroma_load_image_mini_ui": ""
+      },
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 44,
+      "type": "H3OptionalImage",
+      "pos": [
+        2320,
+        2890
+      ],
+      "size": [
+        520,
+        110
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 5
+        },
+        {
+          "localized_name": "enabled",
+          "name": "enabled",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "enabled"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            33
+          ]
+        }
+      ],
+      "title": "USE PICTURE 5 — OFF by default",
+      "properties": {
+        "cnr_id": "comfyui-h3-multishot",
+        "ver": "2.6.5",
+        "Node name for S&R": "H3OptionalImage"
+      },
+      "widgets_values": [
+        false
+      ],
+      "widgets_values_named": {
+        "enabled": false
+      },
+      "color": "#5D4037",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 35,
+      "type": "PixaromaLoadImageMini",
+      "pos": [
+        2890,
+        2430
+      ],
+      "size": [
+        520,
+        420
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            6
+          ]
+        },
+        {
+          "localized_name": "image_info",
+          "name": "image_info",
+          "type": "PIX_IMAGE_INFO",
+          "links": []
+        }
+      ],
+      "title": "PICTURE 6 — replace with a character sheet, prop, vehicle or location",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLoadImageMini",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "loadImageMiniState": {
+          "mode": "off"
+        }
+      },
+      "widgets_values": [
+        "img_00006_.png",
+        "image",
+        ""
+      ],
+      "widgets_values_named": {
+        "image": "img_00006_.png",
+        "upload": "image",
+        "pixaroma_load_image_mini_ui": ""
+      },
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 45,
+      "type": "H3OptionalImage",
+      "pos": [
+        2890,
+        2890
+      ],
+      "size": [
+        520,
+        110
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 6
+        },
+        {
+          "localized_name": "enabled",
+          "name": "enabled",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "enabled"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            34
+          ]
+        }
+      ],
+      "title": "USE PICTURE 6 — OFF by default",
+      "properties": {
+        "cnr_id": "comfyui-h3-multishot",
+        "ver": "2.6.5",
+        "Node name for S&R": "H3OptionalImage"
+      },
+      "widgets_values": [
+        false
+      ],
+      "widgets_values_named": {
+        "enabled": false
+      },
+      "color": "#5D4037",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 50,
+      "type": "UNETLoader",
+      "pos": [
+        2440,
+        500
+      ],
+      "size": [
+        570,
+        90
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "unet_name",
+          "name": "unet_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "unet_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "weight_dtype",
+          "name": "weight_dtype",
+          "type": "COMBO",
+          "widget": {
+            "name": "weight_dtype"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "MODEL",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            18
+          ]
+        }
+      ],
+      "title": "H3 Ref2VA diffusion model",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "UNETLoader"
+      },
+      "widgets_values": [
+        "H3\\minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "H3\\minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 51,
+      "type": "CLIPLoader",
+      "pos": [
+        2440,
+        630
+      ],
+      "size": [
+        570,
+        125
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "clip_name",
+          "name": "clip_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "clip_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "type",
+          "name": "type",
+          "type": "COMBO",
+          "widget": {
+            "name": "type"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "device",
+          "name": "device",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "device"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            19,
+            20
+          ]
+        }
+      ],
+      "title": "H3 conditioning encoder — not the AI Prompt model",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "CLIPLoader"
+      },
+      "widgets_values": [
+        "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "minimax",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "type": "minimax",
+        "device": "default"
+      },
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 52,
+      "type": "VAELoader",
+      "pos": [
+        2440,
+        795
+      ],
+      "size": [
+        570,
+        65
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "vae_name",
+          "name": "vae_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "vae_name"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "VAE",
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            21,
+            22
+          ]
+        }
+      ],
+      "title": "H3 video VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "minimax_h3_video_vae_fp16.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+      },
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 53,
+      "type": "VAELoader",
+      "pos": [
+        2440,
+        900
+      ],
+      "size": [
+        570,
+        65
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "vae_name",
+          "name": "vae_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "vae_name"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "VAE",
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            23,
+            24
+          ]
+        }
+      ],
+      "title": "H3 audio VAE",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "minimax_h3_audio_vae_fp32.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+      },
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 54,
+      "type": "PixaromaSeed",
+      "pos": [
+        2440,
+        1010
+      ],
+      "size": [
+        570,
+        246
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "type": "INT",
+          "links": [
+            40
+          ]
+        }
+      ],
+      "title": "SEED — shared and visible",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSeed",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "seedState": {
+          "seed": 2408240901,
+          "mode": "fixed",
+          "compact": false,
+          "digits": 16
+        }
+      },
+      "widgets_values": [
+        {
+          "seed": 0,
+          "mode": "random",
+          "compact": false,
+          "digits": 16
+        }
+      ],
+      "widgets_values_named": {
+        "seed_ui": {
+          "seed": 0,
+          "mode": "random",
+          "compact": false,
+          "digits": 16
+        }
+      },
+      "color": "#14436c",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 55,
+      "type": "MiniMaxH3ReferenceToVideo",
+      "pos": [
+        3060,
+        500
+      ],
+      "size": [
+        590,
+        620
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "clip",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 19
+        },
+        {
+          "localized_name": "vae",
+          "name": "vae",
+          "type": "VAE",
+          "link": 21
+        },
+        {
+          "localized_name": "audio_vae",
+          "name": "audio_vae",
+          "type": "VAE",
+          "link": 23
+        },
+        {
+          "label": "ref_image_0",
+          "localized_name": "ref_images.ref_image_0",
+          "name": "ref_images.ref_image_0",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 29
+        },
+        {
+          "label": "ref_image_1",
+          "localized_name": "ref_images.ref_image_1",
+          "name": "ref_images.ref_image_1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 30
+        },
+        {
+          "label": "ref_image_2",
+          "localized_name": "ref_images.ref_image_2",
+          "name": "ref_images.ref_image_2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 31
+        },
+        {
+          "label": "ref_image_3",
+          "localized_name": "ref_images.ref_image_3",
+          "name": "ref_images.ref_image_3",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 32
+        },
+        {
+          "label": "ref_image_4",
+          "localized_name": "ref_images.ref_image_4",
+          "name": "ref_images.ref_image_4",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 33
+        },
+        {
+          "label": "ref_image_5",
+          "localized_name": "ref_images.ref_image_5",
+          "name": "ref_images.ref_image_5",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 34
+        },
+        {
+          "label": "ref_image_6",
+          "localized_name": "ref_images.ref_image_6",
+          "name": "ref_images.ref_image_6",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "label": "ref_video_0",
+          "localized_name": "ref_videos.ref_video_0",
+          "name": "ref_videos.ref_video_0",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "label": "ref_video_audio_0",
+          "localized_name": "ref_video_audios.ref_video_audio_0",
+          "name": "ref_video_audios.ref_video_audio_0",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "label": "ref_audio_0",
+          "localized_name": "ref_audios.ref_audio_0",
+          "name": "ref_audios.ref_audio_0",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "localized_name": "prompt",
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": 28
+        },
+        {
+          "localized_name": "width",
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 25
+        },
+        {
+          "localized_name": "height",
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 26
+        },
+        {
+          "localized_name": "length",
+          "name": "length",
+          "type": "INT",
+          "widget": {
+            "name": "length"
+          },
+          "link": 27
+        },
+        {
+          "localized_name": "ref_image_size",
+          "name": "ref_image_size",
+          "type": "COMBO",
+          "widget": {
+            "name": "ref_image_size"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "positive",
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            35
+          ]
+        },
+        {
+          "localized_name": "LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            39
+          ]
+        }
+      ],
+      "title": "H3 REF2VA — references + prompt + duration",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "MiniMaxH3ReferenceToVideo"
+      },
+      "widgets_values": [
+        "",
+        864,
+        480,
+        124,
+        "match"
+      ],
+      "widgets_values_named": {
+        "prompt": "",
+        "width": 864,
+        "height": 480,
+        "length": 124,
+        "ref_image_size": "match"
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 58,
+      "type": "KSampler",
+      "pos": [
+        3060,
+        1300
+      ],
+      "size": [
+        590,
+        320
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 18
+        },
+        {
+          "localized_name": "positive",
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 37
+        },
+        {
+          "localized_name": "negative",
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 38
+        },
+        {
+          "localized_name": "latent_image",
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 39
+        },
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": 40
+        },
+        {
+          "localized_name": "steps",
+          "name": "steps",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "cfg",
+          "name": "cfg",
+          "type": "FLOAT",
+          "widget": {
+            "name": "cfg"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "sampler_name",
+          "name": "sampler_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "sampler_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "scheduler",
+          "name": "scheduler",
+          "type": "COMBO",
+          "widget": {
+            "name": "scheduler"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "denoise",
+          "name": "denoise",
+          "type": "FLOAT",
+          "widget": {
+            "name": "denoise"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            41,
+            42
+          ]
+        }
+      ],
+      "title": "GOLD SAMPLER — proven Pixaroma H3 settings",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        2408240901,
+        "fixed",
+        20,
+        1,
+        "res_multistep",
+        "simple",
+        1
+      ],
+      "widgets_values_named": {
+        "seed": 2408240901,
+        "control_after_generate": "fixed",
+        "steps": 20,
+        "cfg": 1,
+        "sampler_name": "res_multistep",
+        "scheduler": "simple",
+        "denoise": 1
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 59,
+      "type": "VAEDecode",
+      "pos": [
+        3060,
+        1670
+      ],
+      "size": [
+        280,
+        70
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "samples",
+          "name": "samples",
+          "type": "LATENT",
+          "link": 41
+        },
+        {
+          "localized_name": "vae",
+          "name": "vae",
+          "type": "VAE",
+          "link": 22
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "IMAGE",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            43
+          ]
+        }
+      ],
+      "title": "Decode video frames",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "VAEDecode"
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 60,
+      "type": "VAEDecodeAudio",
+      "pos": [
+        3370,
+        1670
+      ],
+      "size": [
+        280,
+        70
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "samples",
+          "name": "samples",
+          "type": "LATENT",
+          "link": 42
+        },
+        {
+          "localized_name": "vae",
+          "name": "vae",
+          "type": "VAE",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "AUDIO",
+          "name": "AUDIO",
+          "type": "AUDIO",
+          "links": [
+            44
+          ]
+        }
+      ],
+      "title": "Decode H3 audio",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "VAEDecodeAudio"
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 61,
+      "type": "PixaromaRunTimer",
+      "pos": [
+        2440,
+        1300
+      ],
+      "size": [
+        570,
+        202
+      ],
+      "flags": {
+        "no_title": true
+      },
+      "order": 15,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "RUN TIMER — H3 can take a while",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaRunTimer",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "runTimerState": {
+          "version": 1,
+          "color": "#f66744",
+          "decimals": 0,
+          "chime": true,
+          "sound": "",
+          "volume": 0
+        },
+        "runTimerLastMs": 951744
+      },
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 70,
+      "type": "PixaromaSaveMp4",
+      "pos": [
+        3800,
+        500
+      ],
+      "size": [
+        1500,
+        1220
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "video_frames",
+          "name": "video_frames",
+          "type": "IMAGE",
+          "link": 43
+        },
+        {
+          "localized_name": "audio",
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": 44
+        },
+        {
+          "localized_name": "fps",
+          "name": "fps",
+          "type": "FLOAT",
+          "widget": {
+            "name": "fps"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "filename_prefix",
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "save_mode",
+          "name": "save_mode",
+          "type": "COMBO",
+          "widget": {
+            "name": "save_mode"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "trim_to_audio",
+          "name": "trim_to_audio",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "trim_to_audio"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [],
+      "title": "FINAL VIDEO + AUDIO — preview here and save MP4",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSaveMp4",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "pixMp4Video": {
+          "filename": "H3_Gold_%Seed Pixaroma.seed%_00007.mp4",
+          "subfolder": "H3_Gold_Ref\\2026-08-24",
+          "type": "output"
+        }
+      },
+      "widgets_values": [
+        24,
+        "H3_Gold_Ref/%date:yyyy-MM-dd%/H3_Gold_%Seed Pixaroma.seed%",
+        "save",
+        false,
+        ""
+      ],
+      "widgets_values_named": {
+        "fps": 24,
+        "filename_prefix": "H3_Gold_Ref/%date:yyyy-MM-dd%/H3_Gold_%Seed Pixaroma.seed%",
+        "save_mode": "save",
+        "trim_to_audio": false,
+        "pixaroma_video_preview": ""
+      },
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 71,
+      "type": "PixaromaNote",
+      "pos": [
+        3800,
+        1760
+      ],
+      "size": [
+        1500,
+        460
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "note_json",
+          "name": "note_json",
+          "type": "STRING",
+          "widget": {
+            "name": "note_json"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [],
+      "title": "WHAT IS DELIBERATELY NOT IN VERSION 1",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaNote",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "{\"version\":1,\"content\":\"<h2>Version 1 stays dependable</h2><p>No Blabbermouth integration, automatic casting, continuation, chained multishot, motion video, voice reference, retake, Turbo LoRA, upscale or repair branch is hidden here. Those become separate, reviewable additions only after this Ref2VA spine is accepted.</p><p><b>Gold principle:</b> change one thing at a time, keep the short 5-second test available, and preserve the prompt shown in the monitor with every accepted output.</p>\",\"buttonColor\":\"#2E7D32\",\"lineColor\":\"#2E7D32\",\"width\":1500,\"height\":460,\"backgroundColor\":\"#2a2a2a\"}",
+        ""
+      ],
+      "widgets_values_named": {
+        "note_json": "{\"version\":1,\"content\":\"<h2>Version 1 stays dependable</h2><p>No Blabbermouth integration, automatic casting, continuation, chained multishot, motion video, voice reference, retake, Turbo LoRA, upscale or repair branch is hidden here. Those become separate, reviewable additions only after this Ref2VA spine is accepted.</p><p><b>Gold principle:</b> change one thing at a time, keep the short 5-second test available, and preserve the prompt shown in the monitor with every accepted output.</p>\",\"buttonColor\":\"#2E7D32\",\"lineColor\":\"#2E7D32\",\"width\":1500,\"height\":460,\"backgroundColor\":\"#2a2a2a\"}",
+        "note_dom": ""
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 31,
+      "type": "PixaromaLoadImageMini",
+      "pos": [
+        610,
+        2430
+      ],
+      "size": [
+        520,
+        420
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            2
+          ]
+        },
+        {
+          "localized_name": "image_info",
+          "name": "image_info",
+          "type": "PIX_IMAGE_INFO",
+          "links": []
+        }
+      ],
+      "title": "PICTURE 2 — replace with a character sheet, prop, vehicle or location",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLoadImageMini",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "loadImageMiniState": {
+          "mode": "off"
+        }
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_6942449730230515_00001_.png",
+        "image",
+        ""
+      ],
+      "widgets_values_named": {
+        "image": "Krea2_Ref2VA_Entity_6942449730230515_00001_.png",
+        "upload": "image",
+        "pixaroma_load_image_mini_ui": ""
+      },
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 57,
+      "type": "ConditioningZeroOut",
+      "pos": [
+        3410,
+        1160
+      ],
+      "size": [
+        250,
+        90
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "conditioning",
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 36
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            38
+          ]
+        }
+      ],
+      "title": "H3 negative conditioning",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "ConditioningZeroOut"
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 56,
+      "type": "H3FreeTextEncoder",
+      "pos": [
+        3060,
+        1160
+      ],
+      "size": [
+        428.4,
+        90
+      ],
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "conditioning",
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 35
+        },
+        {
+          "localized_name": "clip",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CONDITIONING",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            36,
+            37
+          ]
+        }
+      ],
+      "title": "VRAM SAFETY — release H3 text encoder before sampling",
+      "properties": {
+        "cnr_id": "comfyui-h3-multishot",
+        "ver": "2.6.5",
+        "Node name for S&R": "H3FreeTextEncoder"
+      },
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 23,
+      "type": "PixaromaAIPrompt",
+      "pos": [
+        1630,
+        500
+      ],
+      "size": [
+        650,
+        700
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "clip",
+          "name": "clip",
+          "shape": 7,
+          "type": "CLIP",
+          "link": null
+        },
+        {
+          "localized_name": "image",
+          "name": "image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "localized_name": "video",
+          "name": "video",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "localized_name": "audio",
+          "name": "audio",
+          "shape": 7,
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "localized_name": "text",
+          "name": "text",
+          "shape": 7,
+          "type": "STRING",
+          "link": 14
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            16
+          ]
+        }
+      ],
+      "title": "AI DIRECTOR — local Qwen; releases itself before H3",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaAIPrompt",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "aiPromptState": {
+          "idea": "",
+          "formula": "You are a MiniMax H3 Ref2VA director. Rewrite the supplied director brief as one complete H3 full-reference prompt.\nReturn only this literal six-heading skeleton, including each colon: subject_definitions:, summary:, retention_analysis:, detailed_description:, overall_soundscape:, non_diegetic_music:. Put useful content beneath every heading and nothing before subject_definitions: or after the music section.\nUse the supplied reference manifest to define reusable content as <Subject N> and cite its image sources as <Picture N>. Never invent a reference or leave an unresolved Character, Prop, Location or Picture alias.\nThe summary must begin with [reference generation] and summarise the event without reproducing complete dialogue. In retention_analysis, use one line per active subject in this exact shape: <Subject 1> (appears in [Shot 1]): fully_preserved - concise identity details. The only allowed relationship markers are fully_preserved, partially_preserved, attribute_transfer and weak_reference.\nWrite the detailed_description in playback order. Begin with one or two concrete style sentences, then [Shot 1]. Later cuts, if genuinely needed, use a real numeric timestamp such as [Shot 2] At 00:03.000; never output MM or SS placeholders. Fit every action and line inside TARGET DURATION. Five seconds normally means one shot; ten seconds no more than two; fifteen seconds no more than three.\nFor each shot state composition, subject position, visible action, camera behaviour, lighting, physical sound and the exact moment references apply. Prefer concrete directions over vague words such as cinematic or beautiful.\nDialogue is a hard contract. Complete dialogue may appear exactly once and only in detailed_description. Copy the words and ordinary punctuation between the input quotation marks byte-for-byte, but do not copy quotation marks. Assign a stable speaker ID. Example: input 'Subject 1 says exactly \"Good morning.\"' must become '<Subject 1> (S1) says, <d>[English] Good morning.</d>'. The [English] token inside <d> is mandatory. Never use curly quotation marks, nest a subject label inside the speech tag, paraphrase, add words, or repeat complete dialogue in summary or soundscape. If there is no speech, do not invent any.\noverall_soundscape summarises ambience and physical sounds. non_diegetic_music describes audience-only music, or N/A when none was requested.\nWrite in English, without Markdown fences, commentary or an introductory sentence. Aim for 350 to 500 words when the scene supports it, while always respecting the requested duration.",
+          "model": "qwen3vl_8b_fp8_scaled.safetensors",
+          "clip_type": "krea2",
+          "order": "wired",
+          "sep": "newline",
+          "seed": 2408240901,
+          "temperature": 0.45,
+          "max_length": 1536,
+          "top_k": 48,
+          "top_p": 0.9,
+          "min_p": 0.05,
+          "repetition_penalty": 1.08,
+          "presence_penalty": 0,
+          "do_sample": false,
+          "thinking": false,
+          "use_default_template": true,
+          "release_model": true,
+          "seed_mode": "random",
+          "idea_share": 0.36
+        }
+      },
+      "widgets_values": [],
+      "widgets_values_named": {},
+      "color": "#7A3E78",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 10,
+      "type": "PixaromaPrompt",
+      "pos": [
+        40,
+        470
+      ],
+      "size": [
+        970,
+        520
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "text",
+          "localized_name": "text_in",
+          "name": "text_in",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "title": "SCENE + ACTION + REFERENCE MANIFEST — dictate here; Tags supports #scene",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaPrompt",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "promptState": {
+          "text": "REFERENCE MANIFEST:\n\nPicture 1 defines Subject 1, the adult woman. Preserve her facial identity, dark hair tied in a bun, red facial markings, crescent-shaped hair ornament, cream tunic with rust-coloured trim, dark loose trousers, red gloves and boots.\n\nPicture 2 defines Subject 2, a human-sized, single-seat yellow personal quad-rotor aircraft. Preserve its enclosed transparent cockpit, four exposed rotors, yellow bodywork and landing legs. It is large enough for Subject 1 to sit naturally inside.\n\nPicture 3 defines Subject 3, the translucent purple humanoid alien. Preserve the transparent purple head and skin, clear protective hood, green-and-brown clothing, gloves and boots.\n\nSCENE AND ACTION:\n\n[Shot 1] In #scene, Subject 1 is seated beside a table. Subject 3 walks in from off-camera and sits beside her. They exchange the Shot 1 dialogue.\n\n[Shot 2] Subject 1 delivers the Shot 2 dialogue, stands and walks through the open doorway toward Subject 2, which is parked on a landing area immediately outside. Subject 1 enters the cockpit, closes it and takes off. Subject 3 watches from the doorway.",
+          "order": "mine",
+          "sep": "\n\n",
+          "accent": null,
+          "showExpanded": true
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "pix_prompt_ui": ""
+      },
+      "color": "#7A3E78",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 11,
+      "type": "PixaromaPrompt",
+      "pos": [
+        40,
+        1030
+      ],
+      "size": [
+        970,
+        300
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "text",
+          "localized_name": "text_in",
+          "name": "text_in",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            8
+          ]
+        }
+      ],
+      "title": "DIALOGUE — anything in quotation marks is exact; Tags supports #dialogue",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaPrompt",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "promptState": {
+          "text": "DIALOGUE:\n\nShot 1: Subject 1 says exactly, \"Hello, I didn't think you'd be coming today.\" Subject 3 replies exactly, \"Yes, but I got a little snarled up on the motorway.\"\n\nShot 2: Subject 1 says exactly, \"Seeing as you have my car, I'll be going then.\"",
+          "order": "mine",
+          "sep": "\n\n",
+          "accent": null,
+          "showExpanded": true
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "pix_prompt_ui": ""
+      },
+      "color": "#7A3E78",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 12,
+      "type": "PixaromaPrompt",
+      "pos": [
+        40,
+        1370
+      ],
+      "size": [
+        970,
+        280
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "text",
+          "localized_name": "text_in",
+          "name": "text_in",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            9
+          ]
+        }
+      ],
+      "title": "CAMERA DIRECTION — plain language or #shot",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaPrompt",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "promptState": {
+          "text": "CAMERA DIRECTION:\n\nShot 1 uses a stable medium two-shot of Subject 1 and Subject 3 seated together.\n\nShot 2 cuts to a tracking shot following Subject 1 toward Subject 2. The camera pushes toward the transparent cockpit to show Subject 1 seated inside, then tilts and pans smoothly to follow Subject 2 taking off. The final composition includes Subject 3 watching from the doorway.",
+          "order": "mine",
+          "sep": "\n\n",
+          "accent": null,
+          "showExpanded": true
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "pix_prompt_ui": ""
+      },
+      "color": "#7A3E78",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 13,
+      "type": "PixaromaPrompt",
+      "pos": [
+        40,
+        1690
+      ],
+      "size": [
+        970,
+        280
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "text",
+          "localized_name": "text_in",
+          "name": "text_in",
+          "shape": 7,
+          "type": "STRING",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "text",
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            10
+          ]
+        }
+      ],
+      "title": "SOUND + MUSIC — physical sound first; use N/A for no score",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaPrompt",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "promptState": {
+          "text": "SOUND AND MUSIC:\n\nQuiet environmental ambience continues under the conversation. Subject 3's approaching footsteps are heard during Shot 1. Subject 1's footsteps accompany her departure in Shot 2. Subject 2's four rotors spool up into a deep mechanical thrum before take-off. No non-diegetic music.",
+          "order": "mine",
+          "sep": "\n\n",
+          "accent": null,
+          "showExpanded": true
+        }
+      },
+      "widgets_values": [
+        ""
+      ],
+      "widgets_values_named": {
+        "pix_prompt_ui": ""
+      },
+      "color": "#7A3E78",
+      "bgcolor": "#2a2a2a"
+    }
+  ],
+  "links": [
+    [
+      1,
+      30,
+      0,
+      40,
+      0,
+      "IMAGE"
+    ],
+    [
+      2,
+      31,
+      0,
+      41,
+      0,
+      "IMAGE"
+    ],
+    [
+      3,
+      32,
+      0,
+      42,
+      0,
+      "IMAGE"
+    ],
+    [
+      4,
+      33,
+      0,
+      43,
+      0,
+      "IMAGE"
+    ],
+    [
+      5,
+      34,
+      0,
+      44,
+      0,
+      "IMAGE"
+    ],
+    [
+      6,
+      35,
+      0,
+      45,
+      0,
+      "IMAGE"
+    ],
+    [
+      7,
+      10,
+      0,
+      20,
+      0,
+      "STRING"
+    ],
+    [
+      8,
+      11,
+      0,
+      20,
+      1,
+      "STRING"
+    ],
+    [
+      9,
+      12,
+      0,
+      20,
+      2,
+      "STRING"
+    ],
+    [
+      10,
+      13,
+      0,
+      20,
+      3,
+      "STRING"
+    ],
+    [
+      11,
+      14,
+      1,
+      21,
+      0,
+      "*"
+    ],
+    [
+      12,
+      20,
+      0,
+      22,
+      0,
+      "STRING"
+    ],
+    [
+      13,
+      21,
+      0,
+      22,
+      1,
+      "STRING"
+    ],
+    [
+      14,
+      22,
+      0,
+      23,
+      4,
+      "STRING"
+    ],
+    [
+      15,
+      24,
+      0,
+      25,
+      0,
+      "*"
+    ],
+    [
+      16,
+      23,
+      0,
+      25,
+      1,
+      "*"
+    ],
+    [
+      17,
+      25,
+      0,
+      26,
+      0,
+      "*"
+    ],
+    [
+      18,
+      50,
+      0,
+      58,
+      0,
+      "MODEL"
+    ],
+    [
+      19,
+      51,
+      0,
+      55,
+      0,
+      "CLIP"
+    ],
+    [
+      20,
+      51,
+      0,
+      56,
+      1,
+      "CLIP"
+    ],
+    [
+      21,
+      52,
+      0,
+      55,
+      1,
+      "VAE"
+    ],
+    [
+      22,
+      52,
+      0,
+      59,
+      1,
+      "VAE"
+    ],
+    [
+      23,
+      53,
+      0,
+      55,
+      2,
+      "VAE"
+    ],
+    [
+      24,
+      53,
+      0,
+      60,
+      1,
+      "VAE"
+    ],
+    [
+      25,
+      15,
+      0,
+      55,
+      14,
+      "INT"
+    ],
+    [
+      26,
+      15,
+      1,
+      55,
+      15,
+      "INT"
+    ],
+    [
+      27,
+      14,
+      0,
+      55,
+      16,
+      "INT"
+    ],
+    [
+      28,
+      26,
+      0,
+      55,
+      13,
+      "STRING"
+    ],
+    [
+      29,
+      40,
+      0,
+      55,
+      3,
+      "IMAGE"
+    ],
+    [
+      30,
+      41,
+      0,
+      55,
+      4,
+      "IMAGE"
+    ],
+    [
+      31,
+      42,
+      0,
+      55,
+      5,
+      "IMAGE"
+    ],
+    [
+      32,
+      43,
+      0,
+      55,
+      6,
+      "IMAGE"
+    ],
+    [
+      33,
+      44,
+      0,
+      55,
+      7,
+      "IMAGE"
+    ],
+    [
+      34,
+      45,
+      0,
+      55,
+      8,
+      "IMAGE"
+    ],
+    [
+      35,
+      55,
+      0,
+      56,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      36,
+      56,
+      0,
+      57,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      37,
+      56,
+      0,
+      58,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      38,
+      57,
+      0,
+      58,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      39,
+      55,
+      1,
+      58,
+      3,
+      "LATENT"
+    ],
+    [
+      40,
+      54,
+      0,
+      58,
+      4,
+      "INT"
+    ],
+    [
+      41,
+      58,
+      0,
+      59,
+      0,
+      "LATENT"
+    ],
+    [
+      42,
+      58,
+      0,
+      60,
+      0,
+      "LATENT"
+    ],
+    [
+      43,
+      59,
+      0,
+      70,
+      0,
+      "IMAGE"
+    ],
+    [
+      44,
+      60,
+      0,
+      70,
+      1,
+      "AUDIO"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.5644739300537776,
+      "offset": [
+        444.8226915330219,
+        -641.9278297788411
+      ]
+    },
+    "pixaromaGroups": [
+      {
+        "id": "pg_h3_controls",
+        "title": "1 — DIRECTOR'S DESK — HUMAN INPUT",
+        "x": 0,
+        "y": 420,
+        "w": 1050,
+        "h": 1870,
+        "titleColor": "#B45574",
+        "bodyColor": "#38212a",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 20,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_h3_prompt",
+        "title": "2 — PIXAROMA PROMPT WORKSHOP",
+        "x": 1100,
+        "y": 420,
+        "w": 1240,
+        "h": 1870,
+        "titleColor": "#7A3E78",
+        "bodyColor": "#312132",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 20,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_h3_render",
+        "title": "3 — DEPENDABLE H3 REF2VA RENDER CORE",
+        "x": 2400,
+        "y": 420,
+        "w": 1300,
+        "h": 1870,
+        "titleColor": "#355C7D",
+        "bodyColor": "#1f2f3a",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 20,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_h3_output",
+        "title": "4 — PREVIEW, AUDIO & SAVE",
+        "x": 3750,
+        "y": 420,
+        "w": 1650,
+        "h": 1870,
+        "titleColor": "#2E7D32",
+        "bodyColor": "#1d3020",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 20,
+        "folded": false,
+        "showLinks": true
+      },
+      {
+        "id": "pg_h3_refs",
+        "title": "5 — REFERENCE CAST — ENABLE CONSECUTIVELY FROM PICTURE 1",
+        "x": 0,
+        "y": 2360,
+        "w": 3440,
+        "h": 690,
+        "titleColor": "#B45574",
+        "bodyColor": "#38212a",
+        "titleAlpha": 0.96,
+        "bodyAlpha": 0.42,
+        "fontSize": 20,
+        "folded": false,
+        "showLinks": true
+      }
+    ]
+  },
+  "version": 0.4
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "group": "Autumn",
+    "image": "examples/william-morris/autumn/001.png",
+    "captured_workflow": "examples/william-morris/autumn/001.workflow.json",
+    "api_prompt": "examples/william-morris/autumn/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Autumn.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Autumn",
+    "image": "examples/william-morris/autumn/002.png",
+    "captured_workflow": "examples/william-morris/autumn/002.workflow.json",
+    "api_prompt": "examples/william-morris/autumn/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Autumn.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Autumn",
+    "image": "examples/william-morris/autumn/003.png",
+    "captured_workflow": "examples/william-morris/autumn/003.workflow.json",
+    "api_prompt": "examples/william-morris/autumn/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Autumn.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Christmas",
+    "image": "examples/william-morris/christmas/001.png",
+    "captured_workflow": "examples/william-morris/christmas/001.workflow.json",
+    "api_prompt": "examples/william-morris/christmas/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Christmas.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Christmas",
+    "image": "examples/william-morris/christmas/002.png",
+    "captured_workflow": "examples/william-morris/christmas/002.workflow.json",
+    "api_prompt": "examples/william-morris/christmas/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Christmas.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Christmas",
+    "image": "examples/william-morris/christmas/003.png",
+    "captured_workflow": "examples/william-morris/christmas/003.workflow.json",
+    "api_prompt": "examples/william-morris/christmas/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Christmas.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Easter",
+    "image": "examples/william-morris/easter/001.png",
+    "captured_workflow": "examples/william-morris/easter/001.workflow.json",
+    "api_prompt": "examples/william-morris/easter/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Easter.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Easter",
+    "image": "examples/william-morris/easter/002.png",
+    "captured_workflow": "examples/william-morris/easter/002.workflow.json",
+    "api_prompt": "examples/william-morris/easter/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Easter.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Easter",
+    "image": "examples/william-morris/easter/003.png",
+    "captured_workflow": "examples/william-morris/easter/003.workflow.json",
+    "api_prompt": "examples/william-morris/easter/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Easter.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Halloween",
+    "image": "examples/william-morris/halloween/001.png",
+    "captured_workflow": "examples/william-morris/halloween/001.workflow.json",
+    "api_prompt": "examples/william-morris/halloween/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Halloween",
+    "image": "examples/william-morris/halloween/002.png",
+    "captured_workflow": "examples/william-morris/halloween/002.workflow.json",
+    "api_prompt": "examples/william-morris/halloween/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Halloween",
+    "image": "examples/william-morris/halloween/003.png",
+    "captured_workflow": "examples/william-morris/halloween/003.workflow.json",
+    "api_prompt": "examples/william-morris/halloween/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "MixedThemes",
+    "image": "examples/william-morris/mixedthemes/001.png",
+    "captured_workflow": "examples/william-morris/mixedthemes/001.workflow.json",
+    "api_prompt": "examples/william-morris/mixedthemes/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Themes.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "MixedThemes",
+    "image": "examples/william-morris/mixedthemes/002.png",
+    "captured_workflow": "examples/william-morris/mixedthemes/002.workflow.json",
+    "api_prompt": "examples/william-morris/mixedthemes/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Themes.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "MixedThemes",
+    "image": "examples/william-morris/mixedthemes/003.png",
+    "captured_workflow": "examples/william-morris/mixedthemes/003.workflow.json",
+    "api_prompt": "examples/william-morris/mixedthemes/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Themes.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Botanical",
+    "image": "examples/william-morris/botanical/001.png",
+    "captured_workflow": "examples/william-morris/botanical/001.workflow.json",
+    "api_prompt": "examples/william-morris/botanical/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris.json",
+    "dimensions": [
+      1408,
+      1408
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Botanical",
+    "image": "examples/william-morris/botanical/002.png",
+    "captured_workflow": "examples/william-morris/botanical/002.workflow.json",
+    "api_prompt": "examples/william-morris/botanical/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris.json",
+    "dimensions": [
+      1408,
+      1408
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Botanical",
+    "image": "examples/william-morris/botanical/003.png",
+    "captured_workflow": "examples/william-morris/botanical/003.workflow.json",
+    "api_prompt": "examples/william-morris/botanical/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris.json",
+    "dimensions": [
+      1408,
+      1408
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Summer",
+    "image": "examples/william-morris/summer/001.png",
+    "captured_workflow": "examples/william-morris/summer/001.workflow.json",
+    "api_prompt": "examples/william-morris/summer/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Summer",
+    "image": "examples/william-morris/summer/002.png",
+    "captured_workflow": "examples/william-morris/summer/002.workflow.json",
+    "api_prompt": "examples/william-morris/summer/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Summer",
+    "image": "examples/william-morris/summer/003.png",
+    "captured_workflow": "examples/william-morris/summer/003.workflow.json",
+    "api_prompt": "examples/william-morris/summer/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Wildlife",
+    "image": "examples/william-morris/wildlife/001.png",
+    "captured_workflow": "examples/william-morris/wildlife/001.workflow.json",
+    "api_prompt": "examples/william-morris/wildlife/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Wildlife.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Wildlife",
+    "image": "examples/william-morris/wildlife/002.png",
+    "captured_workflow": "examples/william-morris/wildlife/002.workflow.json",
+    "api_prompt": "examples/william-morris/wildlife/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Wildlife.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Wildlife",
+    "image": "examples/william-morris/wildlife/003.png",
+    "captured_workflow": "examples/william-morris/wildlife/003.workflow.json",
+    "api_prompt": "examples/william-morris/wildlife/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Wildlife.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Winter",
+    "image": "examples/william-morris/winter/001.png",
+    "captured_workflow": "examples/william-morris/winter/001.workflow.json",
+    "api_prompt": "examples/william-morris/winter/001.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Winter",
+    "image": "examples/william-morris/winter/002.png",
+    "captured_workflow": "examples/william-morris/winter/002.workflow.json",
+    "api_prompt": "examples/william-morris/winter/002.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  },
+  {
+    "group": "Winter",
+    "image": "examples/william-morris/winter/003.png",
+    "captured_workflow": "examples/william-morris/winter/003.workflow.json",
+    "api_prompt": "examples/william-morris/winter/003.api.json",
+    "library_workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.json",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "pixel_data_preserved": true
+  }
+]

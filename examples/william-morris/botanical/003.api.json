@@ -1,0 +1,396 @@
+{
+  "40": {
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "1H. Load Krea 2 VAE"
+    }
+  },
+  "53": {
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled (1).safetensors",
+      "type": "krea2",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "1G. Load Krea 2 Text Encoder"
+    }
+  },
+  "54": {
+    "inputs": {
+      "unet_name": "Krea2\\krea2_turbo_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "1F. Load Krea 2 Turbo Model"
+    }
+  },
+  "82": {
+    "inputs": {
+      "model": [
+        "54",
+        0
+      ],
+      "LoraLoaderState": "{\"version\":1,\"sep\":\", \",\"cacheMode\":\"last\",\"loras\":[{\"name\":\"krea2\\\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[]},{\"name\":\"krea2\\\\JAMES\\\\krea2_constable_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"constable\"]},{\"name\":\"krea2\\\\JAMES\\\\krea2_eyvind_earle_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"earle\"]},{\"name\":\"krea2\\\\JAMES\\\\krea2_jakub_schikaneder_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"shikaneder\"]},{\"name\":\"krea2\\\\JAMES\\\\krea2_john_atkinson_grimshaw_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"grimshaw\"]},{\"name\":\"krea2\\\\JAMES\\\\krea2_john_frederick_kensett_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"kensett\"]},{\"name\":\"krea2\\\\JAMES\\\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"prestes\"]},{\"name\":\"krea2\\\\FizGigLora\\\\William-Morris-LoRa_krea2.safetensors\",\"on\":true,\"sm\":0.9,\"sc\":0.9,\"triggers\":[]}]}"
+    },
+    "class_type": "PixaromaLoraLoader",
+    "_meta": {
+      "title": "2A. EDIT THIS — LoRA Loader Pixaroma"
+    }
+  },
+  "141": {
+    "inputs": {
+      "method": "adaptive_usm",
+      "method.strength": 0.5,
+      "method.radius": 1.0,
+      "method.threshold": 0.05,
+      "image": [
+        "154",
+        0
+      ]
+    },
+    "class_type": "ImageSharpenKJ",
+    "_meta": {
+      "title": "4A. Gentle RCAS Comparison (1×)"
+    }
+  },
+  "143": {
+    "inputs": {
+      "PromptState": "{\"text\":\"William Morris Style, British Arts and Crafts textile ornament, stylised natural forms translated into flat decorative silhouettes, sinuous interlacing stems, rhythmic botanical repetition, carefully balanced positive and negative shapes, a harmonious limited palette, handcrafted surface design.\\nCreate an original all-over repeating decorative pattern: a fine printed linen-cotton blend with restrained fibre texture.\\nMain motifs: stylised peppered moths with finely stippled triangular wings. Foliage: flowing acanthus leaves with deeply cut lobes. Supporting details: delicate butterfly silhouettes as occasional secondary accents.\\nRepeat structure: a half-drop repeat with neighbouring rows offset vertically. Arrangement: a compact arrangement with even spacing. Scale: a fine overall pattern with occasional larger focal motifs.\\nColour scheme: a six-colour palette: deep teal ground, madder rose motifs, moss leaves, indigo details, wheat accents, warm cream highlights. Use only these colours across the design; preserve the assigned ground colour. Ground treatment: a smooth open ground broken only by a few tiny rosettes.\\nDrawing treatment: precise ornamental linework with gently varied line weight.\\nShow the pattern flat and straight-on, filling the entire image edge to edge, with motifs continuing naturally beyond the edges and consistent spacing. Even diffuse illumination. No perspective, fabric folds, room mockup, frame, border, typography, signature or watermark. Keep the result a decorative fabric or surface pattern.\",\"order\":\"mine\",\"sep\":\", \"}"
+    },
+    "class_type": "PixaromaPrompt",
+    "_meta": {
+      "title": "WILLIAM MORRIS - Random Pattern Prompt"
+    }
+  },
+  "146": {
+    "inputs": {
+      "enabled": true,
+      "strength": 1.0,
+      "debug": false,
+      "model": [
+        "82",
+        0
+      ]
+    },
+    "class_type": "ComfyUI-Krea2T-Enhancer",
+    "_meta": {
+      "title": "2B. Krea 2 Model Enhancer"
+    }
+  },
+  "147": {
+    "inputs": {
+      "conditioning": [
+        "151",
+        0
+      ]
+    },
+    "class_type": "ConditioningZeroOut",
+    "_meta": {
+      "title": "2D. Zero Negative Conditioning"
+    }
+  },
+  "149": {
+    "inputs": {
+      "seed": [
+        "170",
+        0
+      ],
+      "steps": 20,
+      "cfg": 1.0,
+      "sampler_name": "dpmpp_2m_sde",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "model": [
+        "146",
+        0
+      ],
+      "positive": [
+        "151",
+        0
+      ],
+      "negative": [
+        "147",
+        0
+      ],
+      "latent_image": [
+        "150",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "3A. PASS 1 — Base Generation"
+    }
+  },
+  "150": {
+    "inputs": {
+      "width": [
+        "169",
+        0
+      ],
+      "height": [
+        "169",
+        1
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "1C. Empty Latent from Pixaroma Resolution"
+    }
+  },
+  "151": {
+    "inputs": {
+      "text": [
+        "182",
+        0
+      ],
+      "clip": [
+        "53",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "2C. Encode Prompt + LoRA Triggers"
+    }
+  },
+  "154": {
+    "inputs": {
+      "samples": [
+        "149",
+        0
+      ],
+      "vae": [
+        "40",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "3B. Decode Pass 1 Preview"
+    }
+  },
+  "169": {
+    "inputs": {
+      "ResolutionState": "{\"mode\":\"preset\",\"ratio\":\"1:1\",\"w\":1408,\"h\":1408,\"custom_w\":1024,\"custom_h\":1024,\"custom_ratio_w\":4,\"custom_ratio_h\":3,\"snap\":16}"
+    },
+    "class_type": "PixaromaResolution",
+    "_meta": {
+      "title": "1B. EDIT THIS — Resolution Pixaroma"
+    }
+  },
+  "170": {
+    "inputs": {
+      "SeedState": "{\"runSeed\":969445894701092}",
+      "seed": 969445894701092
+    },
+    "class_type": "PixaromaSeed",
+    "_meta": {
+      "title": "1D. Pass 1 Seed Pixaroma"
+    },
+    "is_changed": [
+      "{\"runSeed\":969445894701092}"
+    ]
+  },
+  "171": {
+    "inputs": {
+      "SeedState": "{\"runSeed\":1745461339331798}",
+      "seed": 1745461339331798
+    },
+    "class_type": "PixaromaSeed",
+    "_meta": {
+      "title": "1E. Pass 2 Seed Pixaroma"
+    },
+    "is_changed": [
+      "{\"runSeed\":1745461339331798}"
+    ]
+  },
+  "174": {
+    "inputs": {},
+    "class_type": "PixaromaRunTimer",
+    "_meta": {
+      "title": "Run Timer Pixaroma"
+    }
+  },
+  "175": {
+    "inputs": {},
+    "class_type": "PixaromaRunLog",
+    "_meta": {
+      "title": "Run Log Pixaroma"
+    }
+  },
+  "177": {
+    "inputs": {
+      "input_1": [
+        "143",
+        0
+      ],
+      "SwitchState": "1"
+    },
+    "class_type": "PixaromaSwitch",
+    "_meta": {
+      "title": "MULTI-PROMPT — OFF: Quick  |  ON: Batch of 10"
+    }
+  },
+  "179": {
+    "inputs": {
+      "PromptMultiState": "{\"version\":2,\"mode\":\"queue\",\"activePrompt\":\"A moonlit Victorian city square after rain, no people, no animals. Wet cobblestones reflect the glow of gas lamps, and tall dark buildings rise around the square beneath a deep blue-black sky. Bare tree branches edge the scene, while light mist softens the distance and one warmly lit window glows from an upper floor. Quiet nocturne mood, reflective surfaces, poetic realism, painterly oil texture, soft amber light against cool shadows\",\"rowTexts\":[\"A moonlit path winding through an old rural churchyard, no people, no animals. Bare trees lean over weathered gravestones and a small stone church sits partly obscured in the mist. Wet leaves and puddles glisten on the path, catching cold silver moonlight, while one small amber-lit window glows softly from the church. Moody autumn stillness, deep shadows, gentle fog, 19th-century nocturne oil painting, painterly and atmospheric\",\"A narrow moonlit footpath crossing a small wooden bridge deep in an autumn forest, no people, no animals. Tall bare trees rise on both sides, their branches tangled against a deep blue-black sky. Wet fallen leaves cover the ground, and a dark stream passes beneath the bridge, reflecting silvery moonlight. Thin mist hangs low between the trunks, with a faint warm glow from a distant unseen cottage far beyond the trees. Quiet melancholy, Victorian nocturne atmosphere, painterly oil texture, poetic realism\",\"A lonely moonlit country lane bordered by hedges and tall dark trees, no people, no animals. An old wooden gate stands slightly open beside the muddy lane, and the wet ground reflects pale moonlight in scattered puddles. Bare branches arch overhead, low mist drifts across the road, and a distant farmhouse window glows faintly through the haze. Quiet rural melancholy, Victorian nocturne mood, cool blue shadows with subtle amber warmth, painterly oil texture\",\"A moonlit path through an overgrown Victorian walled garden, no people, no animals. Dark trees and tangled shrubs crowd around a narrow wet path lined with fallen copper leaves. Moss-covered brick walls fade into soft mist, and an old iron gate stands in the distance beneath silver moonlight. A faint warm light glows from a small garden house beyond the gate. Atmospheric, reflective, autumnal, poetic realism, painterly nocturne oil painting,\",\"A moonlit path at the edge of a forest beside a still pond, no people, no animals. Tall bare trees frame the scene, their reflections dissolving in the dark water. Wet earth, fallen leaves, and shallow puddles catch the silver light of the moon, while thin mist drifts across the pond and between the trunks. Far in the background, a small cottage window glows warmly through the haze. Quiet melancholy, deep blue-black night, soft amber contrast, Victorian nocturne atmosphere, painterly oil texture\",\"A deserted moonlit path through a winter forest after fresh snowfall, no people, no animals. Tall bare trees rise on both sides, their dark trunks and branches dusted with snow. The narrow path is half-covered in white, with icy patches reflecting cold silver moonlight. Thin mist hangs between the trees, and a faint warm light glows from a distant cottage barely visible through the haze. Quiet stillness, deep blue-black night, painterly nocturne oil painting, poetic realism\",\"A ruined modern city square after rain at night, no people, no animals. Broken office buildings, abandoned cafés, cracked paving stones, rusted street furniture, dead trees, and shallow puddles reflecting moonlight. Low mist hangs across the square, and one distant warm window glows faintly through the darkness. Quiet melancholy, post-apocalyptic urban decay, painterly nocturne atmosphere\",\"A moonlit path leading through the ruins of an old abbey, no people, no animals. Broken stone arches and crumbling walls stand among tall bare trees, with wet leaves scattered across the ground and shallow puddles reflecting pale moonlight. Low mist drifts through the ruined cloisters, and one distant amber light glows from a small keeper’s house beyond the ruins. Quiet melancholy, Victorian nocturne atmosphere, painterly oil texture, deep shadows and soft silver light\",\"A moonlit canal towpath in an old industrial town, no people, no animals. The narrow wet path runs beside still dark water, with brick warehouses and iron railings fading into soft mist. Reflections shimmer in the canal, bare trees and old lamp posts stand along the path, and a few distant windows glow warmly through the haze. Quiet melancholy, Victorian night atmosphere, painterly nocturne oil painting, cool silver moonlight with subtle amber warmth\",\"A moonlit Victorian city square after rain, no people, no animals. Wet cobblestones reflect the glow of gas lamps, and tall dark buildings rise around the square beneath a deep blue-black sky. Bare tree branches edge the scene, while light mist softens the distance and one warmly lit window glows from an upper floor. Quiet nocturne mood, reflective surfaces, poetic realism, painterly oil texture, soft amber light against cool shadows\"]}"
+    },
+    "class_type": "PixaromaPromptMulti",
+    "_meta": {
+      "title": "10-PROMPT BATCH — Typical Pictures"
+    },
+    "is_changed": [
+      null
+    ]
+  },
+  "180": {
+    "inputs": {
+      "input_1": [
+        "177",
+        0
+      ],
+      "SwitchState": "1"
+    },
+    "class_type": "PixaromaSwitch",
+    "_meta": {
+      "title": "AI ENHANCEMENT — OFF: Bypass  |  ON: Enhance"
+    }
+  },
+  "181": {
+    "inputs": {
+      "text_1": [
+        "180",
+        0
+      ],
+      "text_2": [
+        "82",
+        2
+      ],
+      "JoinState": "{\"sep\":\"comma\",\"customSep\":\"\",\"skipEmpty\":true}"
+    },
+    "class_type": "PixaromaTextJoinTwo",
+    "_meta": {
+      "title": "FINAL PROMPT + LoRA TRIGGERS"
+    },
+    "is_changed": [
+      "[null,null,{\"customSep\":\"\",\"sep\":\"comma\",\"skipEmpty\":true}]"
+    ]
+  },
+  "182": {
+    "inputs": {
+      "text": "William Morris Style, British Arts and Crafts textile ornament, stylised natural forms translated into flat decorative silhouettes, sinuous interlacing stems, rhythmic botanical repetition, carefully balanced positive and negative shapes, a harmonious limited palette, handcrafted surface design.\nCreate an original all-over repeating decorative pattern: a close, straight-on view of printed fabric with subtle pigment variation.\nMain motifs: lily flowers with elegantly recurved petals. Foliage: paired pointed leaves on winding vine stems. Supporting details: scattered acorns and miniature leaf sprays.\nRepeat structure: a serpentine vine repeat flowing in alternating directions. Arrangement: an airy repeat with generous areas of plain ground. Scale: large main motifs balanced by very small secondary details.\nColour scheme: a four-colour palette: forest green ground, dusty rose motifs, pale sage foliage, parchment highlights. Use only these colours across the design; preserve the assigned ground colour. Ground treatment: a plain matte ground that makes the ornament clear.\nDrawing treatment: bold outer silhouettes with intricate internal botanical detail.\nShow the pattern flat and straight-on, filling the entire image edge to edge, with motifs continuing naturally beyond the edges and consistent spacing. Even diffuse illumination. No perspective, fabric folds, room mockup, frame, border, typography, signature or watermark. Keep the result a decorative fabric or surface pattern.",
+      "source": [
+        "181",
+        0
+      ]
+    },
+    "class_type": "PixaromaShowText",
+    "_meta": {
+      "title": "FINAL PROMPT MONITOR — What Krea 2 Receives"
+    }
+  },
+  "183": {
+    "inputs": {
+      "clip_name": "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "AI ONLY — Generative Qwen3-VL Text Model"
+    }
+  },
+  "192": {
+    "inputs": {
+      "verify_neural_rendering": true,
+      "images": [
+        "141",
+        0
+      ],
+      "settings": [
+        "193",
+        0
+      ]
+    },
+    "class_type": "DLSS5EnhanceImages",
+    "_meta": {
+      "title": "DLSS5 Enhance Images"
+    }
+  },
+  "193": {
+    "inputs": {
+      "upscaling_mode": "2x (Performance)",
+      "nr_preset": "Default",
+      "nr_style": "Natural",
+      "nr_intensity": 1.0,
+      "local_tone_strength": 1.0,
+      "local_structure_strength": 1.5,
+      "skin_structure_strength": 2.0,
+      "automatic_mask": true,
+      "dlss_model_preset": "M",
+      "motion": "auto",
+      "scene_change_threshold": 0.24,
+      "warmup_frames": 0,
+      "runtime_dir": ""
+    },
+    "class_type": "DLSS5Settings",
+    "_meta": {
+      "title": "DLSS5 Settings"
+    }
+  },
+  "195": {
+    "inputs": {
+      "images": [
+        "192",
+        0
+      ],
+      "SaveImageState": "{\"version\":1,\"folder\":\"\",\"pattern\":\"WilliamMorris/morris_%date:yyyy-MM-dd%_%counter%_upscaled\",\"format\":\"png\",\"quality\":100,\"embedWorkflow\":true,\"civitaiMeta\":false,\"saveOnRun\":true,\"dateStyle\":\"yyyy-MM-dd\",\"counterDigits\":3,\"folded\":false,\"hideBarWhenFolded\":false,\"webpLossless\":false,\"inputSubfolders\":false,\"showOpen\":true,\"showCopy\":true,\"showFolder\":true,\"showPng\":true,\"showJpg\":true,\"showWebp\":true}"
+    },
+    "class_type": "PixaromaSaveImage",
+    "_meta": {
+      "title": "DLSS Upscale Save Image Pixaroma"
+    },
+    "is_changed": [
+      null
+    ]
+  },
+  "196": {
+    "inputs": {
+      "images": [
+        "141",
+        0
+      ],
+      "SaveImageState": "{\"version\":1,\"folder\":\"\",\"pattern\":\"WilliamMorris/morris_%date:yyyy-MM-dd%_%counter%\",\"format\":\"png\",\"quality\":100,\"embedWorkflow\":true,\"civitaiMeta\":false,\"saveOnRun\":true,\"dateStyle\":\"yyyy-MM-dd\",\"counterDigits\":3,\"folded\":false,\"hideBarWhenFolded\":false,\"webpLossless\":false,\"inputSubfolders\":false,\"showOpen\":true,\"showCopy\":true,\"showFolder\":true,\"showPng\":true,\"showJpg\":true,\"showWebp\":true}"
+    },
+    "class_type": "PixaromaSaveImage",
+    "_meta": {
+      "title": "Original Save Image Pixaroma"
+    },
+    "is_changed": [
+      null
+    ]
+  },
+  "197": {
+    "inputs": {
+      "image1": [
+        "141",
+        0
+      ],
+      "image2": [
+        "192",
+        0
+      ]
+    },
+    "class_type": "PixaromaCompare",
+    "_meta": {
+      "title": "Image Compare Pixaroma"
+    }
+  }
+}
