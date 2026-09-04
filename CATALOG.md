@@ -1,13 +1,13 @@
 # Workflow catalogue
 
-48 saved workflows from **Codex MCP Demos** and **James-GoldStandard** only. Default templates from other folders are excluded. Source subfolders and filenames are retained.
+48 saved workflows from **Codex MCP Demos** and **Gold-Standard** only. Default templates from other folders are excluded. Source subfolders and filenames are retained.
 
 Generated examples currently cover nine Morris families. Other workflows are exported and documented, but have not been rerun for this publication.
 
 | Collection | Workflows |
 |---|---:|
 | Codex MCP Demos | 27 |
-| James-GoldStandard | 21 |
+| Gold-Standard | 21 |
 
 ## Codex MCP Demos
 
@@ -41,28 +41,28 @@ Generated examples currently cover nine Morris families. Other workflows are exp
 | [05 H3 Final - Pass 2 + Base Quality](workflows/Codex%20MCP%20Demos/Operating%20Modes/05%20H3%20Final%20-%20Pass%202%20%2B%20Base%20Quality.json) | [Models and nodes](docs/workflows/Codex%20MCP%20Demos/Operating%20Modes/05%20H3%20Final%20-%20Pass%202%20%2B%20Base%20Quality.md) | Not yet included |
 | [06 Comparison Lab - All Still Paths](workflows/Codex%20MCP%20Demos/Operating%20Modes/06%20Comparison%20Lab%20-%20All%20Still%20Paths.json) | [Models and nodes](docs/workflows/Codex%20MCP%20Demos/Operating%20Modes/06%20Comparison%20Lab%20-%20All%20Still%20Paths.md) | Not yet included |
 
-## James-GoldStandard
+## Gold-Standard
 
 | Workflow | Details | Examples |
 |---|---|---|
-| [07 GOLD STANDARD](workflows/James-GoldStandard/07%20GOLD%20STANDARD.json) | [Models and nodes](docs/workflows/James-GoldStandard/07%20GOLD%20STANDARD.md) | Not yet included |
-| [08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready](workflows/James-GoldStandard/08%20KREA2%20ENTITY%20REFERENCE%20SHEETS%20-%20Ref2VA%20Ready.json) | [Models and nodes](docs/workflows/James-GoldStandard/08%20KREA2%20ENTITY%20REFERENCE%20SHEETS%20-%20Ref2VA%20Ready.md) | Not yet included |
-| [09 GOLD STANDARD - MiniMax H3 Ref2VA Director](workflows/James-GoldStandard/09%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Ref2VA%20Director.json) | [Models and nodes](docs/workflows/James-GoldStandard/09%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Ref2VA%20Director.md) | Not yet included |
-| [10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder](workflows/James-GoldStandard/10%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Long%20Form%20Shot%20Builder.json) | [Models and nodes](docs/workflows/James-GoldStandard/10%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Long%20Form%20Shot%20Builder.md) | Not yet included |
-| [Codex - 1 Ideogram 4 Gold Standard](workflows/James-GoldStandard/Codex%20-%201%20Ideogram%204%20Gold%20Standard.json) | [Models and nodes](docs/workflows/James-GoldStandard/Codex%20-%201%20Ideogram%204%20Gold%20Standard.md) | Not yet included |
-| [Codex - 2 FLUX.2 Klein Gold Standard](workflows/James-GoldStandard/Codex%20-%202%20FLUX.2%20Klein%20Gold%20Standard.json) | [Models and nodes](docs/workflows/James-GoldStandard/Codex%20-%202%20FLUX.2%20Klein%20Gold%20Standard.md) | Not yet included |
-| [Codex - 3 LTX 2.5 Gold Standard](workflows/James-GoldStandard/Codex%20-%203%20LTX%202.5%20Gold%20Standard.json) | [Models and nodes](docs/workflows/James-GoldStandard/Codex%20-%203%20LTX%202.5%20Gold%20Standard.md) | Not yet included |
-| [Codex - 4 MiniMax H3 Gold Standard](workflows/James-GoldStandard/Codex%20-%204%20MiniMax%20H3%20Gold%20Standard.json) | [Models and nodes](docs/workflows/James-GoldStandard/Codex%20-%204%20MiniMax%20H3%20Gold%20Standard.md) | Not yet included |
-| [Codex - 5 Z-Image Turbo Gold Standard](workflows/James-GoldStandard/Codex%20-%205%20Z-Image%20Turbo%20Gold%20Standard.json) | [Models and nodes](docs/workflows/James-GoldStandard/Codex%20-%205%20Z-Image%20Turbo%20Gold%20Standard.md) | Not yet included |
-| [Codex - Universal Five-Model Gold Standard](workflows/James-GoldStandard/Codex%20-%20Universal%20Five-Model%20Gold%20Standard.json) | [Models and nodes](docs/workflows/James-GoldStandard/Codex%20-%20Universal%20Five-Model%20Gold%20Standard.md) | Not yet included |
-| [James-Simple-Krea-2](workflows/James-GoldStandard/James-Simple-Krea-2.json) | [Models and nodes](docs/workflows/James-GoldStandard/James-Simple-Krea-2.md) | Not yet included |
-| [PERFECT-Krea 2 Text to Image + Extra Pass + Prompt Enhancer (Uncensored) v2a](workflows/James-GoldStandard/PERFECT-Krea%202%20Text%20to%20Image%20%2B%20Extra%20Pass%20%2B%20Prompt%20Enhancer%20%28Uncensored%29%20v2a.json) | [Models and nodes](docs/workflows/James-GoldStandard/PERFECT-Krea%202%20Text%20to%20Image%20%2B%20Extra%20Pass%20%2B%20Prompt%20Enhancer%20%28Uncensored%29%20v2a.md) | Not yet included |
-| [James-Simple-Krea-2-William-Morris-Themes](workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Themes.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Themes.md) | [Gallery](GALLERY.md) |
-| [James-Simple-Krea-2-William-Morris-Wildlife](workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Wildlife.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Wildlife.md) | [Gallery](GALLERY.md) |
-| [James-Simple-Krea-2-William-Morris](workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris.md) | [Gallery](GALLERY.md) |
-| [William-Morris-Autumn](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Autumn.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Autumn.md) | [Gallery](GALLERY.md) |
-| [William-Morris-Christmas](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Christmas.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Christmas.md) | [Gallery](GALLERY.md) |
-| [William-Morris-Easter](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Easter.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Easter.md) | [Gallery](GALLERY.md) |
-| [William-Morris-Halloween](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.md) | [Gallery](GALLERY.md) |
-| [William-Morris-Summer](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.md) | [Gallery](GALLERY.md) |
-| [William-Morris-Winter](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.json) | [Models and nodes](docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.md) | [Gallery](GALLERY.md) |
+| [07 GOLD STANDARD](workflows/Gold-Standard/07%20GOLD%20STANDARD.json) | [Models and nodes](docs/workflows/Gold-Standard/07%20GOLD%20STANDARD.md) | Not yet included |
+| [08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready](workflows/Gold-Standard/08%20KREA2%20ENTITY%20REFERENCE%20SHEETS%20-%20Ref2VA%20Ready.json) | [Models and nodes](docs/workflows/Gold-Standard/08%20KREA2%20ENTITY%20REFERENCE%20SHEETS%20-%20Ref2VA%20Ready.md) | Not yet included |
+| [09 GOLD STANDARD - MiniMax H3 Ref2VA Director](workflows/Gold-Standard/09%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Ref2VA%20Director.json) | [Models and nodes](docs/workflows/Gold-Standard/09%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Ref2VA%20Director.md) | Not yet included |
+| [10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder](workflows/Gold-Standard/10%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Long%20Form%20Shot%20Builder.json) | [Models and nodes](docs/workflows/Gold-Standard/10%20GOLD%20STANDARD%20-%20MiniMax%20H3%20Long%20Form%20Shot%20Builder.md) | Not yet included |
+| [Codex - 1 Ideogram 4 Gold Standard](workflows/Gold-Standard/Codex%20-%201%20Ideogram%204%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%201%20Ideogram%204%20Gold%20Standard.md) | Not yet included |
+| [Codex - 2 FLUX.2 Klein Gold Standard](workflows/Gold-Standard/Codex%20-%202%20FLUX.2%20Klein%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%202%20FLUX.2%20Klein%20Gold%20Standard.md) | Not yet included |
+| [Codex - 3 LTX 2.5 Gold Standard](workflows/Gold-Standard/Codex%20-%203%20LTX%202.5%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%203%20LTX%202.5%20Gold%20Standard.md) | Not yet included |
+| [Codex - 4 MiniMax H3 Gold Standard](workflows/Gold-Standard/Codex%20-%204%20MiniMax%20H3%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%204%20MiniMax%20H3%20Gold%20Standard.md) | Not yet included |
+| [Codex - 5 Z-Image Turbo Gold Standard](workflows/Gold-Standard/Codex%20-%205%20Z-Image%20Turbo%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%205%20Z-Image%20Turbo%20Gold%20Standard.md) | Not yet included |
+| [Codex - Universal Five-Model Gold Standard](workflows/Gold-Standard/Codex%20-%20Universal%20Five-Model%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/Codex%20-%20Universal%20Five-Model%20Gold%20Standard.md) | Not yet included |
+| [Simple-Krea-2](workflows/Gold-Standard/Simple-Krea-2.json) | [Models and nodes](docs/workflows/Gold-Standard/Simple-Krea-2.md) | Not yet included |
+| [PERFECT-Krea 2 Text to Image + Extra Pass + Prompt Enhancer (Uncensored) v2a](workflows/Gold-Standard/PERFECT-Krea%202%20Text%20to%20Image%20%2B%20Extra%20Pass%20%2B%20Prompt%20Enhancer%20%28Uncensored%29%20v2a.json) | [Models and nodes](docs/workflows/Gold-Standard/PERFECT-Krea%202%20Text%20to%20Image%20%2B%20Extra%20Pass%20%2B%20Prompt%20Enhancer%20%28Uncensored%29%20v2a.md) | Not yet included |
+| [Simple-Krea-2-William-Morris-Themes](workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Themes.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Themes.md) | [Gallery](GALLERY.md) |
+| [Simple-Krea-2-William-Morris-Wildlife](workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Wildlife.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Wildlife.md) | [Gallery](GALLERY.md) |
+| [Simple-Krea-2-William-Morris](workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris.md) | [Gallery](GALLERY.md) |
+| [William-Morris-Autumn](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Autumn.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Autumn.md) | [Gallery](GALLERY.md) |
+| [William-Morris-Christmas](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Christmas.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Christmas.md) | [Gallery](GALLERY.md) |
+| [William-Morris-Easter](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Easter.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Easter.md) | [Gallery](GALLERY.md) |
+| [William-Morris-Halloween](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Halloween.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Halloween.md) | [Gallery](GALLERY.md) |
+| [William-Morris-Summer](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Summer.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Summer.md) | [Gallery](GALLERY.md) |
+| [William-Morris-Winter](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Winter.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Winter.md) | [Gallery](GALLERY.md) |

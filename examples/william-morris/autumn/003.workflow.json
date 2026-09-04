@@ -1673,7 +1673,7 @@
         "ver": "72516552d286901accf5a10fe9619c89b6784932",
         "Node name for S&R": "PixaromaLoraLoader",
         "cnr_id": "ComfyUI-Pixaroma",
-        "loraLoaderState": "{\"version\":1,\"loras\":[{\"id\":\"gold_kgodrays\",\"name\":\"krea2\\\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[],\"custom\":[],\"at\":true},{\"id\":\"l164ab70a\",\"name\":\"krea2\\\\JAMES\\\\krea2_constable_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"constable\"],\"custom\":[\"constable\"],\"at\":true},{\"id\":\"gold_empty\",\"name\":\"krea2\\\\JAMES\\\\krea2_eyvind_earle_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"earle\"],\"custom\":[\"earle\"],\"at\":true},{\"id\":\"l28c6a53e\",\"name\":\"krea2\\\\JAMES\\\\krea2_jakub_schikaneder_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"shikaneder\"],\"custom\":[\"shikaneder\"],\"at\":true},{\"id\":\"le9825e5d\",\"name\":\"krea2\\\\JAMES\\\\krea2_john_atkinson_grimshaw_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"grimshaw\"],\"custom\":[\"grimshaw\"],\"at\":true},{\"id\":\"l678827d2\",\"name\":\"krea2\\\\JAMES\\\\krea2_john_frederick_kensett_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"kensett\"],\"custom\":[\"kensett\"],\"at\":true},{\"id\":\"lc152651b\",\"name\":\"krea2\\\\JAMES\\\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"prestes\"],\"custom\":[\"prestes\"],\"at\":true},{\"id\":\"william_morris\",\"name\":\"krea2\\\\FizGigLora\\\\William-Morris-LoRa_krea2.safetensors\",\"on\":true,\"sm\":0.9,\"sc\":0.9,\"triggers\":[],\"custom\":[],\"at\":false}],\"sep\":\", \",\"step\":0.05,\"defStrength\":1,\"linkStrength\":true,\"civitai\":true,\"thumbs\":true,\"hideExt\":true,\"accent\":null,\"cacheMode\":\"last\"}",
+        "loraLoaderState": "{\"version\":1,\"loras\":[{\"id\":\"gold_kgodrays\",\"name\":\"krea2\\\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[],\"custom\":[],\"at\":true},{\"id\":\"l164ab70a\",\"name\":\"krea2\\\\User\\\\krea2_constable_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"constable\"],\"custom\":[\"constable\"],\"at\":true},{\"id\":\"gold_empty\",\"name\":\"krea2\\\\User\\\\krea2_eyvind_earle_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"earle\"],\"custom\":[\"earle\"],\"at\":true},{\"id\":\"l28c6a53e\",\"name\":\"krea2\\\\User\\\\krea2_jakub_schikaneder_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"shikaneder\"],\"custom\":[\"shikaneder\"],\"at\":true},{\"id\":\"le9825e5d\",\"name\":\"krea2\\\\User\\\\krea2_john_atkinson_grimshaw_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"grimshaw\"],\"custom\":[\"grimshaw\"],\"at\":true},{\"id\":\"l678827d2\",\"name\":\"krea2\\\\User\\\\krea2_john_frederick_kensett_v1.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"kensett\"],\"custom\":[\"kensett\"],\"at\":true},{\"id\":\"lc152651b\",\"name\":\"krea2\\\\User\\\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors\",\"on\":false,\"sm\":0.9,\"sc\":0.9,\"triggers\":[\"prestes\"],\"custom\":[\"prestes\"],\"at\":true},{\"id\":\"william_morris\",\"name\":\"krea2\\\\FizGigLora\\\\William-Morris-LoRa_krea2.safetensors\",\"on\":true,\"sm\":0.9,\"sc\":0.9,\"triggers\":[],\"custom\":[],\"at\":false}],\"sep\":\", \",\"step\":0.05,\"defStrength\":1,\"linkStrength\":true,\"civitai\":true,\"thumbs\":true,\"hideExt\":true,\"accent\":null,\"cacheMode\":\"last\"}",
         "ue_properties": {
           "widget_ue_connectable": {},
           "version": "7.8",
@@ -1696,7 +1696,7 @@
             },
             {
               "id": "l164ab70a",
-              "name": "krea2\\JAMES\\krea2_constable_v1.safetensors",
+              "name": "krea2\\User\\krea2_constable_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1710,7 +1710,7 @@
             },
             {
               "id": "gold_empty",
-              "name": "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
+              "name": "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1724,7 +1724,7 @@
             },
             {
               "id": "l28c6a53e",
-              "name": "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
+              "name": "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1738,7 +1738,7 @@
             },
             {
               "id": "le9825e5d",
-              "name": "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
+              "name": "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1752,7 +1752,7 @@
             },
             {
               "id": "l678827d2",
-              "name": "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+              "name": "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1766,7 +1766,7 @@
             },
             {
               "id": "lc152651b",
-              "name": "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+              "name": "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1816,7 +1816,7 @@
             },
             {
               "id": "l164ab70a",
-              "name": "krea2\\JAMES\\krea2_constable_v1.safetensors",
+              "name": "krea2\\User\\krea2_constable_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1830,7 +1830,7 @@
             },
             {
               "id": "gold_empty",
-              "name": "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
+              "name": "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1844,7 +1844,7 @@
             },
             {
               "id": "l28c6a53e",
-              "name": "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
+              "name": "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1858,7 +1858,7 @@
             },
             {
               "id": "le9825e5d",
-              "name": "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
+              "name": "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1872,7 +1872,7 @@
             },
             {
               "id": "l678827d2",
-              "name": "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+              "name": "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,
@@ -1886,7 +1886,7 @@
             },
             {
               "id": "lc152651b",
-              "name": "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+              "name": "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
               "on": false,
               "sm": 0.9,
               "sc": 0.9,

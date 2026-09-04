@@ -24,12 +24,12 @@ Botanical ornament, wildlife and coordinated seasonal palettes, generated with K
 
 ## Explore the collection
 
-Only **Codex MCP Demos** and **James-GoldStandard** are published here. Default template folders are excluded.
+Only **Codex MCP Demos** and **Gold-Standard** are published here. Default template folders are excluded.
 
 | Collection | Workflows |
 |---|---:|
 | [Codex MCP Demos](workflows/Codex%20MCP%20Demos) | 27 |
-| [James-GoldStandard](workflows/James-GoldStandard) | 21 |
+| [Gold-Standard](workflows/Gold-Standard) | 21 |
 
 ## Start creating
 

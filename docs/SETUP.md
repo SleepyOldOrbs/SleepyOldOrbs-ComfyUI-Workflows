@@ -22,3 +22,5 @@ The collection has not been rerun on a clean installation. Missing local custom 
 ## Adding another example
 
 Add a generated PNG alongside its workflow, record which workflow produced it, and check the embedded metadata for private paths or credentials. Keep original author credits. Update the gallery and catalogue together. The validation script checks the repository's recorded files; it does not run ComfyUI or upload anything.
+
+Personal model subfolder names and preset labels are anonymised in these public exports. Reselect the matching local LoRA files in the loader if your subfolders differ.

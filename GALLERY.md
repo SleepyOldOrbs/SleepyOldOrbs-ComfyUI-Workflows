@@ -12,7 +12,7 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![Autumn pattern](examples/william-morris/autumn/001.png)](examples/william-morris/autumn/001.png)<br>[Captured workflow](examples/william-morris/autumn/001.workflow.json) · [API prompt](examples/william-morris/autumn/001.api.json) | [![Autumn pattern](examples/william-morris/autumn/002.png)](examples/william-morris/autumn/002.png)<br>[Captured workflow](examples/william-morris/autumn/002.workflow.json) · [API prompt](examples/william-morris/autumn/002.api.json) | [![Autumn pattern](examples/william-morris/autumn/003.png)](examples/william-morris/autumn/003.png)<br>[Captured workflow](examples/william-morris/autumn/003.workflow.json) · [API prompt](examples/william-morris/autumn/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Autumn.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Autumn.json)
 
 ## Christmas
 
@@ -20,7 +20,7 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![Christmas pattern](examples/william-morris/christmas/001.png)](examples/william-morris/christmas/001.png)<br>[Captured workflow](examples/william-morris/christmas/001.workflow.json) · [API prompt](examples/william-morris/christmas/001.api.json) | [![Christmas pattern](examples/william-morris/christmas/002.png)](examples/william-morris/christmas/002.png)<br>[Captured workflow](examples/william-morris/christmas/002.workflow.json) · [API prompt](examples/william-morris/christmas/002.api.json) | [![Christmas pattern](examples/william-morris/christmas/003.png)](examples/william-morris/christmas/003.png)<br>[Captured workflow](examples/william-morris/christmas/003.workflow.json) · [API prompt](examples/william-morris/christmas/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Christmas.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Christmas.json)
 
 ## Easter
 
@@ -28,7 +28,7 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![Easter pattern](examples/william-morris/easter/001.png)](examples/william-morris/easter/001.png)<br>[Captured workflow](examples/william-morris/easter/001.workflow.json) · [API prompt](examples/william-morris/easter/001.api.json) | [![Easter pattern](examples/william-morris/easter/002.png)](examples/william-morris/easter/002.png)<br>[Captured workflow](examples/william-morris/easter/002.workflow.json) · [API prompt](examples/william-morris/easter/002.api.json) | [![Easter pattern](examples/william-morris/easter/003.png)](examples/william-morris/easter/003.png)<br>[Captured workflow](examples/william-morris/easter/003.workflow.json) · [API prompt](examples/william-morris/easter/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Easter.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Easter.json)
 
 ## Halloween
 
@@ -36,7 +36,7 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![Halloween pattern](examples/william-morris/halloween/001.png)](examples/william-morris/halloween/001.png)<br>[Captured workflow](examples/william-morris/halloween/001.workflow.json) · [API prompt](examples/william-morris/halloween/001.api.json) | [![Halloween pattern](examples/william-morris/halloween/002.png)](examples/william-morris/halloween/002.png)<br>[Captured workflow](examples/william-morris/halloween/002.workflow.json) · [API prompt](examples/william-morris/halloween/002.api.json) | [![Halloween pattern](examples/william-morris/halloween/003.png)](examples/william-morris/halloween/003.png)<br>[Captured workflow](examples/william-morris/halloween/003.workflow.json) · [API prompt](examples/william-morris/halloween/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Halloween.json)
 
 ## MixedThemes
 
@@ -44,7 +44,7 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![MixedThemes pattern](examples/william-morris/mixedthemes/001.png)](examples/william-morris/mixedthemes/001.png)<br>[Captured workflow](examples/william-morris/mixedthemes/001.workflow.json) · [API prompt](examples/william-morris/mixedthemes/001.api.json) | [![MixedThemes pattern](examples/william-morris/mixedthemes/002.png)](examples/william-morris/mixedthemes/002.png)<br>[Captured workflow](examples/william-morris/mixedthemes/002.workflow.json) · [API prompt](examples/william-morris/mixedthemes/002.api.json) | [![MixedThemes pattern](examples/william-morris/mixedthemes/003.png)](examples/william-morris/mixedthemes/003.png)<br>[Captured workflow](examples/william-morris/mixedthemes/003.workflow.json) · [API prompt](examples/william-morris/mixedthemes/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Themes.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Themes.json)
 
 ## Botanical
 
@@ -52,7 +52,7 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![Botanical pattern](examples/william-morris/botanical/001.png)](examples/william-morris/botanical/001.png)<br>[Captured workflow](examples/william-morris/botanical/001.workflow.json) · [API prompt](examples/william-morris/botanical/001.api.json) | [![Botanical pattern](examples/william-morris/botanical/002.png)](examples/william-morris/botanical/002.png)<br>[Captured workflow](examples/william-morris/botanical/002.workflow.json) · [API prompt](examples/william-morris/botanical/002.api.json) | [![Botanical pattern](examples/william-morris/botanical/003.png)](examples/william-morris/botanical/003.png)<br>[Captured workflow](examples/william-morris/botanical/003.workflow.json) · [API prompt](examples/william-morris/botanical/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris.json)
 
 ## Summer
 
@@ -60,7 +60,7 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![Summer pattern](examples/william-morris/summer/001.png)](examples/william-morris/summer/001.png)<br>[Captured workflow](examples/william-morris/summer/001.workflow.json) · [API prompt](examples/william-morris/summer/001.api.json) | [![Summer pattern](examples/william-morris/summer/002.png)](examples/william-morris/summer/002.png)<br>[Captured workflow](examples/william-morris/summer/002.workflow.json) · [API prompt](examples/william-morris/summer/002.api.json) | [![Summer pattern](examples/william-morris/summer/003.png)](examples/william-morris/summer/003.png)<br>[Captured workflow](examples/william-morris/summer/003.workflow.json) · [API prompt](examples/william-morris/summer/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Summer.json)
 
 ## Wildlife
 
@@ -68,7 +68,7 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![Wildlife pattern](examples/william-morris/wildlife/001.png)](examples/william-morris/wildlife/001.png)<br>[Captured workflow](examples/william-morris/wildlife/001.workflow.json) · [API prompt](examples/william-morris/wildlife/001.api.json) | [![Wildlife pattern](examples/william-morris/wildlife/002.png)](examples/william-morris/wildlife/002.png)<br>[Captured workflow](examples/william-morris/wildlife/002.workflow.json) · [API prompt](examples/william-morris/wildlife/002.api.json) | [![Wildlife pattern](examples/william-morris/wildlife/003.png)](examples/william-morris/wildlife/003.png)<br>[Captured workflow](examples/william-morris/wildlife/003.workflow.json) · [API prompt](examples/william-morris/wildlife/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Wildlife.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Wildlife.json)
 
 ## Winter
 
@@ -76,4 +76,4 @@ Use **Captured workflow** for the graph saved with that render. **Library workfl
 |---|---|---|
 | [![Winter pattern](examples/william-morris/winter/001.png)](examples/william-morris/winter/001.png)<br>[Captured workflow](examples/william-morris/winter/001.workflow.json) · [API prompt](examples/william-morris/winter/001.api.json) | [![Winter pattern](examples/william-morris/winter/002.png)](examples/william-morris/winter/002.png)<br>[Captured workflow](examples/william-morris/winter/002.workflow.json) · [API prompt](examples/william-morris/winter/002.api.json) | [![Winter pattern](examples/william-morris/winter/003.png)](examples/william-morris/winter/003.png)<br>[Captured workflow](examples/william-morris/winter/003.workflow.json) · [API prompt](examples/william-morris/winter/003.api.json) |
 
-[Library workflow](workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.json)
+[Library workflow](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Winter.json)

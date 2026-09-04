@@ -1741,9 +1741,9 @@
   },
   {
     "name": "07 GOLD STANDARD",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/07 GOLD STANDARD.json",
-    "guide": "docs/workflows/James-GoldStandard/07 GOLD STANDARD.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/07 GOLD STANDARD.json",
+    "guide": "docs/workflows/Gold-Standard/07 GOLD STANDARD.md",
     "node_count": 46,
     "node_types": [
       "CLIPLoader",
@@ -1789,12 +1789,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "ema_vae_fp16.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors",
@@ -1816,15 +1816,15 @@
       "pixaroma_compare_pixcmp_oghlt_00009_.png",
       "pixaroma_compare_pixcmp_oghlt_00010_.png"
     ],
-    "sha256": "43f329261df1d381eb4fea879a3e348d90fd87197c0548bcd91a80096d8e9d63",
+    "sha256": "8bc46254948d18f0c7c82d73fea135135ed6e11806444bb174558947c5142f0b",
     "examples": [],
     "status": "Export checked; not rerun for this publication"
   },
   {
     "name": "08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.json",
-    "guide": "docs/workflows/James-GoldStandard/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.json",
+    "guide": "docs/workflows/Gold-Standard/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.md",
     "node_count": 23,
     "node_types": [
       "CLIPLoader",
@@ -1868,9 +1868,9 @@
   },
   {
     "name": "09 GOLD STANDARD - MiniMax H3 Ref2VA Director",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.json",
-    "guide": "docs/workflows/James-GoldStandard/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.json",
+    "guide": "docs/workflows/Gold-Standard/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.md",
     "node_count": 41,
     "node_types": [
       "CLIPLoader",
@@ -1928,9 +1928,9 @@
   },
   {
     "name": "10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder.json",
-    "guide": "docs/workflows/James-GoldStandard/10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder.json",
+    "guide": "docs/workflows/Gold-Standard/10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder.md",
     "node_count": 44,
     "node_types": [
       "CLIPLoader",
@@ -1988,9 +1988,9 @@
   },
   {
     "name": "Codex - 1 Ideogram 4 Gold Standard",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/Codex - 1 Ideogram 4 Gold Standard.json",
-    "guide": "docs/workflows/James-GoldStandard/Codex - 1 Ideogram 4 Gold Standard.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/Codex - 1 Ideogram 4 Gold Standard.json",
+    "guide": "docs/workflows/Gold-Standard/Codex - 1 Ideogram 4 Gold Standard.md",
     "node_count": 57,
     "node_types": [
       "83e6e004-48ea-408e-9024-eb49c3d7dc14",
@@ -2078,9 +2078,9 @@
   },
   {
     "name": "Codex - 2 FLUX.2 Klein Gold Standard",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/Codex - 2 FLUX.2 Klein Gold Standard.json",
-    "guide": "docs/workflows/James-GoldStandard/Codex - 2 FLUX.2 Klein Gold Standard.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/Codex - 2 FLUX.2 Klein Gold Standard.json",
+    "guide": "docs/workflows/Gold-Standard/Codex - 2 FLUX.2 Klein Gold Standard.md",
     "node_count": 58,
     "node_types": [
       "7b34ab90-36f9-45ba-a665-71d418f0df18",
@@ -2162,9 +2162,9 @@
   },
   {
     "name": "Codex - 3 LTX 2.5 Gold Standard",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/Codex - 3 LTX 2.5 Gold Standard.json",
-    "guide": "docs/workflows/James-GoldStandard/Codex - 3 LTX 2.5 Gold Standard.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/Codex - 3 LTX 2.5 Gold Standard.json",
+    "guide": "docs/workflows/Gold-Standard/Codex - 3 LTX 2.5 Gold Standard.md",
     "node_count": 64,
     "node_types": [
       "8b4f085c-1bb3-4ecd-aeed-603a8d6d3970",
@@ -2251,9 +2251,9 @@
   },
   {
     "name": "Codex - 4 MiniMax H3 Gold Standard",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/Codex - 4 MiniMax H3 Gold Standard.json",
-    "guide": "docs/workflows/James-GoldStandard/Codex - 4 MiniMax H3 Gold Standard.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/Codex - 4 MiniMax H3 Gold Standard.json",
+    "guide": "docs/workflows/Gold-Standard/Codex - 4 MiniMax H3 Gold Standard.md",
     "node_count": 46,
     "node_types": [
       "BasicScheduler",
@@ -2334,15 +2334,15 @@
     "input_or_cached_media_filenames": [
       "Video_00001.mp4"
     ],
-    "sha256": "a605c4105ced67b0c3e4573b922f1c981f99a49a7cc67f436f8f1333721ad4f9",
+    "sha256": "6ba0a94ddac68fb28dc789317f5cbba93c7434e6e0d4b7c5ea04042db359add5",
     "examples": [],
     "status": "Export checked; not rerun for this publication"
   },
   {
     "name": "Codex - 5 Z-Image Turbo Gold Standard",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/Codex - 5 Z-Image Turbo Gold Standard.json",
-    "guide": "docs/workflows/James-GoldStandard/Codex - 5 Z-Image Turbo Gold Standard.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/Codex - 5 Z-Image Turbo Gold Standard.json",
+    "guide": "docs/workflows/Gold-Standard/Codex - 5 Z-Image Turbo Gold Standard.md",
     "node_count": 33,
     "node_types": [
       "CLIPLoader",
@@ -2411,9 +2411,9 @@
   },
   {
     "name": "Codex - Universal Five-Model Gold Standard",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/Codex - Universal Five-Model Gold Standard.json",
-    "guide": "docs/workflows/James-GoldStandard/Codex - Universal Five-Model Gold Standard.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/Codex - Universal Five-Model Gold Standard.json",
+    "guide": "docs/workflows/Gold-Standard/Codex - Universal Five-Model Gold Standard.md",
     "node_count": 173,
     "node_types": [
       "79dd8a95-ce9d-4c14-b264-2162e8bec5ce",
@@ -2581,10 +2581,10 @@
     "status": "Export checked; not rerun for this publication"
   },
   {
-    "name": "James-Simple-Krea-2",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/James-Simple-Krea-2.json",
-    "guide": "docs/workflows/James-GoldStandard/James-Simple-Krea-2.md",
+    "name": "Simple-Krea-2",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/Simple-Krea-2.json",
+    "guide": "docs/workflows/Gold-Standard/Simple-Krea-2.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -2624,12 +2624,12 @@
     "model_filenames": [
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -2640,15 +2640,15 @@
       "pixaroma_compare_pixcmp_icjfd_00161_.png",
       "pixaroma_compare_pixcmp_icjfd_00162_.png"
     ],
-    "sha256": "9fbbeb30883c64d30d3ca4dd276e108080425bd62e80c7aa341db343d2405ba3",
+    "sha256": "7b1d1db17293064ab03f9f8868cccc43890d909ad1b78075193bf85d0d6b42ff",
     "examples": [],
     "status": "Export checked; not rerun for this publication"
   },
   {
     "name": "PERFECT-Krea 2 Text to Image + Extra Pass + Prompt Enhancer (Uncensored) v2a",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/PERFECT-Krea 2 Text to Image + Extra Pass + Prompt Enhancer (Uncensored) v2a.json",
-    "guide": "docs/workflows/James-GoldStandard/PERFECT-Krea 2 Text to Image + Extra Pass + Prompt Enhancer (Uncensored) v2a.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/PERFECT-Krea 2 Text to Image + Extra Pass + Prompt Enhancer (Uncensored) v2a.json",
+    "guide": "docs/workflows/Gold-Standard/PERFECT-Krea 2 Text to Image + Extra Pass + Prompt Enhancer (Uncensored) v2a.md",
     "node_count": 31,
     "node_types": [
       "CLIPLoader",
@@ -2724,10 +2724,10 @@
     "status": "Export checked; not rerun for this publication"
   },
   {
-    "name": "James-Simple-Krea-2-William-Morris-Themes",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Themes.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Themes.md",
+    "name": "Simple-Krea-2-William-Morris-Themes",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Themes.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Themes.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -2768,12 +2768,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -2784,7 +2784,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00087_.png",
       "pixaroma_compare_pixcmp_nlyzv_00088_.png"
     ],
-    "sha256": "74f979f5a81b5ea262fcf2c696c8ab886a4045a09b6b96cb1c3c35f941ed5745",
+    "sha256": "8cbb34555350f1ad5590122550004e5a4efda5317d7b42bf770ec11d159381c5",
     "examples": [
       "examples/william-morris/mixedthemes/001.png",
       "examples/william-morris/mixedthemes/002.png",
@@ -2793,10 +2793,10 @@
     "status": "Export checked; not rerun for this publication"
   },
   {
-    "name": "James-Simple-Krea-2-William-Morris-Wildlife",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Wildlife.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris-Wildlife.md",
+    "name": "Simple-Krea-2-William-Morris-Wildlife",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Wildlife.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris-Wildlife.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -2837,12 +2837,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -2853,7 +2853,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00165_.png",
       "pixaroma_compare_pixcmp_nlyzv_00166_.png"
     ],
-    "sha256": "469cf9d53553097b9e511228d40df5f42ff77bb74df22c3cc7b8b342877a1147",
+    "sha256": "6697cbe9568960d65688af4577775f05e2b51c950e3e5ea66f0ba316003c7d96",
     "examples": [
       "examples/william-morris/wildlife/001.png",
       "examples/william-morris/wildlife/002.png",
@@ -2862,10 +2862,10 @@
     "status": "Export checked; not rerun for this publication"
   },
   {
-    "name": "James-Simple-Krea-2-William-Morris",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/James-Simple-Krea-2-William-Morris.md",
+    "name": "Simple-Krea-2-William-Morris",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/Simple-Krea-2-William-Morris.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -2906,12 +2906,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -2922,7 +2922,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00067_.png",
       "pixaroma_compare_pixcmp_nlyzv_00068_.png"
     ],
-    "sha256": "0ed565a49b9833dafba1f1f23616c7197bbf8662622b3d4611b4919a79eb0fef",
+    "sha256": "180122ae7f4f4317ed6316aa105ca58f16c6c771bce8a66f9813c8f95971f1fd",
     "examples": [
       "examples/william-morris/botanical/001.png",
       "examples/william-morris/botanical/002.png",
@@ -2932,9 +2932,9 @@
   },
   {
     "name": "William-Morris-Autumn",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Autumn.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Autumn.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/William-Morris-Autumn.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Autumn.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -2975,12 +2975,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -2991,7 +2991,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00095_.png",
       "pixaroma_compare_pixcmp_nlyzv_00096_.png"
     ],
-    "sha256": "a88b124f82e1939693bbfa137a46c8259c3fc707938f465d58a7bccc3269014c",
+    "sha256": "1a85b266fa87a92ef4f91c4a145ab05b810d4e35a27ba0408312772b1445a055",
     "examples": [
       "examples/william-morris/autumn/001.png",
       "examples/william-morris/autumn/002.png",
@@ -3001,9 +3001,9 @@
   },
   {
     "name": "William-Morris-Christmas",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Christmas.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Christmas.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/William-Morris-Christmas.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Christmas.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -3044,12 +3044,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -3060,7 +3060,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00101_.png",
       "pixaroma_compare_pixcmp_nlyzv_00102_.png"
     ],
-    "sha256": "891138b11761ae038c766f713e42efd4cb3363adb2dc47b8ca98542939fbcd2a",
+    "sha256": "5e6b7f764853be2ae264ae3418726a62e3b027c0008ea68bb5a7481842d0d92a",
     "examples": [
       "examples/william-morris/christmas/001.png",
       "examples/william-morris/christmas/002.png",
@@ -3070,9 +3070,9 @@
   },
   {
     "name": "William-Morris-Easter",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Easter.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Easter.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/William-Morris-Easter.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Easter.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -3113,12 +3113,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -3129,7 +3129,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00003_.png",
       "pixaroma_compare_pixcmp_nlyzv_00004_.png"
     ],
-    "sha256": "27796cbb86f94f992002f3c710a2118ad93252d921f56d7e959e66523a69d38b",
+    "sha256": "4543409907d5aa2608e54a28f7afc2ccc5418409580d0e72d7d71b88eb1d015d",
     "examples": [
       "examples/william-morris/easter/001.png",
       "examples/william-morris/easter/002.png",
@@ -3139,9 +3139,9 @@
   },
   {
     "name": "William-Morris-Halloween",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Halloween.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/William-Morris-Halloween.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Halloween.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -3182,12 +3182,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -3198,7 +3198,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00107_.png",
       "pixaroma_compare_pixcmp_nlyzv_00108_.png"
     ],
-    "sha256": "68d51121a6741e46dba9b9f8cf7e54dbea9cf2a64e63b4858a5cfb131ec5abc0",
+    "sha256": "32ce6c870d2d1ac761eeaa27d054a5df871042edc83f1e72234484dab2449bbf",
     "examples": [
       "examples/william-morris/halloween/001.png",
       "examples/william-morris/halloween/002.png",
@@ -3208,9 +3208,9 @@
   },
   {
     "name": "William-Morris-Summer",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Summer.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/William-Morris-Summer.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Summer.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -3251,12 +3251,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -3267,7 +3267,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00109_.png",
       "pixaroma_compare_pixcmp_nlyzv_00110_.png"
     ],
-    "sha256": "c1f898260073a0818c6b301d3501c421dfd1d539e421d732c1854074923ab7f9",
+    "sha256": "71b8dfe9a5c0d25d42eff487a74dee2fa190b4e1710f363823bf663d98179df7",
     "examples": [
       "examples/william-morris/summer/001.png",
       "examples/william-morris/summer/002.png",
@@ -3277,9 +3277,9 @@
   },
   {
     "name": "William-Morris-Winter",
-    "category": "James-GoldStandard",
-    "workflow": "workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.json",
-    "guide": "docs/workflows/James-GoldStandard/William-Morris-Themes/William-Morris-Winter.md",
+    "category": "Gold-Standard",
+    "workflow": "workflows/Gold-Standard/William-Morris-Themes/William-Morris-Winter.json",
+    "guide": "docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Winter.md",
     "node_count": 29,
     "node_types": [
       "CLIPLoader",
@@ -3320,12 +3320,12 @@
       "Huihui-Qwen3-VL-4B-Instruct-abliterated-fp8_scaled.safetensors",
       "Krea2\\krea2_turbo_fp8_scaled.safetensors",
       "krea2\\FizGigLora\\William-Morris-LoRa_krea2.safetensors",
-      "krea2\\JAMES\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
-      "krea2\\JAMES\\krea2_constable_v1.safetensors",
-      "krea2\\JAMES\\krea2_eyvind_earle_v1.safetensors",
-      "krea2\\JAMES\\krea2_jakub_schikaneder_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_atkinson_grimshaw_v1.safetensors",
-      "krea2\\JAMES\\krea2_john_frederick_kensett_v1.safetensors",
+      "krea2\\User\\henri-prestes_krea2_lora_curated-qwen2vl-d32.safetensors",
+      "krea2\\User\\krea2_constable_v1.safetensors",
+      "krea2\\User\\krea2_eyvind_earle_v1.safetensors",
+      "krea2\\User\\krea2_jakub_schikaneder_v1.safetensors",
+      "krea2\\User\\krea2_john_atkinson_grimshaw_v1.safetensors",
+      "krea2\\User\\krea2_john_frederick_kensett_v1.safetensors",
       "krea2\\vorja-sanchez_krea2_lora_curated-qwen2vl-d32.safetensors",
       "qwen3vl_4b_fp8_scaled (1).safetensors",
       "qwen_image_vae.safetensors"
@@ -3336,7 +3336,7 @@
       "pixaroma_compare_pixcmp_nlyzv_00111_.png",
       "pixaroma_compare_pixcmp_nlyzv_00112_.png"
     ],
-    "sha256": "0bcd886e35adc30ff1790c2507d90ad2ce30a8e5957a3f42e4e34ef25fc14b24",
+    "sha256": "8efaa581dd49bee44c18430a94cb346e0b1dc305b6bb79623d57689b9e93c229",
     "examples": [
       "examples/william-morris/winter/001.png",
       "examples/william-morris/winter/002.png",
