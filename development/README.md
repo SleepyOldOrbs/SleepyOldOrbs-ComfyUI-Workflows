@@ -44,4 +44,4 @@ node --test development/tests/h3_m7_gold_integration.test.mjs
 python -m pytest development/tests
 ```
 
-The Python node tests require pytest, PyTorch, NumPy and Pillow. They use temporary output directories and a stub ComfyUI path module; they do not start ComfyUI or generate media with a model.
+The Python node tests require pytest, PyTorch, NumPy, Pillow and imageio-ffmpeg. They use temporary output directories and a stub ComfyUI path module; they do not start ComfyUI or generate media with a model.

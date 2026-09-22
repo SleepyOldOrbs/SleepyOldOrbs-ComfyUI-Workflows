@@ -25,5 +25,5 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
-      - run: python -m pip install pytest numpy Pillow
+      - run: python -m pip install pytest numpy Pillow imageio-ffmpeg
       - run: python -m pytest development/tests
