@@ -1,0 +1,173 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "H3\\minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "type": "minimax",
+      "device": "default"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_video_vae_fp16.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "minimax_h3_audio_vae_fp32.safetensors"
+    }
+  },
+  "5": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "img_00001_.png"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "img_00002_.png"
+    }
+  },
+  "7": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "img_00003_.png"
+    }
+  },
+  "8": {
+    "class_type": "MiniMaxH3ReferenceToVideo",
+    "inputs": {
+      "clip": [
+        "2",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ],
+      "audio_vae": [
+        "4",
+        0
+      ],
+      "prompt": "subject_definitions:\n<Subject 1> is the same brown-and-black goat defined jointly by <Picture 1>, <Picture 2>, and <Picture 3>, preserving its curved horns, dark facial stripe, brown coat, black lower legs, compact proportions, and natural animal anatomy.\n\nsummary:\n[reference generation] The target video shows <Subject 1> walking toward the camera on a sunlit grassy hillside, stopping close to the lens, stamping one front hoof, looking directly forward, and giving one short natural bleat.\n\nretention_analysis:\n<Subject 1> (appears throughout [Shot 1]): fully_preserved - the goat's identity, horn shape, face markings, coat colours, body proportions, four-legged anatomy, and natural movement remain consistent with <Picture 1>, <Picture 2>, and <Picture 3>.\n\ndetailed_description:\nThe target video uses realistic live-action wildlife photography with warm late-afternoon sunlight, natural colour, and restrained depth of field.\n[Shot 1] An eye-level medium tracking shot opens on <Subject 1>, the brown-and-black goat from <Picture 1>, <Picture 2>, and <Picture 3>, walking calmly toward the camera across a gently sloping grassy hillside. The camera moves smoothly backwards at the goat's walking pace while keeping its head, shoulders, horns, and front legs sharply framed. The goat's four legs carry its weight naturally; its coat shifts subtly with each step and a light breeze. Around 00:03.200, the camera settles into a locked close-medium composition as <Subject 1> stops, plants all four hooves, stamps its front-right hoof once against the earth, raises its head, and looks directly toward the lens. The hoof makes a soft compact impact in the grass. The goat gives one short, clean natural bleat, then closes its mouth and remains alert through the final frame. No human posture, speech, clothing, extra limbs, or anthropomorphic behaviour appears.\n\noverall_soundscape:\nLight wind moves through hillside grass with distant birds and restrained rural ambience. Natural hoof impacts accompany the approach, followed by one close hoof stamp and one short goat bleat.\n\nnon_diegetic_music:\nN/A",
+      "width": 608,
+      "height": 352,
+      "length": 124,
+      "ref_image_size": "match",
+      "ref_images.ref_image_0": [
+        "5",
+        0
+      ],
+      "ref_images.ref_image_1": [
+        "6",
+        0
+      ],
+      "ref_images.ref_image_2": [
+        "7",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "H3FreeTextEncoder",
+    "inputs": {
+      "conditioning": [
+        "8",
+        0
+      ],
+      "clip": [
+        "2",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": [
+        "9",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "9",
+        0
+      ],
+      "negative": [
+        "10",
+        0
+      ],
+      "latent_image": [
+        "8",
+        1
+      ],
+      "seed": 2408240901,
+      "steps": 6,
+      "cfg": 1,
+      "sampler_name": "res_multistep",
+      "scheduler": "simple",
+      "denoise": 1
+    }
+  },
+  "12": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "11",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "13": {
+    "class_type": "VAEDecodeAudio",
+    "inputs": {
+      "samples": [
+        "11",
+        0
+      ],
+      "vae": [
+        "4",
+        0
+      ]
+    }
+  },
+  "14": {
+    "class_type": "PixaromaSaveMp4",
+    "inputs": {
+      "video_frames": [
+        "12",
+        0
+      ],
+      "audio": [
+        "13",
+        0
+      ],
+      "fps": 24,
+      "filename_prefix": "H3_Gold_Ref_Smoke/H3_Goat_2408240901",
+      "save_mode": "save",
+      "trim_to_audio": false
+    }
+  }
+}

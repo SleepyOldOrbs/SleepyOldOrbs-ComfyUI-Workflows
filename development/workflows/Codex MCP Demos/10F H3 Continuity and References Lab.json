@@ -1,0 +1,1359 @@
+{
+  "id": "10f00000-0000-4000-8000-000000000005",
+  "revision": 0,
+  "last_node_id": 20,
+  "last_link_id": 25,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PixaromaNote",
+      "pos": [
+        20,
+        20
+      ],
+      "size": [
+        3300,
+        250
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "note_json",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "note_json"
+          }
+        }
+      ],
+      "outputs": [],
+      "title": "START HERE — ADVISORY CONTINUITY AND TYPED REFERENCES",
+      "properties": {
+        "Node name for S&R": "PixaromaNote"
+      },
+      "widgets_values": [
+        "{\"version\":1,\"content\":\"<h2>M5 CONTINUITY + REFERENCES LAB</h2><ol><li>Continuity compares a known previous ending frame, current ending frame, and optional identity reference. Warnings are advisory and never block a take.</li><li>The reference manifest maps each enabled image to an explicit role, stable entity, view, description, and deterministic Picture number.</li><li>Connect the separate images, fitted batch, reference_subjects, and prompt preamble to the existing H3 Multishot inputs as needed.</li></ol><p>This retained lab uses existing local images only. It contains no model, sampler, partner node, paid route, or inferred identity labels. Protected Gold is not connected.</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"width\":3300,\"height\":220,\"backgroundColor\":\"#2a2a2a\"}",
+        ""
+      ],
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 2,
+      "type": "CodexH3ProjectControl",
+      "pos": [
+        40,
+        340
+      ],
+      "size": [
+        650,
+        880
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "project",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "project"
+          }
+        },
+        {
+          "name": "scene",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "scene"
+          }
+        },
+        {
+          "name": "shot",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "shot"
+          }
+        },
+        {
+          "name": "branch",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "branch"
+          }
+        },
+        {
+          "name": "engine",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "engine"
+          }
+        },
+        {
+          "name": "model",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "model"
+          }
+        },
+        {
+          "name": "lora",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "lora"
+          }
+        },
+        {
+          "name": "profile",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "profile"
+          }
+        },
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "prompt"
+          }
+        },
+        {
+          "name": "references_json",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "references_json"
+          }
+        },
+        {
+          "name": "parent_handoff",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "parent_handoff"
+          }
+        },
+        {
+          "name": "native_width",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "native_width"
+          }
+        },
+        {
+          "name": "native_height",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "native_height"
+          }
+        },
+        {
+          "name": "delivery_width",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "delivery_width"
+          }
+        },
+        {
+          "name": "delivery_height",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "delivery_height"
+          }
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "seed"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "take_token",
+          "type": "H3_PROJECT_TAKE",
+          "links": [
+            3
+          ]
+        },
+        {
+          "name": "take_label",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "render_seed",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "1. PROJECT TAKE — history record target",
+      "properties": {
+        "Node name for S&R": "CodexH3ProjectControl"
+      },
+      "widgets_values": [
+        "H3 M5 Continuity References Lab",
+        "Continuity",
+        "Reference audit",
+        "main",
+        "m5-state-lab-no-render",
+        "(no model loaded)",
+        "(none)",
+        "Advisory audit",
+        "Compare ending frames and build a typed reference manifest.",
+        "[{\"slot\":1,\"enabled\":true,\"entity_id\":\"saxophonist\",\"display_name\":\"Saxophonist\",\"role\":\"character\",\"view\":\"multi-view reference sheet\",\"description\":\"Black woman with braided hair holding a saxophone\",\"group_id\":\"cast\"},{\"slot\":2,\"enabled\":true,\"entity_id\":\"highland-cow\",\"display_name\":\"Highland Cow\",\"role\":\"creature\",\"view\":\"multi-view reference sheet\",\"description\":\"shaggy russet Highland cattle with long horns\",\"group_id\":\"creatures\"},{\"slot\":3,\"enabled\":true,\"entity_id\":\"stone-library\",\"display_name\":\"Stone Library\",\"role\":\"location\",\"view\":\"exterior turnaround\",\"description\":\"small weathered stone library building\",\"group_id\":\"locations\"},{\"slot\":4,\"enabled\":true,\"entity_id\":\"graphite-coupe\",\"display_name\":\"Graphite Coupe\",\"role\":\"vehicle\",\"view\":\"vehicle turnaround\",\"description\":\"graphite sports coupe with bronze wheels\",\"group_id\":\"vehicles\"},{\"slot\":5,\"enabled\":true,\"entity_id\":\"yellow-drone\",\"display_name\":\"Yellow Drone\",\"role\":\"vehicle\",\"view\":\"vehicle turnaround\",\"description\":\"weathered yellow camera drone\",\"group_id\":\"vehicles\"},{\"slot\":6,\"enabled\":true,\"entity_id\":\"amber-lamp\",\"display_name\":\"Amber Lamp\",\"role\":\"prop\",\"view\":\"prop turnaround\",\"description\":\"amber glass table lamp with a cream shade\",\"group_id\":\"props\"}]",
+        "",
+        864,
+        480,
+        864,
+        480,
+        505
+      ],
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 3,
+      "type": "LoadImage",
+      "pos": [
+        760,
+        340
+      ],
+      "size": [
+        450,
+        330
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1,
+            5
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "2A. PREVIOUS ENDING FRAME",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "H3_Long_Form_Test_Start.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 4,
+      "type": "LoadImage",
+      "pos": [
+        1260,
+        340
+      ],
+      "size": [
+        450,
+        330
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "2B. CURRENT ENDING FRAME",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "H3_Long_Form_Test_End.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 5,
+      "type": "CodexH3ContinuityMonitor",
+      "pos": [
+        1780,
+        340
+      ],
+      "size": [
+        650,
+        440
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "previous_image",
+          "type": "IMAGE",
+          "link": 1
+        },
+        {
+          "name": "current_image",
+          "type": "IMAGE",
+          "link": 2
+        },
+        {
+          "name": "reference_image",
+          "type": "IMAGE",
+          "link": 5
+        },
+        {
+          "name": "take_token",
+          "type": "H3_PROJECT_TAKE",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "current_image",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "difference_image",
+          "type": "IMAGE",
+          "links": [
+            6
+          ]
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            7
+          ]
+        },
+        {
+          "name": "advisory",
+          "type": "STRING",
+          "links": [
+            8
+          ]
+        },
+        {
+          "name": "metrics_json",
+          "type": "STRING",
+          "links": [
+            9
+          ]
+        },
+        {
+          "name": "chain_length",
+          "type": "INT",
+          "links": []
+        }
+      ],
+      "title": "3. CONTINUITY MONITOR — advisory only",
+      "properties": {
+        "Node name for S&R": "CodexH3ContinuityMonitor"
+      },
+      "widgets_values": [],
+      "color": "#6A4C93",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 6,
+      "type": "PreviewImage",
+      "pos": [
+        2500,
+        340
+      ],
+      "size": [
+        380,
+        440
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 6
+        }
+      ],
+      "outputs": [],
+      "title": "ABSOLUTE DIFFERENCE — visual aid",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [],
+      "color": "#6A4C93",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 7,
+      "type": "LoadImage",
+      "pos": [
+        40,
+        1340
+      ],
+      "size": [
+        450,
+        330
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            10
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "1. CHARACTER — Saxophonist",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_902163455682300_00001_.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 8,
+      "type": "LoadImage",
+      "pos": [
+        550,
+        1340
+      ],
+      "size": [
+        450,
+        330
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            11
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "2. CREATURE — Highland Cow",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_4215362728668739_00001_.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 9,
+      "type": "LoadImage",
+      "pos": [
+        1060,
+        1340
+      ],
+      "size": [
+        450,
+        330
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            12
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "3. LOCATION — Stone Library",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_6068153734194764_00001_.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 10,
+      "type": "LoadImage",
+      "pos": [
+        1570,
+        1340
+      ],
+      "size": [
+        450,
+        330
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            13
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "4. VEHICLE — Graphite Coupe",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_6603758560734249_00001_.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 11,
+      "type": "LoadImage",
+      "pos": [
+        2080,
+        1340
+      ],
+      "size": [
+        450,
+        330
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            14
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "5. VEHICLE — Yellow Drone",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_6942449730230515_00001_.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 12,
+      "type": "LoadImage",
+      "pos": [
+        2590,
+        1340
+      ],
+      "size": [
+        450,
+        330
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            15
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "6. PROP — Amber Lamp",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "Krea2_Ref2VA_Entity_5227560524876038_00001_.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 13,
+      "type": "CodexH3ReferenceManifest",
+      "pos": [
+        40,
+        1780
+      ],
+      "size": [
+        920,
+        760
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "entries_json",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "entries_json"
+          }
+        },
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 10
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 11
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": 12
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": 13
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": 14
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": 15
+        }
+      ],
+      "outputs": [
+        {
+          "name": "ref_1",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "ref_2",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "ref_3",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "ref_4",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "ref_5",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "ref_6",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "ref_7",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "ref_8",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "ref_9",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "reference_batch",
+          "type": "IMAGE",
+          "links": [
+            16
+          ]
+        },
+        {
+          "name": "reference_subjects",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "manifest_json",
+          "type": "STRING",
+          "links": [
+            20
+          ]
+        },
+        {
+          "name": "prompt_preamble",
+          "type": "STRING",
+          "links": [
+            19
+          ]
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            18
+          ]
+        }
+      ],
+      "title": "4. REFERENCE MANIFEST — typed deterministic mapping",
+      "properties": {
+        "Node name for S&R": "CodexH3ReferenceManifest"
+      },
+      "widgets_values": [
+        "[{\"slot\":1,\"enabled\":true,\"entity_id\":\"saxophonist\",\"display_name\":\"Saxophonist\",\"role\":\"character\",\"view\":\"multi-view reference sheet\",\"description\":\"Black woman with braided hair holding a saxophone\",\"group_id\":\"cast\"},{\"slot\":2,\"enabled\":true,\"entity_id\":\"highland-cow\",\"display_name\":\"Highland Cow\",\"role\":\"creature\",\"view\":\"multi-view reference sheet\",\"description\":\"shaggy russet Highland cattle with long horns\",\"group_id\":\"creatures\"},{\"slot\":3,\"enabled\":true,\"entity_id\":\"stone-library\",\"display_name\":\"Stone Library\",\"role\":\"location\",\"view\":\"exterior turnaround\",\"description\":\"small weathered stone library building\",\"group_id\":\"locations\"},{\"slot\":4,\"enabled\":true,\"entity_id\":\"graphite-coupe\",\"display_name\":\"Graphite Coupe\",\"role\":\"vehicle\",\"view\":\"vehicle turnaround\",\"description\":\"graphite sports coupe with bronze wheels\",\"group_id\":\"vehicles\"},{\"slot\":5,\"enabled\":true,\"entity_id\":\"yellow-drone\",\"display_name\":\"Yellow Drone\",\"role\":\"vehicle\",\"view\":\"vehicle turnaround\",\"description\":\"weathered yellow camera drone\",\"group_id\":\"vehicles\"},{\"slot\":6,\"enabled\":true,\"entity_id\":\"amber-lamp\",\"display_name\":\"Amber Lamp\",\"role\":\"prop\",\"view\":\"prop turnaround\",\"description\":\"amber glass table lamp with a cream shade\",\"group_id\":\"props\"}]"
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 14,
+      "type": "PreviewImage",
+      "pos": [
+        1040,
+        1780
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 16
+        }
+      ],
+      "outputs": [],
+      "title": "FITTED MULTISHOT REFERENCE BATCH",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 15,
+      "type": "PixaromaShowText",
+      "pos": [
+        1780,
+        860
+      ],
+      "size": [
+        500,
+        360
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "CONTINUITY STATUS",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#6A4C93",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 16,
+      "type": "PixaromaShowText",
+      "pos": [
+        2310,
+        860
+      ],
+      "size": [
+        500,
+        360
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "CONTINUITY ADVISORY",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#6A4C93",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 17,
+      "type": "PixaromaShowText",
+      "pos": [
+        2820,
+        860
+      ],
+      "size": [
+        500,
+        360
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "CONTINUITY METRICS JSON",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#6A4C93",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 18,
+      "type": "PixaromaShowText",
+      "pos": [
+        1640,
+        1780
+      ],
+      "size": [
+        500,
+        760
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 18
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "MANIFEST STATUS",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 19,
+      "type": "PixaromaShowText",
+      "pos": [
+        2190,
+        1780
+      ],
+      "size": [
+        500,
+        760
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "PROMPT PREAMBLE",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 20,
+      "type": "PixaromaShowText",
+      "pos": [
+        2740,
+        1780
+      ],
+      "size": [
+        500,
+        760
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "MANIFEST JSON",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    }
+  ],
+  "links": [
+    [
+      1,
+      3,
+      0,
+      5,
+      0,
+      "IMAGE"
+    ],
+    [
+      2,
+      4,
+      0,
+      5,
+      1,
+      "IMAGE"
+    ],
+    [
+      3,
+      2,
+      0,
+      5,
+      3,
+      "H3_PROJECT_TAKE"
+    ],
+    [
+      5,
+      3,
+      0,
+      5,
+      2,
+      "IMAGE"
+    ],
+    [
+      6,
+      5,
+      1,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      7,
+      5,
+      2,
+      15,
+      0,
+      "*"
+    ],
+    [
+      8,
+      5,
+      3,
+      16,
+      0,
+      "*"
+    ],
+    [
+      9,
+      5,
+      4,
+      17,
+      0,
+      "*"
+    ],
+    [
+      10,
+      7,
+      0,
+      13,
+      1,
+      "IMAGE"
+    ],
+    [
+      11,
+      8,
+      0,
+      13,
+      2,
+      "IMAGE"
+    ],
+    [
+      12,
+      9,
+      0,
+      13,
+      3,
+      "IMAGE"
+    ],
+    [
+      13,
+      10,
+      0,
+      13,
+      4,
+      "IMAGE"
+    ],
+    [
+      14,
+      11,
+      0,
+      13,
+      5,
+      "IMAGE"
+    ],
+    [
+      15,
+      12,
+      0,
+      13,
+      6,
+      "IMAGE"
+    ],
+    [
+      16,
+      13,
+      9,
+      14,
+      0,
+      "IMAGE"
+    ],
+    [
+      18,
+      13,
+      13,
+      18,
+      0,
+      "*"
+    ],
+    [
+      19,
+      13,
+      12,
+      19,
+      0,
+      "*"
+    ],
+    [
+      20,
+      13,
+      11,
+      20,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "1 — ADVISORY CONTINUITY",
+      "bounding": [
+        20,
+        300,
+        2900,
+        520
+      ],
+      "color": "#6A4C93",
+      "font_size": 22
+    },
+    {
+      "title": "2 — CONTINUITY RECORDS",
+      "bounding": [
+        20,
+        820,
+        3300,
+        420
+      ],
+      "color": "#355C7D",
+      "font_size": 22
+    },
+    {
+      "title": "3 — EXISTING LOCAL REFERENCE ASSETS",
+      "bounding": [
+        20,
+        1300,
+        3140,
+        410
+      ],
+      "color": "#B45574",
+      "font_size": 22
+    },
+    {
+      "title": "4 — TYPED MANIFEST + MULTISHOT HANDOFF",
+      "bounding": [
+        20,
+        1740,
+        3300,
+        840
+      ],
+      "color": "#2E7D32",
+      "font_size": 22
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.52,
+      "offset": [
+        40,
+        40
+      ]
+    }
+  },
+  "version": 0.4
+}

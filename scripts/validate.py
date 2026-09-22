@@ -12,6 +12,33 @@ ALLOWED_COLLECTIONS = {'Codex MCP Demos', 'Gold-Standard'}
 PRIVATE_PATH = re.compile(r'(?<![A-Za-z0-9])[A-Za-z]:[\\/]|\\\\[A-Za-z0-9_.-]+[\\/]')
 TOKEN = re.compile(r'(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|hf_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9_-]{20,})')
 
+
+def validate_development():
+    development = ROOT/'development'
+    manifest = load(development/'IMPORT-MANIFEST.json')
+    destinations = set()
+    for row in manifest['files']:
+        path = (ROOT/row['destination']).resolve()
+        assert path.is_relative_to(development.resolve()), row['destination']
+        assert row['destination'] not in destinations, row['destination']
+        destinations.add(row['destination'])
+        assert path.is_file(), row['destination']
+        data = path.read_bytes().replace(b'\r\n', b'\n')
+        assert hashlib.sha256(data).hexdigest() == row['published_sha256'], row['destination']
+    graphs = list((development/'workflows').rglob('*.json'))
+    assert len(graphs) == 64
+    for path in graphs:
+        graph = load(path)
+        assert isinstance(graph['nodes'], list) and isinstance(graph['links'], list), path
+        assert path.relative_to(ROOT).as_posix() in destinations, path
+    for path in development.rglob('*'):
+        if path.is_file() and path.suffix in {'.json', '.md', '.py', '.js', '.mjs', '.cjs', '.ps1'}:
+            text = path.read_text(encoding='utf-8')
+            assert not TOKEN.search(text), path
+            assert '-----BEGIN PRIVATE KEY-----' not in text, path
+            assert '-----BEGIN OPENSSH PRIVATE KEY-----' not in text, path
+    return len(graphs), len(destinations)
+
 def load(path):
     return json.loads(path.read_text(encoding='utf-8'))
 
@@ -54,6 +81,7 @@ def png_metadata(path):
     return metadata
 
 def main():
+    development_graphs, imported_files = validate_development()
     workflows = load(ROOT/'catalog/workflows.json')
     examples = load(ROOT/'catalog/examples.json')
     assert len(workflows) == len(list((ROOT/'workflows').rglob('*.json')))
@@ -107,6 +135,7 @@ def main():
             checked_links += 1
     assert all(f.stat().st_size < 50*1024*1024 for f in ROOT.rglob('*') if f.is_file() and '.git' not in f.parts)
     print(f'PASS: {len(workflows)} workflows, {len(examples)} PNG/captured-workflow pairs, tag libraries and {checked_links} local documentation links.')
+    print(f'PASS: {development_graphs} development/recovery workflows and {imported_files} imported file hashes.')
 
 if __name__ == '__main__':
     main()

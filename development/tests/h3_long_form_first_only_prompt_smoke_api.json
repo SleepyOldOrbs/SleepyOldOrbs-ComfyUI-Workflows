@@ -1,0 +1,38 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "H3_Long_Form_Test_Start.png"
+    }
+  },
+  "2": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "H3_Long_Form_Test_End.png"
+    }
+  },
+  "3": {
+    "class_type": "H3OptionalImage",
+    "inputs": {
+      "enabled": false,
+      "image": [
+        "2",
+        0
+      ]
+    }
+  },
+  "4": {
+    "class_type": "PixaromaVideoPrompt",
+    "inputs": {
+      "first_frame": [
+        "1",
+        0
+      ],
+      "last_frame": [
+        "3",
+        0
+      ],
+      "VideoPromptState": "{\"idea\":\"The subject continues naturally from the opening frame, walks forward at a relaxed pace, glances toward the camera, and then looks back along the path. Use one continuous shot with a gentle tracking camera. Preserve identity, clothing, anatomy, props, lighting and the environment. Natural ambience and movement sounds. No non-diegetic music; end the generated prompt with exactly non_diegetic_music: N/A.\",\"tier_index\":0,\"tier_name\":\"5 seconds\",\"seed\":2408241001,\"model\":\"qwen3vl_8b_fp8_scaled.safetensors\",\"clip_type\":\"minimax\",\"temperature\":0.3,\"max_length\":768,\"top_k\":64,\"top_p\":0.95,\"min_p\":0.05,\"repetition_penalty\":1.05,\"presence_penalty\":0,\"thinking\":false,\"use_default_template\":true,\"release_model\":true,\"length_block\":true,\"fps\":24,\"step\":17,\"plus\":5,\"min_frames\":5,\"seed_mode\":\"fixed\",\"speech_hint\":true,\"idea_share\":0.32}"
+    }
+  }
+}

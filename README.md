@@ -2,6 +2,8 @@
 
 A visual collection of my ComfyUI workflows, experiments and generated examples. **48 workflows · 34 example images · 2 video clips · Pixaroma prompt-tag libraries.**
 
+This is also the home of the [Codex workflow development collection](development/README.md): 64 historical development/recovery workflows, the H3 custom nodes, builders, tests and development notes. The published workflows below remain the starting point for everyday use.
+
 [Browse all workflows](CATALOG.md) · [Full image gallery](GALLERY.md) · [Getting started](docs/SETUP.md) · [Models and custom nodes](docs/DEPENDENCIES.md)
 
 ## Gold Standard: from stills to moving shots
@@ -34,7 +36,7 @@ Botanical ornament, wildlife and coordinated seasonal palettes, generated with K
 
 ## Explore the collection
 
-Only **Codex MCP Demos** and **Gold-Standard** are published here. Default template folders are excluded.
+The main catalogue contains **Codex MCP Demos** and **Gold-Standard**. Default template folders are excluded. Historical development and recovery files are listed separately in the [development collection](development/README.md).
 
 | Collection | Workflows |
 |---|---:|

@@ -1,0 +1,1100 @@
+{
+  "source_repository": "SleepyOldOrbs/comfyui-codex-workflows",
+  "source_commit": "e286ab0e42555410ddeede6de08d593c48eaaef4",
+  "imported_on": "2026-09-22",
+  "scope": "Tracked content at source HEAD, without Git history or root ignore rules.",
+  "files": [
+    {
+      "source_path": "README.md",
+      "destination": "development/SOURCE-README.md",
+      "source_sha256": "c89f2ca6d790d6bac135e3f857a30d3f6259a3212d56d87332c4d4f9158fc9e2",
+      "published_sha256": "973348aebbb3aee1368cd171d1404c735b75da9f4303b70679f94cdaa50349f7",
+      "adapted": true
+    },
+    {
+      "source_path": "WORKFLOW_INDEX.md",
+      "destination": "development/WORKFLOW_INDEX.md",
+      "source_sha256": "5cc9d73300d7ebbcffc259e432ad63b475884d4a172d21328482aa5254a18434",
+      "published_sha256": "5cc9d73300d7ebbcffc259e432ad63b475884d4a172d21328482aa5254a18434",
+      "adapted": false
+    },
+    {
+      "source_path": "custom_nodes/ComfyUI-Codex-H3-Continuation/README.md",
+      "destination": "development/custom_nodes/ComfyUI-Codex-H3-Continuation/README.md",
+      "source_sha256": "7971fd74dd6e7c95c08756943a9186f05d23bf8a88175a414096bf09a333a6d2",
+      "published_sha256": "7971fd74dd6e7c95c08756943a9186f05d23bf8a88175a414096bf09a333a6d2",
+      "adapted": false
+    },
+    {
+      "source_path": "custom_nodes/ComfyUI-Codex-H3-Continuation/__init__.py",
+      "destination": "development/custom_nodes/ComfyUI-Codex-H3-Continuation/__init__.py",
+      "source_sha256": "b093011e06cb0769b07555eabef210cd31b579d349581374d9425699546dc04c",
+      "published_sha256": "b093011e06cb0769b07555eabef210cd31b579d349581374d9425699546dc04c",
+      "adapted": false
+    },
+    {
+      "source_path": "custom_nodes/ComfyUI-Codex-H3-Continuation/nodes.py",
+      "destination": "development/custom_nodes/ComfyUI-Codex-H3-Continuation/nodes.py",
+      "source_sha256": "7b080b032c1b4692ece9890e6c858ae7ca089267ef3983219751e181beab975a",
+      "published_sha256": "7b080b032c1b4692ece9890e6c858ae7ca089267ef3983219751e181beab975a",
+      "adapted": false
+    },
+    {
+      "source_path": "custom_nodes/ComfyUI-Codex-H3-Production/README.md",
+      "destination": "development/custom_nodes/ComfyUI-Codex-H3-Production/README.md",
+      "source_sha256": "52bde7f3f0a13d7f688ce1c71ae98aea7a5921530b1fb4a41f1318e598dad633",
+      "published_sha256": "52bde7f3f0a13d7f688ce1c71ae98aea7a5921530b1fb4a41f1318e598dad633",
+      "adapted": false
+    },
+    {
+      "source_path": "custom_nodes/ComfyUI-Codex-H3-Production/__init__.py",
+      "destination": "development/custom_nodes/ComfyUI-Codex-H3-Production/__init__.py",
+      "source_sha256": "b16b77834ee2f8fd60a03d300ba4aae90fc21387add91e06accbb9bacade1cf7",
+      "published_sha256": "b16b77834ee2f8fd60a03d300ba4aae90fc21387add91e06accbb9bacade1cf7",
+      "adapted": false
+    },
+    {
+      "source_path": "custom_nodes/ComfyUI-Codex-H3-Production/nodes.py",
+      "destination": "development/custom_nodes/ComfyUI-Codex-H3-Production/nodes.py",
+      "source_sha256": "8750c6d4ee5d9881df55b828259d70b058a07d8a86de1bfb938ca896aded04cf",
+      "published_sha256": "8750c6d4ee5d9881df55b828259d70b058a07d8a86de1bfb938ca896aded04cf",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/entity-reference-sheets/README.md",
+      "destination": "development/docs/entity-reference-sheets/README.md",
+      "source_sha256": "5779803dbf47484f7badfbcaa9214850ffada248a853b2db8b304233c7d5f1d6",
+      "published_sha256": "5779803dbf47484f7badfbcaa9214850ffada248a853b2db8b304233c7d5f1d6",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/gold-evolution/00-ROADMAP.md",
+      "destination": "development/docs/gold-evolution/00-ROADMAP.md",
+      "source_sha256": "ed38c130a8be1d6d16fdb4a41121141b1de0ac84787824faea8a5d79a3c11290",
+      "published_sha256": "ed38c130a8be1d6d16fdb4a41121141b1de0ac84787824faea8a5d79a3c11290",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/gold-evolution/01-REFERENCE-IMAGE-CONTROLS.md",
+      "destination": "development/docs/gold-evolution/01-REFERENCE-IMAGE-CONTROLS.md",
+      "source_sha256": "df07b44f9fa14d05dcdc89abb23bf0921696126b815d9d01b1850bb9bcade9cb",
+      "published_sha256": "df07b44f9fa14d05dcdc89abb23bf0921696126b815d9d01b1850bb9bcade9cb",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/gold-evolution/02-SELECTIVE-REPAIR.md",
+      "destination": "development/docs/gold-evolution/02-SELECTIVE-REPAIR.md",
+      "source_sha256": "b0df955ee8b2ce3e0d9a8b89402c430a4a1758057ddda56188d85526f5326939",
+      "published_sha256": "b0df955ee8b2ce3e0d9a8b89402c430a4a1758057ddda56188d85526f5326939",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/gold-evolution/03-H3-CONTINUATION.md",
+      "destination": "development/docs/gold-evolution/03-H3-CONTINUATION.md",
+      "source_sha256": "94135268ae8aaa5bc98e04738e636b8927f3bb38bc3e1bb87a6d3e553cd697d8",
+      "published_sha256": "94135268ae8aaa5bc98e04738e636b8927f3bb38bc3e1bb87a6d3e553cd697d8",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/gold-evolution/04-STORYBOARD-MODE.md",
+      "destination": "development/docs/gold-evolution/04-STORYBOARD-MODE.md",
+      "source_sha256": "423bd4042c79d7aff15f5d8f3ef1d167db3c95aef584ddebdb9c8943aa122ead",
+      "published_sha256": "423bd4042c79d7aff15f5d8f3ef1d167db3c95aef584ddebdb9c8943aa122ead",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/gold-evolution/05-VRAM-CHOREOGRAPHY.md",
+      "destination": "development/docs/gold-evolution/05-VRAM-CHOREOGRAPHY.md",
+      "source_sha256": "515d44c18b245f91237318ed8a2979aab9e3c664ffbac680ab22b06d7644a6a3",
+      "published_sha256": "515d44c18b245f91237318ed8a2979aab9e3c664ffbac680ab22b06d7644a6a3",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/gold-evolution/06-CHARACTER-AND-PROJECT-PRESETS.md",
+      "destination": "development/docs/gold-evolution/06-CHARACTER-AND-PROJECT-PRESETS.md",
+      "source_sha256": "0d072a91f3f47915c1cdcd90704901a0685ca5a9dd6a31d214e43f9f0d8c1949",
+      "published_sha256": "0d072a91f3f47915c1cdcd90704901a0685ca5a9dd6a31d214e43f9f0d8c1949",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/gold-evolution/RECOVERY-INDEX.md",
+      "destination": "development/docs/gold-evolution/RECOVERY-INDEX.md",
+      "source_sha256": "d471b67bcd253a61c4a8ead03097355a6b9d8d2bfe4cbb3d5bf461762ae21f6b",
+      "published_sha256": "d471b67bcd253a61c4a8ead03097355a6b9d8d2bfe4cbb3d5bf461762ae21f6b",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/h3-long-form/README.md",
+      "destination": "development/docs/h3-long-form/README.md",
+      "source_sha256": "ff611f9bf8decec2c31b552b8b98d28677856ddc3d6f917bafdaac7923ec3143",
+      "published_sha256": "4ac9c83cc308082ed978a8e8908a2761d43a2af781c7e2cf794e44805133249a",
+      "adapted": true
+    },
+    {
+      "source_path": "docs/h3-production-tools/IMPLEMENTATION-PLAN-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/IMPLEMENTATION-PLAN-2026-08-25.md",
+      "source_sha256": "edea2348f5bbf96cc00a970a7788fe6522f1910d13d17229a49645c34dfdfda8",
+      "published_sha256": "4315a71ebf912f71ef42249fe2004beb060a305a6d60628fe9b248d4bca39f6e",
+      "adapted": true
+    },
+    {
+      "source_path": "docs/h3-production-tools/M0-FREEZE-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M0-FREEZE-2026-08-25.md",
+      "source_sha256": "ad7e3ce17e065b90e789d1273b281cee4655c1d437207fd6a8ffcd8c3ceb5ade",
+      "published_sha256": "1361cfa51bc3d0506728e8ff2e11e6ba20f263902dd6c6c3db91394d6d48ad19",
+      "adapted": true
+    },
+    {
+      "source_path": "docs/h3-production-tools/M0-M7-COMPLETION-AUDIT-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M0-M7-COMPLETION-AUDIT-2026-08-25.md",
+      "source_sha256": "80d83ec607f8710945003c0d45043ddfd2fc83ab055ba4eb8636d7383b7e3752",
+      "published_sha256": "a09833eda6d8179d3209b7ac5183a98c0cf14aa5eafeadd992df912521c8d6ba",
+      "adapted": true
+    },
+    {
+      "source_path": "docs/h3-production-tools/M1-REUSE-AUDIT-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M1-REUSE-AUDIT-2026-08-25.md",
+      "source_sha256": "a111f7658a9bbbcb52d82665f4ec1a335d3d472b351ebc9678726a123edf8504",
+      "published_sha256": "a111f7658a9bbbcb52d82665f4ec1a335d3d472b351ebc9678726a123edf8504",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/h3-production-tools/M2-EVIDENCE-FOUNDATION-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M2-EVIDENCE-FOUNDATION-2026-08-25.md",
+      "source_sha256": "7ceabf855c7cada0b6dcfb7fe12ec2c69dbccae0676f766824e99b3ed9fed654",
+      "published_sha256": "a130ccf2fec8f04542c6444bfe3f1d47508f748842efc6e9db0d95fc940fe4f1",
+      "adapted": true
+    },
+    {
+      "source_path": "docs/h3-production-tools/M3-SAFE-PROJECT-STATE-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M3-SAFE-PROJECT-STATE-2026-08-25.md",
+      "source_sha256": "d83382a826acd7f6ff3c8a38d83e8ab5e08a2785d49232b9df426340afbd217f",
+      "published_sha256": "d83382a826acd7f6ff3c8a38d83e8ab5e08a2785d49232b9df426340afbd217f",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/h3-production-tools/M4-THIN-CONTROLS-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M4-THIN-CONTROLS-2026-08-25.md",
+      "source_sha256": "3505444574f15caeac0ae34a0be22e62cf8751ed58a992caefb08dd34ac2dfdb",
+      "published_sha256": "3505444574f15caeac0ae34a0be22e62cf8751ed58a992caefb08dd34ac2dfdb",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/h3-production-tools/M5-CONTINUITY-REFERENCES-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M5-CONTINUITY-REFERENCES-2026-08-25.md",
+      "source_sha256": "073b575505a2bd4ba4ddf5c7fe5fe85c63504e1cfd6ed8ee9902948d527d86fe",
+      "published_sha256": "073b575505a2bd4ba4ddf5c7fe5fe85c63504e1cfd6ed8ee9902948d527d86fe",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/h3-production-tools/M6-SEQUENCE-ASSEMBLY-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M6-SEQUENCE-ASSEMBLY-2026-08-25.md",
+      "source_sha256": "c5d653ea455dd551a34583c9a674b9a5fb748184ff09a129ea60788245b12e10",
+      "published_sha256": "c5d653ea455dd551a34583c9a674b9a5fb748184ff09a129ea60788245b12e10",
+      "adapted": false
+    },
+    {
+      "source_path": "docs/h3-production-tools/M7-MOTION-CONTEXT-2026-08-25.md",
+      "destination": "development/docs/h3-production-tools/M7-MOTION-CONTEXT-2026-08-25.md",
+      "source_sha256": "06c023b17753c508247209f7b6ca2cd94aa07c113b2eb4d69f56e5d077d65866",
+      "published_sha256": "b3e1e74c3c0633f3ad360ede49b5339c1c1591d1fc55be69e7bf8e884f49d1a8",
+      "adapted": true
+    },
+    {
+      "source_path": "docs/h3-ref-gold/README.md",
+      "destination": "development/docs/h3-ref-gold/README.md",
+      "source_sha256": "5fe4f53cd0c6aa7d783f844f76cd0f2a75fa35892644351b96e2e57876c59d1c",
+      "published_sha256": "5fe4f53cd0c6aa7d783f844f76cd0f2a75fa35892644351b96e2e57876c59d1c",
+      "adapted": false
+    },
+    {
+      "source_path": "tag-library/backups/pixaroma-tag-library-before-540-expansion-2026-08-24.json",
+      "destination": "development/tag-library/backups/pixaroma-tag-library-before-540-expansion-2026-08-24.json",
+      "source_sha256": "ffd46eca308596808b74d77587096dda6613d391834ec2ac353ced2cabae2803",
+      "published_sha256": "ffd46eca308596808b74d77587096dda6613d391834ec2ac353ced2cabae2803",
+      "adapted": false
+    },
+    {
+      "source_path": "tag-library/backups/pixaroma-tag-library-before-entity-mix-2026-08-24.json",
+      "destination": "development/tag-library/backups/pixaroma-tag-library-before-entity-mix-2026-08-24.json",
+      "source_sha256": "3ef8849d1750a5f55731f8b20e48251e9215cfe16985681ebce7914b48034f10",
+      "published_sha256": "3ef8849d1750a5f55731f8b20e48251e9215cfe16985681ebce7914b48034f10",
+      "adapted": false
+    },
+    {
+      "source_path": "tag-library/pixaroma-tag-library-with-entity-mix.json",
+      "destination": "development/tag-library/pixaroma-tag-library-with-entity-mix.json",
+      "source_sha256": "a32109fcb2c119df0af08987047afe23a282ff00b94e0af37bd2f97927039005",
+      "published_sha256": "a32109fcb2c119df0af08987047afe23a282ff00b94e0af37bd2f97927039005",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_auto_chain_load_smoke_api.json",
+      "destination": "development/tests/h3_auto_chain_load_smoke_api.json",
+      "source_sha256": "b33efd73ae762836149d343d97b6df53ea8d3f430737858ed509678ae467d66d",
+      "published_sha256": "b33efd73ae762836149d343d97b6df53ea8d3f430737858ed509678ae467d66d",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_auto_chain_manual_smoke_api.json",
+      "destination": "development/tests/h3_auto_chain_manual_smoke_api.json",
+      "source_sha256": "206ff0fc85887c1b7590468842cc987d988ade03ba65ef8827337ecc74c51201",
+      "published_sha256": "206ff0fc85887c1b7590468842cc987d988ade03ba65ef8827337ecc74c51201",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_auto_chain_store_smoke_api.json",
+      "destination": "development/tests/h3_auto_chain_store_smoke_api.json",
+      "source_sha256": "e184048daf53bab0dfaf4ec58f585a06122f940235367219a4cbf95b953a5b44",
+      "published_sha256": "e184048daf53bab0dfaf4ec58f585a06122f940235367219a4cbf95b953a5b44",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_benchmark_recorder_smoke_api.json",
+      "destination": "development/tests/h3_benchmark_recorder_smoke_api.json",
+      "source_sha256": "d79b08f0d063213ce9ef5647037dcbc933169a451b2126b68b5f9043ed02e8ce",
+      "published_sha256": "d79b08f0d063213ce9ef5647037dcbc933169a451b2126b68b5f9043ed02e8ce",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_benchmark_workflow10_baseline_api.json",
+      "destination": "development/tests/h3_benchmark_workflow10_baseline_api.json",
+      "source_sha256": "e8b6d49d923681eec2918c6fa59f0c14c118fb625e086b2267f82ce913b6fcdd",
+      "published_sha256": "e8b6d49d923681eec2918c6fa59f0c14c118fb625e086b2267f82ce913b6fcdd",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_long_form_first_only_prompt_smoke_api.json",
+      "destination": "development/tests/h3_long_form_first_only_prompt_smoke_api.json",
+      "source_sha256": "fb353fbe8557c87cf45eac5b4cbc270ab077f2a9a6049f410e0b726f0c34e900",
+      "published_sha256": "fb353fbe8557c87cf45eac5b4cbc270ab077f2a9a6049f410e0b726f0c34e900",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_long_form_prompt_smoke_api.json",
+      "destination": "development/tests/h3_long_form_prompt_smoke_api.json",
+      "source_sha256": "e53ad17f79efdafd8acaa06167528b7473afad56c83b290189523ac4be0154c9",
+      "published_sha256": "e53ad17f79efdafd8acaa06167528b7473afad56c83b290189523ac4be0154c9",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_long_form_render_smoke_api.json",
+      "destination": "development/tests/h3_long_form_render_smoke_api.json",
+      "source_sha256": "b54e82e101c4c29614abbdac7153bf4782de7df26f667a7e992695cb56bf0e64",
+      "published_sha256": "b54e82e101c4c29614abbdac7153bf4782de7df26f667a7e992695cb56bf0e64",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m2_multishot_first_frame_api.json",
+      "destination": "development/tests/h3_m2_multishot_first_frame_api.json",
+      "source_sha256": "5fedf0df4efee18716d565b9eb5926a4f724b37f14727c7b075248ac2fe67b91",
+      "published_sha256": "5fedf0df4efee18716d565b9eb5926a4f724b37f14727c7b075248ac2fe67b91",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m2_workflow10_first_frame_api.json",
+      "destination": "development/tests/h3_m2_workflow10_first_frame_api.json",
+      "source_sha256": "9090c0869c7b87dec4f544bb220fb33f98d4bddf7b41a9385ebbf58f40b59a05",
+      "published_sha256": "9090c0869c7b87dec4f544bb220fb33f98d4bddf7b41a9385ebbf58f40b59a05",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m3_normal_handoff_smoke_api.json",
+      "destination": "development/tests/h3_m3_normal_handoff_smoke_api.json",
+      "source_sha256": "730d9d490bb46797a7bd825e7d4129cf63d8b9e8c2719873a4a12ec78abed4ce",
+      "published_sha256": "730d9d490bb46797a7bd825e7d4129cf63d8b9e8c2719873a4a12ec78abed4ce",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m3_rejection_preserves_handoff_smoke_api.json",
+      "destination": "development/tests/h3_m3_rejection_preserves_handoff_smoke_api.json",
+      "source_sha256": "f4072c4ded727cca7eb1549c950c44181dc9257d85b32824cfde25ff8a22e16b",
+      "published_sha256": "f4072c4ded727cca7eb1549c950c44181dc9257d85b32824cfde25ff8a22e16b",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m4_thin_controls_smoke_api.json",
+      "destination": "development/tests/h3_m4_thin_controls_smoke_api.json",
+      "source_sha256": "823d6f2549d5ab9808909045fe58477f4ea0b1b8892dce3838c12ada880a622f",
+      "published_sha256": "823d6f2549d5ab9808909045fe58477f4ea0b1b8892dce3838c12ada880a622f",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m5_continuity_refs_smoke_api.json",
+      "destination": "development/tests/h3_m5_continuity_refs_smoke_api.json",
+      "source_sha256": "703b88ec4ec27008d00e789e240b5fa95914cd5830c6cee64583bb7828a76ae8",
+      "published_sha256": "703b88ec4ec27008d00e789e240b5fa95914cd5830c6cee64583bb7828a76ae8",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m6_accepted_fixture_take_api.json",
+      "destination": "development/tests/h3_m6_accepted_fixture_take_api.json",
+      "source_sha256": "06e30c55e9c35f7a08a200d8fe2c43a9580f406f2e7ac8bee97eb74f3f2c34b7",
+      "published_sha256": "06e30c55e9c35f7a08a200d8fe2c43a9580f406f2e7ac8bee97eb74f3f2c34b7",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m6_sequence_assembly_smoke_api.json",
+      "destination": "development/tests/h3_m6_sequence_assembly_smoke_api.json",
+      "source_sha256": "9aaed8b12e58e6c3c8f72e81e32482f13c2fd820d75bf186b42f22aa0950af9c",
+      "published_sha256": "9aaed8b12e58e6c3c8f72e81e32482f13c2fd820d75bf186b42f22aa0950af9c",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m7_acceptance_clip1_api.json",
+      "destination": "development/tests/h3_m7_acceptance_clip1_api.json",
+      "source_sha256": "a09d42f35ee7056e01198c6e23fb60208c5da41d9e7c9af6ea64c61722b15842",
+      "published_sha256": "a09d42f35ee7056e01198c6e23fb60208c5da41d9e7c9af6ea64c61722b15842",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m7_acceptance_clip2_api.json",
+      "destination": "development/tests/h3_m7_acceptance_clip2_api.json",
+      "source_sha256": "b24fd962af2a32a332c4bad9c87d47a58a4550cb542d42483457ecf5c83b0b88",
+      "published_sha256": "b24fd962af2a32a332c4bad9c87d47a58a4550cb542d42483457ecf5c83b0b88",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m7_acceptance_review_assembly_api.json",
+      "destination": "development/tests/h3_m7_acceptance_review_assembly_api.json",
+      "source_sha256": "1ce713a39228be1ef97aae941c1cefc4a15818c8f5f64877e6b95dde30be3bfa",
+      "published_sha256": "1ce713a39228be1ef97aae941c1cefc4a15818c8f5f64877e6b95dde30be3bfa",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m7_gold_integration.test.mjs",
+      "destination": "development/tests/h3_m7_gold_integration.test.mjs",
+      "source_sha256": "9e50ec8029031869444665d6eb9d101c6f3454e1145c3904be9dd49620403efd",
+      "published_sha256": "9e50ec8029031869444665d6eb9d101c6f3454e1145c3904be9dd49620403efd",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m7_live_patch_probe.py",
+      "destination": "development/tests/h3_m7_live_patch_probe.py",
+      "source_sha256": "9bb2cec1ede08982f139e57cdf467f36d35ed0ee170434873f34c4c43a0ee13d",
+      "published_sha256": "9bb2cec1ede08982f139e57cdf467f36d35ed0ee170434873f34c4c43a0ee13d",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_m7_motion_context_smoke_api.json",
+      "destination": "development/tests/h3_m7_motion_context_smoke_api.json",
+      "source_sha256": "894d450485e28781f22020c2b773a4c2ef0573b003a0f1bac6e7f18e7e1ffb69",
+      "published_sha256": "894d450485e28781f22020c2b773a4c2ef0573b003a0f1bac6e7f18e7e1ffb69",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_quality_balanced_smoke_api.json",
+      "destination": "development/tests/h3_quality_balanced_smoke_api.json",
+      "source_sha256": "89c08d17144439926a9fdccdd34012cd3763316fbdfa61156909a3df1ae138a9",
+      "published_sha256": "89c08d17144439926a9fdccdd34012cd3763316fbdfa61156909a3df1ae138a9",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_quality_benchmark_native_1056x608_api.json",
+      "destination": "development/tests/h3_quality_benchmark_native_1056x608_api.json",
+      "source_sha256": "25edae2b500af5dbfb335a0a27041b6c0cfa40777a35749bf05d98a97b8eabed",
+      "published_sha256": "25edae2b500af5dbfb335a0a27041b6c0cfa40777a35749bf05d98a97b8eabed",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_quality_benchmark_native_864x480_api.json",
+      "destination": "development/tests/h3_quality_benchmark_native_864x480_api.json",
+      "source_sha256": "793a921c61704d9ac9f1da8492cd70400892074dc67f2162af63a4373f35979a",
+      "published_sha256": "793a921c61704d9ac9f1da8492cd70400892074dc67f2162af63a4373f35979a",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_quality_benchmark_native_960x544_api.json",
+      "destination": "development/tests/h3_quality_benchmark_native_960x544_api.json",
+      "source_sha256": "a9429f5103536dbbf083750f877e06735b8dcc17b22407a3fb61bd6a30d22509",
+      "published_sha256": "a9429f5103536dbbf083750f877e06735b8dcc17b22407a3fb61bd6a30d22509",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_quality_benchmark_turbo_960x544_12step_api.json",
+      "destination": "development/tests/h3_quality_benchmark_turbo_960x544_12step_api.json",
+      "source_sha256": "17de447013ee08357197683f008e138eb924b1f8894571a76a0e32f515d7222b",
+      "published_sha256": "17de447013ee08357197683f008e138eb924b1f8894571a76a0e32f515d7222b",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_quality_benchmark_turbo_960x544_8step_api.json",
+      "destination": "development/tests/h3_quality_benchmark_turbo_960x544_8step_api.json",
+      "source_sha256": "79b361bd848d23fa492729dc674b56c2632c81006e52fbd9639c8a26ac927486",
+      "published_sha256": "79b361bd848d23fa492729dc674b56c2632c81006e52fbd9639c8a26ac927486",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_quality_native_smoke_api.json",
+      "destination": "development/tests/h3_quality_native_smoke_api.json",
+      "source_sha256": "2e076df467444336332c85d1e66f9363ac260b5a86e8004394c395682443a0a7",
+      "published_sha256": "2e076df467444336332c85d1e66f9363ac260b5a86e8004394c395682443a0a7",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_ref_gold_acceptance_api.json",
+      "destination": "development/tests/h3_ref_gold_acceptance_api.json",
+      "source_sha256": "7d09f8005d1e57c9261d9647def7627e8345df71360e653b2ea58768e8d69a98",
+      "published_sha256": "7d09f8005d1e57c9261d9647def7627e8345df71360e653b2ea58768e8d69a98",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_ref_gold_ai_prompt_smoke_api.json",
+      "destination": "development/tests/h3_ref_gold_ai_prompt_smoke_api.json",
+      "source_sha256": "3d73b14f48a48e6a4bb775800156fc9e4308801f9521850d735b50a58871b077",
+      "published_sha256": "3d73b14f48a48e6a4bb775800156fc9e4308801f9521850d735b50a58871b077",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/h3_ref_gold_smoke_api.json",
+      "destination": "development/tests/h3_ref_gold_smoke_api.json",
+      "source_sha256": "7c0c67c0d1d202157c46f973abff812633b136041e9762d00bd3758e05ec9682",
+      "published_sha256": "7c0c67c0d1d202157c46f973abff812633b136041e9762d00bd3758e05ec9682",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/krea2_entity_sheet_smoke_api.json",
+      "destination": "development/tests/krea2_entity_sheet_smoke_api.json",
+      "source_sha256": "c18772f10c91171e9ab42aa75d048680dfab8ed9e8821a8e84e11fc052979b83",
+      "published_sha256": "c18772f10c91171e9ab42aa75d048680dfab8ed9e8821a8e84e11fc052979b83",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/test_h3_production_benchmark.py",
+      "destination": "development/tests/test_h3_production_benchmark.py",
+      "source_sha256": "ea99ac28aeab7a92800c600c85df79a72bcd9743f7df48dcb19c5595d4f5b894",
+      "published_sha256": "ea99ac28aeab7a92800c600c85df79a72bcd9743f7df48dcb19c5595d4f5b894",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/test_h3_production_continuity_refs.py",
+      "destination": "development/tests/test_h3_production_continuity_refs.py",
+      "source_sha256": "7306761263f7f531e5034bd0b9dc9bf42197be3737cf15ffc389c5fe6ccd3c6b",
+      "published_sha256": "7306761263f7f531e5034bd0b9dc9bf42197be3737cf15ffc389c5fe6ccd3c6b",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/test_h3_production_controls.py",
+      "destination": "development/tests/test_h3_production_controls.py",
+      "source_sha256": "2cd095f0c7ef38822c63b28a637723c96a47af6df6facefab8a78098a37fac82",
+      "published_sha256": "2cd095f0c7ef38822c63b28a637723c96a47af6df6facefab8a78098a37fac82",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/test_h3_production_sequence.py",
+      "destination": "development/tests/test_h3_production_sequence.py",
+      "source_sha256": "81b8c1c5c45eb874e3ff4b6b87d3e1644ecf4663d26fe60613d235de771a274b",
+      "published_sha256": "81b8c1c5c45eb874e3ff4b6b87d3e1644ecf4663d26fe60613d235de771a274b",
+      "adapted": false
+    },
+    {
+      "source_path": "tests/test_h3_production_state.py",
+      "destination": "development/tests/test_h3_production_state.py",
+      "source_sha256": "e9b95d2683a41f1a35a10909a9f923a3c59a261a15284595f069a254721ffc7e",
+      "published_sha256": "e9b95d2683a41f1a35a10909a9f923a3c59a261a15284595f069a254721ffc7e",
+      "adapted": false
+    },
+    {
+      "source_path": "tools/build_h3_10a_lab.mjs",
+      "destination": "development/tools/build_h3_10a_lab.mjs",
+      "source_sha256": "0e571e19c9f4142722a06d1e56e4d2936bfe11c0577558efa975f3c62fc05e54",
+      "published_sha256": "09d4decd8e2f3a75be9d7120d6573b7fe26c65098a9b5abda820338a3084072b",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_10b_lab.mjs",
+      "destination": "development/tools/build_h3_10b_lab.mjs",
+      "source_sha256": "38616718062f407422e34a86bf0fd8c0b8f6cec8bd29b0720d769226e4170b81",
+      "published_sha256": "13c8294d04ecdd0ecf83937252a4f8376a8cbf48efce9143da6ba7097096697f",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_10c_benchmark.mjs",
+      "destination": "development/tools/build_h3_10c_benchmark.mjs",
+      "source_sha256": "45ae261a517d2e7986798a5adb2ee40b959355cf577d6a46969ef494d1351cee",
+      "published_sha256": "a5721373f33358857e1bd8e01954a8b198663bf7aaf2dc6e5e68b90c86d0cecf",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_10d_state_lab.mjs",
+      "destination": "development/tools/build_h3_10d_state_lab.mjs",
+      "source_sha256": "8179d37b5548a23d149def4d5e723bfbef0bf017c72cf237ee291ead0372f2c4",
+      "published_sha256": "2a11be1b6ea35162c427ea80d5b1d5780ab7dbcfe7c9560837816265519c8230",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_10e_thin_controls_lab.mjs",
+      "destination": "development/tools/build_h3_10e_thin_controls_lab.mjs",
+      "source_sha256": "d834c28e8b3fb174de326b6b246bbb0b9fed73e20157112052be1aabc64e93c9",
+      "published_sha256": "6a4806c97b51abed7e032bc5d16a41be3b8497c8b2ff0da08b33992de89d03ab",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_10f_continuity_refs_lab.mjs",
+      "destination": "development/tools/build_h3_10f_continuity_refs_lab.mjs",
+      "source_sha256": "091f0df2bc2e102f4d31128463614a17bf7affd03bbbe44a0a70c40a30b44562",
+      "published_sha256": "6db1e0172c99638e8c7a60a61ef69473abc3c546f4a8f2f2b896d780b979db9f",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_10g_sequence_assembly_lab.mjs",
+      "destination": "development/tools/build_h3_10g_sequence_assembly_lab.mjs",
+      "source_sha256": "710e005bc263463e014dc1bc7980945ea169e4ed75d89081be3db8e7b720c369",
+      "published_sha256": "3dd4d9e7897a6a65f54c63e11192ab3dcd3de788468cf5d68b22b1e7389f52c5",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_10h_motion_context_lab.mjs",
+      "destination": "development/tools/build_h3_10h_motion_context_lab.mjs",
+      "source_sha256": "807acb2f97b3f0eb676426fb033555090e26c70909f8c167aad7c3ae8fcf1558",
+      "published_sha256": "46a4675b27e39107ebecd8857cf104c4234b64f502659648845ed16400939e5c",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_long_form.mjs",
+      "destination": "development/tools/build_h3_long_form.mjs",
+      "source_sha256": "f776bc9b7f33220600a3974ab2d20bc84b39c2ec89cc19a74d4be9a62c6520a5",
+      "published_sha256": "0c52b04f3711372cc655b53a0cd3c94792a52b0ded1917336f62b51617738aa4",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_h3_ref_gold.mjs",
+      "destination": "development/tools/build_h3_ref_gold.mjs",
+      "source_sha256": "3203e674632bfbebc2aac4652b6021f5365f894d12e5ec3622fb16c69a38fab5",
+      "published_sha256": "a06b6d9c9aeda6c27ebba7ed0b4ddb94dc4c20befabd48d8c6228c9c5697d2b7",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_krea2_entity_sheets.js",
+      "destination": "development/tools/build_krea2_entity_sheets.js",
+      "source_sha256": "c8ad8918651cdb95c2d6ce664f756330e28df95566efdedcaddfa5b1c0dab76e",
+      "published_sha256": "f6bf7b1ba82733eb5b64b56e97a99ae8f20c09cc54e28b46c34bce4055c9a679",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/build_six_gold_modes.mjs",
+      "destination": "development/tools/build_six_gold_modes.mjs",
+      "source_sha256": "96d4a9641a44138bd0f293e62634f077d008649a7b046294d2b63fdf2366bd5a",
+      "published_sha256": "d38b831aadf20516c5f8b5bbc6fb072b1c468849b7b7afed028005743b275aa8",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/evolve_gold_workflow.js",
+      "destination": "development/tools/evolve_gold_workflow.js",
+      "source_sha256": "58ae180c3d2793b2287847b8c42b1432ea1b7cc5eecbd50768b1df52eae89bfa",
+      "published_sha256": "2892bf3226be2b11500a7a503bf14ade5962cb742d5293c7eaed8e530fbec57a",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/install_entity_mix_tags.js",
+      "destination": "development/tools/install_entity_mix_tags.js",
+      "source_sha256": "a81373211789f15d45c9e95eb43eadf3fb39d342febcb91bf01ee3e87e2757a9",
+      "published_sha256": "7fcbb2f8d496123857deb4ddbfc20a5d7fcbae88aec015862a851d146a9e1c3f",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/install_h3_continuation_node.ps1",
+      "destination": "development/tools/install_h3_continuation_node.ps1",
+      "source_sha256": "5a625fec0118ea96e7f4f47183b5249588f17f059ac47d54254a05737e55129c",
+      "published_sha256": "2074d31054f11a1439fb7fd1093679a0a5b08f3d633db182b39eb85896d44983",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/install_h3_production_node.ps1",
+      "destination": "development/tools/install_h3_production_node.ps1",
+      "source_sha256": "097cbfa6847d3edcdf5a0b1387962ef27709a763bf2baa2388793862750c390a",
+      "published_sha256": "44abf7c2f7f96de8f806c0ae4132996a7e9ff1a280aa2a2267bbd5b854f38308",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/integrate_h3_m7_gold.mjs",
+      "destination": "development/tools/integrate_h3_m7_gold.mjs",
+      "source_sha256": "34c0f23f9009487bdd4128e59810942a11ae300f73151ff27f3687d597eda835",
+      "published_sha256": "56367d08cdefbbc6ad52dff16c7c9182cbb6291c374a796989914a532fec6795",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/prepare_h3_m6_fixtures.ps1",
+      "destination": "development/tools/prepare_h3_m6_fixtures.ps1",
+      "source_sha256": "571f92e68444510b613aee68ed9b87479e068841688ccd8cda093b7376c3bcd9",
+      "published_sha256": "ebd6ae54953afae59583a95a37e7773c619d78f8f9e0aef206aeffa596fc960e",
+      "adapted": true
+    },
+    {
+      "source_path": "tools/validate_six_gold_modes.mjs",
+      "destination": "development/tools/validate_six_gold_modes.mjs",
+      "source_sha256": "d7404d503c290fa9d2ee4117672111f10a95df3ea51976e140e543a9fc1b3837",
+      "published_sha256": "b803053af54d85ef6e124953b8f67dcb4e8632ae1fd100b0baab8a15e69bc125",
+      "adapted": true
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/01 Krea2 Manual Prompt.json",
+      "destination": "development/workflows/Codex MCP Demos/01 Krea2 Manual Prompt.json",
+      "source_sha256": "6c08df708574307e600edd1a95f12d4a0aa3728d1d0512be5524fa9798243701",
+      "published_sha256": "6c08df708574307e600edd1a95f12d4a0aa3728d1d0512be5524fa9798243701",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/02 Krea2 Structured Prompt.json",
+      "destination": "development/workflows/Codex MCP Demos/02 Krea2 Structured Prompt.json",
+      "source_sha256": "0d22c8a509b8b4af16b07a1a36e2f48d420388502c0e504cda9b15c3b13e67d4",
+      "published_sha256": "0d22c8a509b8b4af16b07a1a36e2f48d420388502c0e504cda9b15c3b13e67d4",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/03 Krea2 Double Sampler.json",
+      "destination": "development/workflows/Codex MCP Demos/03 Krea2 Double Sampler.json",
+      "source_sha256": "177a3abadbeed80c6630995712117e7cfe49a99dff9779eb20980e78e109daf8",
+      "published_sha256": "177a3abadbeed80c6630995712117e7cfe49a99dff9779eb20980e78e109daf8",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/04 Krea2 Double Sampler + KGodRays LoRA.json",
+      "destination": "development/workflows/Codex MCP Demos/04 Krea2 Double Sampler + KGodRays LoRA.json",
+      "source_sha256": "f33a3a507fb5606c674862c4d1eb6fc351893be802800ff19e860437b4002ad4",
+      "published_sha256": "f33a3a507fb5606c674862c4d1eb6fc351893be802800ff19e860437b4002ad4",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/05 RTX 2x ULTRA Upscale.json",
+      "destination": "development/workflows/Codex MCP Demos/05 RTX 2x ULTRA Upscale.json",
+      "source_sha256": "0a024ce315778f10523a7b443b53716c453b22a77d40edbc6416314519b95882",
+      "published_sha256": "0a024ce315778f10523a7b443b53716c453b22a77d40edbc6416314519b95882",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/06 SeedVR2 2048 Upscale.json",
+      "destination": "development/workflows/Codex MCP Demos/06 SeedVR2 2048 Upscale.json",
+      "source_sha256": "43849782e2b4b64e402c9319009619204c3727c9bca8059eaeac9b5ab589e5c7",
+      "published_sha256": "43849782e2b4b64e402c9319009619204c3727c9bca8059eaeac9b5ab589e5c7",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before AI bypass restore - 2026-08-21 095318.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before AI bypass restore - 2026-08-21 095318.json",
+      "source_sha256": "f569403bc12a113a5698bd76662a4ff2909dbab06a24f03a1e56a7a1380c4e39",
+      "published_sha256": "f569403bc12a113a5698bd76662a4ff2909dbab06a24f03a1e56a7a1380c4e39",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Central Human Control Desk - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Central Human Control Desk - 2026-08-21.json",
+      "source_sha256": "94c9220bf488af9a1ea961e6c7cbaa6a653c80f569ef5e7b5a661329c98ce36a",
+      "published_sha256": "94c9220bf488af9a1ea961e6c7cbaa6a653c80f569ef5e7b5a661329c98ce36a",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before MiniMax H3 Turbo branch - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before MiniMax H3 Turbo branch - 2026-08-21.json",
+      "source_sha256": "5846f6ddf6502eda9356b33bb70a6ad6796d04bcbc92165584936b5e3f1e25f5",
+      "published_sha256": "5846f6ddf6502eda9356b33bb70a6ad6796d04bcbc92165584936b5e3f1e25f5",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before MiniMax H3 branch - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before MiniMax H3 branch - 2026-08-21.json",
+      "source_sha256": "90708319622d258f928f4c3d0b8d70d351a6d982b913f9c2b6d1f23e032ff7fd",
+      "published_sha256": "90708319622d258f928f4c3d0b8d70d351a6d982b913f9c2b6d1f23e032ff7fd",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Six Operating Modes - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Six Operating Modes - 2026-08-21.json",
+      "source_sha256": "55efa78132bc97514c5e3c251f951fb41c83c088a2499b3c867f2fad7ba8c404",
+      "published_sha256": "55efa78132bc97514c5e3c251f951fb41c83c088a2499b3c867f2fad7ba8c404",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 1 Reference Image Controls - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 1 Reference Image Controls - 2026-08-21.json",
+      "source_sha256": "df11639e9798479362479a376405a7f893bf7eef4dd38acfb80e742d0ddd1802",
+      "published_sha256": "df11639e9798479362479a376405a7f893bf7eef4dd38acfb80e742d0ddd1802",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 2 Selective Repair - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 2 Selective Repair - 2026-08-21.json",
+      "source_sha256": "13759d80b30fc4473664ad621e927419c42472cc4e40145e1b4465e7de60b85c",
+      "published_sha256": "13759d80b30fc4473664ad621e927419c42472cc4e40145e1b4465e7de60b85c",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 3 H3 Continuation - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 3 H3 Continuation - 2026-08-21.json",
+      "source_sha256": "a3a16a64cbf89b8d44e262343bfe9056b7be5335bb827650f9f4ed2c6c89e0ab",
+      "published_sha256": "a3a16a64cbf89b8d44e262343bfe9056b7be5335bb827650f9f4ed2c6c89e0ab",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 4 Storyboard Mode - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 4 Storyboard Mode - 2026-08-21.json",
+      "source_sha256": "b687609922d1352b14cb889c39f4f2856d335a9ddf502d149c81e5f00a595ab6",
+      "published_sha256": "b687609922d1352b14cb889c39f4f2856d335a9ddf502d149c81e5f00a595ab6",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 5 VRAM Choreography - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 5 VRAM Choreography - 2026-08-21.json",
+      "source_sha256": "673d7573a02e102bddcc41363119909ae9c603e3a6d8f1fb6c4930d09a3f1451",
+      "published_sha256": "673d7573a02e102bddcc41363119909ae9c603e3a6d8f1fb6c4930d09a3f1451",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 6 Character and Project Presets - 2026-08-21.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - BACKUP before Stage 6 Character and Project Presets - 2026-08-21.json",
+      "source_sha256": "7ac9c8afc1c028a6ab85375c11bff82fd47ba7460668a3c3f8056c15c2efa0c9",
+      "published_sha256": "7ac9c8afc1c028a6ab85375c11bff82fd47ba7460668a3c3f8056c15c2efa0c9",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD - Complete Krea2 Pipeline.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD - Complete Krea2 Pipeline.json",
+      "source_sha256": "0bc8e521fd633f7f9a74c0e742783da980cf6d97341a183a6713765f3a125813",
+      "published_sha256": "0bc8e521fd633f7f9a74c0e742783da980cf6d97341a183a6713765f3a125813",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/07 GOLD STANDARD.json",
+      "destination": "development/workflows/Codex MCP Demos/07 GOLD STANDARD.json",
+      "source_sha256": "9817279b2b56d8e153489b80803f1fb443285e19704eab0f7256e03bb39d5b76",
+      "published_sha256": "9817279b2b56d8e153489b80803f1fb443285e19704eab0f7256e03bb39d5b76",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.json",
+      "destination": "development/workflows/Codex MCP Demos/08 KREA2 ENTITY REFERENCE SHEETS - Ref2VA Ready.json",
+      "source_sha256": "16c4021ec2e6e2b902bef4fbb5ab309e448164ba8293e9efe5368a59a6a9d3f0",
+      "published_sha256": "16c4021ec2e6e2b902bef4fbb5ab309e448164ba8293e9efe5368a59a6a9d3f0",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.json",
+      "destination": "development/workflows/Codex MCP Demos/09 GOLD STANDARD - MiniMax H3 Ref2VA Director.json",
+      "source_sha256": "5a635903a6e254ae77e7a635ffa74d680f2f7f5237a923b9e95b147384ec8d32",
+      "published_sha256": "5a635903a6e254ae77e7a635ffa74d680f2f7f5237a923b9e95b147384ec8d32",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder.json",
+      "destination": "development/workflows/Codex MCP Demos/10 GOLD STANDARD - MiniMax H3 Long Form Shot Builder.json",
+      "source_sha256": "3fc4003abbddfe601119159b31437687a048a76ca12000e7cd82a9ee4c7bd1d7",
+      "published_sha256": "3fc4003abbddfe601119159b31437687a048a76ca12000e7cd82a9ee4c7bd1d7",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10A H3 Production Tools Lab.json",
+      "destination": "development/workflows/Codex MCP Demos/10A H3 Production Tools Lab.json",
+      "source_sha256": "15573d1e64d2511229885b5f4b177ac3081c53a6436213190d4e4005b199d94c",
+      "published_sha256": "15573d1e64d2511229885b5f4b177ac3081c53a6436213190d4e4005b199d94c",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10B H3 Automated Dialogue Chain Lab.json",
+      "destination": "development/workflows/Codex MCP Demos/10B H3 Automated Dialogue Chain Lab.json",
+      "source_sha256": "47aed4c4fced99192239051ae6552f19fd1dbbcd2fc6903a690b73b24372c44f",
+      "published_sha256": "da92cdf645896af4c06f659ff1508cb117737b0c2e3a257c2029348a18928c7d",
+      "adapted": true
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10C H3 Matched First Frame Benchmark Lab.json",
+      "destination": "development/workflows/Codex MCP Demos/10C H3 Matched First Frame Benchmark Lab.json",
+      "source_sha256": "125e339fb4dec2ec8a4eb54ab4e27276d2d3632f4f3a24d06aee09f6fa6674c0",
+      "published_sha256": "125e339fb4dec2ec8a4eb54ab4e27276d2d3632f4f3a24d06aee09f6fa6674c0",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10D H3 Safe Project State Lab.json",
+      "destination": "development/workflows/Codex MCP Demos/10D H3 Safe Project State Lab.json",
+      "source_sha256": "fceb624bd9ef5b97d8f4342d2ad40244758305eedea010a50440736b1d724070",
+      "published_sha256": "fceb624bd9ef5b97d8f4342d2ad40244758305eedea010a50440736b1d724070",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10E H3 Thin Controls Lab.json",
+      "destination": "development/workflows/Codex MCP Demos/10E H3 Thin Controls Lab.json",
+      "source_sha256": "f379e85cf31ca74bc42f757f2cdd3b6d897745869de0f8a4e7986e473ecb5221",
+      "published_sha256": "f379e85cf31ca74bc42f757f2cdd3b6d897745869de0f8a4e7986e473ecb5221",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10F H3 Continuity and References Lab.json",
+      "destination": "development/workflows/Codex MCP Demos/10F H3 Continuity and References Lab.json",
+      "source_sha256": "dded4623a03209ff7407a8967fd9a7e726f0abd8d0cfdbd545051e5a776f752f",
+      "published_sha256": "dded4623a03209ff7407a8967fd9a7e726f0abd8d0cfdbd545051e5a776f752f",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10G H3 Sequence Assembly Lab.json",
+      "destination": "development/workflows/Codex MCP Demos/10G H3 Sequence Assembly Lab.json",
+      "source_sha256": "11afb7d4705f501d4a2f5d6254f1bee2f423880caaa281d3ff460d93d500757b",
+      "published_sha256": "11afb7d4705f501d4a2f5d6254f1bee2f423880caaa281d3ff460d93d500757b",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/10H H3 Motion Context Lab.json",
+      "destination": "development/workflows/Codex MCP Demos/10H H3 Motion Context Lab.json",
+      "source_sha256": "388f48b665d46bba6c4ec622f8716745baa04ee4b91102b31e6124c522f67b42",
+      "published_sha256": "388f48b665d46bba6c4ec622f8716745baa04ee4b91102b31e6124c522f67b42",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - 540 TAGS VALIDATED - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - 540 TAGS VALIDATED - 2026-08-24.json",
+      "source_sha256": "16c4021ec2e6e2b902bef4fbb5ab309e448164ba8293e9efe5368a59a6a9d3f0",
+      "published_sha256": "16c4021ec2e6e2b902bef4fbb5ab309e448164ba8293e9efe5368a59a6a9d3f0",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BACKUP before expanded views - 2026-08-23.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BACKUP before expanded views - 2026-08-23.json",
+      "source_sha256": "aa1178c8c9a9317e410334b6ac20dc924f9def7ba6befcd28ad4a605eb9c5f1a",
+      "published_sha256": "aa1178c8c9a9317e410334b6ac20dc924f9def7ba6befcd28ad4a605eb9c5f1a",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BACKUP before type-safe routing - 2026-08-23.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BACKUP before type-safe routing - 2026-08-23.json",
+      "source_sha256": "5a829ccbe4ccc649e9ea85fa6611c9c46c096f3ae12ff504f52ece1ada194602",
+      "published_sha256": "5a829ccbe4ccc649e9ea85fa6611c9c46c096f3ae12ff504f52ece1ada194602",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BEFORE 540 TAG EXPANSION - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BEFORE 540 TAG EXPANSION - 2026-08-24.json",
+      "source_sha256": "64513399b7977d10035f8490a935072b77123f85e34cb1d87970b5e15a614774",
+      "published_sha256": "64513399b7977d10035f8490a935072b77123f85e34cb1d87970b5e15a614774",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BEFORE RANDOM TAG MIX - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BEFORE RANDOM TAG MIX - 2026-08-24.json",
+      "source_sha256": "4dff3df699ecd37b113d83c05399155b4208f54e36f627e16a647e0f84fe0283",
+      "published_sha256": "4dff3df699ecd37b113d83c05399155b4208f54e36f627e16a647e0f84fe0283",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BEFORE SHARED LORA - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - BEFORE SHARED LORA - 2026-08-24.json",
+      "source_sha256": "9f553fbce9d95df050f839a38079db152b435c8dbda8b56a3d537b5a26d73cac",
+      "published_sha256": "9f553fbce9d95df050f839a38079db152b435c8dbda8b56a3d537b5a26d73cac",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - EXPANDED VIEWS VALIDATED - 2026-08-23.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - EXPANDED VIEWS VALIDATED - 2026-08-23.json",
+      "source_sha256": "5a829ccbe4ccc649e9ea85fa6611c9c46c096f3ae12ff504f52ece1ada194602",
+      "published_sha256": "5a829ccbe4ccc649e9ea85fa6611c9c46c096f3ae12ff504f52ece1ada194602",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - INITIAL VALIDATED - 2026-08-23.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - INITIAL VALIDATED - 2026-08-23.json",
+      "source_sha256": "aa1178c8c9a9317e410334b6ac20dc924f9def7ba6befcd28ad4a605eb9c5f1a",
+      "published_sha256": "aa1178c8c9a9317e410334b6ac20dc924f9def7ba6befcd28ad4a605eb9c5f1a",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - RANDOM TAG MIX VALIDATED - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - RANDOM TAG MIX VALIDATED - 2026-08-24.json",
+      "source_sha256": "9f553fbce9d95df050f839a38079db152b435c8dbda8b56a3d537b5a26d73cac",
+      "published_sha256": "9f553fbce9d95df050f839a38079db152b435c8dbda8b56a3d537b5a26d73cac",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - SHARED LORA VALIDATED - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - SHARED LORA VALIDATED - 2026-08-24.json",
+      "source_sha256": "e77ff03f90ae577c41614ad1dfca006be294180b26146963e6fa82b3e9474afa",
+      "published_sha256": "e77ff03f90ae577c41614ad1dfca006be294180b26146963e6fa82b3e9474afa",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - TYPE-SAFE ROUTING VALIDATED - 2026-08-23.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/08 KREA2 ENTITY REFERENCE SHEETS - TYPE-SAFE ROUTING VALIDATED - 2026-08-23.json",
+      "source_sha256": "51449d3b687328902a1361ebc34eca6a7e3864450207bc66b1a5429bf36f5d46",
+      "published_sha256": "51449d3b687328902a1361ebc34eca6a7e3864450207bc66b1a5429bf36f5d46",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/README - Entity Reference Sheets.md",
+      "destination": "development/workflows/Codex MCP Demos/Backups/08 KREA2 Entity Reference Sheets/README - Entity Reference Sheets.md",
+      "source_sha256": "2c8d63876c011356dbbf9afc6e7871cd8498b2657d56b870cefb27a0155bd666",
+      "published_sha256": "2c8d63876c011356dbbf9afc6e7871cd8498b2657d56b870cefb27a0155bd666",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/09 H3 Ref Gold/09 H3 REF GOLD - INITIAL VALIDATED - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/09 H3 Ref Gold/09 H3 REF GOLD - INITIAL VALIDATED - 2026-08-24.json",
+      "source_sha256": "5a635903a6e254ae77e7a635ffa74d680f2f7f5237a923b9e95b147384ec8d32",
+      "published_sha256": "5a635903a6e254ae77e7a635ffa74d680f2f7f5237a923b9e95b147384ec8d32",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/09 H3 Ref Gold/README.md",
+      "destination": "development/workflows/Codex MCP Demos/Backups/09 H3 Ref Gold/README.md",
+      "source_sha256": "82606112f63ef3867519586c6bc190d769ec83acf911d4baf4f1eeb8a2edde4f",
+      "published_sha256": "82606112f63ef3867519586c6bc190d769ec83acf911d4baf4f1eeb8a2edde4f",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - BEFORE AUTO CHAIN - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - BEFORE AUTO CHAIN - 2026-08-24.json",
+      "source_sha256": "bcbb1adb290fe6a75de9c511efa83f3a3933a25dc687b8907bd2bac29967c0b6",
+      "published_sha256": "bcbb1adb290fe6a75de9c511efa83f3a3933a25dc687b8907bd2bac29967c0b6",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - BEFORE M7 MOTION CONTEXT - 2026-08-25.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - BEFORE M7 MOTION CONTEXT - 2026-08-25.json",
+      "source_sha256": "2cd91cfbe51f3d5bd66f43cb2d34417894d18ad46b18ae0360a24b672013d037",
+      "published_sha256": "2cd91cfbe51f3d5bd66f43cb2d34417894d18ad46b18ae0360a24b672013d037",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - BEFORE QUALITY PROFILES - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - BEFORE QUALITY PROFILES - 2026-08-24.json",
+      "source_sha256": "469d13c3200473101e4e37255b120f25c13007b31901d5a8bad02e8a510c34b0",
+      "published_sha256": "469d13c3200473101e4e37255b120f25c13007b31901d5a8bad02e8a510c34b0",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - BEFORE QUALITY PROFILES - LIVE USER SETTINGS - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - BEFORE QUALITY PROFILES - LIVE USER SETTINGS - 2026-08-24.json",
+      "source_sha256": "70fbc97e56bf8fe5d1b8ced9fd159a06a349c4465dd1c5992671ff61755ed2e2",
+      "published_sha256": "70fbc97e56bf8fe5d1b8ced9fd159a06a349c4465dd1c5992671ff61755ed2e2",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - INITIAL VALIDATED - 2026-08-24.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - INITIAL VALIDATED - 2026-08-24.json",
+      "source_sha256": "bcbb1adb290fe6a75de9c511efa83f3a3933a25dc687b8907bd2bac29967c0b6",
+      "published_sha256": "bcbb1adb290fe6a75de9c511efa83f3a3933a25dc687b8907bd2bac29967c0b6",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - M0 FREEZE - 2026-08-25.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10 H3 Long Form/10 H3 LONG FORM - M0 FREEZE - 2026-08-25.json",
+      "source_sha256": "2cd91cfbe51f3d5bd66f43cb2d34417894d18ad46b18ae0360a24b672013d037",
+      "published_sha256": "2cd91cfbe51f3d5bd66f43cb2d34417894d18ad46b18ae0360a24b672013d037",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10 H3 Long Form/README.md",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10 H3 Long Form/README.md",
+      "source_sha256": "7e4800582ac11cc97adca293e1559197864d3b5dacab102b7c656d3b8f39f6ff",
+      "published_sha256": "6db7d03d67f5843c2990c828da663842d2dc6bfdbfebd4e14d5e0ce689d51c2b",
+      "adapted": true
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10A H3 Production Tools/10A H3 Production Tools Lab - PRE-BENCHMARK - 2026-08-25.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10A H3 Production Tools/10A H3 Production Tools Lab - PRE-BENCHMARK - 2026-08-25.json",
+      "source_sha256": "2cd91cfbe51f3d5bd66f43cb2d34417894d18ad46b18ae0360a24b672013d037",
+      "published_sha256": "2cd91cfbe51f3d5bd66f43cb2d34417894d18ad46b18ae0360a24b672013d037",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10B H3 Automated Dialogue Chain/H3_Seamless_Chain_v2 - UPSTREAM 2.6.5 - 2026-08-25.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10B H3 Automated Dialogue Chain/H3_Seamless_Chain_v2 - UPSTREAM 2.6.5 - 2026-08-25.json",
+      "source_sha256": "7281c67fe3d489d8c25be9352e6cc282b79883d9aa79882613ba64978a8c478d",
+      "published_sha256": "477298f93626904dec8c295a25b43579c1200f67d37dba8ddeb9dc0e07e1f31d",
+      "adapted": true
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10C H3 Matched First Frame Benchmark/H3_Seamless_Chain_CORE - UPSTREAM 2.6.5 - 2026-08-25.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10C H3 Matched First Frame Benchmark/H3_Seamless_Chain_CORE - UPSTREAM 2.6.5 - 2026-08-25.json",
+      "source_sha256": "efb0dbbc2c025219b3858c8457e1898ce88e8dc8d43d160d2d4c0a5e3269e9a9",
+      "published_sha256": "efb0dbbc2c025219b3858c8457e1898ce88e8dc8d43d160d2d4c0a5e3269e9a9",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Backups/10H H3 Motion Context/MiniMax H3 - fl2va - ref2va - UPSTREAM 0.3.1 - 2026-08-25.json",
+      "destination": "development/workflows/Codex MCP Demos/Backups/10H H3 Motion Context/MiniMax H3 - fl2va - ref2va - UPSTREAM 0.3.1 - 2026-08-25.json",
+      "source_sha256": "6ad9decde8556ea12688f3ba75ee71d6f06b54fe62d05018e56d9434f96ebb2c",
+      "published_sha256": "6ad9decde8556ea12688f3ba75ee71d6f06b54fe62d05018e56d9434f96ebb2c",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Gold Evolution/Stage 1 - Reference Image Controls.json",
+      "destination": "development/workflows/Codex MCP Demos/Gold Evolution/Stage 1 - Reference Image Controls.json",
+      "source_sha256": "13759d80b30fc4473664ad621e927419c42472cc4e40145e1b4465e7de60b85c",
+      "published_sha256": "13759d80b30fc4473664ad621e927419c42472cc4e40145e1b4465e7de60b85c",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Gold Evolution/Stage 2 - Selective Repair.json",
+      "destination": "development/workflows/Codex MCP Demos/Gold Evolution/Stage 2 - Selective Repair.json",
+      "source_sha256": "a3a16a64cbf89b8d44e262343bfe9056b7be5335bb827650f9f4ed2c6c89e0ab",
+      "published_sha256": "a3a16a64cbf89b8d44e262343bfe9056b7be5335bb827650f9f4ed2c6c89e0ab",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Gold Evolution/Stage 3 - H3 Continuation.json",
+      "destination": "development/workflows/Codex MCP Demos/Gold Evolution/Stage 3 - H3 Continuation.json",
+      "source_sha256": "b687609922d1352b14cb889c39f4f2856d335a9ddf502d149c81e5f00a595ab6",
+      "published_sha256": "b687609922d1352b14cb889c39f4f2856d335a9ddf502d149c81e5f00a595ab6",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Gold Evolution/Stage 4 - Storyboard Mode.json",
+      "destination": "development/workflows/Codex MCP Demos/Gold Evolution/Stage 4 - Storyboard Mode.json",
+      "source_sha256": "673d7573a02e102bddcc41363119909ae9c603e3a6d8f1fb6c4930d09a3f1451",
+      "published_sha256": "673d7573a02e102bddcc41363119909ae9c603e3a6d8f1fb6c4930d09a3f1451",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Gold Evolution/Stage 5 - VRAM Choreography.json",
+      "destination": "development/workflows/Codex MCP Demos/Gold Evolution/Stage 5 - VRAM Choreography.json",
+      "source_sha256": "3dec5170c03ac0fedbcd220dd6f03a70a27b2900d81383e31ed0f7269dd325dc",
+      "published_sha256": "3dec5170c03ac0fedbcd220dd6f03a70a27b2900d81383e31ed0f7269dd325dc",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Gold Evolution/Stage 6 - Character and Project Presets.json",
+      "destination": "development/workflows/Codex MCP Demos/Gold Evolution/Stage 6 - Character and Project Presets.json",
+      "source_sha256": "3fecd9ddbdb5259b3f4fe563f5e624194c65ea8fabac589fc14906f5944b4a1d",
+      "published_sha256": "3fecd9ddbdb5259b3f4fe563f5e624194c65ea8fabac589fc14906f5944b4a1d",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Operating Modes/01 Quick Draft.json",
+      "destination": "development/workflows/Codex MCP Demos/Operating Modes/01 Quick Draft.json",
+      "source_sha256": "df11639e9798479362479a376405a7f893bf7eef4dd38acfb80e742d0ddd1802",
+      "published_sha256": "df11639e9798479362479a376405a7f893bf7eef4dd38acfb80e742d0ddd1802",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Operating Modes/02 Prompt Exploration - Batch of 10.json",
+      "destination": "development/workflows/Codex MCP Demos/Operating Modes/02 Prompt Exploration - Batch of 10.json",
+      "source_sha256": "e94bfd32417421514af941e9530c986b99bab274638b5927fea2a5827cc133aa",
+      "published_sha256": "e94bfd32417421514af941e9530c986b99bab274638b5927fea2a5827cc133aa",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Operating Modes/03 Gold Still - Double Sampler + SeedVR2.json",
+      "destination": "development/workflows/Codex MCP Demos/Operating Modes/03 Gold Still - Double Sampler + SeedVR2.json",
+      "source_sha256": "ad00bf7078aeab1ff302f2dcc49ebf3f1a0b71166eb9a9cfd977339aef98926d",
+      "published_sha256": "ad00bf7078aeab1ff302f2dcc49ebf3f1a0b71166eb9a9cfd977339aef98926d",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Operating Modes/04 H3 Preview - Pass 1 + Turbo.json",
+      "destination": "development/workflows/Codex MCP Demos/Operating Modes/04 H3 Preview - Pass 1 + Turbo.json",
+      "source_sha256": "3f8b67d379d8c629184c28d80ca3a1e565fd73263f0d5569d32e40d52232888b",
+      "published_sha256": "3f8b67d379d8c629184c28d80ca3a1e565fd73263f0d5569d32e40d52232888b",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Operating Modes/05 H3 Final - Pass 2 + Base Quality.json",
+      "destination": "development/workflows/Codex MCP Demos/Operating Modes/05 H3 Final - Pass 2 + Base Quality.json",
+      "source_sha256": "2fd7fe5a6b5f7a5e6432f80345872e0dd0b9062fb5b5715ee0942b47fc1d2b98",
+      "published_sha256": "2fd7fe5a6b5f7a5e6432f80345872e0dd0b9062fb5b5715ee0942b47fc1d2b98",
+      "adapted": false
+    },
+    {
+      "source_path": "workflows/Codex MCP Demos/Operating Modes/06 Comparison Lab - All Still Paths.json",
+      "destination": "development/workflows/Codex MCP Demos/Operating Modes/06 Comparison Lab - All Still Paths.json",
+      "source_sha256": "5c31c4afe22b38159d57379f31a95e0718f352426446dc9ef61741bbefe8251c",
+      "published_sha256": "5c31c4afe22b38159d57379f31a95e0718f352426446dc9ef61741bbefe8251c",
+      "adapted": false
+    }
+  ]
+}

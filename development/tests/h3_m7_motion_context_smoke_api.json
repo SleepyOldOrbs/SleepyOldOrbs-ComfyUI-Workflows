@@ -1,0 +1,42 @@
+{
+  "1": {
+    "class_type": "EmptyMiniMaxH3LatentAV",
+    "inputs": {
+      "width": 64,
+      "height": 64,
+      "length": 5
+    }
+  },
+  "2": {
+    "class_type": "MiniMaxH3MotionContextSaveLatent",
+    "inputs": {
+      "latent": [
+        "1",
+        0
+      ],
+      "filename_prefix": "H3_M7_Smoke/source",
+      "clip_index": 1
+    }
+  },
+  "3": {
+    "class_type": "MiniMaxH3MotionContextLoadLatent",
+    "inputs": {
+      "latent_path": [
+        "2",
+        0
+      ],
+      "clip_index": 0
+    }
+  },
+  "4": {
+    "class_type": "MiniMaxH3MotionContextSaveLatent",
+    "inputs": {
+      "latent": [
+        "3",
+        0
+      ],
+      "filename_prefix": "H3_M7_Smoke/roundtrip",
+      "clip_index": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "H3_Long_Form_Test_Start.png"
+    }
+  },
+  "2": {
+    "class_type": "CodexH3OutputFinish",
+    "inputs": {
+      "images": [
+        "1",
+        0
+      ],
+      "profile": "BALANCED — RTX 1.5x HIGH (recommended)"
+    }
+  },
+  "3": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "2",
+        0
+      ],
+      "filename_prefix": "H3_Long_Form_Smoke/QUALITY_BALANCED"
+    }
+  }
+}

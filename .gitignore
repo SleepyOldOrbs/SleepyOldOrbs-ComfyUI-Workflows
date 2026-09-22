@@ -7,3 +7,10 @@ Thumbs.db
 *.safetensors
 *.gguf
 *.ckpt
+*.key
+*.pem
+.pytest_cache/
+development/output/
+development/outputs/
+development/logs/
+development/temp/

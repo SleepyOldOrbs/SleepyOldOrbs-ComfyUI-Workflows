@@ -1,0 +1,1351 @@
+{
+  "id": "10e00000-0000-4000-8000-000000000004",
+  "revision": 0,
+  "last_node_id": 16,
+  "last_link_id": 27,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PixaromaNote",
+      "pos": [
+        20,
+        20
+      ],
+      "size": [
+        3060,
+        250
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "note_json",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "note_json"
+          }
+        }
+      ],
+      "outputs": [],
+      "title": "START HERE — THIN CONTROLS WITHOUT A GENERATION",
+      "properties": {
+        "Node name for S&R": "PixaromaNote"
+      },
+      "widgets_values": [
+        "{\"version\":1,\"content\":\"<h2>M4 THIN CONTROLS LAB</h2><ol><li>Select the evidence-cleared Gold Base or Quick Preview recipe. Turbo is intentionally absent because its comparison is not yet recorded.</li><li>Edit the JSON plan only with an explicit reset. Each queued execution reads the current shot at execution time.</li><li>Run once per shot. A matching recorded take commits accepted work and advances the plan; rejected work stays on the same shot.</li></ol><p>This lab loads one known-good frame to exercise project state and provenance. It contains no model, sampler, generation, partner node, or paid route. Gold is not connected.</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"width\":3060,\"height\":220,\"backgroundColor\":\"#2a2a2a\"}",
+        ""
+      ],
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 2,
+      "type": "CodexH3RenderProfileControl",
+      "pos": [
+        40,
+        340
+      ],
+      "size": [
+        500,
+        310
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "profile",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "profile"
+          }
+        },
+        {
+          "name": "engine",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "engine"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "profile_token",
+          "type": "H3_RENDER_PROFILE",
+          "links": [
+            1
+          ]
+        },
+        {
+          "name": "profile_name",
+          "type": "STRING",
+          "links": [
+            2
+          ]
+        },
+        {
+          "name": "steps",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "cfg",
+          "type": "FLOAT",
+          "links": []
+        },
+        {
+          "name": "sampler_name",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "scheduler",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "required_lora",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            3
+          ]
+        }
+      ],
+      "title": "1. RENDER PROFILE — evidence-cleared recipe only",
+      "properties": {
+        "Node name for S&R": "CodexH3RenderProfileControl"
+      },
+      "widgets_values": [
+        "Gold Base",
+        "m4-state-lab-no-render"
+      ],
+      "color": "#6A4C93",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 3,
+      "type": "CodexH3ShotPlanControl",
+      "pos": [
+        40,
+        760
+      ],
+      "size": [
+        740,
+        650
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "project",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "project"
+          }
+        },
+        {
+          "name": "branch",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "branch"
+          }
+        },
+        {
+          "name": "plan_name",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "plan_name"
+          }
+        },
+        {
+          "name": "plan_json",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "plan_json"
+          }
+        },
+        {
+          "name": "action",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "action"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "plan_control",
+          "type": "H3_SHOT_PLAN_CONTROL",
+          "links": [
+            4
+          ]
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            5
+          ]
+        },
+        {
+          "name": "position",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "plan_sha256",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "2. SHOT PLAN — versioned JSON and explicit navigation",
+      "properties": {
+        "Node name for S&R": "CodexH3ShotPlanControl"
+      },
+      "widgets_values": [
+        "H3 M4 Thin Controls Lab",
+        "main",
+        "Kitchen sequence",
+        "[{\"shot_id\":\"S01\",\"title\":\"The arrival\",\"scene\":\"Kitchen\",\"action\":\"A goat walks to the table and stops beside the teapot.\",\"camera\":\"Locked medium-wide shot at goat eye level.\",\"dialogue\":\"Mabel says, \\\"Tea — now?\\\"\",\"references\":[\"input/H3_Long_Form_Test_Start.png\",\"prop:blue-teapot\"],\"profile_override\":\"Gold Base\",\"handoff_notes\":\"Keep the goat on frame left.\"},{\"shot_id\":\"S02\",\"title\":\"The answer\",\"scene\":\"Kitchen\",\"action\":\"Arthur turns from the sink without moving the teapot.\",\"camera\":\"Slow push-in while preserving the screen direction.\",\"dialogue\":\"Arthur replies, \\\"Only if it is Earl Grey.\\\"\",\"references\":[\"input/H3_Long_Form_Test_Start.png\",\"prop:blue-teapot\"],\"profile_override\":\"Gold Base\",\"handoff_notes\":\"Preserve the teapot position from S01.\"},{\"shot_id\":\"S03\",\"title\":\"The decision\",\"scene\":\"Kitchen\",\"action\":\"Mabel nudges the teapot toward Arthur and waits.\",\"camera\":\"Return to the locked medium-wide composition.\",\"dialogue\":\"Mabel says, \\\"Deal.\\\"\",\"references\":[\"input/H3_Long_Form_Test_Start.png\",\"prop:blue-teapot\"],\"profile_override\":\"Gold Base\",\"handoff_notes\":\"End with a clean continuation frame.\"}]",
+        "ensure"
+      ],
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 4,
+      "type": "CodexH3ShotPlanReader",
+      "pos": [
+        900,
+        760
+      ],
+      "size": [
+        520,
+        420
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "plan_control",
+          "type": "H3_SHOT_PLAN_CONTROL",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "shot_token",
+          "type": "H3_SHOT_TOKEN",
+          "links": [
+            6
+          ]
+        },
+        {
+          "name": "project",
+          "type": "STRING",
+          "links": [
+            7
+          ]
+        },
+        {
+          "name": "scene",
+          "type": "STRING",
+          "links": [
+            8
+          ]
+        },
+        {
+          "name": "shot",
+          "type": "STRING",
+          "links": [
+            9
+          ]
+        },
+        {
+          "name": "branch",
+          "type": "STRING",
+          "links": [
+            10
+          ]
+        },
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            11
+          ]
+        },
+        {
+          "name": "exact_dialogue",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "references_json",
+          "type": "STRING",
+          "links": [
+            12
+          ]
+        },
+        {
+          "name": "profile_override",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "handoff_notes",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "title": "3. CURRENT SHOT — read at execution time",
+      "properties": {
+        "Node name for S&R": "CodexH3ShotPlanReader"
+      },
+      "widgets_values": [],
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 5,
+      "type": "LoadImage",
+      "pos": [
+        900,
+        340
+      ],
+      "size": [
+        500,
+        350
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            14
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "KNOWN-GOOD FRAME — state exercise only",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "H3_Long_Form_Test_Start.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 6,
+      "type": "CodexH3ProjectControl",
+      "pos": [
+        1500,
+        340
+      ],
+      "size": [
+        720,
+        850
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "project",
+          "type": "STRING",
+          "link": 7
+        },
+        {
+          "name": "scene",
+          "type": "STRING",
+          "link": 8
+        },
+        {
+          "name": "shot",
+          "type": "STRING",
+          "link": 9
+        },
+        {
+          "name": "branch",
+          "type": "STRING",
+          "link": 10
+        },
+        {
+          "name": "engine",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "engine"
+          }
+        },
+        {
+          "name": "model",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "model"
+          }
+        },
+        {
+          "name": "lora",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "lora"
+          }
+        },
+        {
+          "name": "profile",
+          "type": "STRING",
+          "link": 2
+        },
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "link": 11
+        },
+        {
+          "name": "references_json",
+          "type": "STRING",
+          "link": 12
+        },
+        {
+          "name": "parent_handoff",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "parent_handoff"
+          }
+        },
+        {
+          "name": "native_width",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "native_width"
+          }
+        },
+        {
+          "name": "native_height",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "native_height"
+          }
+        },
+        {
+          "name": "delivery_width",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "delivery_width"
+          }
+        },
+        {
+          "name": "delivery_height",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "delivery_height"
+          }
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "seed"
+          }
+        },
+        {
+          "name": "render_profile",
+          "type": "H3_RENDER_PROFILE",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "take_token",
+          "type": "H3_PROJECT_TAKE",
+          "links": [
+            15,
+            16
+          ]
+        },
+        {
+          "name": "take_label",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "render_seed",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            17
+          ]
+        }
+      ],
+      "title": "4. PROJECT TAKE — profile and shot provenance",
+      "properties": {
+        "Node name for S&R": "CodexH3ProjectControl"
+      },
+      "widgets_values": [
+        "H3 M4 Thin Controls Lab",
+        "Kitchen",
+        "S01 The arrival",
+        "main",
+        "m4-state-lab-no-render",
+        "(no model loaded)",
+        "(none)",
+        "Gold Base",
+        "Execution-time shot prompt is linked from the plan reader.",
+        "[]",
+        "",
+        864,
+        480,
+        864,
+        480,
+        42
+      ],
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 7,
+      "type": "CodexH3SafeContinuationStore",
+      "pos": [
+        2300,
+        340
+      ],
+      "size": [
+        600,
+        360
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 14
+        },
+        {
+          "name": "token",
+          "type": "H3_PROJECT_TAKE",
+          "link": 15
+        },
+        {
+          "name": "mode",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "mode"
+          }
+        },
+        {
+          "name": "expected_width",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "expected_width"
+          }
+        },
+        {
+          "name": "expected_height",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "expected_height"
+          }
+        },
+        {
+          "name": "continuity_warning",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "continuity_warning"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "handoff_frame",
+          "type": "IMAGE",
+          "links": [
+            18
+          ]
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            19
+          ]
+        },
+        {
+          "name": "accepted",
+          "type": "BOOLEAN",
+          "links": [
+            20,
+            22
+          ]
+        },
+        {
+          "name": "handoff_path",
+          "type": "STRING",
+          "links": [
+            21,
+            23
+          ]
+        },
+        {
+          "name": "gate_record_json",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "5. TECHNICAL GATE — accepted or retained",
+      "properties": {
+        "Node name for S&R": "CodexH3SafeContinuationStore"
+      },
+      "widgets_values": [
+        "BLOCK TECHNICAL",
+        864,
+        480,
+        ""
+      ],
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 8,
+      "type": "CodexH3TakeRecorder",
+      "pos": [
+        2300,
+        790
+      ],
+      "size": [
+        600,
+        390
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "token",
+          "type": "H3_PROJECT_TAKE",
+          "link": 16
+        },
+        {
+          "name": "take_state",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "take_state"
+          }
+        },
+        {
+          "name": "output_paths",
+          "type": "STRING",
+          "link": 21
+        },
+        {
+          "name": "completion_signal",
+          "type": "STRING",
+          "link": 19
+        },
+        {
+          "name": "accepted_signal",
+          "type": "BOOLEAN",
+          "link": 20
+        }
+      ],
+      "outputs": [
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            26
+          ]
+        },
+        {
+          "name": "take_record_json",
+          "type": "STRING",
+          "links": [
+            24
+          ]
+        },
+        {
+          "name": "take_manifest_path",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "project_index_path",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "6. TAKE RECORD — immutable evidence before commit",
+      "properties": {
+        "Node name for S&R": "CodexH3TakeRecorder"
+      },
+      "widgets_values": [
+        "auto"
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 9,
+      "type": "CodexH3ShotPlanCommit",
+      "pos": [
+        2300,
+        1260
+      ],
+      "size": [
+        600,
+        300
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "shot_token",
+          "type": "H3_SHOT_TOKEN",
+          "link": 6
+        },
+        {
+          "name": "accepted",
+          "type": "BOOLEAN",
+          "link": 22
+        },
+        {
+          "name": "handoff_path",
+          "type": "STRING",
+          "link": 23
+        },
+        {
+          "name": "take_record_json",
+          "type": "STRING",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            27
+          ]
+        },
+        {
+          "name": "position",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "plan_complete",
+          "type": "BOOLEAN",
+          "links": []
+        }
+      ],
+      "title": "7. PLAN COMMIT — advance accepted current take only",
+      "properties": {
+        "Node name for S&R": "CodexH3ShotPlanCommit"
+      },
+      "widgets_values": [],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 10,
+      "type": "PreviewImage",
+      "pos": [
+        2980,
+        340
+      ],
+      "size": [
+        400,
+        520
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 18
+        }
+      ],
+      "outputs": [],
+      "title": "INSPECTED HANDOFF — preview only",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 11,
+      "type": "PixaromaShowText",
+      "pos": [
+        40,
+        1480
+      ],
+      "size": [
+        520,
+        230
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "PROFILE STATUS",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 12,
+      "type": "PixaromaShowText",
+      "pos": [
+        620,
+        1480
+      ],
+      "size": [
+        520,
+        230
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "PLAN STATUS",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 13,
+      "type": "PixaromaShowText",
+      "pos": [
+        1200,
+        1480
+      ],
+      "size": [
+        520,
+        230
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "SHOT STATUS",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 14,
+      "type": "PixaromaShowText",
+      "pos": [
+        1780,
+        1480
+      ],
+      "size": [
+        520,
+        230
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 17
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "TAKE STATUS",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 15,
+      "type": "PixaromaShowText",
+      "pos": [
+        2940,
+        1260
+      ],
+      "size": [
+        520,
+        230
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 27
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "PLAN COMMIT STATUS",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 16,
+      "type": "PixaromaShowText",
+      "pos": [
+        2940,
+        940
+      ],
+      "size": [
+        520,
+        230
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 26
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "TAKE RECORD STATUS",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    }
+  ],
+  "links": [
+    [
+      1,
+      2,
+      0,
+      6,
+      16,
+      "H3_RENDER_PROFILE"
+    ],
+    [
+      2,
+      2,
+      1,
+      6,
+      7,
+      "STRING"
+    ],
+    [
+      3,
+      2,
+      7,
+      11,
+      0,
+      "*"
+    ],
+    [
+      4,
+      3,
+      0,
+      4,
+      0,
+      "H3_SHOT_PLAN_CONTROL"
+    ],
+    [
+      5,
+      3,
+      1,
+      12,
+      0,
+      "*"
+    ],
+    [
+      6,
+      4,
+      0,
+      9,
+      0,
+      "H3_SHOT_TOKEN"
+    ],
+    [
+      7,
+      4,
+      1,
+      6,
+      0,
+      "STRING"
+    ],
+    [
+      8,
+      4,
+      2,
+      6,
+      1,
+      "STRING"
+    ],
+    [
+      9,
+      4,
+      3,
+      6,
+      2,
+      "STRING"
+    ],
+    [
+      10,
+      4,
+      4,
+      6,
+      3,
+      "STRING"
+    ],
+    [
+      11,
+      4,
+      5,
+      6,
+      8,
+      "STRING"
+    ],
+    [
+      12,
+      4,
+      7,
+      6,
+      9,
+      "STRING"
+    ],
+    [
+      13,
+      4,
+      10,
+      13,
+      0,
+      "*"
+    ],
+    [
+      14,
+      5,
+      0,
+      7,
+      0,
+      "IMAGE"
+    ],
+    [
+      15,
+      6,
+      0,
+      7,
+      1,
+      "H3_PROJECT_TAKE"
+    ],
+    [
+      16,
+      6,
+      0,
+      8,
+      0,
+      "H3_PROJECT_TAKE"
+    ],
+    [
+      17,
+      6,
+      3,
+      14,
+      0,
+      "*"
+    ],
+    [
+      18,
+      7,
+      0,
+      10,
+      0,
+      "IMAGE"
+    ],
+    [
+      19,
+      7,
+      1,
+      8,
+      3,
+      "STRING"
+    ],
+    [
+      20,
+      7,
+      2,
+      8,
+      4,
+      "BOOLEAN"
+    ],
+    [
+      21,
+      7,
+      3,
+      8,
+      2,
+      "STRING"
+    ],
+    [
+      22,
+      7,
+      2,
+      9,
+      1,
+      "BOOLEAN"
+    ],
+    [
+      23,
+      7,
+      3,
+      9,
+      2,
+      "STRING"
+    ],
+    [
+      24,
+      8,
+      1,
+      9,
+      3,
+      "STRING"
+    ],
+    [
+      26,
+      8,
+      0,
+      16,
+      0,
+      "*"
+    ],
+    [
+      27,
+      9,
+      0,
+      15,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "1 — EVIDENCE-CLEARED PROFILE",
+      "bounding": [
+        20,
+        300,
+        760,
+        390
+      ],
+      "color": "#6A4C93",
+      "font_size": 22
+    },
+    {
+      "title": "2 — VERSIONED EXECUTION PLAN",
+      "bounding": [
+        20,
+        720,
+        1420,
+        720
+      ],
+      "color": "#355C7D",
+      "font_size": 22
+    },
+    {
+      "title": "3 — PROJECT PROVENANCE",
+      "bounding": [
+        1480,
+        300,
+        760,
+        930
+      ],
+      "color": "#355C7D",
+      "font_size": 22
+    },
+    {
+      "title": "4 — ACCEPTANCE AND COMMIT",
+      "bounding": [
+        2280,
+        300,
+        1140,
+        1300
+      ],
+      "color": "#2E7D32",
+      "font_size": 22
+    },
+    {
+      "title": "5 — OPERATOR STATUS",
+      "bounding": [
+        20,
+        1440,
+        3400,
+        310
+      ],
+      "color": "#f66744",
+      "font_size": 22
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.58,
+      "offset": [
+        40,
+        40
+      ]
+    }
+  },
+  "version": 0.4
+}

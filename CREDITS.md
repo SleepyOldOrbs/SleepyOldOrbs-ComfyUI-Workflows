@@ -2,6 +2,8 @@
 
 Curated and customised by **SleepyOldOrbs**, with AI-assisted workflow development and documentation.
 
+The [development collection](development/README.md) was consolidated from `SleepyOldOrbs/comfyui-codex-workflows` on 22 September 2026. Its original workflow notes and third-party credits are retained; historical examples are separate from the current published catalogue. The [import manifest](development/IMPORT-MANIFEST.json) records the source revision and the imported files.
+
 This is a personal workflow collection containing customised graphs from **Codex MCP Demos** and **Gold-Standard**. Default templates in all other source folders are excluded. Inclusion does not mean every workflow was originally authored by SleepyOldOrbs. Existing notes, author names, tutorial links and model credits remain in the exported JSON files.
 
 - **Pixaroma**: the Pixaroma node suite and upstream techniques or notes retained in customised workflows. [Channel](https://www.youtube.com/@pixaroma) · [Node project](https://gitlab.com/pixaroma/comfyui-pixaroma).

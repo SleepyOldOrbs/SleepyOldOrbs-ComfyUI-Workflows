@@ -1,0 +1,80 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 864,
+      "height": 480,
+      "batch_size": 1,
+      "color": 0
+    }
+  },
+  "2": {
+    "class_type": "CodexH3ProjectControl",
+    "inputs": {
+      "project": "H3 M3 Live Validation 2026-08-25",
+      "scene": "Reference Validation",
+      "shot": "Goat handoff",
+      "branch": "main",
+      "engine": "state-lab-no-render",
+      "model": "(no model loaded)",
+      "lora": "(none)",
+      "profile": "technical handoff check",
+      "prompt": "Known-good goat reference used to prove M3 state handling.",
+      "references_json": "[{\"id\":\"goat\",\"path\":\"input/H3_Long_Form_Test_Start.png\"}]",
+      "parent_handoff": "",
+      "native_width": 864,
+      "native_height": 480,
+      "delivery_width": 864,
+      "delivery_height": 480,
+      "seed": 42
+    }
+  },
+  "3": {
+    "class_type": "CodexH3SafeContinuationStore",
+    "inputs": {
+      "images": [
+        "1",
+        0
+      ],
+      "token": [
+        "2",
+        0
+      ],
+      "mode": "BLOCK TECHNICAL",
+      "expected_width": 864,
+      "expected_height": 480,
+      "continuity_warning": ""
+    }
+  },
+  "4": {
+    "class_type": "CodexH3TakeRecorder",
+    "inputs": {
+      "token": [
+        "2",
+        0
+      ],
+      "take_state": "auto",
+      "output_paths": [
+        "3",
+        3
+      ],
+      "completion_signal": [
+        "3",
+        1
+      ],
+      "accepted_signal": [
+        "3",
+        2
+      ]
+    }
+  },
+  "5": {
+    "class_type": "PreviewImage",
+    "inputs": {
+      "images": [
+        "3",
+        0
+      ]
+    }
+  }
+}

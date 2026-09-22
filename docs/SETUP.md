@@ -7,7 +7,11 @@
 5. Download the relevant model weights, select them in the loader nodes, and replace reference-image/audio/video inputs with your own files. Optional and disabled branches can reference extra models.
 6. For Pixaroma tag-based prompts, [import the tag library](PIXAROMA-TAGS.md) before running. Start with batch count 1 and inspect the result, then increase the batch count.
 
-## William Morris patterns
+## Bundled H3 helper nodes
+
+The two Codex H3 helper packages are now [included in this repository](../development/README.md#install-the-bundled-h3-nodes). They can be installed by copying their package folders or by using the supplied PowerShell installers. Other dependency requirements still apply.
+
+## William Morris workflow requirements
 
 The Morris family uses Krea 2 and the custom `William-Morris-LoRa_krea2.safetensors` LoRA. The trigger is `William Morris Style`. The weights are not bundled and no verified public download is available in this release; obtain them from the maintainer. The workflows retain the selected strength and sampler settings. Generated examples include their captured settings.
 

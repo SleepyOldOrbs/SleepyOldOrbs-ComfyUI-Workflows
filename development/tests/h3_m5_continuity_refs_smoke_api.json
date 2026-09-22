@@ -1,0 +1,185 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "H3_Long_Form_Test_Start.png"
+    }
+  },
+  "2": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "H3_Long_Form_Test_End.png"
+    }
+  },
+  "3": {
+    "class_type": "CodexH3ProjectControl",
+    "inputs": {
+      "project": "H3 M5 Live Validation 2026-08-25",
+      "scene": "Continuity",
+      "shot": "Reference audit",
+      "branch": "main",
+      "engine": "m5-state-lab-no-render",
+      "model": "(no model loaded)",
+      "lora": "(none)",
+      "profile": "Advisory audit",
+      "prompt": "Compare ending frames and build a typed reference manifest.",
+      "references_json": "[{\"slot\":1,\"enabled\":true,\"entity_id\":\"saxophonist\",\"display_name\":\"Saxophonist\",\"role\":\"character\",\"view\":\"multi-view reference sheet\",\"description\":\"Black woman with braided hair holding a saxophone\",\"group_id\":\"cast\"},{\"slot\":2,\"enabled\":true,\"entity_id\":\"highland-cow\",\"display_name\":\"Highland Cow\",\"role\":\"creature\",\"view\":\"multi-view reference sheet\",\"description\":\"shaggy russet Highland cattle with long horns\",\"group_id\":\"creatures\"},{\"slot\":3,\"enabled\":true,\"entity_id\":\"stone-library\",\"display_name\":\"Stone Library\",\"role\":\"location\",\"view\":\"exterior turnaround\",\"description\":\"small weathered stone library building\",\"group_id\":\"locations\"},{\"slot\":4,\"enabled\":true,\"entity_id\":\"graphite-coupe\",\"display_name\":\"Graphite Coupe\",\"role\":\"vehicle\",\"view\":\"vehicle turnaround\",\"description\":\"graphite sports coupe with bronze wheels\",\"group_id\":\"vehicles\"},{\"slot\":5,\"enabled\":true,\"entity_id\":\"yellow-drone\",\"display_name\":\"Yellow Drone\",\"role\":\"vehicle\",\"view\":\"vehicle turnaround\",\"description\":\"weathered yellow camera drone\",\"group_id\":\"vehicles\"},{\"slot\":6,\"enabled\":true,\"entity_id\":\"amber-lamp\",\"display_name\":\"Amber Lamp\",\"role\":\"prop\",\"view\":\"prop turnaround\",\"description\":\"amber glass table lamp with a cream shade\",\"group_id\":\"props\"}]",
+      "parent_handoff": "",
+      "native_width": 864,
+      "native_height": 480,
+      "delivery_width": 864,
+      "delivery_height": 480,
+      "seed": 505
+    }
+  },
+  "4": {
+    "class_type": "CodexH3ContinuityMonitor",
+    "inputs": {
+      "previous_image": [
+        "1",
+        0
+      ],
+      "current_image": [
+        "2",
+        0
+      ],
+      "reference_image": [
+        "1",
+        0
+      ],
+      "take_token": [
+        "3",
+        0
+      ]
+    }
+  },
+  "5": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Krea2_Ref2VA_Entity_902163455682300_00001_.png"
+    }
+  },
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Krea2_Ref2VA_Entity_4215362728668739_00001_.png"
+    }
+  },
+  "7": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Krea2_Ref2VA_Entity_6068153734194764_00001_.png"
+    }
+  },
+  "8": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Krea2_Ref2VA_Entity_6603758560734249_00001_.png"
+    }
+  },
+  "9": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Krea2_Ref2VA_Entity_6942449730230515_00001_.png"
+    }
+  },
+  "10": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Krea2_Ref2VA_Entity_5227560524876038_00001_.png"
+    }
+  },
+  "11": {
+    "class_type": "CodexH3ReferenceManifest",
+    "inputs": {
+      "entries_json": "[{\"slot\":1,\"enabled\":true,\"entity_id\":\"saxophonist\",\"display_name\":\"Saxophonist\",\"role\":\"character\",\"view\":\"multi-view reference sheet\",\"description\":\"Black woman with braided hair holding a saxophone\",\"group_id\":\"cast\"},{\"slot\":2,\"enabled\":true,\"entity_id\":\"highland-cow\",\"display_name\":\"Highland Cow\",\"role\":\"creature\",\"view\":\"multi-view reference sheet\",\"description\":\"shaggy russet Highland cattle with long horns\",\"group_id\":\"creatures\"},{\"slot\":3,\"enabled\":true,\"entity_id\":\"stone-library\",\"display_name\":\"Stone Library\",\"role\":\"location\",\"view\":\"exterior turnaround\",\"description\":\"small weathered stone library building\",\"group_id\":\"locations\"},{\"slot\":4,\"enabled\":true,\"entity_id\":\"graphite-coupe\",\"display_name\":\"Graphite Coupe\",\"role\":\"vehicle\",\"view\":\"vehicle turnaround\",\"description\":\"graphite sports coupe with bronze wheels\",\"group_id\":\"vehicles\"},{\"slot\":5,\"enabled\":true,\"entity_id\":\"yellow-drone\",\"display_name\":\"Yellow Drone\",\"role\":\"vehicle\",\"view\":\"vehicle turnaround\",\"description\":\"weathered yellow camera drone\",\"group_id\":\"vehicles\"},{\"slot\":6,\"enabled\":true,\"entity_id\":\"amber-lamp\",\"display_name\":\"Amber Lamp\",\"role\":\"prop\",\"view\":\"prop turnaround\",\"description\":\"amber glass table lamp with a cream shade\",\"group_id\":\"props\"}]",
+      "image_1": [
+        "5",
+        0
+      ],
+      "image_2": [
+        "6",
+        0
+      ],
+      "image_3": [
+        "7",
+        0
+      ],
+      "image_4": [
+        "8",
+        0
+      ],
+      "image_5": [
+        "9",
+        0
+      ],
+      "image_6": [
+        "10",
+        0
+      ]
+    }
+  },
+  "12": {
+    "class_type": "PreviewImage",
+    "inputs": {
+      "images": [
+        "4",
+        1
+      ]
+    }
+  },
+  "13": {
+    "class_type": "PreviewImage",
+    "inputs": {
+      "images": [
+        "11",
+        9
+      ]
+    }
+  },
+  "14": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "4",
+        2
+      ]
+    }
+  },
+  "15": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "4",
+        4
+      ]
+    }
+  },
+  "16": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "11",
+        13
+      ]
+    }
+  },
+  "17": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "11",
+        11
+      ]
+    }
+  },
+  "18": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "11",
+        12
+      ]
+    }
+  }
+}

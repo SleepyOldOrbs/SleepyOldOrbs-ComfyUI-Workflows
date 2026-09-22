@@ -1,0 +1,35 @@
+{
+  "1": {
+    "class_type": "CodexH3BenchmarkStart",
+    "inputs": {
+      "project": "H3 Benchmark API Smoke",
+      "engine": "api-smoke",
+      "model": "none",
+      "lora": "(none)",
+      "profile": "terminal-state-only",
+      "native_width": 864,
+      "native_height": 480,
+      "delivery_width": 864,
+      "delivery_height": 480,
+      "frame_count": 1,
+      "steps": 1,
+      "cfg": 1,
+      "sampler": "none",
+      "scheduler": "none",
+      "seed": 42
+    }
+  },
+  "2": {
+    "class_type": "CodexH3BenchmarkRecorder",
+    "inputs": {
+      "token": [
+        "1",
+        0
+      ],
+      "output_path": "H3_Production_Smoke/expected-missing-output.bin",
+      "completion_state": "interrupted",
+      "peak_vram_mb": 0,
+      "completion_signal": "retained API smoke terminal state"
+    }
+  }
+}
