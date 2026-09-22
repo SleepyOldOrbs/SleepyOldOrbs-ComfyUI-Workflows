@@ -1,0 +1,42 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "H3_Long_Form_Test_Start.png"
+    }
+  },
+  "2": {
+    "class_type": "CodexH3ContinuationControl",
+    "inputs": {
+      "auto_chain": false,
+      "slot": "workflow_10_smoke"
+    }
+  },
+  "3": {
+    "class_type": "CodexH3ContinuationInput",
+    "inputs": {
+      "manual_image": [
+        "1",
+        0
+      ],
+      "auto_chain": [
+        "2",
+        0
+      ],
+      "slot": [
+        "2",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "3",
+        0
+      ],
+      "filename_prefix": "H3_Long_Form_Smoke/MANUAL_SELECTED"
+    }
+  }
+}

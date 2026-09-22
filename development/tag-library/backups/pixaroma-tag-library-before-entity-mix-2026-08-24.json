@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "categories": [
+    "Scene",
+    "Subject",
+    "Item",
+    "Shot",
+    "Dialogue",
+    "Visual style",
+    "Lighting",
+    "GRIMSHAW",
+    "RealisticPeopleScenes"
+  ],
+  "listCats": [
+    "Scene",
+    "Subject",
+    "Item",
+    "Shot",
+    "Dialogue",
+    "Visual style",
+    "Lighting"
+  ],
+  "tags": [
+    {
+      "name": "familybreakfastkitchen",
+      "cat": "RealisticPeopleScenes",
+      "text": "A candid documentary photograph of a multigenerational family preparing breakfast in a modest lived-in kitchen on a bright Sunday morning. A grandmother slices bread while two parents pour tea and a sleepy child reaches for jam. Natural unretouched faces, believable age differences, accurate hands holding ordinary utensils, slightly rumpled clothing, crumbs and condensation on the table, soft window light mixed with warm ceiling light, gentle background clutter, authentic affectionate interaction, eye-level 35mm photography, realistic skin texture, restrained colour, no posing, no glamour retouching."
+    },
+    {
+      "name": "rainycommuterplatform",
+      "cat": "RealisticPeopleScenes",
+      "text": "A realistic street photograph of a tired office worker waiting alone on a British railway platform during heavy evening rain. Damp hair, a practical wool coat, one hand gripping a folded umbrella and the other checking a scratched phone. Wet paving reflects the station lights, passing passengers blur naturally in the background, raindrops cling to glass, cool overcast daylight mixes with warm fluorescent light. Candid posture, believable fabric and skin texture, accurate fingers and reflections, 50mm lens, shallow but natural depth of field, understated documentary colour."
+    },
+    {
+      "name": "elderlycoupleseafront",
+      "cat": "RealisticPeopleScenes",
+      "text": "An honest environmental portrait of an elderly couple sitting together on a weathered seaside bench in late-afternoon winter light. Wind moves their grey hair and coat collars; one person holds a paper cup while their intertwined hands rest naturally between them. Fine facial lines, age spots, uneven skin tone and warm expressions rendered without beautification. A quiet promenade, gulls and soft waves fall out of focus behind them. Natural backlight, subtle fill from the pale sky, realistic proportions, tactile knitwear and wood grain, intimate 85mm photography, calm unforced emotion."
+    },
+    {
+      "name": "marketvendorchange",
+      "cat": "RealisticPeopleScenes",
+      "text": "A bustling open-air market captured at eye level as a vegetable seller hands coins and a paper bag to an older customer. Their hands meet clearly over a worn wooden stall, with believable fingers, weight and contact. Fresh produce has small bruises and irregular shapes; handwritten price cards, canvas awnings and softly layered shoppers fill the background. Mixed midday shade and warm reflected sunlight, natural skin texture across different complexions, ordinary practical clothes, spontaneous expressions, realistic crowd spacing, 35mm documentary photograph, crisp subject detail with gentle motion in the surroundings."
+    },
+    {
+      "name": "mechanicworkshop",
+      "cat": "RealisticPeopleScenes",
+      "text": "A realistic workshop portrait of an experienced mechanic leaning over an open motorcycle engine beneath practical fluorescent lights. Grease is embedded around the fingernails and creases of both hands as one hand steadies a spanner and the other points to a worn component. The face shows concentration rather than posing; skin pores, stubble and minor blemishes remain visible. Scuffed tools, oily rags, chipped paint and labelled drawers create a coherent working environment. Neutral colour, controlled highlights on metal, believable shadows, 50mm lens, documentary detail without artificial cinematic exaggeration."
+    },
+    {
+      "name": "friendscornercafe",
+      "cat": "RealisticPeopleScenes",
+      "text": "A natural low-light photograph of three adult friends talking in the corner of a small neighbourhood café after work. One laughs mid-sentence, another lifts a glass of water, and the third listens with a hand resting loosely near a ceramic cup. Their gazes and body language connect convincingly. Window reflections, fingerprints on glassware, uneven table varnish and coats draped over chairs add lived-in detail. Warm pendant lights mix with blue dusk through the window, realistic skin tones and teeth, accurate hands and overlapping limbs, subtle high-ISO grain, candid 35mm reportage style."
+    },
+    {
+      "name": "nursecorridor",
+      "cat": "RealisticPeopleScenes",
+      "text": "A respectful documentary portrait of a middle-aged nurse pausing beside a hospital corridor window near the end of a long shift. The uniform is slightly creased, an identification lanyard hangs naturally, and one hand holds a paper cup while the other rests on a metal trolley handle. The expression is thoughtful and tired but composed. Cool ceiling lights mix with soft morning daylight; polished flooring carries restrained reflections. Realistic facial texture, flyaway hair, practical shoes, accurate hands and medical surroundings, quiet 50mm photography, no dramatic hero pose, no beauty retouching."
+    },
+    {
+      "name": "parentshoelacehallway",
+      "cat": "RealisticPeopleScenes",
+      "text": "A candid home photograph of a parent kneeling in a narrow hallway to tie a young child's shoelace before school. The child balances one hand against the wall while holding a small backpack; the parent's fingers pull the laces into a clear believable knot. Morning coats, scattered shoes, a radiator and faint marks on the wall make the space feel genuinely occupied. Soft grey daylight from the open doorway, realistic foreshortening and body weight, natural skin and fabric texture, affectionate concentration rather than posing, eye-level 35mm family documentary photography."
+    },
+    {
+      "name": "danceclassmirror",
+      "cat": "RealisticPeopleScenes",
+      "text": "A realistic photograph inside a community dance studio as four adult beginners practise a simple movement in front of a large wall mirror. Their reflected poses, clothing and positions remain consistent, with minor differences in balance and timing that feel human. Full bodies and hands are visible, trainers grip the wooden floor, and water bottles and jackets sit along one wall. Broad window light mixes with ceiling panels, gentle perspiration and flushed skin, natural athletic movement without idealised physiques, accurate anatomy and reflections, 28mm environmental photography with moderate depth of field."
+    },
+    {
+      "name": "barbershopconversation",
+      "cat": "RealisticPeopleScenes",
+      "text": "A candid photograph in a busy independent barbershop as a barber trims an adult customer's hair while they talk through the mirror. The barber's hands hold comb and scissors in a precise believable grip; loose hair rests naturally on the cape and floor. The customer's face and mirrored reflection agree in expression and direction. Other chairs, product bottles, worn tiles and softly blurred patrons create depth without clutter. Mixed daylight and practical strip lighting, realistic hair strands and skin texture, restrained contrast, 50mm documentary photograph, ordinary human warmth rather than advertising polish."
+    },
+    {
+      "name": "Victoriancitysquareafterrain",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit Victorian city square after rain, no people, no animals. Wet cobblestones reflect the glow of gas lamps, and tall dark buildings rise around the square beneath a deep blue-black sky. Bare tree branches edge the scene, while light mist softens the distance and one warmly lit window glows from an upper floor. Quiet nocturne mood, reflective surfaces, poetic realism, painterly oil texture, soft amber light against cool shadows"
+    },
+    {
+      "name": "canaltowpathinanoldindustrialtown",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit canal towpath in an old industrial town, no people, no animals. The narrow wet path runs beside still dark water, with brick warehouses and iron railings fading into soft mist. Reflections shimmer in the canal, bare trees and old lamp posts stand along the path, and a few distant windows glow warmly through the haze. Quiet melancholy, Victorian night atmosphere, painterly nocturne oil painting, cool silver moonlight with subtle amber warmth"
+    },
+    {
+      "name": "ruinsofanoldabbey",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit path leading through the ruins of an old abbey, no people, no animals. Broken stone arches and crumbling walls stand among tall bare trees, with wet leaves scattered across the ground and shallow puddles reflecting pale moonlight. Low mist drifts through the ruined cloisters, and one distant amber light glows from a small keeper’s house beyond the ruins. Quiet melancholy, Victorian nocturne atmosphere, painterly oil texture, deep shadows and soft silver light"
+    },
+    {
+      "name": "ruinedmoderncitysquare",
+      "cat": "GRIMSHAW",
+      "text": "A ruined modern city square after rain at night, no people, no animals. Broken office buildings, abandoned cafés, cracked paving stones, rusted street furniture, dead trees, and shallow puddles reflecting moonlight. Low mist hangs across the square, and one distant warm window glows faintly through the darkness. Quiet melancholy, post-apocalyptic urban decay, painterly nocturne atmosphere"
+    },
+    {
+      "name": "winterforestafterfreshsnowfall",
+      "cat": "GRIMSHAW",
+      "text": "A deserted moonlit path through a winter forest after fresh snowfall, no people, no animals. Tall bare trees rise on both sides, their dark trunks and branches dusted with snow. The narrow path is half-covered in white, with icy patches reflecting cold silver moonlight. Thin mist hangs between the trees, and a faint warm light glows from a distant cottage barely visible through the haze. Quiet stillness, deep blue-black night, painterly nocturne oil painting, poetic realism"
+    },
+    {
+      "name": "pathattheedgeofaforest",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit path at the edge of a forest beside a still pond, no people, no animals. Tall bare trees frame the scene, their reflections dissolving in the dark water. Wet earth, fallen leaves, and shallow puddles catch the silver light of the moon, while thin mist drifts across the pond and between the trunks. Far in the background, a small cottage window glows warmly through the haze. Quiet melancholy, deep blue-black night, soft amber contrast, Victorian nocturne atmosphere, painterly oil texture"
+    },
+    {
+      "name": "overgrownVictorianwalledgarden",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit path through an overgrown Victorian walled garden, no people, no animals. Dark trees and tangled shrubs crowd around a narrow wet path lined with fallen copper leaves. Moss-covered brick walls fade into soft mist, and an old iron gate stands in the distance beneath silver moonlight. A faint warm light glows from a small garden house beyond the gate. Atmospheric, reflective, autumnal, poetic realism, painterly nocturne oil painting,"
+    },
+    {
+      "name": "moonlitcountrylane",
+      "cat": "GRIMSHAW",
+      "text": "A lonely moonlit country lane bordered by hedges and tall dark trees, no people, no animals. An old wooden gate stands slightly open beside the muddy lane, and the wet ground reflects pale moonlight in scattered puddles. Bare branches arch overhead, low mist drifts across the road, and a distant farmhouse window glows faintly through the haze. Quiet rural melancholy, Victorian nocturne mood, cool blue shadows with subtle amber warmth, painterly oil texture"
+    },
+    {
+      "name": "woodenbridgedeepinanautumnforest",
+      "cat": "GRIMSHAW",
+      "text": "A narrow moonlit footpath crossing a small wooden bridge deep in an autumn forest, no people, no animals. Tall bare trees rise on both sides, their branches tangled against a deep blue-black sky. Wet fallen leaves cover the ground, and a dark stream passes beneath the bridge, reflecting silvery moonlight. Thin mist hangs low between the trunks, with a faint warm glow from a distant unseen cottage far beyond the trees. Quiet melancholy, Victorian nocturne atmosphere, painterly oil texture, poetic realism"
+    },
+    {
+      "name": "oldruralchurchyard",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit path winding through an old rural churchyard, no people, no animals. Bare trees lean over weathered gravestones and a small stone church sits partly obscured in the mist. Wet leaves and puddles glisten on the path, catching cold silver moonlight, while one small amber-lit window glows softly from the church. Moody autumn stillness, deep shadows, gentle fog, 19th-century nocturne oil painting, painterly and atmospheric"
+    },
+    {
+      "name": "scene",
+      "cat": "Scene",
+      "text": "on the deck of a sailing ship at sunrise\ndeep underground in a working coal mine\non a busy neon-lit city street at night\ninside an abandoned Victorian railway station\nin a quiet woodland clearing beside a stream\non the windswept roof of a modern skyscraper\ninside a small country pub on a winter evening\non a tropical beach during an approaching storm\nin a vast candle-lit medieval library\naboard a space station orbiting Earth",
+      "kind": "list"
+    },
+    {
+      "name": "subject",
+      "cat": "Subject",
+      "text": "an owl\nan old woman wearing a dark woollen coat\na black-and-white cow\na scruffy dog\na strange four-legged insect\na child in a bright yellow raincoat\nan astronaut in a scratched and dusty spacesuit\na red fox\na tired chef wearing a flour-covered apron\na young dragon with iridescent scales",
+      "kind": "list"
+    },
+    {
+      "name": "item",
+      "cat": "Item",
+      "text": "a clear glass vase\nan empty bottle of ketchup\na broken old-fashioned pram\na rusty pocket watch\na folded red umbrella\na battered leather suitcase\na chipped ceramic teapot\na large brass key\na torn black-and-white photograph\nan old portable television",
+      "kind": "list"
+    },
+    {
+      "name": "shot",
+      "cat": "Shot",
+      "text": "aerial shot of the subject moving through the scene, with the camera slowly zooming in\nwide-angle shot as the subject crosses the frame, with the camera panning left\nside-profile portrait with the subject facing sideways, 85mm lens, shallow depth of field\nlow-angle shot as the subject looks upward, with the camera slowly orbiting clockwise\nclose-up of the subject reacting, with a gentle camera push-in\nmedium tracking shot following beside the walking subject\nover-the-shoulder shot during the action, with a subtle handheld camera drift\nextreme close-up of an important detail, with the camera remaining locked off\npoint-of-view shot moving forward through the scene with natural handheld movement\nwide establishing shot revealing the environment, with the camera slowly pulling back",
+      "kind": "list"
+    },
+    {
+      "name": "dialogue",
+      "cat": "Dialogue",
+      "text": "\"How's the weather treating you today?\"\n\"Did you hear about the new series on TV?\"\n\"I don't think we're supposed to be here.\"\n\"Give me a moment and I'll explain everything.\"\n\"Have you seen where I left my keys?\"\n\"Something about this place feels strangely familiar.\"\n\"Would you like another cup of tea?\"\n\"We should leave before it gets dark.\"\n\"I was beginning to think you weren't coming.\"\n\"Well, that wasn't part of the plan.\"",
+      "kind": "list"
+    },
+    {
+      "name": "visualstyle",
+      "cat": "Visual style",
+      "text": "photorealistic\nobservational documentary\npolished commercial\ncinematic live action\nmodern anime\n1980s Saturday-morning cartoon\nclaymation animation\nclassic black-and-white film noir\nhand-painted watercolour illustration\nretro pixel art",
+      "kind": "list"
+    },
+    {
+      "name": "lighting",
+      "cat": "Lighting",
+      "text": "soft candlelight with gentle flickering shadows\nbright summer sunlight with crisp natural shadows\nwarm golden-hour light from a low sun\ncool moonlight with a soft silver rim light\ndiffused overcast daylight with minimal shadows\nvivid neon lighting with colourful reflections\nharsh overhead fluorescent lighting\nsoft window light from one side\ndramatic stage spotlight against deep shadow\nblue-hour twilight with a faint horizon glow",
+      "kind": "list"
+    }
+  ],
+  "catModes": {}
+}

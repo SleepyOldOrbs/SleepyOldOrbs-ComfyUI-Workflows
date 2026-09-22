@@ -1,0 +1,722 @@
+{
+  "id": "10d00000-0000-4000-8000-000000000003",
+  "revision": 0,
+  "last_node_id": 8,
+  "last_link_id": 9,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PixaromaNote",
+      "pos": [
+        20,
+        20
+      ],
+      "size": [
+        2520,
+        250
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "note_json",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "note_json"
+          }
+        }
+      ],
+      "outputs": [],
+      "title": "START HERE — SAFE PROJECT STATE WITHOUT A GENERATION",
+      "properties": {
+        "Node name for S&R": "PixaromaNote"
+      },
+      "widgets_values": [
+        "{\"version\":1,\"content\":\"<h2>M3 SAFE PROJECT STATE LAB</h2><ol><li>Choose a human-readable project, scene, shot and branch.</li><li>Load a known-good ending frame; this lab uses the real goat reference by default.</li><li>Run once. The control reserves a unique take, the gate checks the frame, and the recorder writes provenance and hashes.</li></ol><p><b>BLOCK TECHNICAL</b> rejects unreadable, non-finite, wrong-size, almost wholly black or almost wholly white frames. Unusual creative choices are not judged. Gold is not connected to this lab.</p>\",\"buttonColor\":\"#f66744\",\"lineColor\":\"#f66744\",\"width\":2520,\"height\":220,\"backgroundColor\":\"#2a2a2a\"}",
+        ""
+      ],
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": [
+        900,
+        340
+      ],
+      "size": [
+        500,
+        590
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "image"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "KNOWN-GOOD FRAME — real goat reference",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [
+        "H3_Long_Form_Test_Start.png",
+        "image"
+      ],
+      "color": "#B45574",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 3,
+      "type": "CodexH3ProjectControl",
+      "pos": [
+        40,
+        340
+      ],
+      "size": [
+        780,
+        980
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "project",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "project"
+          }
+        },
+        {
+          "name": "scene",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "scene"
+          }
+        },
+        {
+          "name": "shot",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "shot"
+          }
+        },
+        {
+          "name": "branch",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "branch"
+          }
+        },
+        {
+          "name": "engine",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "engine"
+          }
+        },
+        {
+          "name": "model",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "model"
+          }
+        },
+        {
+          "name": "lora",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "lora"
+          }
+        },
+        {
+          "name": "profile",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "profile"
+          }
+        },
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "prompt"
+          }
+        },
+        {
+          "name": "references_json",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "references_json"
+          }
+        },
+        {
+          "name": "parent_handoff",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "parent_handoff"
+          }
+        },
+        {
+          "name": "native_width",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "native_width"
+          }
+        },
+        {
+          "name": "native_height",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "native_height"
+          }
+        },
+        {
+          "name": "delivery_width",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "delivery_width"
+          }
+        },
+        {
+          "name": "delivery_height",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "delivery_height"
+          }
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "seed"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "take_token",
+          "type": "H3_PROJECT_TAKE",
+          "links": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "take_label",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "render_seed",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "1. PROJECT & TAKE — atomic identity and provenance",
+      "properties": {
+        "Node name for S&R": "CodexH3ProjectControl"
+      },
+      "widgets_values": [
+        "H3 M3 Safe Project State Lab",
+        "Reference Validation",
+        "Goat handoff",
+        "main",
+        "state-lab-no-render",
+        "(no model loaded)",
+        "(none)",
+        "technical handoff check",
+        "Known-good goat reference used to prove M3 state handling.",
+        "[{\"id\":\"goat\",\"path\":\"input/H3_Long_Form_Test_Start.png\"}]",
+        "",
+        864,
+        480,
+        864,
+        480,
+        42
+      ],
+      "color": "#355C7D",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 4,
+      "type": "CodexH3SafeContinuationStore",
+      "pos": [
+        1480,
+        340
+      ],
+      "size": [
+        620,
+        350
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 1
+        },
+        {
+          "name": "token",
+          "type": "H3_PROJECT_TAKE",
+          "link": 2
+        },
+        {
+          "name": "mode",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "mode"
+          }
+        },
+        {
+          "name": "expected_width",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "expected_width"
+          }
+        },
+        {
+          "name": "expected_height",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "expected_height"
+          }
+        },
+        {
+          "name": "continuity_warning",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "continuity_warning"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "handoff_frame",
+          "type": "IMAGE",
+          "links": [
+            4
+          ]
+        },
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            5,
+            7
+          ]
+        },
+        {
+          "name": "accepted",
+          "type": "BOOLEAN",
+          "links": [
+            8
+          ]
+        },
+        {
+          "name": "handoff_path",
+          "type": "STRING",
+          "links": [
+            6
+          ]
+        },
+        {
+          "name": "gate_record_json",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "2. SAFETY GATE — only technical failures block",
+      "properties": {
+        "Node name for S&R": "CodexH3SafeContinuationStore"
+      },
+      "widgets_values": [
+        "BLOCK TECHNICAL",
+        864,
+        480,
+        ""
+      ],
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 5,
+      "type": "CodexH3TakeRecorder",
+      "pos": [
+        1480,
+        1030
+      ],
+      "size": [
+        620,
+        390
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "token",
+          "type": "H3_PROJECT_TAKE",
+          "link": 3
+        },
+        {
+          "name": "take_state",
+          "type": "COMBO",
+          "link": null,
+          "widget": {
+            "name": "take_state"
+          }
+        },
+        {
+          "name": "output_paths",
+          "type": "STRING",
+          "link": 6
+        },
+        {
+          "name": "completion_signal",
+          "type": "STRING",
+          "link": 7
+        },
+        {
+          "name": "accepted_signal",
+          "type": "BOOLEAN",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "status",
+          "type": "STRING",
+          "links": [
+            9
+          ]
+        },
+        {
+          "name": "take_record_json",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "take_manifest_path",
+          "type": "STRING",
+          "links": []
+        },
+        {
+          "name": "project_index_path",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "3. TAKE RECORDER — immutable provenance and media hashes",
+      "properties": {
+        "Node name for S&R": "CodexH3TakeRecorder"
+      },
+      "widgets_values": [
+        "auto"
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 6,
+      "type": "PreviewImage",
+      "pos": [
+        2160,
+        340
+      ],
+      "size": [
+        380,
+        520
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 4
+        }
+      ],
+      "outputs": [],
+      "title": "INSPECTED HANDOFF — preview only",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core"
+      },
+      "widgets_values": [],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 7,
+      "type": "PixaromaShowText",
+      "pos": [
+        1480,
+        730
+      ],
+      "size": [
+        620,
+        220
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "GATE STATUS — accepted, warned, or blocked",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#f66744",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 8,
+      "type": "PixaromaShowText",
+      "pos": [
+        2160,
+        1030
+      ],
+      "size": [
+        380,
+        260
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "source",
+          "type": "*",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": []
+        }
+      ],
+      "title": "TAKE STATUS — project record confirmed",
+      "properties": {
+        "Node name for S&R": "PixaromaShowText"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#2E7D32",
+      "bgcolor": "#2a2a2a"
+    }
+  ],
+  "links": [
+    [
+      1,
+      2,
+      0,
+      4,
+      0,
+      "IMAGE"
+    ],
+    [
+      2,
+      3,
+      0,
+      4,
+      1,
+      "H3_PROJECT_TAKE"
+    ],
+    [
+      3,
+      3,
+      0,
+      5,
+      0,
+      "H3_PROJECT_TAKE"
+    ],
+    [
+      4,
+      4,
+      0,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      5,
+      4,
+      1,
+      7,
+      0,
+      "*"
+    ],
+    [
+      6,
+      4,
+      3,
+      5,
+      2,
+      "STRING"
+    ],
+    [
+      7,
+      4,
+      1,
+      5,
+      3,
+      "STRING"
+    ],
+    [
+      8,
+      4,
+      2,
+      5,
+      4,
+      "BOOLEAN"
+    ],
+    [
+      9,
+      5,
+      0,
+      8,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [
+    {
+      "title": "1 — PROJECT IDENTITY",
+      "bounding": [
+        20,
+        300,
+        820,
+        1060
+      ],
+      "color": "#355C7D",
+      "font_size": 22
+    },
+    {
+      "title": "2 — KNOWN FRAME",
+      "bounding": [
+        880,
+        300,
+        540,
+        670
+      ],
+      "color": "#B45574",
+      "font_size": 22
+    },
+    {
+      "title": "3 — TECHNICAL SAFETY",
+      "bounding": [
+        1460,
+        300,
+        660,
+        680
+      ],
+      "color": "#f66744",
+      "font_size": 22
+    },
+    {
+      "title": "4 — DURABLE EVIDENCE",
+      "bounding": [
+        1460,
+        990,
+        1100,
+        470
+      ],
+      "color": "#2E7D32",
+      "font_size": 22
+    },
+    {
+      "title": "5 — INSPECTION",
+      "bounding": [
+        2140,
+        300,
+        420,
+        600
+      ],
+      "color": "#2E7D32",
+      "font_size": 22
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.72,
+      "offset": [
+        40,
+        40
+      ]
+    }
+  },
+  "version": 0.4
+}

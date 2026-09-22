@@ -1,0 +1,56 @@
+{
+  "1": {
+    "class_type": "CodexH3SequenceAssembler",
+    "inputs": {
+      "project": "H3 M7 Motion Context Acceptance",
+      "assembly_name": "Motion Context two-clip review",
+      "sources_json": "[{\"path\":\"H3_M7_Acceptance/clip_01_raw_00001.mp4\",\"label\":\"Clip 1 raw\"},{\"path\":\"H3_M7_Acceptance/clip_02_trimmed_00001.mp4\",\"label\":\"Clip 2 context-trimmed\"}]",
+      "action": "assemble lossless"
+    }
+  },
+  "2": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "1",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "1",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "1",
+        2
+      ]
+    }
+  },
+  "5": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "1",
+        3
+      ]
+    }
+  },
+  "6": {
+    "class_type": "PixaromaShowText",
+    "inputs": {
+      "source": [
+        "1",
+        4
+      ]
+    }
+  }
+}

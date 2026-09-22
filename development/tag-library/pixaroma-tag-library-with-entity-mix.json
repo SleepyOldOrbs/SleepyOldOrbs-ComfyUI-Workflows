@@ -1,0 +1,500 @@
+{
+  "version": 1,
+  "categories": [
+    "Scene",
+    "Subject",
+    "Item",
+    "Shot",
+    "Dialogue",
+    "Visual style",
+    "Lighting",
+    "GRIMSHAW",
+    "RealisticPeopleScenes",
+    "CodexPoseableCharacters",
+    "CodexTurnaroundEntities",
+    "CodexCharacterTraits",
+    "CodexItemTraits"
+  ],
+  "listCats": [
+    "Scene",
+    "Subject",
+    "Item",
+    "Shot",
+    "Dialogue",
+    "Visual style",
+    "Lighting",
+    "CodexPoseableCharacters",
+    "CodexTurnaroundEntities",
+    "CodexCharacterTraits",
+    "CodexItemTraits"
+  ],
+  "tags": [
+    {
+      "name": "item_universal_consistency_rule",
+      "cat": "CodexItemTraits",
+      "text": "preserve the exact same asymmetries, wear and small details in every panel\nkeep all repeated components identical in count, spacing and orientation across views\nmaintain one coherent scale and material response throughout the complete sheet\nshow every attachment and marking in its correct corresponding position from each angle\nretain the base subject's original anatomy or construction without category mixing\nkeep colours stable under the neutral lighting with no panel-to-panel redesign\npreserve all repairs, scars, seams and surface variation consistently across views\nmaintain physically plausible weight, support and balance from every direction\ndo not add text, extra components or alternate versions in any panel\ntreat the selected description as a locked production design, not a loose variation theme",
+      "kind": "list"
+    },
+    {
+      "name": "item_universal_edge_detail",
+      "cat": "CodexItemTraits",
+      "text": "softly worn outer edges with sharper protected recesses\na narrow contrasting rim following one major existing boundary\nsmall chips, fraying or surface irregularity appropriate to the base material\none reinforced corner, tip or extremity using a compatible material\nclean rounded transitions at all high-contact outer edges\na fine dark line separating two major existing surfaces or body regions\nslight thickness variation along one hand-made or naturally grown edge\na polished highlight limited to the most exposed ridge or contour\none carefully repaired edge section that remains structurally plausible\nplain unaccented edges that let the main silhouette carry the identity",
+      "kind": "list"
+    },
+    {
+      "name": "item_universal_function_cue",
+      "cat": "CodexItemTraits",
+      "text": "one visible feature clearly explaining how the subject moves, opens, grows, supports or is handled\na readable access, attachment or articulation point appropriate to the selected subject\none protected contact area showing where weight or force is naturally carried\na simple repeated structure revealing how the subject was assembled or developed\none practical closure, joint, stem, grip or service point suited to the base design\na clearly readable underside feature that explains balance or support\none restrained functional detail at the rear without inventing a new purpose\nan honest transition between two existing materials or biological structures\na visible maintenance, feeding, storage or growth feature only when appropriate\nno extra mechanism added; function remains legible through the original form alone",
+      "kind": "list"
+    },
+    {
+      "name": "item_universal_surface_story",
+      "cat": "CodexItemTraits",
+      "text": "subtle contact wear concentrated only where handling, movement or weather would cause it\nfine surface variation that preserves the base subject's correct material or biology\none small area recently cleaned, contrasting with gently aged surrounding surfaces\nlight rain or condensation behaviour appropriate to each existing surface\nsoft dust accumulation limited to upward-facing recesses and lower edges\ncareful maintenance visible through polished contact points and protected joints\nminor sun fading on exposed upper areas while sheltered colour remains richer\none old repair integrated honestly without changing the subject's class or scale\nfreshly made surfaces with slight hand-built or manufacturing variation\nneutral well-documented condition with no artificial damage added",
+      "kind": "list"
+    },
+    {
+      "name": "item_universal_identity_feature",
+      "cat": "CodexItemTraits",
+      "text": "one unmistakable circular identity feature integrated into an appropriate surface or body region\nthree small repeated marks following an existing structural or anatomical line\none contrasting repaired seam, scar or joint that remains visible across relevant views\na distinctive triangular opening, marking or plate used without altering function\none clearly recognisable handle, horn, stem, crest or raised form appropriate to the subject\na narrow band of contrasting colour wrapped around one logical section\none small amber-coloured focal detail protected by the surrounding form\na paired set of pale edge details placed on opposite sides\none dark inset area creating a recognisable identity without readable text\na clean silhouette-led identity with no added emblem or decorative symbol",
+      "kind": "list"
+    },
+    {
+      "name": "item_universal_asymmetry",
+      "cat": "CodexItemTraits",
+      "text": "one subtle left-right asymmetry appropriate to its anatomy or construction\na slightly larger feature on the right side balanced by a smaller left detail\none carefully repaired area confined to the lower-left portion\nan otherwise symmetrical design with a single off-centre functional element\none edge, limb, opening or fitting showing greater wear than its counterpart\na small secondary attachment placed only on the right rear quarter\none naturally irregular contour preserved consistently in every view\na deliberate diagonal relationship between two existing identity features\none colour accent appearing on only a single appropriate component or body area\nnear-perfect symmetry, with variation limited to believable wear and manufacture",
+      "kind": "list"
+    },
+    {
+      "name": "item_scale",
+      "cat": "CodexItemTraits",
+      "text": "small enough to hold securely in two hands\nroughly knee-high beside an average adult, though no person appears\nroughly waist-high beside an average adult, though no person appears\napproximately the size of a large domestic dog, though no animal appears\ncompact enough to fit on a sturdy tabletop\nhuman-scale furniture or equipment with believable ergonomic dimensions\nsmall vehicle scale with clearly readable doors, wheels or access points\nfull building scale while remaining completely visible in every overall view\nlarge machine scale with construction details that explain its weight\nminiature collectible scale with crisp materials rather than toy-like simplification",
+      "kind": "list"
+    },
+    {
+      "name": "item_design_language",
+      "cat": "CodexItemTraits",
+      "text": "compact municipal utility design with rounded safe corners\nmid-century industrial design with simple honest mechanisms\nquiet contemporary craft with restrained hand-made irregularity\nrugged expedition equipment designed for repair in the field\noptimistic near-future design with clean modules and visible service panels\nVictorian scientific-instrument design without excessive decoration\nfriendly educational design using clear shapes and tactile controls\nminimal Japanese-influenced design with balanced material transitions\nrural workshop construction made from available robust components\nceremonial fantasy design grounded in believable weight and assembly",
+      "kind": "list"
+    },
+    {
+      "name": "item_signature_detail",
+      "cat": "CodexItemTraits",
+      "text": "one small circular emblem repeated exactly twice without readable text\na single asymmetrical cobalt repair plate fixed with four brass fasteners\none red cotton cord tied around a practical anchor point\na distinctive triangular vent, opening or marking on the left side\nthree narrow cream stripes grouped together on one major surface\na tiny amber indicator light housed inside a protective metal ring\none visibly hand-made handle wrapped in dark green leather\na repeating shallow wave motif used sparingly around the edges\none contrasting replacement wheel, foot, hinge or corner protector\na clear identity feature based on a concentric circle geometry",
+      "kind": "list"
+    },
+    {
+      "name": "item_condition",
+      "cat": "CodexItemTraits",
+      "text": "newly made but handled enough to avoid showroom perfection\nwell maintained after long service, with polished edges and light scuffs\nrain-damp with realistic droplets, darker porous materials and clean reflections\ndusty around the lower surfaces and recesses after recent travel\ncarefully repaired with one obvious but elegant replacement component\nsun-faded across upper faces while sheltered areas retain deeper colour\nworkshop-worn with tiny scratches, grease traces and softened grips\narchaeological but structurally complete, with stable patina and minor chips\ncold-weather frosted on exposed edges without hiding construction details\nfreshly cleaned while retaining believable age, seams and manufacturing variation",
+      "kind": "list"
+    },
+    {
+      "name": "item_material",
+      "cat": "CodexItemTraits",
+      "text": "a physically plausible mixture of painted steel, rubber and textured glass\nhonest natural materials combining timber, canvas, leather and brass fasteners\nmatte ceramic shells joined by dark flexible seals and small metal fittings\nweathered stone paired with oxidised copper and a few clear glass elements\nwoven natural fibre, glazed ceramic and carefully tied cotton cord\nbrushed aluminium, translucent polymer and high-wear rubber contact surfaces\ncast iron, enamel paint and pale unfinished wood handles\nlayered organic surfaces with fur, shell, horn or leaf-like structures only where appropriate\nrecycled composite panels with visible bolts, repair plates and fabric straps\nfine dark wood with silver hardware, coloured enamel and one mineral inset",
+      "kind": "list"
+    },
+    {
+      "name": "item_palette",
+      "cat": "CodexItemTraits",
+      "text": "charcoal, burnt orange and warm cream\nforest green, weathered tan and antique brass\ncobalt blue, pale grey and one coral-red accent\ndusty burgundy, blackened steel and muted gold\nsage green, ivory and dark walnut brown\nterracotta, sand and a small turquoise detail\ndeep navy, soft white and oxidised copper\nmustard yellow, graphite and pale blue\nplum, silver and restrained cyan illumination\nnatural brown, moss green and chalky red",
+      "kind": "list"
+    },
+    {
+      "name": "character_signature_motif",
+      "cat": "CodexCharacterTraits",
+      "text": "a repeated concentric-circle motif used in exactly two small locations\none restrained diagonal stripe that reappears on an accessory\na small crescent identity motif echoed at collar and wrist\nthree aligned square details used as a consistent personal signature\na subtle leaf or feather form repeated in trim and one clasp\none cobalt triangular accent repeated on opposite sides of the body\na narrow copper line tracing two major construction seams\na simple black-and-cream checker detail limited to one small band\na paired amber dot motif used on the chest and one ankle\na clean design with no emblem, relying on silhouette and material contrast",
+      "kind": "list"
+    },
+    {
+      "name": "character_back_detail",
+      "cat": "CodexCharacterTraits",
+      "text": "a slim practical back panel or pack that does not hide the body silhouette\ntwo short shoulder straps meeting at one central rear clasp\na narrow vertical spine detail with three repeated segments\none folded fabric panel secured high between the shoulders\na compact tool roll attached horizontally at the lower back\na small circular rear emblem placed between the shoulder blades\nclean uncluttered back construction with seams or joints clearly visible\none asymmetrical cable, braid or strap running from right shoulder to left hip\na shallow protective plate following the upper-back contour\na neatly rolled weather layer fastened across the top of a small pack",
+      "kind": "list"
+    },
+    {
+      "name": "character_footwear",
+      "cat": "CodexCharacterTraits",
+      "text": "sturdy ankle boots with broad soles and a contrasting heel repair\nlightweight fitted shoes with a clean tapered silhouette\nheavy weatherproof boots with visible tread and reinforced toes\nsoft wrapped footwear secured with two practical cross-straps\nintegrated humanoid feet with dark contact pads instead of separate shoes\nformal low shoes with restrained metal or enamel edge details\nknee-high field boots with scuffed lower panels and simple closures\ncompact climbing boots with protected ankles and one coloured lace loop\ntraditional flat shoes made from layered natural material\nasymmetrical but balanced footwear with one visibly replaced left sole",
+      "kind": "list"
+    },
+    {
+      "name": "character_hand_detail",
+      "cat": "CodexCharacterTraits",
+      "text": "bare or exposed hands with clearly readable fingers, joints and material texture\nshort practical gloves with contrasting reinforced palms\none gloved hand and one exposed hand, explained by the character's work\nslim articulated finger guards that preserve a humanlike hand silhouette\ndark wrist wraps ending before the knuckles\npale protective gloves with one coloured identification cuff\nvisible hand repairs, calluses or joint wear appropriate to the character\ncompact tool interfaces integrated into one fingertip without changing hand count\nsimple rings or joint bands limited to two fingers\nclean undecorated hands designed for maximum pose readability",
+      "kind": "list"
+    },
+    {
+      "name": "character_face_marking",
+      "cat": "CodexCharacterTraits",
+      "text": "one narrow diagonal identity mark across the right cheek or faceplate\nthree tiny dots arranged beneath the left eye in a material-appropriate finish\na subtle contrasting band across the brow without obscuring the eyes\none small crescent-shaped mark beside the left temple\na restrained line of freckles, rivets or scales across the upper cheeks\na pale vertical mark centred from lower lip to chin or equivalent faceplate area\none clearly visible repaired notch at the outer right brow\na pair of fine symmetrical markings following the cheekbone lines\na small circular identity spot just below the left eye\na clean unmarked face with identity carried by natural surface variation",
+      "kind": "list"
+    },
+    {
+      "name": "character_head_detail",
+      "cat": "CodexCharacterTraits",
+      "text": "a swept-back crown detail formed from hair, feathers, fins or casing as appropriate\none compact asymmetrical headpiece secured above the right temple\na clean centre-parted head silhouette with two controlled side details\na short practical crest or cropped hair shape that leaves the face unobstructed\na rounded protective cap integrated naturally with the character's materials\ntwo small balanced horn, antenna or ornament forms kept close to the skull\na soft hood or cowl folded behind the head so all facial views remain clear\none narrow braid, cable or decorative strand falling behind the left shoulder\na layered crown silhouette with a clearly readable front and side profile\na distinctive but restrained forehead detail centred above the brow line",
+      "kind": "list"
+    },
+    {
+      "name": "character_personality",
+      "cat": "CodexCharacterTraits",
+      "text": "visually calm, observant and quietly competent\nwarmly eccentric with one playful but functional detail\ndisciplined and formal without appearing aggressive\ncurious and approachable, with open posture and softened shapes\nresourceful and heavily practical, with nothing purely decorative\nscholarly and meticulous, expressed through orderly equipment\nweathered but optimistic, with confident relaxed bearing\nreserved and mysterious while remaining physically plausible\ninventive and slightly improvised, with clever visible repairs\nceremonial and dignified, using symmetry and restrained ornament",
+      "kind": "list"
+    },
+    {
+      "name": "character_accessory",
+      "cat": "CodexCharacterTraits",
+      "text": "one compact field notebook secured to the left hip\na distinctive circular pendant on a short practical cord\na small weathered satchel worn close across the torso\na pair of protective goggles resting above the brow\none clearly designed hand tool clipped safely at the belt\na narrow identification band around the right upper arm\na compact radio or communicator mounted high on the chest\na folded cloth map in a transparent waterproof pouch\none asymmetrical shoulder guard bearing a simple geometric emblem\na small specimen container attached to a secure cross-body strap",
+      "kind": "list"
+    },
+    {
+      "name": "character_condition",
+      "cat": "CodexCharacterTraits",
+      "text": "freshly prepared but not pristine, with tiny believable signs of use\nwell maintained after years of service, with polished contact points\nlightly rain-damp with darker fabric edges and a few water droplets\ndusty from recent travel, especially around boots, hems and lower panels\ncarefully repaired in two visible places using contrasting thread or plates\nclean and presentation-ready with only subtle handling marks\nsun-faded on upward-facing surfaces while protected areas retain colour\nworkshop-worn with small scratches, grease traces and softened edges\ncold-weather frosted around exposed edges without obscuring identity\nheirloom condition, preserved but showing fine cracks and gentle patina",
+      "kind": "list"
+    },
+    {
+      "name": "character_wardrobe",
+      "cat": "CodexCharacterTraits",
+      "text": "layered practical workwear with visible pockets and reinforced seams\na clean formal uniform softened by one well-used personal garment\nweatherproof expedition clothing with a short jacket and secure harness points\nsimple hand-made natural-fibre clothing with careful visible repairs\na fitted technical undersuit beneath a few hard protective panels\nloose artistic studio clothing with rolled sleeves and pigment marks\nceremonial clothing with restrained geometric trim and no loose trailing fabric\nwarm quilted outerwear with knitted cuffs and sturdy boots\nminimal monochrome clothing shaped by belts, straps and one bold collar\nvintage utility clothing combining a waistcoat, durable trousers and practical shoes",
+      "kind": "list"
+    },
+    {
+      "name": "character_silhouette",
+      "cat": "CodexCharacterTraits",
+      "text": "a compact practical silhouette with a low centre of gravity\na tall narrow silhouette with long clean limb lines\na broad triangular silhouette with strong shoulders and grounded feet\na softly rounded approachable silhouette with layered shapes\nan agile forward-leaning silhouette with close-fitting equipment\na formal upright silhouette with balanced bilateral details\na sturdy rectangular silhouette with visible working joints\nan elegant tapered silhouette with one asymmetrical shoulder detail\na small energetic silhouette with oversized hands and boots\na weathered traveller's silhouette built from uneven layered clothing",
+      "kind": "list"
+    },
+    {
+      "name": "character_palette",
+      "cat": "CodexCharacterTraits",
+      "text": "a restrained palette of charcoal, rust orange and bone white\ndeep forest green with worn tan and small brass accents\ncool slate blue, soft cream and one vivid coral identifier\ndusty burgundy, warm grey and faded mustard details\nink black, pale silver and controlled cyan illumination\nearthy umber, moss green and muted copper highlights\nsoft lilac, graphite and pearl-white trim\nsand, terracotta and a narrow band of cobalt blue\nweathered navy, oatmeal and dark red accents\njade green, ivory and subtle antique-gold details",
+      "kind": "list"
+    },
+    {
+      "name": "item_scifi_device",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a palm-sized white translation device with a black glass centre, three amber lights, a silver edge and no readable display\na rugged graphite environmental scanner with a folding handle, circular sensor head, orange bumpers and a blue status strip\na compact silver gravity compass with three floating rings, a dark stone base and a single cyan reference point\na cylindrical cream medical regenerator with a transparent chamber, teal seals, two padded grips and small service panels\na low black holographic projector with a triangular base, three glass emitters, copper vents and soft violet light\na portable orange matter sampler with a clear specimen drum, folding legs, a silver probe and black control paddles\na slim cobalt memory archive with stacked translucent wafers, a white protective frame and one red physical release lever\na fantasy-science weather engine with a brass spherical cage, four ceramic coils, a walnut base and tiny internal lightning\na compact white drone-control console with two folding grips, a dark central screen, yellow safety edging and no text\na silver emergency beacon with a broad magnetic foot, telescoping antenna, red protective cage and a pulsing amber core",
+      "kind": "list"
+    },
+    {
+      "name": "item_toy",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a hand-made wooden pull-along fox with orange paint, black wheels, cream ears and a red cotton cord\na small tinplate wind-up robot with silver bodywork, blue arms, red feet, a square face and a brass key\na soft knitted green dragon with cream horns, uneven button eyes, stubby wings and a repaired tail seam\na compact wooden dollhouse with a blue roof, cream walls, four open rooms and simple unpainted furniture\na vintage red pedal car with cream wheels, a silver grille, black seat and light scuffs around the body\na set of twelve interlocking geometric blocks in muted wood colours, arranged as one stable abstract tower\na clockwork brass carousel toy with four tiny horses, a red canopy, blue base and a side winding handle\na plush grey rabbit with long ears, embroidered black eyes, a mustard waistcoat and a carefully darned left paw\na futuristic magnetic construction toy made from silver rods and coloured spheres, assembled into a small bridge\na paper theatre toy with a folding red proscenium, three layered scenery cards and two flat puppet figures without text",
+      "kind": "list"
+    },
+    {
+      "name": "item_landmark_structure",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a weathered stone village well with a circular wall, timber roof, iron crank, wooden bucket and moss around the base\na compact red-painted pedestrian bridge with a shallow arch, timber deck, black railings and stone end supports\na tall freestanding clock tower with pale masonry, a copper roof, four blank clock faces and an arched base opening\na small brutalist bus shelter with folded concrete walls, a timber bench, one amber light and no signage\na ceremonial stone gateway formed from two square pillars and a broad lintel, with bronze bands and worn steps\na circular Victorian bandstand with green iron columns, cream roof, raised timber floor and decorative railings\na futuristic public charging canopy with a white curved roof, six slim supports, blue light strips and a central service column\na rustic wooden watchtower with four braced legs, an enclosed top cabin, ladder stair and a small red flag without symbols\na fantasy roadside shrine made from dark stone, a copper peaked roof, three candle niches and a shallow offering bowl\na compact stone fountain with a broad lower basin, central bronze fish, four water spouts and mineral staining",
+      "kind": "list"
+    },
+    {
+      "name": "item_plant",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a mature bonsai pine with a twisted dark trunk, layered green needles, exposed roots and a shallow blue ceramic pot\na tall monstera plant with eight broad split leaves, pale aerial roots and a weathered terracotta planter\na compact desert cactus cluster with five ribbed green stems, golden spines, two pink flowers and a chipped cream pot\na dense red-leaf Japanese maple sapling with a slender grey trunk, fine branches and a black nursery container\na trailing string-of-pearls succulent with long green strands, tiny round leaves and a hanging copper bowl\na broad fantasy lantern plant with dark teal leaves, three translucent amber seed pods and tangled silver roots\na practical kitchen herb planter containing rosemary, thyme and sage in a long green enamel trough with soil marks\na tall white orchid with five open flowers, glossy leaves, visible support clips and a pale stoneware pot\na weathered coastal shrub with wind-bent branches, small silver-green leaves, exposed roots and a low stone planter\na carnivorous pitcher plant with six striped red-and-green traps, glossy leaves and a dark moss-covered pot",
+      "kind": "list"
+    },
+    {
+      "name": "item_container",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a squat blue ceramic jar with a cork lid, two loop handles, white mineral marks and a narrow repaired crack\na rugged orange equipment case with black corner guards, two silver latches, pressure valve and fitted foam interior\na tall green glass apothecary bottle with a ground stopper, broad shoulders, bubbles in the glass and no label\na woven willow picnic basket with a split lid, tan leather straps, cream cloth lining and one darker replacement weave\na cylindrical brushed-steel sample canister with three locking bands, blue rubber seals and a recessed carry handle\na small dark oak treasure box with brass corners, curved lid, red felt interior and a simple keyhole\na translucent amber food-storage tub with a cream snap lid, rounded corners and light scuffing around the base\na fantasy stone reliquary shaped like a low hexagon, with copper hinges, a violet crystal latch and soft moss in the seams\na tall cream enamel flour bin with a red lid, twin side handles, chipped lower edge and no lettering\na flexible charcoal water bladder with reinforced seams, orange cap, two attachment loops and a coiled drinking hose",
+      "kind": "list"
+    },
+    {
+      "name": "item_clothing_accessory",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a pair of sturdy brown expedition boots with reinforced toes, red laces, mud in the tread and a repaired left heel\na wide-brimmed moss-green felt hat with a dark leather band, one brass pin and rain-softened edges\na compact charcoal messenger bag with a broad canvas strap, copper buckles, three outer pockets and one blue repair patch\na pair of pearl-white articulated gauntlets with dark flexible joints, small gold fasteners and padded inner cuffs\na long burgundy wool scarf with narrow cream stripes, hand-knotted fringe and one careful darned repair\na circular brass-and-glass brooch shaped like a compass rose, with a blue enamel centre and a simple rear pin\na practical orange climbing harness with black webbing, silver buckles, padded leg loops and two blue gear loops\na dark indigo ceremonial mask with narrow eye openings, silver edge stitching, a smooth inner lining and two tying cords\na pair of round protective goggles with amber lenses, a black rubber frame, adjustable strap and fine scratches\na compact cream hard-shell backpack with teal straps, a dark lower panel, side clips and a small circular lamp",
+      "kind": "list"
+    },
+    {
+      "name": "item_musical_instrument",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a weathered honey-brown acoustic guitar with a dark pickguard, repaired side crack, brass tuning pegs and a woven shoulder strap\na compact red accordion with cream keys, patterned bellows, worn leather hand straps and brass corner protectors\na tall concert harp with a walnut frame, gold mechanism, forty-seven visible strings and a small carved leaf at the crown\na matte-black modular synthesizer with two stacked panels, coloured patch cables, silver knobs and wooden side cheeks\na deep blue cello with a warm varnished neck, ebony fittings, one pale repaired seam and an extended steel endpin\na circular bronze handpan with nine hammered tone fields, blue heat colouring and a dark woven carrying ring\na compact bamboo transverse flute with seven finger holes, dark binding thread and a small jade end cap\na brass sousaphone with a broad forward bell, white shoulder tubing, three valves and light performance tarnish\na fantasy crystal keyboard with twelve translucent keys, a dark stone base, soft internal violet light and no readable markings\na small oak hurdy-gurdy with a carved wheel cover, four drone strings, brass crank and a faded red fabric strap",
+      "kind": "list"
+    },
+    {
+      "name": "item_nonhumanoid_robot",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a waist-high warehouse robot with a low yellow body, four mecanum wheels, a telescoping shelf lift and a blue status ring\na dog-sized inspection robot with four graphite legs, a white sensor head, orange joint covers and a coiled sampling arm\na compact orchard robot with six narrow wheels, a green chassis, two padded picking arms and a transparent fruit crate\na round domestic floor robot with cream casing, three retractable brushes, a small amber display and a fabric carry loop\na knee-high library robot with a dark wood-effect shell, two quiet tracks, a lifting book cradle and a brass-coloured sensor mast\na rugged red pipe-crawling robot with six magnetic feet, a flexible segmented body, inspection lights and a cable spool\na floating white medical supply drone with a circular body, four enclosed fans, a red insulated drawer and soft blue lights\na small brass clockwork spider automaton with eight articulated legs, a glass gear chamber and one winding key\na low black agricultural rover with wide rubber tracks, a silver soil probe, folding solar wings and a green sample hopper\na playful turquoise educational robot shaped like a squat cube, with four rounded wheels, two folding manipulators and a pixel face",
+      "kind": "list"
+    },
+    {
+      "name": "item_aircraft",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a cream 1930s mail aeroplane with a single propeller, red wing tips, fixed landing gear and a compact enclosed cockpit\na small cobalt electric air taxi with four tilting rotors, a black glass cabin, white landing skids and amber navigation lights\na rugged orange bush plane with oversized tundra tyres, high wings, dark struts, a two-seat cabin and a repaired left wing tip\na slender silver sailplane with a clear bubble canopy, extremely long wings, one black tail stripe and a single retractable wheel\na compact yellow agricultural drone with six rotors, a translucent central tank, folding spray arms and sturdy black landing legs\na red twin-boom firefighting aircraft with a high wing, broad water tank, two propellers and reinforced landing gear\na tiny white scientific balloon gondola with a cubic frame, silver instruments, orange padding and four suspension cables\na fantasy courier glider shaped from dark wood and cream canvas, with swept wings, brass hinges and a narrow open cockpit\na matte-black reconnaissance drone with a flying-wing silhouette, two recessed fans, a glass sensor dome and pale grey access panels\na cheerful teal gyrocopter with an open two-seat cockpit, yellow tail fins, three rotor blades and a compact rear propeller",
+      "kind": "list"
+    },
+    {
+      "name": "item_watercraft",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a narrow cedar rowing boat with three pale ribs, dark green gunwales, brass oarlocks and one repaired plank near the bow\na compact orange rescue hovercraft with a black rubber skirt, enclosed white cabin, roof beacon and side equipment lockers\na weathered blue canal narrowboat with cream window frames, a small rear cabin, brass tiller and hand-painted floral corner motifs without text\na low silver hydrofoil ferry with twin hulls, dark panoramic windows, swept support struts and a cobalt passenger door\na traditional red-and-black fishing skiff with a high pointed bow, timber deck, coiled rope and a small cream engine cover\na rugged olive amphibious survey boat with a shallow hull, four retractable wheels, orange safety rails and a central instrument mast\na tiny white autonomous harbour cleaner with twin collection arms, blue flotation pods, roof sensors and a rear debris basket\na black fantasy funeral barge with a long narrow hull, silver edge trim, four low lantern mounts and a carved crescent prow\na compact yellow sailing dinghy with a white centreboard, blue trim, folded mast, simple tiller and a red buoyancy bag\na rounded brass-and-wood submersible pod with three circular windows, external ballast tanks, protective rails and a small top hatch",
+      "kind": "list"
+    },
+    {
+      "name": "item_artifact",
+      "cat": "CodexTurnaroundEntities",
+      "text": "an ancient bronze navigation disk with three rotating rings, green patina, tiny geometric marks and a broken leather thong\na translucent blue crystal seed the size of a fist with internal branching light, six flat facets and a dark stone cradle\na ceremonial ivory-coloured mask with long narrow eye openings, red thread repairs, black edge paint and a simple hanging cord\na palm-sized brass mechanical bird with folded wings, ruby glass eyes, a winding key and tiny engraved feather plates\na weathered stone tablet with a rounded top, shallow abstract symbols, one missing corner and traces of blue mineral pigment\na silver reliquary box with a domed lid, green enamel panels, four claw feet and a tiny chain around the latch\na black volcanic-glass crown with five uneven points, copper wire repairs and a soft charcoal lining\na spherical wooden puzzle made from twelve interlocking dark-and-light segments with one small brass centre pin\na folded star map printed on midnight-blue fabric with gold constellations, worn creases and two small magnetic corner weights\na squat ceramic oracle vessel with a cream crackle glaze, three loop handles, soot-darkened base and a removable red stone stopper",
+      "kind": "list"
+    },
+    {
+      "name": "item_furniture",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a low mid-century lounge chair with a walnut frame, olive wool cushions, gently curved arms and a repaired seam on the seat\na narrow Victorian writing desk in dark mahogany with five small drawers, green leather inset and brass keyholes\na playful red moulded-plastic child's stool with three rounded legs, a circular hand hole and scuffs around the feet\na tall industrial shelving unit with black steel uprights, four plywood shelves, cross bracing and one bent lower corner\na compact Art Deco drinks trolley with chrome tubing, two smoked-glass shelves, black wheels and a fan-shaped handle\na rustic farmhouse bench made from pale oak with pegged joints, broad splayed legs and a dark worn patch at the centre\na futuristic modular sofa segment with pale grey upholstery, magnetic blue connectors and a recessed under-seat light strip\na bamboo folding screen with four narrow panels, woven cane centres, brass hinges and a slightly uneven bottom edge\na round café table with a white marble top, green cast-iron pedestal and a repaired gold-filled crack across one side\na compact bedside cabinet painted dusty pink with one drawer, an open shelf, small brass knob and rubbed corners",
+      "kind": "list"
+    },
+    {
+      "name": "item_machine",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a compact tabletop letterpress with a cast-iron black frame, brass rollers, red flywheel and a small cream paper tray\na waist-high orange seed-sorting machine with a clear hopper, vibrating metal chutes, green inspection lights and rubber feet\na small brass astronomical clock with exposed gears, three concentric rings, a midnight-blue base and a single winding key\na rugged portable desalination unit with a grey shell, blue hoses, two pressure gauges and a folding solar panel\na coin-operated mechanical music box with a walnut cabinet, visible pinned cylinder, small brass horn and worn crank handle\na futuristic desktop fabricator with a white ceramic enclosure, transparent amber door, articulated tool head and three material spools\na compact green apple press with a steel screw, round wooden basket, side collection tray and dark juice stains\na red emergency field generator with tubular frame, black fuel tank, silver control panel and heavy rubber vibration mounts\na small automatic tea-packing machine with cream panels, exposed rollers, a paper-tag reel and a stainless output chute\na laboratory centrifuge with pale grey housing, clear domed lid, six visible sample slots and a cyan status ring without text",
+      "kind": "list"
+    },
+    {
+      "name": "item_tool",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a well-used carpenter's hand plane with a beech body, dark steel blade, smooth front knob and fresh pale shavings caught at the mouth\na compact cordless drill with teal housing, black rubber grips, silver chuck, scratched battery pack and one short wood bit\na heavy red pipe wrench with serrated jaws, adjustment wheel, chipped paint and dark grease near the hinge\na brass garden secateur with curved steel blades, green leather-wrapped handles and a simple locking clasp\na small precision soldering iron with a charcoal handle, fine copper tip, braided cable and a weighted spiral stand\na traditional wooden mallet with a rectangular ash head, tapered handle and compressed marks on both striking faces\na folding multi-tool with brushed steel sides, red inset scales and exactly four partly visible implements\na compact orange laser level with black corner bumpers, three circular windows, a magnetic base and light plaster dust\na long blacksmith's tong with flat jaws, forged scale texture, circular hinge and leather wrapping around the handles\na blue-handled ceramic tile cutter with parallel steel rails, a silver scoring wheel and a small bed of pale ceramic dust",
+      "kind": "list"
+    },
+    {
+      "name": "item_household_prop",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a cream enamel kettle with a black wooden handle, short curved spout, red lid knob and small chips around the base\na green rotary telephone with a coiled black cable, clear finger dial, cream number card and worn edges\na squat amber glass bedside lamp with a pleated linen shade, brass switch and a dark green fabric cord\na battered tan leather suitcase with rounded corners, brass locks, travel stickers without readable text and a repaired handle\na turquoise ceramic watering can shaped with a long narrow spout, loop handle and a white mineral tide mark\na compact wooden tabletop radio with cream fabric grille, two brass dials and a hairline crack in the varnish\na red cast-iron mechanical kitchen scale with a round cream dial, shallow metal bowl and chipped paint on the feet\na folding navy canvas deck chair with pale beechwood arms, striped seat fabric and one replaced brass hinge\na round bevelled wall mirror in a dark oak frame with a small foxed patch and a simple brass hanging loop\na squat mustard-yellow vacuum flask with a ribbed cup-lid, black handle, scratched base and one faded white stripe",
+      "kind": "list"
+    },
+    {
+      "name": "item_food",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a thick farmhouse cheddar sandwich made with uneven seeded brown bread, mature yellow cheese, pickle at the edges, creased white paper and blue cotton string\na glossy lemon tart with a fluted pastry shell, pale yellow curd, five toasted meringue peaks and a single candied peel curl\na rustic bowl of tomato soup with a cream spiral, three basil leaves, black pepper and a chipped blue ceramic rim\na tall stack of three blueberry pancakes with uneven edges, melting butter, dark syrup and a scattering of fresh berries\na handmade vegetable dumpling with translucent pleated dough, visible green filling, one browned side and a tiny dish of chilli oil\na crusty round sourdough loaf with a deep cross score, flour-dusted brown crust and one torn section revealing the open crumb\na bright pistachio gelato cone with two imperfect scoops, chopped nuts, a crisp waffle cone and a small melting drip\na grilled corn cob with charred kernels, lime butter, red chilli flakes and a short natural husk handle\na square slice of dark chocolate cake with three moist layers, matte ganache, a few cocoa crumbs and one sharp raspberry garnish\na compact bento box with rice, glazed salmon, pickled vegetables, tamagoyaki and clearly separated lacquered compartments",
+      "kind": "list"
+    },
+    {
+      "name": "item_building",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a narrow red-brick Victorian corner shop with a green-painted timber frontage, striped awning, slate roof and small upstairs sash windows\na compact brutalist concrete library with deep square windows, a low stepped entrance and one weathered bronze sign panel without lettering\na tiny off-grid cabin with charred timber cladding, a steep zinc roof, one broad picture window and a raised stone foundation\na pale Art Deco cinema with rounded corners, vertical fins, teal entrance doors and a blank cream marquee\na two-storey Japanese machiya townhouse with dark timber latticework, clay roof tiles, a recessed entrance and a small side garden wall\na cylindrical coastal lighthouse with white masonry, a red lantern room, black gallery railings and an attached stone keeper's cottage\na compact futuristic research outpost made from three linked white modules, orange airlocks, external pipes and adjustable landing feet\na weathered corrugated-metal farm workshop with a sawtooth roof, wide blue sliding doors, small high windows and a brick lower course\na cheerful 1950s roadside diner with stainless-steel cladding, rounded glass corners, red trim and a simple blank rooftop sign\na small fantasy apothecary built into a giant hollow tree trunk, with round amber windows, a copper door, root steps and tiny hanging herb bundles",
+      "kind": "list"
+    },
+    {
+      "name": "item_vehicle",
+      "cat": "CodexTurnaroundEntities",
+      "text": "The Calder Courier, a compact burnt-orange electric delivery van with circular headlights, cream steel wheels, black roof rails and a dented left rear door\na tiny pale-blue urban street sweeper with a glazed cab, two yellow rotary brushes, narrow tyres and a striped rear water tank\na rugged olive expedition motorcycle with a high front mudguard, tan seat, side panniers, protective bars and a round headlamp\na cream 1960s microbus with split front windows, red lower bodywork, chrome hubcaps and a roof rack carrying one spare wheel\na futuristic white single-seat lunar buggy with exposed suspension, mesh wheels, a black canopy and orange sample boxes\na weathered yellow harbour tugboat with a black hull, red funnel, rubber side bumpers and a compact wheelhouse\na low graphite electric sports coupe with a continuous red rear light, copper wheels and a small asymmetrical charge-port scar\na practical green farm tractor with cream wheel rims, large mud-marked tyres, exposed exhaust stack and a red triangular reflector\na compact silver commuter helicopter with a bubble canopy, blue tail stripe, landing skids and three main rotor blades\na boxy white autonomous food cart with four small wheels, a bright green service hatch, roof sensors and a side-mounted insulated compartment",
+      "kind": "list"
+    },
+    {
+      "name": "item_real_animal",
+      "cat": "CodexTurnaroundEntities",
+      "text": "a stocky Highland cow with long russet hair, curved cream horns, a yellow ear tag and mud around the lower legs\na sleek black greyhound with a white chest blaze, long narrow limbs, amber eyes and a worn red leather collar\na barn owl with cream facial discs, speckled tawny wings, strong pale talons and one small bronze tracking band\na compact British badger with coarse grey fur, clear black-and-white facial stripes and damp soil on its claws\na green iguana with a tall dorsal crest, textured scales, heavy jowls and a long banded tail\na miniature Shetland pony with a dense dark mane, piebald coat, feathered fetlocks and a simple blue halter\nan emperor penguin with glossy black feathers, warm yellow neck patches, strong webbed feet and a small research band\na red fox with thick winter fur, black legs, a white chest and a full white-tipped tail\na giant African land snail with a striped brown shell, moist dark body, four extended tentacles and a small leaf stuck to the shell\na scarlet macaw with vivid red plumage, blue-and-yellow wing feathers, a pale hooked beak and a plain silver leg ring",
+      "kind": "list"
+    },
+    {
+      "name": "item_nonhumanoid_creature",
+      "cat": "CodexTurnaroundEntities",
+      "text": "Brindle, a friendly waist-high six-legged creature with russet fur, broad moth-like ears, two ivory horns and a faded blue canvas harness\na fox-sized moss grazer with four short legs, a domed fern-covered back, luminous seed eyes and tiny mushroom growths around its paws\na long low glass salamander with eight translucent legs, visible blue organs, a blunt snout and a flexible crystal tail\na plump floating marsh creature shaped like a pear, with two fin-like ears, mottled green skin and three dangling sensory tendrils\na knee-high clockwork beetle with six brass legs, a dark red shell, exposed winding gears and a small porcelain faceplate\na shaggy snow burrower with a barrel body, six black digging claws, tiny silver eyes and layered cream-and-grey fur\na housecat-sized dragon with slate feathers, four legs, folded batlike wings, copper horns and a bright teal throat patch\na broad river creature with smooth indigo skin, four paddle feet, whisker-like antennae and a shell-patterned back\na timid cubic cave animal with velvety black skin, four stilt legs, one glowing facial slit and pale mineral plates\na tiny desert pack beast with six padded feet, sandy wool, oversized cooling ears and two blue water pods on a woven harness",
+      "kind": "list"
+    },
+    {
+      "name": "subject_cybernetic_humanoid",
+      "cat": "CodexPoseableCharacters",
+      "text": "Mina-4, a human courier with a natural face, cropped black hair, a silver left arm, graphite delivery clothing and a glowing wrist route display without text\nJon Kestrel, a weathered mechanic with one amber optical implant, a reinforced right shoulder, navy coveralls and modular finger tools\nAsha Vale, a graceful dancer with dark skin, long braids threaded through a lightweight spinal support, plum rehearsal clothing and ceramic ankle braces\nRook Harlan, a broad rescue worker with a shaved head, two powered forearm braces, orange protective workwear and a compact chest winch\nEli Moss, a slim archivist with silver temple ports, round glasses, a charcoal coat and a translucent data sleeve along one forearm\nNora Quen, a compact pilot with auburn curls, a cobalt pressure suit, articulated knee supports and a small circular interface at the collar\nTomas Grey, an elderly gardener with a white beard, a moss-green utility coat, one precise mechanical hand and a seed dispenser at the hip\nPriya Forge, a muscular fabricator with a black braid, protective goggles, a rust apron and asymmetrical powered shoulder plating\nSol Mercer, a calm medic with warm brown skin, a pearl-white prosthetic lower leg, teal clinical clothing and a compact diagnostic wrist module\nVeya Lark, a young surveyor with freckles, short silver hair, two reinforced climbing calves, a sand field suit and a chest-mounted range sensor",
+      "kind": "list"
+    },
+    {
+      "name": "subject_mythic_humanoid",
+      "cat": "CodexPoseableCharacters",
+      "text": "Thessa Oak, a tall antlered forest guardian with bark-brown skin, a humanoid frame, moss-lined armour and a crescent seed charm\nOrin Tide, a broad sea-king humanoid with blue-grey skin, finned forearms, a coral crown, layered scale cloth and a shell-handled staff\nNyra Ember, a slender fire spirit with charcoal skin, glowing orange fissures, ember hair, dark woven wraps and copper ankle rings\nCael Moon, a pale lunar herald with silver skin, long white hair, a simple indigo robe and a floating crescent disk behind one shoulder\nMara Thorn, a sturdy horned labyrinth keeper with tawny fur on the lower legs, humanlike arms, leather workwear and a ring of iron keys\nIvo Gale, a lean sky messenger with feathered forearms, a human torso, pale blue travelling clothes and a bronze wind compass\nSena Glass, a crystalline oracle with a clear humanoid body, violet internal light, layered translucent veils and a dark stone pendant\nBram Hollow, a compact scarecrow folk guardian with a stitched cloth face, straw at the joints, patched farm clothes and a copper bell\nLuma Dawn, a radiant sun priestess with warm gold skin, flame-shaped hair, cream ceremonial clothing and a round amber medallion\nVarr Snow, a towering yet proportionate ice warrior with frosted blue skin, white braided hair, layered fur-and-linen clothing and a slate clasp",
+      "kind": "list"
+    },
+    {
+      "name": "subject_performer_human",
+      "cat": "CodexPoseableCharacters",
+      "text": "Rosa Vey, a poised flamenco dancer with dark hair in a low bun, a fitted black rehearsal top, layered red skirt and worn dance shoes\nTheo Lark, a lean contemporary circus performer with cropped blond hair, a teal sleeveless costume, chalked hands and soft black acrobat shoes\nImani Crow, a confident jazz saxophonist with long braids, a burgundy stage suit, cream shirt and an aged brass alto saxophone on a strap\nNiall Fern, a compact folk fiddler with curly auburn hair, a moss waistcoat, rolled sleeves, dark trousers and a weathered violin case\nMei Sable, an elegant classical dancer with a neat black bun, a charcoal warm-up wrap, pale practice clothes and ribboned soft shoes\nCal Dune, a broad stage magician with silver temples, a plum waistcoat, tailored black trousers and a simple deck of oversized cards\nAya Reed, a lively street drummer with short blue-black curls, layered orange workwear, reinforced boots and two painted wooden sticks\nHugo Pell, an elderly puppeteer with a white moustache, a brown artist's smock, corduroy trousers and one carved hand puppet\nFarah North, a focused theatre actor with hennaed hands, a cream rehearsal tunic, loose navy trousers and a folded script pouch without text\nLeon Orlan, a wiry mime performer with swept-back dark hair, subtle white stage makeup, a fitted grey costume and soft leather shoes",
+      "kind": "list"
+    },
+    {
+      "name": "subject_scientist_human",
+      "cat": "CodexPoseableCharacters",
+      "text": "Dr Anika Rao, a precise materials scientist with a silver-streaked braid, clear safety glasses, a pale lab coat and a labelled sample carousel without readable text\nProfessor Elias Ward, a lanky field geologist with sandy hair, sun freckles, a rust canvas jacket, reinforced trousers and a scratched rock hammer\nDr Naomi Bell, a marine biologist with close-cropped black hair, a teal drysuit underlayer, practical deck boots and a transparent specimen jar\nDr Felix Moss, a compact robotics researcher with curly red hair, magnifying lenses, a charcoal utility vest and a palm-sized actuator assembly\nDr Soraya Venn, an atmospheric physicist with long dark curls, a cobalt weather shell, insulated gloves and a compact silver sensor pod\nDr Peter Ash, a broad forensic botanist with greying stubble, a green field shirt, tan trousers and a folded plant press\nDr Hana Quill, a careful volcanologist with a blunt black fringe, an orange heat-resistant jacket, dark cargo trousers and a portable gas monitor\nDr Marcus Vale, an elderly astronomer with white curls, deep brown skin, a navy cardigan, soft trousers and a small brass star chart\nDr Leila Brook, an energetic acoustic engineer with a shaved sidecut, over-ear protectors around her neck, grey workwear and a calibrated microphone\nDr Owen Flint, a quiet palaeontologist with a russet beard, dust-marked khaki layers, knee pads and a wrapped fossil fragment",
+      "kind": "list"
+    },
+    {
+      "name": "subject_historical_human",
+      "cat": "CodexPoseableCharacters",
+      "text": "Agnes Bell, a Victorian telegraph operator with pinned chestnut hair, a high-collared navy dress, ink-stained fingers and a brass message clip\nLucien March, a 1920s Parisian stage carpenter with a neat moustache, rolled linen sleeves, wide work trousers and a folding wooden rule\nBeatrice Cole, a 1940s code clerk with waved dark hair, round spectacles, a bottle-green cardigan, sensible skirt and a leather document pouch\nEdwin Pike, an Edwardian railway porter with weathered features, a burgundy waistcoat, dark uniform trousers, polished boots and a brass whistle\nAda Mercer, an 1890s botanical illustrator with loosely pinned auburn hair, a cream blouse, moss-green skirt and a leather folio of pressed leaves\nSamuel North, a 1930s radio engineer with close-cut hair, wire spectacles, brown coveralls, heavy shoes and a compact valve tester\nClara Finch, an 1810s travelling naturalist with short practical curls, a fitted blue riding coat, tan breeches, boots and a specimen case\nYusuf Hale, a 1910s studio photographer with a trimmed beard, charcoal waistcoat, white shirt, dark apron and a brass light meter\nMabel Thorn, a 1950s bus conductor with a curled brown bob, navy uniform, sturdy shoes and a ticket machine on a shoulder strap\nArthur Reed, an 1880s lighthouse keeper with a grey beard, heavy cream knitwear, dark wool trousers, sea boots and an oil-lamp key",
+      "kind": "list"
+    },
+    {
+      "name": "subject_alien_humanoid",
+      "cat": "CodexPoseableCharacters",
+      "text": "Tala-Om, a tall four-eyed diplomat with lavender skin, a narrow humanoid frame, silver facial markings, layered white robes and a floating translation disk\nKes Varo, a compact red-skinned engineer with two small brow horns, humanlike arms and legs, a graphite utility suit and luminous cyan tools\nNim of Pel, a graceful long-necked explorer with jade skin, large black eyes, a sand-coloured pressure garment and a spherical sample case\nOrrin Sesh, a broad amphibious trader with turquoise skin, cheek gills, sturdy humanoid proportions, a copper vest and rows of glass trade tokens\nVeya Quen, a slender pale alien botanist with leaf-shaped ears, violet eyes, a moss-green field suit and transparent specimen tubes\nHax-Rel, a sturdy insectoid humanoid with a smooth bronze carapace, two primary arms, two small folded auxiliary arms and a navy ceremonial sash\nMiri Vox, a soft-furred blue lunar resident with a humanlike stance, large ears, silver freckles, a quilted orange coat and magnetic snow boots\nDaro Kint, a tall grey nomad with a ridged crown, long humanoid hands, layered rust-coloured wraps and a black stone navigation charm\nPella Nox, a compact crystalline alien with translucent rose skin, clearly humanoid limbs, a dark flexible undersuit and a glowing geometric collar\nSuun Ara, a gold-scaled avian humanoid with a short beak, folded feathered wings, dexterous arms, teal travelling clothes and a brass astrolabe",
+      "kind": "list"
+    },
+    {
+      "name": "subject_fantasy_humanoid",
+      "cat": "CodexPoseableCharacters",
+      "text": "Ilex Fernhand, a moss-skinned forest person with fern-like hair, bark-textured forearms, amber eyes, a woven reed tunic and a seed-pod pendant\nBran Coalstep, a compact stone dwarf with basalt skin, a glowing ember beard, heavy leather apron, iron boots and a tiny brass furnace key\nSeren Tideglass, a tall amphibious envoy with pearlescent blue skin, finned ears, webbed humanoid hands, layered kelp-silk robes and a shell clasp\nMallow Wick, a candle-headed humanoid with warm wax skin, a steady flame above the brow, charcoal work clothes and a copper snuffer at the belt\nEdda Rime, a frost giant scholar with pale crystalline skin, braided white hair, layered indigo robes, fur-lined boots and a slate tablet\nPip Bramble, a small mushroom folk courier with a red-speckled cap, beige humanoid limbs, a moss waistcoat and a walnut-shell messenger bag\nVesper Noon, a shadow-bodied librarian with a clear humanoid silhouette, silver eyes, a plum-coloured coat and softly drifting smoke at the cuffs\nGaro Sunclay, a broad terracotta guardian with carved human features, rope-bound ceramic joints, ochre cloth wraps and a blue-glazed heart tile\nLumi Thread, a slender moth person with powdery cream wings folded behind a humanoid body, feathery antennae, a grey tailor's coat and gold scissors\nAwen Brook, a translucent river spirit with a stable human form, flowing water hair, pebble jewellery, a simple linen robe and reeds braided at the wrists",
+      "kind": "list"
+    },
+    {
+      "name": "subject_robot_humanoid",
+      "cat": "CodexPoseableCharacters",
+      "text": "CIV-7, a friendly municipal service android with a cream ceramic faceplate, compact human proportions, teal joint covers and a fold-out tool panel on the left forearm\nAster Unit Nine, a tall botanical caretaker robot with brushed aluminium limbs, a translucent green chest reservoir and delicate three-fingered humanlike hands\nPorter K4, a stocky luggage-handling automaton with rounded yellow armour, black rubber joints, broad feet and a small destination display in the chest\nMorrow-3, a slender archival android with a matte charcoal shell, ivory face mask, amber optical lenses and rows of tiny data cartridges along the belt\nNurse HELIA, a calm medical support android with pearl-white panels, soft blue illumination, articulated humanoid hands and a compact diagnostic pack\nRook Assembly 12, a rugged repair robot with rust-red plating, exposed brass pivots, one scratched optical brow and a magnetic tool strip at the hip\nOrchid-5, an elegant hospitality android with lilac composite panels, a smooth expressive faceplate, gold finger joints and a small tea tray folded into the back\nBeacon J2, a slim emergency-response android with high-visibility orange armour, white reflective bands, a blue forehead lamp and a compact rescue harness\nTutor Moss, a child-height educational robot with sage-green casing, rounded humanlike limbs, a friendly pixel face and a canvas satchel full of wooden shapes\nCourier VELA, a fast lightweight delivery android with cobalt shell plates, long runner-like legs, silver joints and a weatherproof parcel pod across the shoulders",
+      "kind": "list"
+    },
+    {
+      "name": "subject_adventure_human",
+      "cat": "CodexPoseableCharacters",
+      "text": "Mara Vale, a practical expedition leader in her early forties with short dark curls, an eyebrow scar, an olive field jacket, worn boots and a brass compass on a red cord\nJonas Reef, a weathered salvage diver with close-cropped blond hair, a faded drysuit underlayer, reinforced knee pads and a dented copper pressure gauge\nPriya North, a mountain rescue navigator with a long black braid, sun-browned skin, a red insulated shell, climbing harness and a battered yellow radio\nSilas Quill, a lanky desert archaeologist with grey-streaked hair, wire spectacles, a sand-coloured scarf, canvas field clothes and a leather specimen tube\nKeira Ash, a muscular volcanic surveyor with short red hair, soot freckles, a heat-resistant grey suit, orange gloves and a compact gas sampler\nOwen Sable, a calm polar medic with dark skin, a frost-dusted beard, layered blue survival clothing, white snow boots and a red medical pouch\nMei Orlan, an agile cave mapper with a blunt black fringe, a teal helmet, graphite coveralls, rope harness and a cluster of luminous survey markers\nFarah Dune, a patient wildlife tracker with hennaed hands, a loose cream headscarf, practical khaki layers and a carved wooden field notebook\nCal Mercer, a broad river pilot with shaved hair, a faded orange flotation vest, rolled denim sleeves, waterproof boots and an old brass whistle\nLena Crow, a wiry storm photographer with pale cropped hair, a cobalt weather jacket, reinforced trousers and a rugged camera clipped across her chest",
+      "kind": "list"
+    },
+    {
+      "name": "subject_everyday_human",
+      "cat": "CodexPoseableCharacters",
+      "text": "Nora Pell, a compact middle-aged bicycle mechanic with cropped silver hair, strong forearms, a navy work shirt, patched canvas trousers and a tiny enamel wheel badge\nMalik Rowan, a tall young community gardener with warm brown skin, short twists, a faded green overshirt, mud-marked boots and a packet of sunflower seeds\nEileen Moss, an elderly coastal cartographer with wind-reddened cheeks, a white bob, a mustard raincoat, wool trousers and a brass folding ruler\nTomas Venn, a broad-shouldered night baker with flour on his dark curls, rolled white sleeves, checked trousers and a small wooden bread stamp\nAya Finch, a lean wildlife radio technician with a shaved sidecut, round glasses, an orange field vest, cargo trousers and a coiled antenna cable\nDev Harper, a soft-spoken museum conservator with freckles, close-cropped hair, a charcoal apron, pale gloves tucked at the belt and a magnifying loupe\nRuth Calder, a sturdy village postmistress in her fifties with auburn curls, a burgundy cardigan, sensible skirt, weathered satchel and old silver watch\nLeon Pike, a wiry theatre carpenter with salt-and-pepper stubble, protective spectacles, a brown chore jacket, tool belt and a red carpenter pencil\nImani Wells, a poised orchestral percussionist with long braids, a black rehearsal jacket, loose trousers, flat shoes and two felt-headed mallets\nHugo Lark, a cheerful antique clock repairer with a curled moustache, thinning hair, a bottle-green waistcoat, rolled sleeves and a tiny brass gear brooch",
+      "kind": "list"
+    },
+    {
+      "name": "familybreakfastkitchen",
+      "cat": "RealisticPeopleScenes",
+      "text": "A candid documentary photograph of a multigenerational family preparing breakfast in a modest lived-in kitchen on a bright Sunday morning. A grandmother slices bread while two parents pour tea and a sleepy child reaches for jam. Natural unretouched faces, believable age differences, accurate hands holding ordinary utensils, slightly rumpled clothing, crumbs and condensation on the table, soft window light mixed with warm ceiling light, gentle background clutter, authentic affectionate interaction, eye-level 35mm photography, realistic skin texture, restrained colour, no posing, no glamour retouching."
+    },
+    {
+      "name": "rainycommuterplatform",
+      "cat": "RealisticPeopleScenes",
+      "text": "A realistic street photograph of a tired office worker waiting alone on a British railway platform during heavy evening rain. Damp hair, a practical wool coat, one hand gripping a folded umbrella and the other checking a scratched phone. Wet paving reflects the station lights, passing passengers blur naturally in the background, raindrops cling to glass, cool overcast daylight mixes with warm fluorescent light. Candid posture, believable fabric and skin texture, accurate fingers and reflections, 50mm lens, shallow but natural depth of field, understated documentary colour."
+    },
+    {
+      "name": "elderlycoupleseafront",
+      "cat": "RealisticPeopleScenes",
+      "text": "An honest environmental portrait of an elderly couple sitting together on a weathered seaside bench in late-afternoon winter light. Wind moves their grey hair and coat collars; one person holds a paper cup while their intertwined hands rest naturally between them. Fine facial lines, age spots, uneven skin tone and warm expressions rendered without beautification. A quiet promenade, gulls and soft waves fall out of focus behind them. Natural backlight, subtle fill from the pale sky, realistic proportions, tactile knitwear and wood grain, intimate 85mm photography, calm unforced emotion."
+    },
+    {
+      "name": "marketvendorchange",
+      "cat": "RealisticPeopleScenes",
+      "text": "A bustling open-air market captured at eye level as a vegetable seller hands coins and a paper bag to an older customer. Their hands meet clearly over a worn wooden stall, with believable fingers, weight and contact. Fresh produce has small bruises and irregular shapes; handwritten price cards, canvas awnings and softly layered shoppers fill the background. Mixed midday shade and warm reflected sunlight, natural skin texture across different complexions, ordinary practical clothes, spontaneous expressions, realistic crowd spacing, 35mm documentary photograph, crisp subject detail with gentle motion in the surroundings."
+    },
+    {
+      "name": "mechanicworkshop",
+      "cat": "RealisticPeopleScenes",
+      "text": "A realistic workshop portrait of an experienced mechanic leaning over an open motorcycle engine beneath practical fluorescent lights. Grease is embedded around the fingernails and creases of both hands as one hand steadies a spanner and the other points to a worn component. The face shows concentration rather than posing; skin pores, stubble and minor blemishes remain visible. Scuffed tools, oily rags, chipped paint and labelled drawers create a coherent working environment. Neutral colour, controlled highlights on metal, believable shadows, 50mm lens, documentary detail without artificial cinematic exaggeration."
+    },
+    {
+      "name": "friendscornercafe",
+      "cat": "RealisticPeopleScenes",
+      "text": "A natural low-light photograph of three adult friends talking in the corner of a small neighbourhood café after work. One laughs mid-sentence, another lifts a glass of water, and the third listens with a hand resting loosely near a ceramic cup. Their gazes and body language connect convincingly. Window reflections, fingerprints on glassware, uneven table varnish and coats draped over chairs add lived-in detail. Warm pendant lights mix with blue dusk through the window, realistic skin tones and teeth, accurate hands and overlapping limbs, subtle high-ISO grain, candid 35mm reportage style."
+    },
+    {
+      "name": "nursecorridor",
+      "cat": "RealisticPeopleScenes",
+      "text": "A respectful documentary portrait of a middle-aged nurse pausing beside a hospital corridor window near the end of a long shift. The uniform is slightly creased, an identification lanyard hangs naturally, and one hand holds a paper cup while the other rests on a metal trolley handle. The expression is thoughtful and tired but composed. Cool ceiling lights mix with soft morning daylight; polished flooring carries restrained reflections. Realistic facial texture, flyaway hair, practical shoes, accurate hands and medical surroundings, quiet 50mm photography, no dramatic hero pose, no beauty retouching."
+    },
+    {
+      "name": "parentshoelacehallway",
+      "cat": "RealisticPeopleScenes",
+      "text": "A candid home photograph of a parent kneeling in a narrow hallway to tie a young child's shoelace before school. The child balances one hand against the wall while holding a small backpack; the parent's fingers pull the laces into a clear believable knot. Morning coats, scattered shoes, a radiator and faint marks on the wall make the space feel genuinely occupied. Soft grey daylight from the open doorway, realistic foreshortening and body weight, natural skin and fabric texture, affectionate concentration rather than posing, eye-level 35mm family documentary photography."
+    },
+    {
+      "name": "danceclassmirror",
+      "cat": "RealisticPeopleScenes",
+      "text": "A realistic photograph inside a community dance studio as four adult beginners practise a simple movement in front of a large wall mirror. Their reflected poses, clothing and positions remain consistent, with minor differences in balance and timing that feel human. Full bodies and hands are visible, trainers grip the wooden floor, and water bottles and jackets sit along one wall. Broad window light mixes with ceiling panels, gentle perspiration and flushed skin, natural athletic movement without idealised physiques, accurate anatomy and reflections, 28mm environmental photography with moderate depth of field."
+    },
+    {
+      "name": "barbershopconversation",
+      "cat": "RealisticPeopleScenes",
+      "text": "A candid photograph in a busy independent barbershop as a barber trims an adult customer's hair while they talk through the mirror. The barber's hands hold comb and scissors in a precise believable grip; loose hair rests naturally on the cape and floor. The customer's face and mirrored reflection agree in expression and direction. Other chairs, product bottles, worn tiles and softly blurred patrons create depth without clutter. Mixed daylight and practical strip lighting, realistic hair strands and skin texture, restrained contrast, 50mm documentary photograph, ordinary human warmth rather than advertising polish."
+    },
+    {
+      "name": "Victoriancitysquareafterrain",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit Victorian city square after rain, no people, no animals. Wet cobblestones reflect the glow of gas lamps, and tall dark buildings rise around the square beneath a deep blue-black sky. Bare tree branches edge the scene, while light mist softens the distance and one warmly lit window glows from an upper floor. Quiet nocturne mood, reflective surfaces, poetic realism, painterly oil texture, soft amber light against cool shadows"
+    },
+    {
+      "name": "canaltowpathinanoldindustrialtown",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit canal towpath in an old industrial town, no people, no animals. The narrow wet path runs beside still dark water, with brick warehouses and iron railings fading into soft mist. Reflections shimmer in the canal, bare trees and old lamp posts stand along the path, and a few distant windows glow warmly through the haze. Quiet melancholy, Victorian night atmosphere, painterly nocturne oil painting, cool silver moonlight with subtle amber warmth"
+    },
+    {
+      "name": "ruinsofanoldabbey",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit path leading through the ruins of an old abbey, no people, no animals. Broken stone arches and crumbling walls stand among tall bare trees, with wet leaves scattered across the ground and shallow puddles reflecting pale moonlight. Low mist drifts through the ruined cloisters, and one distant amber light glows from a small keeper’s house beyond the ruins. Quiet melancholy, Victorian nocturne atmosphere, painterly oil texture, deep shadows and soft silver light"
+    },
+    {
+      "name": "ruinedmoderncitysquare",
+      "cat": "GRIMSHAW",
+      "text": "A ruined modern city square after rain at night, no people, no animals. Broken office buildings, abandoned cafés, cracked paving stones, rusted street furniture, dead trees, and shallow puddles reflecting moonlight. Low mist hangs across the square, and one distant warm window glows faintly through the darkness. Quiet melancholy, post-apocalyptic urban decay, painterly nocturne atmosphere"
+    },
+    {
+      "name": "winterforestafterfreshsnowfall",
+      "cat": "GRIMSHAW",
+      "text": "A deserted moonlit path through a winter forest after fresh snowfall, no people, no animals. Tall bare trees rise on both sides, their dark trunks and branches dusted with snow. The narrow path is half-covered in white, with icy patches reflecting cold silver moonlight. Thin mist hangs between the trees, and a faint warm light glows from a distant cottage barely visible through the haze. Quiet stillness, deep blue-black night, painterly nocturne oil painting, poetic realism"
+    },
+    {
+      "name": "pathattheedgeofaforest",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit path at the edge of a forest beside a still pond, no people, no animals. Tall bare trees frame the scene, their reflections dissolving in the dark water. Wet earth, fallen leaves, and shallow puddles catch the silver light of the moon, while thin mist drifts across the pond and between the trunks. Far in the background, a small cottage window glows warmly through the haze. Quiet melancholy, deep blue-black night, soft amber contrast, Victorian nocturne atmosphere, painterly oil texture"
+    },
+    {
+      "name": "overgrownVictorianwalledgarden",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit path through an overgrown Victorian walled garden, no people, no animals. Dark trees and tangled shrubs crowd around a narrow wet path lined with fallen copper leaves. Moss-covered brick walls fade into soft mist, and an old iron gate stands in the distance beneath silver moonlight. A faint warm light glows from a small garden house beyond the gate. Atmospheric, reflective, autumnal, poetic realism, painterly nocturne oil painting,"
+    },
+    {
+      "name": "moonlitcountrylane",
+      "cat": "GRIMSHAW",
+      "text": "A lonely moonlit country lane bordered by hedges and tall dark trees, no people, no animals. An old wooden gate stands slightly open beside the muddy lane, and the wet ground reflects pale moonlight in scattered puddles. Bare branches arch overhead, low mist drifts across the road, and a distant farmhouse window glows faintly through the haze. Quiet rural melancholy, Victorian nocturne mood, cool blue shadows with subtle amber warmth, painterly oil texture"
+    },
+    {
+      "name": "woodenbridgedeepinanautumnforest",
+      "cat": "GRIMSHAW",
+      "text": "A narrow moonlit footpath crossing a small wooden bridge deep in an autumn forest, no people, no animals. Tall bare trees rise on both sides, their branches tangled against a deep blue-black sky. Wet fallen leaves cover the ground, and a dark stream passes beneath the bridge, reflecting silvery moonlight. Thin mist hangs low between the trunks, with a faint warm glow from a distant unseen cottage far beyond the trees. Quiet melancholy, Victorian nocturne atmosphere, painterly oil texture, poetic realism"
+    },
+    {
+      "name": "oldruralchurchyard",
+      "cat": "GRIMSHAW",
+      "text": "A moonlit path winding through an old rural churchyard, no people, no animals. Bare trees lean over weathered gravestones and a small stone church sits partly obscured in the mist. Wet leaves and puddles glisten on the path, catching cold silver moonlight, while one small amber-lit window glows softly from the church. Moody autumn stillness, deep shadows, gentle fog, 19th-century nocturne oil painting, painterly and atmospheric"
+    },
+    {
+      "name": "scene",
+      "cat": "Scene",
+      "text": "on the deck of a sailing ship at sunrise\ndeep underground in a working coal mine\non a busy neon-lit city street at night\ninside an abandoned Victorian railway station\nin a quiet woodland clearing beside a stream\non the windswept roof of a modern skyscraper\ninside a small country pub on a winter evening\non a tropical beach during an approaching storm\nin a vast candle-lit medieval library\naboard a space station orbiting Earth",
+      "kind": "list"
+    },
+    {
+      "name": "subject",
+      "cat": "Subject",
+      "text": "an owl\nan old woman wearing a dark woollen coat\na black-and-white cow\na scruffy dog\na strange four-legged insect\na child in a bright yellow raincoat\nan astronaut in a scratched and dusty spacesuit\na red fox\na tired chef wearing a flour-covered apron\na young dragon with iridescent scales",
+      "kind": "list"
+    },
+    {
+      "name": "item",
+      "cat": "Item",
+      "text": "a clear glass vase\nan empty bottle of ketchup\na broken old-fashioned pram\na rusty pocket watch\na folded red umbrella\na battered leather suitcase\na chipped ceramic teapot\na large brass key\na torn black-and-white photograph\nan old portable television",
+      "kind": "list"
+    },
+    {
+      "name": "shot",
+      "cat": "Shot",
+      "text": "aerial shot of the subject moving through the scene, with the camera slowly zooming in\nwide-angle shot as the subject crosses the frame, with the camera panning left\nside-profile portrait with the subject facing sideways, 85mm lens, shallow depth of field\nlow-angle shot as the subject looks upward, with the camera slowly orbiting clockwise\nclose-up of the subject reacting, with a gentle camera push-in\nmedium tracking shot following beside the walking subject\nover-the-shoulder shot during the action, with a subtle handheld camera drift\nextreme close-up of an important detail, with the camera remaining locked off\npoint-of-view shot moving forward through the scene with natural handheld movement\nwide establishing shot revealing the environment, with the camera slowly pulling back",
+      "kind": "list"
+    },
+    {
+      "name": "dialogue",
+      "cat": "Dialogue",
+      "text": "\"How's the weather treating you today?\"\n\"Did you hear about the new series on TV?\"\n\"I don't think we're supposed to be here.\"\n\"Give me a moment and I'll explain everything.\"\n\"Have you seen where I left my keys?\"\n\"Something about this place feels strangely familiar.\"\n\"Would you like another cup of tea?\"\n\"We should leave before it gets dark.\"\n\"I was beginning to think you weren't coming.\"\n\"Well, that wasn't part of the plan.\"",
+      "kind": "list"
+    },
+    {
+      "name": "visualstyle",
+      "cat": "Visual style",
+      "text": "photorealistic\nobservational documentary\npolished commercial\ncinematic live action\nmodern anime\n1980s Saturday-morning cartoon\nclaymation animation\nclassic black-and-white film noir\nhand-painted watercolour illustration\nretro pixel art",
+      "kind": "list"
+    },
+    {
+      "name": "lighting",
+      "cat": "Lighting",
+      "text": "soft candlelight with gentle flickering shadows\nbright summer sunlight with crisp natural shadows\nwarm golden-hour light from a low sun\ncool moonlight with a soft silver rim light\ndiffused overcast daylight with minimal shadows\nvivid neon lighting with colourful reflections\nharsh overhead fluorescent lighting\nsoft window light from one side\ndramatic stage spotlight against deep shadow\nblue-hour twilight with a faint horizon glow",
+      "kind": "list"
+    }
+  ],
+  "catModes": {}
+}

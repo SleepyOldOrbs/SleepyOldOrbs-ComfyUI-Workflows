@@ -1,0 +1,36 @@
+{
+  "1": {
+    "class_type": "CodexH3ProjectControl",
+    "inputs": {
+      "project": "H3 M6 Live Validation 2026-08-25",
+      "scene": "Fixture",
+      "shot": "Accepted red",
+      "branch": "main",
+      "engine": "m6-fixture-no-render",
+      "model": "(no model loaded)",
+      "lora": "(none)",
+      "profile": "Assembly fixture",
+      "prompt": "Red fixture clip for project-level assembly validation.",
+      "references_json": "[]",
+      "parent_handoff": "",
+      "native_width": 64,
+      "native_height": 48,
+      "delivery_width": 64,
+      "delivery_height": 48,
+      "seed": 606
+    }
+  },
+  "2": {
+    "class_type": "CodexH3TakeRecorder",
+    "inputs": {
+      "token": [
+        "1",
+        0
+      ],
+      "take_state": "accepted",
+      "output_paths": "H3_M6_Fixtures/match_a.mp4",
+      "completion_signal": "M6 fixture prepared",
+      "accepted_signal": true
+    }
+  }
+}

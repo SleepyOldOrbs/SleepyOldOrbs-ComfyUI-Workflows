@@ -6,11 +6,15 @@ The catalogue records node types and model filenames from the exported graphs, i
 
 ## Node packages
 
-### `ComfyUI-Codex-H3-Continuation` — no verified public installation URL recorded; obtain this dependency separately
+### [ComfyUI-Codex-H3-Continuation — bundled source](../development/custom_nodes/ComfyUI-Codex-H3-Continuation/README.md)
+
+Copy `development/custom_nodes/ComfyUI-Codex-H3-Continuation` into your ComfyUI `custom_nodes` directory and restart. See the [installation instructions](../development/README.md#install-the-bundled-h3-nodes).
 
 `CodexH3ContinuationControl`, `CodexH3ContinuationInput`, `CodexH3ContinuationStore`, `CodexH3OutputFinish`
 
-### `ComfyUI-Codex-H3-Production` — no verified public installation URL recorded; obtain this dependency separately
+### [ComfyUI-Codex-H3-Production — bundled source](../development/custom_nodes/ComfyUI-Codex-H3-Production/README.md)
+
+Copy `development/custom_nodes/ComfyUI-Codex-H3-Production` into your ComfyUI `custom_nodes` directory and restart. See the [installation instructions](../development/README.md#install-the-bundled-h3-nodes).
 
 `CodexH3BenchmarkRecorder`, `CodexH3BenchmarkStart`, `CodexH3ContinuityMonitor`, `CodexH3ProjectControl`, `CodexH3ReferenceManifest`, `CodexH3RenderProfileControl`, `CodexH3SafeContinuationStore`, `CodexH3SequenceAssembler`, `CodexH3ShotPlanCommit`, `CodexH3ShotPlanControl`, `CodexH3ShotPlanReader`, `CodexH3TakeRecorder`
 

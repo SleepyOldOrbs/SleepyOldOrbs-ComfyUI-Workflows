@@ -1,0 +1,149 @@
+{
+  "1": {
+    "class_type": "CodexH3RenderProfileControl",
+    "inputs": {
+      "profile": "Gold Base",
+      "engine": "m4-state-lab-no-render"
+    }
+  },
+  "2": {
+    "class_type": "CodexH3ShotPlanControl",
+    "inputs": {
+      "project": "H3 M4 Live Validation 2026-08-25",
+      "branch": "main",
+      "plan_name": "Kitchen sequence",
+      "plan_json": "[{\"shot_id\":\"S01\",\"title\":\"The arrival\",\"scene\":\"Kitchen\",\"action\":\"A goat walks to the table and stops beside the teapot.\",\"camera\":\"Locked medium-wide shot at goat eye level.\",\"dialogue\":\"Mabel says, \\\"Tea — now?\\\"\",\"references\":[\"input/H3_Long_Form_Test_Start.png\",\"prop:blue-teapot\"],\"profile_override\":\"Gold Base\",\"handoff_notes\":\"Keep the goat on frame left.\"},{\"shot_id\":\"S02\",\"title\":\"The answer\",\"scene\":\"Kitchen\",\"action\":\"Arthur turns from the sink without moving the teapot.\",\"camera\":\"Slow push-in while preserving the screen direction.\",\"dialogue\":\"Arthur replies, \\\"Only if it is Earl Grey.\\\"\",\"references\":[\"input/H3_Long_Form_Test_Start.png\",\"prop:blue-teapot\"],\"profile_override\":\"Gold Base\",\"handoff_notes\":\"Preserve the teapot position from S01.\"},{\"shot_id\":\"S03\",\"title\":\"The decision\",\"scene\":\"Kitchen\",\"action\":\"Mabel nudges the teapot toward Arthur and waits.\",\"camera\":\"Return to the locked medium-wide composition.\",\"dialogue\":\"Mabel says, \\\"Deal.\\\"\",\"references\":[\"input/H3_Long_Form_Test_Start.png\",\"prop:blue-teapot\"],\"profile_override\":\"Gold Base\",\"handoff_notes\":\"End with a clean continuation frame.\"}]",
+      "action": "ensure"
+    }
+  },
+  "3": {
+    "class_type": "CodexH3ShotPlanReader",
+    "inputs": {
+      "plan_control": [
+        "2",
+        0
+      ]
+    }
+  },
+  "4": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "H3_Long_Form_Test_Start.png"
+    }
+  },
+  "5": {
+    "class_type": "CodexH3ProjectControl",
+    "inputs": {
+      "project": [
+        "3",
+        1
+      ],
+      "scene": [
+        "3",
+        2
+      ],
+      "shot": [
+        "3",
+        3
+      ],
+      "branch": [
+        "3",
+        4
+      ],
+      "engine": "m4-state-lab-no-render",
+      "model": "(no model loaded)",
+      "lora": "(none)",
+      "profile": [
+        "1",
+        1
+      ],
+      "prompt": [
+        "3",
+        5
+      ],
+      "references_json": [
+        "3",
+        7
+      ],
+      "parent_handoff": "",
+      "native_width": 864,
+      "native_height": 480,
+      "delivery_width": 864,
+      "delivery_height": 480,
+      "seed": 42,
+      "render_profile": [
+        "1",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "CodexH3SafeContinuationStore",
+    "inputs": {
+      "images": [
+        "4",
+        0
+      ],
+      "token": [
+        "5",
+        0
+      ],
+      "mode": "BLOCK TECHNICAL",
+      "expected_width": 864,
+      "expected_height": 480,
+      "continuity_warning": ""
+    }
+  },
+  "7": {
+    "class_type": "CodexH3TakeRecorder",
+    "inputs": {
+      "token": [
+        "5",
+        0
+      ],
+      "take_state": "auto",
+      "output_paths": [
+        "6",
+        3
+      ],
+      "completion_signal": [
+        "6",
+        1
+      ],
+      "accepted_signal": [
+        "6",
+        2
+      ]
+    }
+  },
+  "8": {
+    "class_type": "CodexH3ShotPlanCommit",
+    "inputs": {
+      "shot_token": [
+        "3",
+        0
+      ],
+      "accepted": [
+        "6",
+        2
+      ],
+      "handoff_path": [
+        "6",
+        3
+      ],
+      "take_record_json": [
+        "7",
+        1
+      ]
+    }
+  },
+  "9": {
+    "class_type": "PreviewImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "Krea2\\krea2_turbo_fp8_scaled.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "ComfyUI-Krea2T-Enhancer",
+    "inputs": {
+      "model": ["1", 0],
+      "enabled": true,
+      "strength": 1.0,
+      "debug": false
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "clip": ["2", 0],
+      "text": "A thick farmhouse cheddar sandwich made with two uneven slices of seeded brown bread, mature yellow cheese, a little pickle at the edges, wrapped halfway in creased white paper and secured with blue cotton string. Create a professional orthographic turnaround reference sheet for exactly one described subject. Use a strict visible two-column by three-row grid containing exactly six separate equal cells. Never merge, enlarge, omit or subdivide a cell. Every cell shows the exact same subject with identical geometry, silhouette, proportions, colours, materials, construction, wear, markings and accessories. Cell 1: complete front view. Cell 2: complete three-quarter front view. Cell 3: complete exact left-side view. Cell 4: complete exact right-side view. Cell 5: complete rear view. Cell 6: the most useful top, plan, underside or identity-detail view for this particular subject. Keep the subject itself complete and uncropped wherever an overall view is requested. Keep the described subject as the sole subject; never add a wearer, rider, carrier, handler, mannequin or supporting figure. Never anthropomorphize an object. Use a plain warm-grey studio background, soft even lighting, gentle contact shadows and consistent scale. Put a clear black gutter around every cell so all six cells are visibly distinct. No setting, unrelated subjects, alternate designs, labels, captions, text or decorative outer border. Photorealistic production design, physically plausible construction and materials, coherent proportions, neutral colour rendering, crisp identity-defining detail."
+    }
+  },
+  "6": {
+    "class_type": "ConditioningZeroOut",
+    "inputs": {
+      "conditioning": ["5", 0]
+    }
+  },
+  "7": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1536,
+      "height": 1536,
+      "batch_size": 1
+    }
+  },
+  "8": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": ["4", 0],
+      "seed": 2026082305,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "er_sde",
+      "scheduler": "simple",
+      "positive": ["5", 0],
+      "negative": ["6", 0],
+      "latent_image": ["7", 0],
+      "denoise": 1.0
+    }
+  },
+  "9": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": ["8", 0],
+      "vae": ["3", 0]
+    }
+  },
+  "10": {
+    "class_type": "PixaromaPreview",
+    "inputs": {
+      "image": ["9", 0],
+      "filename_prefix": "Character_Sheets/Smoke_Tests/Krea2_Ref2VA_Sandwich_TypeSafe",
+      "save_mode": "save"
+    }
+  }
+}
