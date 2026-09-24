@@ -1036,5 +1036,77 @@
     "python_module": "",
     "resolved_package": "comfy-core",
     "installation_url": null
+  },
+  "PixaromaGetNode": {
+    "package": "ComfyUI-Pixaroma",
+    "python_module": "",
+    "resolved_package": "ComfyUI-Pixaroma",
+    "installation_url": null
+  },
+  "PixaromaSetNode": {
+    "package": "ComfyUI-Pixaroma",
+    "python_module": "",
+    "resolved_package": "ComfyUI-Pixaroma",
+    "installation_url": null
+  },
+  "H3PromptIDE": {
+    "package": "h3-prompt-ide",
+    "python_module": "",
+    "resolved_package": "h3-prompt-ide",
+    "installation_url": null
+  },
+  "SamplerCustom": {
+    "package": "comfy-core",
+    "python_module": "",
+    "resolved_package": "comfy-core",
+    "installation_url": null
+  },
+  "ShowText|pysssss": {
+    "package": "comfyui-custom-scripts",
+    "python_module": "",
+    "resolved_package": "comfyui-custom-scripts",
+    "installation_url": null
+  },
+  "MinimaxH3LatentUpscaler3D": {
+    "package": "LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler",
+    "python_module": "",
+    "resolved_package": "LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler",
+    "installation_url": null
+  },
+  "H3SLAAttention": {
+    "package": "plaguekind-nodes",
+    "python_module": "",
+    "resolved_package": "plaguekind-nodes",
+    "installation_url": null
+  },
+  "H3PromptReferenceInputs": {
+    "package": "h3-prompt-ide",
+    "python_module": "",
+    "resolved_package": "h3-prompt-ide",
+    "installation_url": null
+  },
+  "SAMLoader": {
+    "package": "comfyui-impact-pack",
+    "python_module": "",
+    "resolved_package": "comfyui-impact-pack",
+    "installation_url": null
+  },
+  "UltralyticsDetectorProvider": {
+    "package": "comfyui-impact-subpack",
+    "python_module": "",
+    "resolved_package": "comfyui-impact-subpack",
+    "installation_url": null
+  },
+  "MaskPreview+": {
+    "package": "comfyui_essentials",
+    "python_module": "",
+    "resolved_package": "comfyui_essentials",
+    "installation_url": null
+  },
+  "FaceDetailer": {
+    "package": "comfyui-impact-pack",
+    "python_module": "",
+    "resolved_package": "comfyui-impact-pack",
+    "installation_url": null
   }
 }

@@ -97,3 +97,22 @@ Each workflow guide lists model filenames and the Hugging Face links retained in
 The Morris workflows require `William-Morris-LoRa_krea2.safetensors` (trigger: `William Morris Style`). A public download for this custom-trained LoRA has not been verified; request the weights from the maintainer. The LoRA strength is stored in each workflow. Subfolders beneath `models` may need adjusting on your machine.
 
 Some workflows use NVIDIA-specific attention or upscaling nodes. Their hardware and runtime requirements still apply. Video and reference-image workflows also require your own input files; a saved filename is not a bundled asset.
+
+## Dependencies added by the 24 September 2026 sync
+
+These package identifiers come from saved node metadata. They are not a clean-install verification. UUID node types are embedded subgraphs. Inspect each updated workflow guide for its full model list, including optional branches.
+
+- `FaceDetailer` — `comfyui-impact-pack`.
+- `H3PromptIDE` — `h3-prompt-ide`.
+- `H3PromptReferenceInputs` — `h3-prompt-ide`.
+- `H3SLAAttention` — `plaguekind-nodes`.
+- `MaskPreview+` — `comfyui_essentials`.
+- `MinimaxH3LatentUpscaler3D` — `LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler`.
+- `PixaromaGetNode` — `ComfyUI-Pixaroma`.
+- `PixaromaSetNode` — `ComfyUI-Pixaroma`.
+- `SAMLoader` — `comfyui-impact-pack`.
+- `SamplerCustom` — `comfy-core`.
+- `ShowText|pysssss` — `comfyui-custom-scripts`.
+- `UltralyticsDetectorProvider` — `comfyui-impact-subpack`.
+
+The new H3 development variant records `plaguekind-nodes` for `MMH3UltimateUpscale`, whereas older library graphs record the earlier MMH3 package. Match the provider and widget schema to the selected workflow; a matching node name alone does not prove compatibility.

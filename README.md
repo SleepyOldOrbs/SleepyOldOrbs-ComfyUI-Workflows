@@ -1,6 +1,6 @@
 # SleepyOldOrbs · ComfyUI Workflows
 
-A visual collection of my ComfyUI workflows, experiments and generated examples. **48 workflows · 34 example images · 2 video clips · Pixaroma prompt-tag libraries.**
+A visual collection of my ComfyUI workflows, experiments and generated examples. **49 workflows · 34 example images · 2 video clips · Pixaroma prompt-tag libraries.**
 
 This is also the home of the [Codex workflow development collection](development/README.md): 64 historical development/recovery workflows, the H3 custom nodes, builders, tests and development notes. The published workflows below remain the starting point for everyday use.
 
@@ -41,7 +41,7 @@ The main catalogue contains **Codex MCP Demos** and **Gold-Standard**. Default t
 | Collection | Workflows |
 |---|---:|
 | [Codex MCP Demos](workflows/Codex%20MCP%20Demos) | 27 |
-| [Gold-Standard](workflows/Gold-Standard) | 21 |
+| [Gold-Standard](workflows/Gold-Standard) | 22 |
 
 ## Start creating
 
@@ -50,6 +50,10 @@ The main catalogue contains **Codex MCP Demos** and **Gold-Standard**. Default t
 3. For random prompts, [import the Pixaroma tags](docs/PIXAROMA-TAGS.md), then run a single image before increasing the batch count.
 
 The Morris gallery requires a custom-trained LoRA whose weights are not distributed here. See [setup and availability](docs/SETUP.md). Other workflows include video, editing, upscaling and experimental pipelines; some require local custom nodes.
+
+## Latest saved-workflow sync
+
+On 24 September 2026, 3 existing Gold Standard workflows were refreshed from the local library and a separate MiniMax H3 development variant was added. This includes newer Krea2 face detailing, H3 settings and reference-sheet settings. See the [sync notes](docs/SYNC-2026-09-24.md) for scope and validation limits.
 
 ## About this release
 

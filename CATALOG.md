@@ -1,13 +1,13 @@
 # Workflow catalogue
 
-48 saved workflows from **Codex MCP Demos** and **Gold-Standard** only. Default templates from other folders are excluded. Source subfolders and filenames are retained.
+49 saved workflows from **Codex MCP Demos** and **Gold-Standard** only. Default templates from other folders are excluded. Public filenames are retained when local files are renamed or moved; see the [latest sync notes](docs/SYNC-2026-09-24.md).
 
 Generated examples cover nine Morris families and Gold Standard workflows 07–10, including stills, reference sheets and short videos. Other workflows are exported and documented, but have not been rerun for this publication.
 
 | Collection | Workflows |
 |---|---:|
 | Codex MCP Demos | 27 |
-| Gold-Standard | 21 |
+| Gold-Standard | 22 |
 
 ## Codex MCP Demos
 
@@ -66,3 +66,4 @@ Generated examples cover nine Morris families and Gold Standard workflows 07–1
 | [William-Morris-Halloween](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Halloween.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Halloween.md) | [Gallery](GALLERY.md) |
 | [William-Morris-Summer](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Summer.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Summer.md) | [Gallery](GALLERY.md) |
 | [William-Morris-Winter](workflows/Gold-Standard/William-Morris-Themes/William-Morris-Winter.json) | [Models and nodes](docs/workflows/Gold-Standard/William-Morris-Themes/William-Morris-Winter.md) | [Gallery](GALLERY.md) |
+| [DEV - MiniMax H3 Gold Standard](workflows/Gold-Standard/DEV%20-%20MiniMax%20H3%20Gold%20Standard.json) | [Models and nodes](docs/workflows/Gold-Standard/DEV%20-%20MiniMax%20H3%20Gold%20Standard.md) | Not yet included |

@@ -131,7 +131,12 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.33.0",
-        "Node name for S&R": "VAEDecode"
+        "Node name for S&R": "VAEDecode",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       }
     },
     {
@@ -171,13 +176,18 @@
         "aux_id": "pixaroma/ComfyUI-Pixaroma",
         "ver": "72516552d286901accf5a10fe9619c89b6784932",
         "Node name for S&R": "PixaromaShowText",
-        "cnr_id": "ComfyUI-Pixaroma"
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
-        "The randomly selected non-humanoid entity is: a playful turquoise educational robot shaped like a squat cube, with four rounded wheels, two folding manipulators and a pixel face. Type-neutral identity details: a deliberate diagonal relationship between two existing identity features; one dark inset area creating a recognisable identity without readable text; one small area recently cleaned, contrasting with gently aged surrounding surfaces; a readable access, attachment or articulation point appropriate to the selected subject; a narrow contrasting rim following one major existing boundary; treat the selected description as a locked production design, not a loose variation theme. Preserve that selected description as one coherent design; do not borrow anatomy, materials, scale or fittings from a different entity class. Create a professional orthographic turnaround reference sheet for exactly this one described subject. Use a strict visible two-column by three-row grid containing exactly six separate equal cells. Never merge, enlarge, omit or subdivide a cell. Every cell shows the exact same subject with identical geometry, silhouette, proportions, colours, materials, construction, wear, markings and accessories. Cell 1: complete front view. Cell 2: complete three-quarter front view. Cell 3: complete exact left-side view. Cell 4: complete exact right-side view. Cell 5: complete rear view. Cell 6: the most useful top, plan, underside or identity-detail view for this particular subject. Keep the subject itself complete and uncropped wherever an overall view is requested. Preserve only anatomy explicitly belonging to a described creature. Keep the described subject as the sole subject; never add a wearer, rider, carrier, handler, mannequin or supporting figure. Never anthropomorphize an object. Use a plain warm-grey studio background, soft even lighting, gentle contact shadows and consistent scale. Put a clear black gutter around every cell so all six cells are visibly distinct. No setting, unrelated subjects, alternate designs, labels, captions, text or decorative outer border., photorealistic production design, physically plausible construction and materials, coherent proportions, neutral colour rendering, crisp identity-defining detail"
+        "The randomly selected non-humanoid entity is: a brass sousaphone with a broad forward bell, white shoulder tubing, three valves and light performance tarnish. Type-neutral identity details: an otherwise symmetrical design with a single off-centre functional element; one small amber-coloured focal detail protected by the surrounding form; light rain or condensation behaviour appropriate to each existing surface; a simple repeated structure revealing how the subject was assembled or developed; a narrow contrasting rim following one major existing boundary; preserve all repairs, scars, seams and surface variation consistently across views. Preserve that selected description as one coherent design; do not borrow anatomy, materials, scale or fittings from a different entity class. Create a professional orthographic turnaround reference sheet for exactly this one described subject. Use a strict visible two-column by three-row grid containing exactly six separate equal cells. Never merge, enlarge, omit or subdivide a cell. Every cell shows the exact same subject with identical geometry, silhouette, proportions, colours, materials, construction, wear, markings and accessories. Cell 1: complete front view. Cell 2: complete three-quarter front view. Cell 3: complete exact left-side view. Cell 4: complete exact right-side view. Cell 5: complete rear view. Cell 6: the most useful top, plan, underside or identity-detail view for this particular subject. Keep the subject itself complete and uncropped wherever an overall view is requested. Preserve only anatomy explicitly belonging to a described creature. Keep the described subject as the sole subject; never add a wearer, rider, carrier, handler, mannequin or supporting figure. Never anthropomorphize an object. Use a plain warm-grey studio background, soft even lighting, gentle contact shadows and consistent scale. Put a clear black gutter around every cell so all six cells are visibly distinct. No setting, unrelated subjects, alternate designs, labels, captions, text or decorative outer border., photorealistic production design, physically plausible construction and materials, coherent proportions, neutral colour rendering, crisp identity-defining detail"
       ],
       "widgets_values_named": {
-        "text": "The randomly selected non-humanoid entity is: a playful turquoise educational robot shaped like a squat cube, with four rounded wheels, two folding manipulators and a pixel face. Type-neutral identity details: a deliberate diagonal relationship between two existing identity features; one dark inset area creating a recognisable identity without readable text; one small area recently cleaned, contrasting with gently aged surrounding surfaces; a readable access, attachment or articulation point appropriate to the selected subject; a narrow contrasting rim following one major existing boundary; treat the selected description as a locked production design, not a loose variation theme. Preserve that selected description as one coherent design; do not borrow anatomy, materials, scale or fittings from a different entity class. Create a professional orthographic turnaround reference sheet for exactly this one described subject. Use a strict visible two-column by three-row grid containing exactly six separate equal cells. Never merge, enlarge, omit or subdivide a cell. Every cell shows the exact same subject with identical geometry, silhouette, proportions, colours, materials, construction, wear, markings and accessories. Cell 1: complete front view. Cell 2: complete three-quarter front view. Cell 3: complete exact left-side view. Cell 4: complete exact right-side view. Cell 5: complete rear view. Cell 6: the most useful top, plan, underside or identity-detail view for this particular subject. Keep the subject itself complete and uncropped wherever an overall view is requested. Preserve only anatomy explicitly belonging to a described creature. Keep the described subject as the sole subject; never add a wearer, rider, carrier, handler, mannequin or supporting figure. Never anthropomorphize an object. Use a plain warm-grey studio background, soft even lighting, gentle contact shadows and consistent scale. Put a clear black gutter around every cell so all six cells are visibly distinct. No setting, unrelated subjects, alternate designs, labels, captions, text or decorative outer border., photorealistic production design, physically plausible construction and materials, coherent proportions, neutral colour rendering, crisp identity-defining detail"
+        "text": "The randomly selected non-humanoid entity is: a brass sousaphone with a broad forward bell, white shoulder tubing, three valves and light performance tarnish. Type-neutral identity details: an otherwise symmetrical design with a single off-centre functional element; one small amber-coloured focal detail protected by the surrounding form; light rain or condensation behaviour appropriate to each existing surface; a simple repeated structure revealing how the subject was assembled or developed; a narrow contrasting rim following one major existing boundary; preserve all repairs, scars, seams and surface variation consistently across views. Preserve that selected description as one coherent design; do not borrow anatomy, materials, scale or fittings from a different entity class. Create a professional orthographic turnaround reference sheet for exactly this one described subject. Use a strict visible two-column by three-row grid containing exactly six separate equal cells. Never merge, enlarge, omit or subdivide a cell. Every cell shows the exact same subject with identical geometry, silhouette, proportions, colours, materials, construction, wear, markings and accessories. Cell 1: complete front view. Cell 2: complete three-quarter front view. Cell 3: complete exact left-side view. Cell 4: complete exact right-side view. Cell 5: complete rear view. Cell 6: the most useful top, plan, underside or identity-detail view for this particular subject. Keep the subject itself complete and uncropped wherever an overall view is requested. Preserve only anatomy explicitly belonging to a described creature. Keep the described subject as the sole subject; never add a wearer, rider, carrier, handler, mannequin or supporting figure. Never anthropomorphize an object. Use a plain warm-grey studio background, soft even lighting, gentle contact shadows and consistent scale. Put a clear black gutter around every cell so all six cells are visibly distinct. No setting, unrelated subjects, alternate designs, labels, captions, text or decorative outer border., photorealistic production design, physically plausible construction and materials, coherent proportions, neutral colour rendering, crisp identity-defining detail"
       },
       "color": "#1d1d1d",
       "bgcolor": "#2a2a2a"
@@ -230,7 +240,14 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.33.0",
-        "Node name for S&R": "CLIPTextEncode"
+        "Node name for S&R": "CLIPTextEncode",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "text": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         ""
@@ -277,7 +294,12 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.33.0",
-        "Node name for S&R": "ConditioningZeroOut"
+        "Node name for S&R": "ConditioningZeroOut",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       }
     },
     {
@@ -338,12 +360,20 @@
         "pixaromaLayout": "grid",
         "pixaromaFrames": [
           {
-            "filename": "Krea2_Ref2VA_Entity_1207712123033395_00001_.png",
-            "subfolder": "Character_Sheets\\2026-08-25",
+            "filename": "Krea2_Ref2VA_Entity_169329_00001_.png",
+            "subfolder": "Character_Sheets\\2026-09-05",
             "type": "output"
           }
         ],
-        "pixaromaSelected": 0
+        "pixaromaSelected": 0,
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "filename_prefix": true,
+            "save_mode": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         "Character_Sheets/%date:yyyy-MM-dd%/Krea2_Ref2VA_Entity_%Sheet Seed Pixaroma.seed%",
@@ -355,142 +385,6 @@
       },
       "color": "#1d1d1d",
       "bgcolor": "#2a2a2a"
-    },
-    {
-      "id": 20,
-      "type": "KSampler",
-      "pos": [
-        4100,
-        597
-      ],
-      "size": [
-        311.9625,
-        348
-      ],
-      "flags": {},
-      "order": 20,
-      "mode": 0,
-      "inputs": [
-        {
-          "localized_name": "model",
-          "name": "model",
-          "type": "MODEL",
-          "link": 16
-        },
-        {
-          "localized_name": "positive",
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 17
-        },
-        {
-          "localized_name": "negative",
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 18
-        },
-        {
-          "localized_name": "latent_image",
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 21
-        },
-        {
-          "localized_name": "seed",
-          "name": "seed",
-          "type": "INT",
-          "widget": {
-            "name": "seed"
-          },
-          "link": 22
-        },
-        {
-          "localized_name": "steps",
-          "name": "steps",
-          "type": "INT",
-          "widget": {
-            "name": "steps"
-          },
-          "link": null
-        },
-        {
-          "localized_name": "cfg",
-          "name": "cfg",
-          "type": "FLOAT",
-          "widget": {
-            "name": "cfg"
-          },
-          "link": null
-        },
-        {
-          "localized_name": "sampler_name",
-          "name": "sampler_name",
-          "type": "COMBO",
-          "widget": {
-            "name": "sampler_name"
-          },
-          "link": null
-        },
-        {
-          "localized_name": "scheduler",
-          "name": "scheduler",
-          "type": "COMBO",
-          "widget": {
-            "name": "scheduler"
-          },
-          "link": null
-        },
-        {
-          "localized_name": "denoise",
-          "name": "denoise",
-          "type": "FLOAT",
-          "widget": {
-            "name": "denoise"
-          },
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "localized_name": "LATENT",
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            23
-          ]
-        }
-      ],
-      "title": "KREA 2 TYPE-SAFE SHEET GENERATION",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.33.0",
-        "Node name for S&R": "KSampler",
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "seed": true
-          },
-          "version": "7.8",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        20260823,
-        "randomize",
-        8,
-        1,
-        "er_sde",
-        "simple",
-        1
-      ],
-      "widgets_values_named": {
-        "seed": 20260823,
-        "control_after_generate": "randomize",
-        "steps": 8,
-        "cfg": 1,
-        "sampler_name": "er_sde",
-        "scheduler": "simple",
-        "denoise": 1
-      }
     },
     {
       "id": 17,
@@ -658,7 +552,12 @@
         "ver": "72516552d286901accf5a10fe9619c89b6784932",
         "Node name for S&R": "PixaromaResolution",
         "cnr_id": "ComfyUI-Pixaroma",
-        "resolutionState": "{\"mode\":\"preset\",\"ratio\":\"1:1\",\"w\":1536,\"h\":1536,\"custom_w\":1536,\"custom_h\":1536,\"custom_ratio_w\":1,\"custom_ratio_h\":1,\"snap\":16}"
+        "resolutionState": "{\"mode\":\"preset\",\"ratio\":\"1:1\",\"w\":1536,\"h\":1536,\"custom_w\":1536,\"custom_h\":1536,\"custom_ratio_w\":1,\"custom_ratio_h\":1,\"snap\":16}",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         {
@@ -690,58 +589,6 @@
       "bgcolor": "#2a2a2a"
     },
     {
-      "id": 16,
-      "type": "PixaromaSeed",
-      "pos": [
-        2847.9868259684245,
-        1800
-      ],
-      "size": [
-        390,
-        246
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "localized_name": "seed",
-          "name": "seed",
-          "type": "INT",
-          "links": [
-            22
-          ]
-        }
-      ],
-      "title": "Sheet Seed Pixaroma",
-      "properties": {
-        "aux_id": "pixaroma/ComfyUI-Pixaroma",
-        "ver": "72516552d286901accf5a10fe9619c89b6784932",
-        "Node name for S&R": "PixaromaSeed",
-        "cnr_id": "ComfyUI-Pixaroma",
-        "seedState": "{\"seed\":20260823,\"mode\":\"random\",\"compact\":false,\"digits\":16}"
-      },
-      "widgets_values": [
-        {
-          "seed": 20260823,
-          "mode": "random",
-          "compact": false,
-          "digits": 16
-        }
-      ],
-      "widgets_values_named": {
-        "seed_ui": {
-          "seed": 20260823,
-          "mode": "random",
-          "compact": false,
-          "digits": 16
-        }
-      },
-      "color": "#1d1d1d",
-      "bgcolor": "#2a2a2a"
-    },
-    {
       "id": 14,
       "type": "ComfyUI-Krea2T-Enhancer",
       "pos": [
@@ -753,7 +600,7 @@
         136
       ],
       "flags": {},
-      "order": 13,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -804,7 +651,16 @@
       "properties": {
         "cnr_id": "ComfyUI-Krea2T-Enhancer",
         "ver": "6666ffb729b2afc8ecdffd3cb6f121555ec948cb",
-        "Node name for S&R": "ComfyUI-Krea2T-Enhancer"
+        "Node name for S&R": "ComfyUI-Krea2T-Enhancer",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "enabled": true,
+            "strength": true,
+            "debug": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         true,
@@ -818,124 +674,6 @@
       }
     },
     {
-      "id": 13,
-      "type": "PixaromaLoraLoader",
-      "pos": [
-        2823.6,
-        1501
-      ],
-      "size": [
-        436.4,
-        128
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [
-        {
-          "localized_name": "model",
-          "name": "model",
-          "type": "MODEL",
-          "link": 14
-        },
-        {
-          "localized_name": "clip",
-          "name": "clip",
-          "shape": 7,
-          "type": "CLIP",
-          "link": 11
-        }
-      ],
-      "outputs": [
-        {
-          "localized_name": "MODEL",
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            15
-          ]
-        },
-        {
-          "localized_name": "CLIP",
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            12
-          ]
-        },
-        {
-          "localized_name": "triggers",
-          "name": "triggers",
-          "type": "STRING",
-          "links": [
-            8
-          ]
-        }
-      ],
-      "title": "OPTIONAL - ONE SHARED KREA 2 LORA (OFF BY DEFAULT)",
-      "properties": {
-        "aux_id": "pixaroma/ComfyUI-Pixaroma",
-        "ver": "72516552d286901accf5a10fe9619c89b6784932",
-        "Node name for S&R": "PixaromaLoraLoader",
-        "cnr_id": "ComfyUI-Pixaroma",
-        "loraLoaderState": "{\"version\":1,\"loras\":[{\"id\":\"entity_shared_lora\",\"name\":\"krea2\\\\Krea2-realism-V2.safetensors\",\"on\":false,\"sm\":0.7,\"sc\":0.7,\"triggers\":[],\"custom\":[],\"at\":true}],\"sep\":\", \",\"step\":0.05,\"defStrength\":0.7,\"linkStrength\":true,\"civitai\":true,\"thumbs\":true,\"hideExt\":true,\"accent\":null,\"cacheMode\":\"last\"}"
-      },
-      "widgets_values": [
-        {
-          "version": 1,
-          "loras": [
-            {
-              "id": "entity_shared_lora",
-              "name": "krea2\\Krea2-realism-V2.safetensors",
-              "on": false,
-              "sm": 0.7,
-              "sc": 0.7,
-              "triggers": [],
-              "custom": [],
-              "at": true
-            }
-          ],
-          "sep": ", ",
-          "step": 0.05,
-          "defStrength": 0.7,
-          "linkStrength": true,
-          "civitai": true,
-          "thumbs": true,
-          "hideExt": true,
-          "accent": null,
-          "cacheMode": "last"
-        }
-      ],
-      "widgets_values_named": {
-        "loras_ui": {
-          "version": 1,
-          "loras": [
-            {
-              "id": "entity_shared_lora",
-              "name": "krea2\\Krea2-realism-V2.safetensors",
-              "on": false,
-              "sm": 0.7,
-              "sc": 0.7,
-              "triggers": [],
-              "custom": [],
-              "at": true
-            }
-          ],
-          "sep": ", ",
-          "step": 0.05,
-          "defStrength": 0.7,
-          "linkStrength": true,
-          "civitai": true,
-          "thumbs": true,
-          "hideExt": true,
-          "accent": null,
-          "cacheMode": "last"
-        }
-      },
-      "color": "#1d1d1d",
-      "bgcolor": "#2a2a2a"
-    },
-    {
       "id": 12,
       "type": "VAELoader",
       "pos": [
@@ -947,7 +685,7 @@
         270
       ],
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -974,84 +712,20 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.33.0",
-        "Node name for S&R": "VAELoader"
+        "Node name for S&R": "VAELoader",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "vae_name": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         "qwen_image_vae.safetensors"
       ],
       "widgets_values_named": {
         "vae_name": "qwen_image_vae.safetensors"
-      }
-    },
-    {
-      "id": 11,
-      "type": "CLIPLoader",
-      "pos": [
-        2540,
-        684
-      ],
-      "size": [
-        720,
-        136
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [
-        {
-          "localized_name": "clip_name",
-          "name": "clip_name",
-          "type": "COMBO",
-          "widget": {
-            "name": "clip_name"
-          },
-          "link": null
-        },
-        {
-          "localized_name": "type",
-          "name": "type",
-          "type": "COMBO",
-          "widget": {
-            "name": "type"
-          },
-          "link": null
-        },
-        {
-          "localized_name": "device",
-          "name": "device",
-          "shape": 7,
-          "type": "COMBO",
-          "widget": {
-            "name": "device"
-          },
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "localized_name": "CLIP",
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            11
-          ]
-        }
-      ],
-      "title": "KREA 2 TEXT ENCODER",
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.33.0",
-        "Node name for S&R": "CLIPLoader"
-      },
-      "widgets_values": [
-        "qwen3vl_4b_fp8_scaled.safetensors",
-        "krea2",
-        "default"
-      ],
-      "widgets_values_named": {
-        "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
-        "type": "krea2",
-        "device": "default"
       }
     },
     {
@@ -1066,7 +740,7 @@
         110
       ],
       "flags": {},
-      "order": 6,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -1102,7 +776,15 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.33.0",
-        "Node name for S&R": "UNETLoader"
+        "Node name for S&R": "UNETLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "unet_name": true,
+            "weight_dtype": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         "Krea2\\krea2_turbo_fp8_scaled.safetensors",
@@ -1158,7 +840,15 @@
         "aux_id": "pixaroma/ComfyUI-Pixaroma",
         "ver": "72516552d286901accf5a10fe9619c89b6784932",
         "Node name for S&R": "PixaromaTextJoinTwo",
-        "cnr_id": "ComfyUI-Pixaroma"
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "text_1": true,
+            "text_2": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         "",
@@ -1216,7 +906,15 @@
         "aux_id": "pixaroma/ComfyUI-Pixaroma",
         "ver": "72516552d286901accf5a10fe9619c89b6784932",
         "Node name for S&R": "PixaromaTextJoinTwo",
-        "cnr_id": "ComfyUI-Pixaroma"
+        "cnr_id": "ComfyUI-Pixaroma",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "text_1": true,
+            "text_2": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         "",
@@ -1241,7 +939,7 @@
         196
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -1286,7 +984,16 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.33.0",
-        "Node name for S&R": "StringReplace"
+        "Node name for S&R": "StringReplace",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "string": true,
+            "find": true,
+            "replace": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         "",
@@ -1311,7 +1018,7 @@
         196
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -1356,7 +1063,16 @@
       "properties": {
         "cnr_id": "comfy-core",
         "ver": "0.33.0",
-        "Node name for S&R": "StringReplace"
+        "Node name for S&R": "StringReplace",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "string": true,
+            "find": true,
+            "replace": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
       },
       "widgets_values": [
         "",
@@ -1381,7 +1097,7 @@
         718.9989212583882
       ],
       "flags": {},
-      "order": 7,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
@@ -1415,6 +1131,11 @@
           "sep": "\n\n",
           "accent": null,
           "showExpanded": true
+        },
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1438,7 +1159,7 @@
         350
       ],
       "flags": {},
-      "order": 8,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -1472,6 +1193,11 @@
           "sep": "\n\n",
           "accent": null,
           "showExpanded": true
+        },
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1495,7 +1221,7 @@
         796
       ],
       "flags": {},
-      "order": 9,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
@@ -1529,6 +1255,11 @@
           "sep": "\n\n",
           "accent": null,
           "showExpanded": true
+        },
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1539,6 +1270,422 @@
       },
       "color": "#1d1d1d",
       "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 13,
+      "type": "PixaromaLoraLoader",
+      "pos": [
+        2823.6,
+        1501
+      ],
+      "size": [
+        436.4,
+        166
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 14
+        },
+        {
+          "localized_name": "clip",
+          "name": "clip",
+          "shape": 7,
+          "type": "CLIP",
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "MODEL",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            15
+          ]
+        },
+        {
+          "localized_name": "CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            12
+          ]
+        },
+        {
+          "localized_name": "triggers",
+          "name": "triggers",
+          "type": "STRING",
+          "links": [
+            8
+          ]
+        }
+      ],
+      "title": "OPTIONAL - ONE SHARED KREA 2 LORA (OFF BY DEFAULT)",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaLoraLoader",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "loraLoaderState": "{\"version\":1,\"loras\":[{\"id\":\"entity_shared_lora\",\"name\":\"krea2\\\\Krea2-realism-V2.safetensors\",\"on\":false,\"sm\":0.7,\"sc\":0.7,\"triggers\":[],\"custom\":[],\"at\":true},{\"id\":\"l482a284a\",\"name\":\"krea2\\\\Krea2-realism-V2.safetensors\",\"on\":true,\"sm\":1,\"sc\":1,\"triggers\":[],\"custom\":[],\"at\":true}],\"sep\":\", \",\"step\":0.05,\"defStrength\":0.7,\"linkStrength\":true,\"civitai\":true,\"thumbs\":true,\"hideExt\":true,\"accent\":null,\"cacheMode\":\"last\"}",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        {
+          "version": 1,
+          "loras": [
+            {
+              "id": "entity_shared_lora",
+              "name": "krea2\\Krea2-realism-V2.safetensors",
+              "on": false,
+              "sm": 0.7,
+              "sc": 0.7,
+              "triggers": [],
+              "custom": [],
+              "at": true
+            },
+            {
+              "id": "l482a284a",
+              "name": "krea2\\Krea2-realism-V2.safetensors",
+              "on": true,
+              "sm": 1,
+              "sc": 1,
+              "triggers": [],
+              "custom": [],
+              "at": true
+            }
+          ],
+          "sep": ", ",
+          "step": 0.05,
+          "defStrength": 0.7,
+          "linkStrength": true,
+          "civitai": true,
+          "thumbs": true,
+          "hideExt": true,
+          "accent": null,
+          "cacheMode": "last"
+        }
+      ],
+      "widgets_values_named": {
+        "loras_ui": {
+          "version": 1,
+          "loras": [
+            {
+              "id": "entity_shared_lora",
+              "name": "krea2\\Krea2-realism-V2.safetensors",
+              "on": false,
+              "sm": 0.7,
+              "sc": 0.7,
+              "triggers": [],
+              "custom": [],
+              "at": true
+            },
+            {
+              "id": "l482a284a",
+              "name": "krea2\\Krea2-realism-V2.safetensors",
+              "on": true,
+              "sm": 1,
+              "sc": 1,
+              "triggers": [],
+              "custom": [],
+              "at": true
+            }
+          ],
+          "sep": ", ",
+          "step": 0.05,
+          "defStrength": 0.7,
+          "linkStrength": true,
+          "civitai": true,
+          "thumbs": true,
+          "hideExt": true,
+          "accent": null,
+          "cacheMode": "last"
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 16,
+      "type": "PixaromaSeed",
+      "pos": [
+        2847.9868259684245,
+        1800
+      ],
+      "size": [
+        390,
+        246
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "type": "INT",
+          "links": [
+            22
+          ]
+        }
+      ],
+      "title": "Sheet Seed Pixaroma",
+      "properties": {
+        "aux_id": "pixaroma/ComfyUI-Pixaroma",
+        "ver": "72516552d286901accf5a10fe9619c89b6784932",
+        "Node name for S&R": "PixaromaSeed",
+        "cnr_id": "ComfyUI-Pixaroma",
+        "seedState": "{\"seed\":296491,\"mode\":\"random\",\"compact\":false,\"digits\":6}",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        {
+          "seed": 296491,
+          "mode": "random",
+          "compact": false,
+          "digits": 6
+        }
+      ],
+      "widgets_values_named": {
+        "seed_ui": {
+          "seed": 296491,
+          "mode": "random",
+          "compact": false,
+          "digits": 6
+        }
+      },
+      "color": "#1d1d1d",
+      "bgcolor": "#2a2a2a"
+    },
+    {
+      "id": 11,
+      "type": "CLIPLoader",
+      "pos": [
+        2540,
+        684
+      ],
+      "size": [
+        720,
+        136
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "clip_name",
+          "name": "clip_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "clip_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "type",
+          "name": "type",
+          "type": "COMBO",
+          "widget": {
+            "name": "type"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "device",
+          "name": "device",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "device"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            11
+          ]
+        }
+      ],
+      "title": "KREA 2 TEXT ENCODER",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "CLIPLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "clip_name": true,
+            "type": true,
+            "device": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "qwen3vl_4b_fp8_scaled.safetensors",
+        "krea2",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+        "type": "krea2",
+        "device": "default"
+      }
+    },
+    {
+      "id": 20,
+      "type": "KSampler",
+      "pos": [
+        4100,
+        597
+      ],
+      "size": [
+        311.9625,
+        348
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "model",
+          "name": "model",
+          "type": "MODEL",
+          "link": 16
+        },
+        {
+          "localized_name": "positive",
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 17
+        },
+        {
+          "localized_name": "negative",
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 18
+        },
+        {
+          "localized_name": "latent_image",
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 21
+        },
+        {
+          "localized_name": "seed",
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": 22
+        },
+        {
+          "localized_name": "steps",
+          "name": "steps",
+          "type": "INT",
+          "widget": {
+            "name": "steps"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "cfg",
+          "name": "cfg",
+          "type": "FLOAT",
+          "widget": {
+            "name": "cfg"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "sampler_name",
+          "name": "sampler_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "sampler_name"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "scheduler",
+          "name": "scheduler",
+          "type": "COMBO",
+          "widget": {
+            "name": "scheduler"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "denoise",
+          "name": "denoise",
+          "type": "FLOAT",
+          "widget": {
+            "name": "denoise"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            23
+          ]
+        }
+      ],
+      "title": "KREA 2 TYPE-SAFE SHEET GENERATION",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.33.0",
+        "Node name for S&R": "KSampler",
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "seed": true
+          },
+          "version": "7.8",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        20260823,
+        "randomize",
+        8,
+        1,
+        "euler",
+        "simple",
+        1
+      ],
+      "widgets_values_named": {
+        "seed": 20260823,
+        "control_after_generate": "randomize",
+        "steps": 8,
+        "cfg": 1,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1
+      }
     }
   ],
   "links": [
@@ -1747,10 +1894,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.4843186319861412,
+      "scale": 0.5327504951847561,
       "offset": [
-        -1740.2622331800605,
-        -56.45293338835904
+        -1542.8520326385396,
+        -45.55274430276478
       ]
     },
     "pixaromaGroups": [
@@ -1814,7 +1961,9 @@
         "folded": false,
         "showLinks": true
       }
-    ]
+    ],
+    "ue_links": [],
+    "links_added_by_ue": []
   },
   "version": 0.4
 }
